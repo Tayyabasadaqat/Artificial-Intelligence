@@ -1,0 +1,9 @@
+product_id,product_name,category,unit_price,stock_qty
+101,Laptop,Electronics,1200,185
+102,Smartphone,Electronics,800,35
+103,Tablet,Electronics,450,77
+104,Headphones,Electronics,90,161
+105,Monitor,Electronics,300,113
+106,Keyboard,Electronics,45,102
+107,Mouse,Electronics,25,195
+108,Printer,Electronics,220,152

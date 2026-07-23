@@ -1,0 +1,16 @@
+employee_id,name,department,age,salary,joining_date,city
+1,Ali Khan,HR,51,50627,2018-01-01,Lahore
+2,Sara Ahmed,Finance,23,48792,2018-03-25,Islamabad
+3,Bilal Hassan,Marketing,42,113969,2018-06-16,Multan
+4,Ayesha Malik,Finance,54,83001,2018-09-07,Lahore
+5,Usman Tariq,Finance,33,116552,2018-11-29,Lahore
+6,Fatima Noor,Engineering,43,63897,2019-02-20,Islamabad
+7,Hamza Sheikh,Marketing,46,108148,2019-05-14,Lahore
+8,Zainab Iqbal,Marketing,48,63483,2019-08-05,Lahore
+9,Omar Farooq,Marketing,49,88555,2019-10-27,Islamabad
+10,Mariam Raza,Finance,37,57159,2020-01-18,Islamabad
+11,Adeel Chaudhry,HR,36,75920,2020-04-10,Rawalpindi
+12,Nida Sultan,Marketing,24,107121,2020-07-02,Multan
+13,Kamran Baig,Finance,28,109479,2020-09-23,Multan
+14,Sana Yousaf,Engineering,42,59457,2020-12-15,Lahore
+15,Tariq Mehmood,HR,30,106557,2021-03-08,Multan
