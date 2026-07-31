@@ -1,0 +1,70 @@
+Assignment 1
+Name: Tayyaba Sadaqat
+
+Section A
+
+Q1. What is MS Excel and what is it primarily used for?
+
+Microsoft Excel is a spreadsheet application developed by Microsoft. It is primarily used for storing, organizing, analyzing, and calculating data. It also helps create charts, reports, and perform mathematical and statistical calculations.
+
+
+Q2. Define the following terms:
+
+Cell:
+A cell is the intersection of a row and a column where data is entered. Each cell has a unique address such as A1 or B5.
+
+Row:
+A row is a horizontal line of cells identified by numbers (1, 2, 3, ...).
+
+Column:
+A column is a vertical line of cells identified by letters (A, B, C, ...).
+
+Worksheet:
+A worksheet is a single spreadsheet page inside an Excel workbook where data is entered and managed.
+
+Workbook:
+A workbook is an Excel file that contains one or more worksheets.
+
+
+Q3. What is the difference between a formula and a function in Excel?
+
+Formula:
+A formula is an expression created by the user to perform calculations. It begins with an equal (=) sign.
+Example:
+=A1+B1
+
+Function:
+A function is a predefined formula provided by Excel.
+Example:
+=SUM(A1:A5)
+
+
+Q4. What is a cell reference? Differentiate between relative and absolute reference.
+
+Cell Reference:
+A cell reference is the address of a cell used in formulas, such as A1 or C5.
+
+Relative Reference:
+Changes automatically when copied to another location.
+Example:
+=A1+B1
+
+Absolute Reference:
+Remains fixed when copied because it uses dollar signs ($).
+Example:
+=$A$1+$B$1
+
+
+Q5. Name any four commonly used Excel functions and briefly state their purpose.
+
+SUM()
+Adds a range of numbers.
+
+AVERAGE()
+Calculates the average of numbers.
+
+MAX()
+Returns the largest value in a range.
+
+MIN()
+Returns the smallest value in a range.
