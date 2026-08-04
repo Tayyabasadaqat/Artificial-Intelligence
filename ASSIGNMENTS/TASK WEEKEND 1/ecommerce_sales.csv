@@ -1,0 +1,1013 @@
+order_id,order_date,category,product_name,region,city,customer_age,customer_segment,payment_method,unit_price,quantity,discount_pct,total_sales,rating,delivery_days
+ORD10114,2024-08-26,Clothing,Denim Jacket,West,Gwadar,37.0,VIP,Wallet,31.27,2,0,62.54,5.0,9.0
+ORD10796,2024-05-25,Clothing,Running Shoes,West,Gwadar,16.0,VIP,cash on delivery,15.65,4,20,50.08,4.0,2.0
+ORD10818,2023-07-26,Electronics,USB-C Cable,South,Karachi,30.0,New,Bank Transfer,59.96,1,0,59.96,4.0,2.0
+ORD10511,2024-12-03,Clothing,Denim Jacket,West,Gwadar,32.0,Returning,Debit Card,21.13,6,10,114.1,5.0,2.0
+ORD10493,2024-07-20,Home & Kitchen,Blender,East,Lahore,16.0,Returning,credit card,38.67,1,5,36.74,4.0,5.0
+ORD10837,2024-09-01,Books,Poetry Collection,Central,Multan,38.0,Returning,Credit Card,9.62,3,0,28.86,4.0,5.0
+ORD10483,2023-01-12,Electronics,Wireless Mouse,South,Sukkur,52.0,New,credit card,51.17,3,10,138.16,5.0,1.0
+ORD10272,2024-10-22,Electronics,USB-C Cable,North,Islamabad,50.0,New,COD,44.74,1,5,42.5,4.0,3.0
+ORD10295,2024-01-15,Sports,Water Bottle,West,,48.0,Returning,Debit Card,31.81,2,0,63.62,5.0,3.0
+ORD10596,2023-07-25,Books,Mystery Novel,South,Karachi,46.0,New,cash on delivery,19.13,2,0,38.26,4.0,2.0
+ORD10787,2023-01-10,Sports,Resistance Bands,West,Gwadar,41.0,Returning,Wallet,30.41,1,0,30.41,4.0,6.0
+ORD10659,2023-09-15,Beauty,Face Moisturizer,North,Gilgit,34.0,New,cash on delivery,13.33,1,0,13.33,5.0,1.0
+ORD10748,2023-01-10,Books,Self-Help Guide,Central,Sahiwal,26.0,Returning,Wallet,14.43,1,10,12.99,4.0,2.0
+ORD10854,2023-05-25,Beauty,Sunscreen SPF50,Central,Sahiwal,35.0,Returning,Credit Card,14.94,3,20,35.86,5.0,5.0
+ORD10979,2024-03-21,Books,Self-Help Guide,South,Sukkur,49.0,New,cash on delivery,8.71,5,0,43.55,3.0,
+ORD10718,2024-09-02,Clothing,Baseball Cap,East,Faisalabad,21.0,Returning,Bank Transfer,31.01,3,0,93.03,2.0,6.0
+ORD10447,2023-08-03,Electronics,Laptop Stand,North,,39.0,Returning,credit card,52.44,1,0,52.44,5.0,2.0
+ORD10914,2023-06-09,Electronics,Power Bank,South,Hyderabad,37.0,Returning,credit card,36.55,4,0,146.2,4.0,3.0
+ORD10217,2023-04-19,Sports,Water Bottle,North,Peshawar,38.0,New,COD,36.83,1,15,31.31,2.0,3.0
+ORD10717,2024-09-30,Beauty,Shampoo,Central,Multan,29.0,Returning,Wallet,26.55,1,0,26.55,5.0,3.0
+ORD10025,2024-05-12,Beauty,Face Moisturizer,North,Gilgit,28.0,Returning,Cash on Delivery,20.6,3,0,61.8,4.0,5.0
+ORD10900,2023-02-06,Books,Poetry Collection,Central,Bahawalpur,23.0,New,Wallet,16.87,4,0,67.48,,6.0
+ORD10494,2024-09-29,Clothing,Running Shoes,Central,Bahawalpur,29.0,New,credit card,342.15,6,10,1847.61,5.0,5.0
+ORD10564,2023-09-28,Home & Kitchen,Storage Jars,East,Faisalabad,39.0,New,cash on delivery,28.38,2,0,56.76,5.0,4.0
+ORD10010,2023-10-12,Electronics,USB-C Cable,North,Peshawar,32.0,Returning,credit card,56.98,3,10,153.85,3.0,2.0
+ORD10702,2023-02-11,Sports,Cycling Helmet,West,Gwadar,37.0,New,cash on delivery,22.89,1,0,22.89,4.0,1.0
+ORD10351,2024-10-31,Books,Mystery Novel,Central,Multan,30.0,VIP,Debit Card,18.14,2,10,32.65,,1.0
+ORD10026,2023-06-19,Clothing,Baseball Cap,West,Zhob,42.0,New,COD,15.83,1,5,15.04,3.0,3.0
+ORD10681,2023-03-30,Home & Kitchen,Table Lamp,East,Sialkot,42.0,New,cash on delivery,42.68,5,0,213.4,5.0,
+ORD10506,2024-12-03,Home & Kitchen,Coffee Maker,North,Islamabad,23.0,New,Credit Card,48.97,3,10,132.22,4.0,10.0
+ORD10922,2024-05-10,Beauty,Shampoo,South,Hyderabad,28.0,Returning,Wallet,25.29,1,0,25.29,1.0,1.0
+ORD10317,2023-12-29,Books,History Book,East,Sialkot,32.0,Returning,Wallet,16.84,3,0,50.52,3.0,1.0
+ORD10936,2023-08-26,Home & Kitchen,Table Lamp,West,Gwadar,51.0,VIP,Cash on Delivery,20.72,1,0,20.72,5.0,6.0
+ORD10987,2024-10-15,Electronics,Webcam,South,Sukkur,42.0,New,Debit Card,36.35,3,10,98.15,5.0,5.0
+ORD10147,2023-09-02,Books,Self-Help Guide,South,Sukkur,47.0,Returning,Bank Transfer,10.14,5,20,40.56,,6.0
+ORD10565,2023-06-26,Beauty,Perfume,West,Quetta,26.0,New,Cash on Delivery,11.77,1,0,11.77,4.0,6.0
+ORD10061,2023-06-13,Sports,Cycling Helmet,South,Hyderabad,20.0,Returning,Debit Card,20.95,3,10,56.56,5.0,2.0
+ORD10866,2024-09-11,Beauty,Shampoo,West,Gwadar,42.0,New,Cash on Delivery,12.1,4,0,48.4,5.0,3.0
+ORD10792,2024-10-14,Clothing,Denim Jacket,East,Lahore,25.0,Returning,cash on delivery,35.25,1,10,31.72,4.0,2.0
+ORD10962,2024-12-22,Electronics,Wireless Mouse,Central,Bahawalpur,29.0,New,cash on delivery,37.47,1,10,33.72,5.0,6.0
+ORD10014,2023-10-02,Clothing,Cotton T-Shirt,East,Faisalabad,17.0,New,credit card,24.54,1,0,24.54,4.0,6.0
+ORD10907,2024-12-26,Books,Cookbook,Central,Multan,40.0,New,Bank Transfer,12.47,2,0,24.94,5.0,4.0
+ORD10915,2023-11-03,Books,Sci-Fi Anthology,North,Gilgit,42.0,Returning,credit card,16.02,1,20,12.82,4.0,1.0
+ORD10479,2024-06-07,Home & Kitchen,Coffee Maker,East,Lahore,37.0,VIP,Cash on Delivery,28.63,1,10,25.77,4.0,1.0
+ORD10290,2023-02-16,Beauty,Face Moisturizer,North,Islamabad,28.0,VIP,Wallet,14.46,3,0,43.38,2.0,3.0
+ORD10143,2023-05-29,Books,Cookbook,West,Zhob,28.0,New,Cash on Delivery,18.18,3,5,51.81,4.0,1.0
+ORD10801,2024-02-03,Beauty,Hair Dryer,South,Hyderabad,42.0,Returning,Wallet,29.05,1,10,26.14,2.0,3.0
+ORD10100,2024-09-06,Electronics,Power Bank,East,Sialkot,21.0,Returning,Credit Card,40.86,2,0,81.72,4.0,4.0
+ORD10697,2024-08-15,Electronics,Webcam,North,Gilgit,38.0,New,Bank Transfer,37.09,1,25,27.82,4.0,3.0
+ORD10111,2024-04-29,Home & Kitchen,Table Lamp,Central,Bahawalpur,29.0,Returning,credit card,35.75,3,15,91.16,4.0,6.0
+ORD10740,2024-11-16,Electronics,Bluetooth Speaker,West,Gwadar,21.0,New,Bank Transfer,35.48,2,0,70.96,4.0,4.0
+ORD10720,2024-05-02,Clothing,Cargo Pants,North,Islamabad,22.0,VIP,Credit Card,23.02,5,0,115.1,4.0,3.0
+ORD10710,2024-01-06,Clothing,Denim Jacket,South,Karachi,32.0,Returning,Debit Card,34.75,1,0,34.75,4.0,2.0
+ORD10378,2023-02-04,Clothing,Cargo Pants,North,Gilgit,24.0,Returning,Debit Card,25.12,1,5,23.86,3.0,6.0
+ORD10930,2023-10-05,Beauty,Lipstick Set,Central,Bahawalpur,26.0,New,Wallet,17.53,1,10,15.78,5.0,1.0
+ORD10452,2024-11-23,Clothing,Denim Jacket,East,Lahore,26.0,New,Cash on Delivery,29.26,1,0,29.26,4.0,2.0
+ORD10095,2023-02-11,Home & Kitchen,Non-Stick Pan,North,Gilgit,41.0,Returning,Bank Transfer,20.32,1,0,20.32,4.0,3.0
+ORD10410,2024-10-28,Home & Kitchen,Cutting Board,East,Faisalabad,25.0,VIP,Cash on Delivery,25.83,1,0,25.83,4.0,4.0
+ORD10512,2023-01-23,Beauty,Perfume,East,Lahore,,VIP,Bank Transfer,18.93,1,0,18.93,3.0,3.0
+ORD10109,2024-05-02,Books,History Book,South,Sukkur,48.0,Returning,cash on delivery,8.35,1,10,7.52,5.0,5.0
+ORD10999,2024-08-03,Books,Poetry Collection,West,Quetta,28.0,Returning,credit card,7.34,3,0,22.02,,3.0
+ORD10126,2024-12-04,Sports,Water Bottle,West,Quetta,33.0,New,Wallet,31.83,1,15,27.06,4.0,5.0
+ORD10611,2024-03-06,Clothing,Baseball Cap,North,Peshawar,39.0,Returning,Wallet,34.58,1,0,34.58,4.0,6.0
+ORD10035,2023-09-12,Electronics,Laptop Stand,East,Lahore,52.0,New,cash on delivery,45.18,2,0,90.36,3.0,2.0
+ORD10054,2024-10-14,Electronics,Wireless Mouse,East,Lahore,29.0,VIP,Cash on Delivery,45.96,1,20,36.77,4.0,4.0
+ORD10141,2024-10-25,Clothing,Cotton T-Shirt,West,Quetta,36.0,Returning,cash on delivery,20.68,2,0,41.36,4.0,3.0
+ORD10515,2023-08-08,Sports,Resistance Bands,South,Hyderabad,19.0,VIP,Wallet,23.07,3,0,69.21,4.0,3.0
+ORD10543,2023-04-06,Books,Cookbook,North,Gilgit,32.0,New,cash on delivery,12.28,2,0,24.56,4.0,3.0
+ORD10172,2024-04-10,Electronics,Bluetooth Speaker,Central,Multan,16.0,New,Wallet,17.52,3,5,49.93,,3.0
+ORD10508,2023-11-03,Books,History Book,North,Gilgit,25.0,New,Cash on Delivery,20.01,1,0,20.01,5.0,3.0
+ORD10706,2024-08-06,Sports,Water Bottle,Central,Sahiwal,32.0,New,COD,25.79,2,0,51.58,5.0,4.0
+ORD10674,2023-03-09,Beauty,Perfume,North,Gilgit,50.0,New,Bank Transfer,11.23,1,0,11.23,4.0,5.0
+ORD10971,2023-10-15,Home & Kitchen,Blender,South,Sukkur,34.0,New,Wallet,28.33,1,10,25.5,4.0,2.0
+ORD10651,2024-07-09,Sports,Cycling Helmet,South,Sukkur,18.0,Returning,credit card,25.48,2,20,40.77,3.0,2.0
+ORD10446,2023-02-03,Sports,Cycling Helmet,South,,42.0,New,credit card,39.12,2,0,78.24,5.0,1.0
+ORD10975,2024-01-28,Beauty,Shampoo,West,Gwadar,41.0,New,cash on delivery,22.16,1,0,22.16,3.0,2.0
+ORD10229,2024-06-20,Electronics,USB-C Cable,West,Gwadar,28.0,Returning,Cash on Delivery,67.65,3,25,152.21,3.0,4.0
+ORD10782,2024-07-15,Books,Sci-Fi Anthology,Central,Bahawalpur,45.0,New,Cash on Delivery,19.21,2,0,38.42,5.0,3.0
+ORD10730,2023-07-03,Books,History Book,Central,Bahawalpur,24.0,New,cash on delivery,22.49,1,20,17.99,5.0,1.0
+ORD10738,2024-06-12,Clothing,Cotton T-Shirt,Central,Sahiwal,,Returning,Cash on Delivery,10.92,4,5,41.5,5.0,3.0
+ORD10300,2023-02-19,Clothing,Denim Jacket,Central,Bahawalpur,30.0,New,cash on delivery,25.71,4,15,87.41,4.0,5.0
+ORD10187,2023-09-29,Beauty,Lipstick Set,North,Islamabad,42.0,New,COD,25.37,1,10,22.83,3.0,4.0
+ORD10723,2024-05-08,Sports,Tennis Racket,West,Quetta,37.0,Returning,COD,38.55,1,0,38.55,4.0,5.0
+ORD10485,2024-03-15,Sports,Yoga Mat,North,Peshawar,40.0,New,Debit Card,32.67,5,10,147.02,5.0,5.0
+ORD10768,2024-07-24,Home & Kitchen,Blender,East,Sialkot,26.0,VIP,Wallet,33.04,1,20,26.43,5.0,1.0
+ORD10169,2023-09-21,Beauty,Perfume,East,Lahore,37.0,VIP,cash on delivery,23.65,1,20,18.92,5.0,
+ORD10716,2024-05-08,Clothing,Wool Sweater,Central,Bahawalpur,49.0,New,COD,22.47,1,0,22.47,5.0,7.0
+ORD10685,2023-08-04,Beauty,Perfume,North,Peshawar,33.0,Returning,credit card,27.65,4,5,105.07,3.0,4.0
+ORD10504,2023-06-18,Beauty,Face Moisturizer,South,,39.0,New,credit card,26.47,2,0,52.94,5.0,1.0
+ORD10569,2024-03-29,Clothing,Denim Jacket,East,Sialkot,43.0,Returning,credit card,26.69,2,0,53.38,5.0,7.0
+ORD10643,2024-04-06,Electronics,Power Bank,Central,Multan,57.0,Returning,Cash on Delivery,67.89,4,0,271.56,,8.0
+ORD10448,2024-09-22,Sports,Tennis Racket,West,Quetta,31.0,New,Bank Transfer,45.26,1,0,45.26,,1.0
+ORD10531,2023-11-27,Beauty,Face Moisturizer,East,Faisalabad,24.0,New,Cash on Delivery,19.81,5,0,99.05,4.0,2.0
+ORD10447,2023-08-03,Electronics,Laptop Stand,North,,39.0,Returning,credit card,52.44,1,0,52.44,5.0,2.0
+ORD10926,2024-11-05,Books,Mystery Novel,North,Gilgit,47.0,Returning,Credit Card,20.4,3,0,61.2,3.0,3.0
+ORD10362,2023-11-23,Sports,Cycling Helmet,West,Zhob,48.0,Returning,COD,26.97,3,0,80.91,5.0,3.0
+ORD10432,2023-04-27,Home & Kitchen,Blender,South,Hyderabad,34.0,New,cash on delivery,50.17,1,10,45.15,4.0,4.0
+ORD10420,2024-10-24,Clothing,Baseball Cap,East,Lahore,36.0,Returning,COD,30.55,3,0,91.65,4.0,6.0
+ORD10813,2023-10-30,Electronics,Webcam,South,Hyderabad,43.0,Returning,credit card,50.46,1,10,45.41,5.0,3.0
+ORD10319,2024-12-22,Home & Kitchen,Blender,South,Sukkur,33.0,Returning,cash on delivery,29.38,3,15,74.92,4.0,3.0
+ORD10027,2023-11-16,Clothing,Cargo Pants,South,Sukkur,31.0,New,credit card,19.13,5,15,81.3,4.0,6.0
+ORD10058,2023-04-16,Home & Kitchen,Non-Stick Pan,South,Sukkur,35.0,New,COD,30.39,3,0,91.17,5.0,5.0
+ORD10047,2024-04-14,Books,Self-Help Guide,North,Islamabad,45.0,Returning,Debit Card,17.27,2,0,34.54,3.0,4.0
+ORD10610,2024-07-14,Books,Sci-Fi Anthology,West,Quetta,34.0,New,Cash on Delivery,12.21,1,0,12.21,4.0,4.0
+ORD10984,2024-07-14,Beauty,Lipstick Set,South,Hyderabad,30.0,New,Credit Card,27.02,3,0,81.06,5.0,2.0
+ORD10744,2024-06-09,Beauty,Lipstick Set,East,Lahore,40.0,VIP,Wallet,15.04,3,0,45.12,4.0,1.0
+ORD10099,2023-07-23,Home & Kitchen,Storage Jars,West,,41.0,New,Bank Transfer,28.04,1,0,28.04,4.0,3.0
+ORD10571,2024-01-18,Clothing,Wool Sweater,West,Zhob,36.0,Returning,Cash on Delivery,34.0,2,0,68.0,,5.0
+ORD10165,2023-08-13,Home & Kitchen,Non-Stick Pan,Central,Bahawalpur,49.0,Returning,Wallet,46.2,2,10,83.16,3.0,3.0
+ORD10510,2023-03-05,Electronics,USB-C Cable,North,Islamabad,38.0,Returning,Bank Transfer,58.45,4,25,175.35,4.0,4.0
+ORD10694,2023-11-09,Books,Sci-Fi Anthology,West,Gwadar,18.0,Returning,Debit Card,15.09,5,0,75.45,1.0,3.0
+ORD10973,2023-09-25,Sports,Resistance Bands,East,Lahore,44.0,Returning,Bank Transfer,31.35,2,0,62.7,4.0,4.0
+ORD10790,2024-10-02,Clothing,Running Shoes,North,Peshawar,50.0,New,Wallet,39.49,6,5,225.09,3.0,2.0
+ORD10044,2024-08-15,Books,Mystery Novel,Central,Multan,41.0,Returning,Debit Card,13.49,2,10,24.28,3.0,1.0
+ORD10985,2024-06-21,Electronics,Wireless Mouse,West,Quetta,43.0,New,cash on delivery,26.97,2,0,53.94,5.0,5.0
+ORD10238,2024-09-03,Sports,Water Bottle,Central,Multan,36.0,New,Cash on Delivery,21.99,1,0,21.99,4.0,5.0
+ORD10064,2023-12-26,Home & Kitchen,Blender,North,Peshawar,48.0,Returning,COD,37.14,4,5,141.13,,3.0
+ORD10604,2024-06-16,Electronics,Bluetooth Speaker,East,Faisalabad,42.0,Returning,credit card,60.67,5,0,303.35,5.0,1.0
+ORD10997,2023-01-04,Sports,Water Bottle,West,Zhob,29.0,Returning,cash on delivery,23.05,1,0,23.05,5.0,4.0
+ORD10164,2023-02-20,Home & Kitchen,Coffee Maker,Central,Sahiwal,39.0,VIP,cash on delivery,38.21,3,15,97.44,5.0,5.0
+ORD10039,2024-02-04,Electronics,USB-C Cable,West,Quetta,21.0,New,cash on delivery,45.79,4,5,174.0,5.0,2.0
+ORD10599,2023-05-13,Beauty,Shampoo,West,Quetta,16.0,Returning,COD,17.49,1,0,17.49,4.0,4.0
+ORD10784,2023-12-22,Beauty,Hair Dryer,Central,Bahawalpur,16.0,Returning,Bank Transfer,17.77,5,0,88.85,4.0,5.0
+ORD10363,2024-07-04,Clothing,Running Shoes,West,Quetta,16.0,Returning,Bank Transfer,29.45,2,15,50.06,1.0,7.0
+ORD10154,2023-04-03,Sports,Cycling Helmet,East,Lahore,16.0,New,Debit Card,22.76,1,0,22.76,5.0,1.0
+ORD10223,2023-03-11,Sports,Water Bottle,South,Hyderabad,35.0,Returning,Wallet,30.44,1,0,30.44,5.0,
+ORD10927,2023-07-25,Beauty,Lipstick Set,South,Hyderabad,50.0,New,Wallet,21.44,3,5,61.1,4.0,6.0
+ORD10690,2023-07-18,Electronics,Bluetooth Speaker,Central,Multan,21.0,New,cash on delivery,57.72,4,0,230.88,,4.0
+ORD10139,2023-01-30,Home & Kitchen,Cutting Board,West,Quetta,18.0,VIP,Bank Transfer,28.58,1,0,28.58,5.0,5.0
+ORD10337,2023-09-25,Home & Kitchen,Storage Jars,Central,Multan,24.0,Returning,Bank Transfer,32.18,2,0,64.36,3.0,7.0
+ORD10557,2024-11-24,Beauty,Perfume,Central,Sahiwal,18.0,VIP,Cash on Delivery,23.34,1,0,23.34,4.0,4.0
+ORD10621,2023-04-06,Home & Kitchen,Cutting Board,Central,Bahawalpur,49.0,New,credit card,24.22,3,0,72.66,5.0,1.0
+ORD10684,2023-05-07,Electronics,Webcam,Central,Multan,36.0,New,COD,40.49,2,0,80.98,5.0,7.0
+ORD10963,2024-06-23,Sports,Yoga Mat,South,Sukkur,36.0,VIP,Wallet,38.17,5,0,190.85,2.0,5.0
+ORD10734,2023-05-29,Clothing,Wool Sweater,North,Islamabad,47.0,Returning,COD,26.47,4,0,105.88,5.0,2.0
+ORD10171,2024-01-10,Clothing,Baseball Cap,West,Zhob,39.0,New,COD,20.81,3,0,62.43,1.0,3.0
+ORD10553,2023-06-04,Clothing,Running Shoes,Central,Multan,63.0,Returning,Debit Card,16.52,1,25,12.39,4.0,4.0
+ORD10591,2023-04-10,Sports,Tennis Racket,South,Hyderabad,45.0,Returning,Wallet,19.23,1,25,14.42,3.0,5.0
+ORD10809,2023-07-17,Beauty,Hair Dryer,East,Faisalabad,21.0,New,COD,24.09,2,15,40.95,3.0,4.0
+ORD10895,2024-09-07,Books,Sci-Fi Anthology,West,Quetta,32.0,Returning,Bank Transfer,5.59,1,0,5.59,,2.0
+ORD10062,2023-07-24,Books,Mystery Novel,West,Quetta,31.0,Returning,cash on delivery,14.96,2,0,29.92,3.0,5.0
+ORD10714,2023-09-22,Beauty,Shampoo,North,Islamabad,20.0,VIP,COD,25.17,4,0,100.68,5.0,1.0
+ORD10254,2023-01-02,Sports,Dumbbell Set,East,Faisalabad,16.0,Returning,Bank Transfer,29.64,1,5,28.16,4.0,3.0
+ORD10508,2023-11-03,Books,History Book,North,Gilgit,25.0,New,Cash on Delivery,20.01,1,0,20.01,5.0,3.0
+ORD10559,2024-03-21,Electronics,Laptop Stand,North,Gilgit,16.0,New,Cash on Delivery,24.49,4,0,97.96,4.0,4.0
+ORD10786,2023-12-19,Electronics,Wireless Mouse,Central,Multan,33.0,New,Credit Card,46.0,1,0,46.0,5.0,4.0
+ORD10968,2024-09-03,Home & Kitchen,Non-Stick Pan,North,Gilgit,,Returning,Wallet,24.51,2,0,49.02,1.0,1.0
+ORD10602,2024-12-11,Sports,Cycling Helmet,South,Karachi,22.0,VIP,Wallet,22.82,1,15,19.4,5.0,3.0
+ORD10686,2023-06-14,Clothing,Wool Sweater,Central,Multan,39.0,New,Wallet,32.03,3,0,96.09,3.0,5.0
+ORD10205,2024-06-27,Electronics,USB-C Cable,North,Islamabad,22.0,New,COD,59.96,1,5,56.96,,4.0
+ORD10327,2023-03-02,Home & Kitchen,Blender,East,Sialkot,46.0,VIP,Debit Card,33.56,2,5,63.76,5.0,1.0
+ORD10535,2023-08-15,Clothing,Cargo Pants,East,Sialkot,37.0,Returning,Debit Card,30.76,2,0,61.52,2.0,4.0
+ORD10110,2023-08-15,Books,Mystery Novel,North,Peshawar,21.0,New,Bank Transfer,15.37,3,0,46.11,5.0,2.0
+ORD10542,2023-04-18,Home & Kitchen,Coffee Maker,East,Faisalabad,46.0,New,Cash on Delivery,40.6,1,0,40.6,5.0,6.0
+ORD10464,2024-03-31,Beauty,Shampoo,Central,Sahiwal,47.0,New,credit card,11.82,2,20,18.91,4.0,1.0
+ORD10598,2024-04-07,Home & Kitchen,Table Lamp,North,Islamabad,31.0,New,Cash on Delivery,38.42,1,5,36.5,,1.0
+ORD10996,2024-11-11,Sports,Cycling Helmet,North,Islamabad,49.0,New,Cash on Delivery,23.72,2,0,47.44,5.0,3.0
+ORD10149,2023-02-07,Books,Poetry Collection,South,Hyderabad,29.0,New,credit card,16.0,1,5,15.2,2.0,4.0
+ORD10633,2024-03-30,Books,Cookbook,North,Peshawar,16.0,Returning,cash on delivery,16.96,2,20,27.14,5.0,6.0
+ORD10741,2024-07-16,Beauty,Face Moisturizer,North,Islamabad,36.0,New,credit card,22.09,3,15,56.33,5.0,1.0
+ORD10898,2023-11-02,Electronics,Power Bank,Central,Sahiwal,42.0,New,Debit Card,34.05,2,10,61.29,1.0,2.0
+ORD10206,2023-11-16,Books,Self-Help Guide,South,Hyderabad,41.0,Returning,Debit Card,12.07,2,15,20.52,5.0,2.0
+ORD10737,2023-01-11,Clothing,Baseball Cap,West,Gwadar,41.0,New,Wallet,41.38,1,0,41.38,2.0,5.0
+ORD10050,2024-11-14,Beauty,Hair Dryer,Central,Multan,19.0,Returning,Wallet,31.23,1,0,31.23,4.0,3.0
+ORD10129,2023-11-08,Books,Mystery Novel,West,Zhob,43.0,Returning,Wallet,9.5,1,0,9.5,5.0,4.0
+ORD10586,2023-06-03,Home & Kitchen,Table Lamp,East,Lahore,32.0,Returning,Bank Transfer,22.55,4,10,81.18,4.0,3.0
+ORD10645,2024-12-09,Beauty,Sunscreen SPF50,Central,Multan,34.0,Returning,Cash on Delivery,19.45,1,0,19.45,4.0,4.0
+ORD10703,2023-08-28,Clothing,Cotton T-Shirt,East,Faisalabad,20.0,New,Bank Transfer,11.27,4,15,38.32,4.0,2.0
+ORD10400,2023-04-20,Sports,Resistance Bands,East,Faisalabad,38.0,New,Wallet,27.87,1,0,27.87,2.0,5.0
+ORD10398,2024-01-25,Books,Cookbook,Central,Sahiwal,39.0,New,Wallet,12.31,1,5,11.69,3.0,6.0
+ORD10397,2024-05-17,Electronics,Power Bank,East,Faisalabad,37.0,New,COD,45.28,6,0,271.68,4.0,2.0
+ORD10772,2024-10-08,Clothing,Baseball Cap,East,Faisalabad,31.0,Returning,COD,19.89,2,0,39.78,4.0,4.0
+ORD10418,2024-12-09,Beauty,Sunscreen SPF50,Central,Sahiwal,30.0,New,Credit Card,12.05,1,0,12.05,2.0,4.0
+ORD10548,2023-03-31,Electronics,Bluetooth Speaker,North,Peshawar,28.0,New,cash on delivery,53.02,3,0,159.06,4.0,3.0
+ORD10356,2024-08-31,Clothing,Denim Jacket,North,Islamabad,29.0,New,Credit Card,31.75,2,5,60.32,2.0,1.0
+ORD10468,2023-06-05,Books,Self-Help Guide,South,Sukkur,31.0,VIP,cash on delivery,22.85,1,0,22.85,4.0,4.0
+ORD10593,2023-12-06,Home & Kitchen,Non-Stick Pan,East,Faisalabad,16.0,New,Wallet,18.88,1,0,18.88,5.0,5.0
+ORD10135,2024-11-09,Home & Kitchen,Cutting Board,West,Gwadar,32.0,VIP,Credit Card,36.79,6,0,220.74,3.0,1.0
+ORD10320,2023-05-05,Home & Kitchen,Storage Jars,East,Faisalabad,45.0,Returning,COD,42.88,5,10,192.96,4.0,2.0
+ORD10245,2024-04-05,Home & Kitchen,Coffee Maker,South,Hyderabad,16.0,VIP,Cash on Delivery,35.68,2,0,71.36,5.0,5.0
+ORD10298,2023-06-13,Home & Kitchen,Storage Jars,East,Lahore,27.0,Returning,cash on delivery,35.77,2,10,64.39,5.0,3.0
+ORD10160,2024-11-24,Sports,Yoga Mat,West,Gwadar,41.0,Returning,Debit Card,35.25,1,15,29.96,5.0,6.0
+ORD10800,2024-04-16,Clothing,Baseball Cap,North,Islamabad,38.0,Returning,Debit Card,16.67,3,5,47.51,2.0,2.0
+ORD10436,2024-12-11,Home & Kitchen,Coffee Maker,South,Hyderabad,35.0,New,COD,43.11,2,0,86.22,4.0,2.0
+ORD10876,2024-02-23,Clothing,Denim Jacket,South,Karachi,27.0,Returning,Credit Card,33.48,1,0,33.48,4.0,1.0
+ORD10049,2023-06-11,Electronics,USB-C Cable,East,Faisalabad,29.0,New,Wallet,24.49,1,10,22.04,1.0,3.0
+ORD10075,2024-11-10,Sports,Yoga Mat,East,Sialkot,35.0,Returning,credit card,30.05,3,20,72.12,5.0,3.0
+ORD10345,2024-04-09,Electronics,Webcam,West,Quetta,16.0,New,COD,62.61,3,5,178.44,4.0,3.0
+ORD10243,2023-07-24,Beauty,Perfume,West,Quetta,,Returning,Cash on Delivery,19.85,2,10,35.73,3.0,1.0
+ORD10348,2023-03-07,Electronics,Laptop Stand,East,Sialkot,57.0,Returning,Credit Card,29.02,2,0,58.04,3.0,3.0
+ORD10514,2024-02-09,Electronics,USB-C Cable,Central,Bahawalpur,,Returning,COD,38.75,3,0,116.25,3.0,2.0
+ORD10595,2024-11-28,Books,Cookbook,Central,Multan,40.0,New,Wallet,19.05,1,5,18.1,5.0,7.0
+ORD10278,2024-04-07,Clothing,Cotton T-Shirt,South,Karachi,57.0,New,cash on delivery,22.78,1,0,22.78,5.0,7.0
+ORD10583,2024-11-09,Beauty,Face Moisturizer,North,Gilgit,40.0,VIP,credit card,22.59,1,0,22.59,5.0,1.0
+ORD10619,2023-11-17,Electronics,Bluetooth Speaker,East,,18.0,New,Debit Card,63.89,2,0,127.78,5.0,1.0
+ORD10500,2024-10-14,Beauty,Face Moisturizer,Central,Multan,43.0,Returning,Debit Card,17.05,1,0,17.05,,4.0
+ORD10781,2023-02-05,Clothing,Cargo Pants,South,Karachi,39.0,Returning,credit card,21.41,2,5,40.68,4.0,3.0
+ORD10055,2024-03-13,Sports,Resistance Bands,Central,Sahiwal,45.0,Returning,Debit Card,24.7,1,5,23.46,5.0,4.0
+ORD10940,2023-04-20,Beauty,Face Moisturizer,West,Zhob,35.0,New,Debit Card,9.95,2,0,19.9,5.0,1.0
+ORD10098,2023-11-15,Beauty,Perfume,North,Islamabad,,New,Credit Card,16.8,3,15,42.84,4.0,7.0
+ORD10807,2024-10-02,Electronics,Power Bank,Central,Bahawalpur,30.0,New,credit card,47.09,1,0,47.09,4.0,6.0
+ORD10644,2023-02-19,Books,Mystery Novel,Central,Sahiwal,29.0,Returning,COD,17.68,1,20,14.14,2.0,5.0
+ORD10592,2023-12-10,Sports,Tennis Racket,South,Sukkur,31.0,Returning,Bank Transfer,40.04,2,15,68.07,5.0,1.0
+ORD10128,2023-06-19,Home & Kitchen,Non-Stick Pan,North,Islamabad,36.0,Returning,Wallet,35.31,1,0,35.31,3.0,3.0
+ORD10492,2024-02-15,Clothing,Denim Jacket,Central,Multan,23.0,New,cash on delivery,30.7,1,0,30.7,4.0,6.0
+ORD10421,2023-04-11,Home & Kitchen,Cutting Board,North,Islamabad,34.0,New,Bank Transfer,29.71,1,10,26.74,1.0,5.0
+ORD10992,2024-03-27,Electronics,Bluetooth Speaker,East,Lahore,57.0,New,Bank Transfer,34.92,1,10,31.43,3.0,1.0
+ORD10994,2023-09-23,Clothing,Cargo Pants,North,Peshawar,37.0,New,Debit Card,21.62,2,20,34.59,5.0,2.0
+ORD10873,2024-09-02,Beauty,Perfume,Central,Multan,16.0,New,Credit Card,23.91,1,20,19.13,3.0,1.0
+ORD10660,2024-07-13,Clothing,Baseball Cap,East,Sialkot,46.0,Returning,Bank Transfer,25.9,1,0,25.9,1.0,2.0
+ORD10081,2024-07-15,Books,History Book,Central,Bahawalpur,18.0,New,Cash on Delivery,22.33,4,20,71.46,3.0,3.0
+ORD10159,2024-10-15,Beauty,Shampoo,South,Hyderabad,16.0,New,Wallet,21.22,2,0,42.44,3.0,3.0
+ORD10424,2023-11-16,Electronics,Power Bank,South,Hyderabad,29.0,New,Bank Transfer,28.82,3,10,77.81,,1.0
+ORD10423,2023-10-30,Home & Kitchen,Coffee Maker,West,Quetta,21.0,New,Debit Card,42.13,3,10,113.75,4.0,1.0
+ORD10309,2024-06-29,Beauty,Lipstick Set,Central,Sahiwal,30.0,Returning,Wallet,21.17,1,15,17.99,5.0,7.0
+ORD10683,2024-10-11,Sports,Resistance Bands,Central,Bahawalpur,,New,credit card,30.66,2,10,55.19,4.0,4.0
+ORD10884,2024-09-19,Books,Cookbook,West,Gwadar,33.0,VIP,Cash on Delivery,14.99,3,0,44.97,3.0,7.0
+ORD10670,2023-02-10,Sports,Tennis Racket,Central,Multan,35.0,Returning,credit card,34.06,1,0,34.06,5.0,6.0
+ORD10879,2024-09-14,Clothing,Wool Sweater,West,Quetta,17.0,Returning,COD,17.55,3,10,47.39,4.0,3.0
+ORD10946,2024-09-02,Electronics,Webcam,North,Gilgit,46.0,Returning,COD,55.0,1,0,55.0,4.0,3.0
+ORD10631,2023-03-18,Beauty,Sunscreen SPF50,West,Quetta,52.0,Returning,credit card,23.03,4,0,92.12,4.0,6.0
+ORD10695,2023-10-15,Clothing,Baseball Cap,Central,Multan,41.0,VIP,Cash on Delivery,19.64,1,0,19.64,5.0,3.0
+ORD10897,2024-10-30,Electronics,USB-C Cable,South,Karachi,43.0,New,Cash on Delivery,17.32,2,20,27.71,4.0,2.0
+ORD10352,2023-05-11,Clothing,Cargo Pants,West,Zhob,37.0,Returning,Bank Transfer,13.85,1,0,13.85,4.0,1.0
+ORD10180,2024-12-03,Books,Cookbook,East,Lahore,26.0,New,credit card,11.59,2,0,23.18,5.0,3.0
+ORD10519,2024-12-31,Sports,Tennis Racket,North,Peshawar,27.0,New,cash on delivery,28.95,2,5,55.0,5.0,6.0
+ORD10271,2023-05-27,Beauty,Hair Dryer,South,Karachi,39.0,Returning,cash on delivery,24.52,2,10,44.14,3.0,3.0
+ORD10233,2024-09-01,Home & Kitchen,Blender,West,Quetta,40.0,Returning,Debit Card,52.56,2,0,105.12,5.0,2.0
+ORD10123,2024-10-02,Beauty,Hair Dryer,North,Islamabad,35.0,New,Debit Card,35.44,1,5,33.67,4.0,3.0
+ORD10524,2024-08-29,Home & Kitchen,Non-Stick Pan,South,Karachi,20.0,New,credit card,21.82,2,0,43.64,5.0,5.0
+ORD10658,2024-02-01,Sports,Cycling Helmet,North,Peshawar,42.0,New,credit card,33.9,3,0,101.7,5.0,5.0
+ORD10755,2023-07-07,Books,History Book,East,Faisalabad,38.0,VIP,Wallet,7.73,1,15,6.57,5.0,2.0
+ORD10882,2023-02-10,Beauty,Perfume,West,Zhob,,Returning,Credit Card,12.93,2,5,24.57,,3.0
+ORD10957,2024-03-23,Clothing,Baseball Cap,West,Zhob,18.0,VIP,Cash on Delivery,24.7,5,0,123.5,4.0,5.0
+ORD10680,2023-03-16,Sports,Tennis Racket,North,Gilgit,33.0,New,Debit Card,30.26,1,10,27.23,5.0,4.0
+ORD10505,2023-08-01,Books,Mystery Novel,Central,Bahawalpur,24.0,Returning,cash on delivery,17.53,2,5,33.31,5.0,5.0
+ORD10756,2023-02-25,Books,Cookbook,Central,Multan,51.0,Returning,COD,15.16,1,20,12.13,2.0,1.0
+ORD10916,2024-08-14,Beauty,Perfume,North,Islamabad,31.0,Returning,credit card,9.88,1,0,9.88,4.0,2.0
+ORD10173,2024-11-22,Beauty,Sunscreen SPF50,East,Lahore,16.0,New,Credit Card,11.31,1,10,10.18,5.0,6.0
+ORD10331,2024-05-20,Home & Kitchen,Cutting Board,Central,Sahiwal,44.0,VIP,Cash on Delivery,19.2,1,0,19.2,1.0,6.0
+ORD10902,2024-12-12,Home & Kitchen,Cutting Board,South,Karachi,47.0,VIP,credit card,32.91,2,0,65.82,,6.0
+ORD10847,2023-11-28,Clothing,Cotton T-Shirt,East,Faisalabad,24.0,Returning,Debit Card,28.76,3,20,69.02,,1.0
+ORD10221,2023-03-19,Clothing,Cargo Pants,South,Sukkur,38.0,New,cash on delivery,20.49,2,0,40.98,,6.0
+ORD10460,2023-11-06,Clothing,Baseball Cap,South,Sukkur,26.0,New,Wallet,22.18,2,5,42.14,3.0,3.0
+ORD10016,2023-09-27,Clothing,Denim Jacket,Central,Sahiwal,41.0,Returning,COD,21.8,1,15,18.53,5.0,6.0
+ORD10257,2023-09-17,Books,Mystery Novel,West,Gwadar,38.0,Returning,credit card,18.34,2,5,34.85,2.0,1.0
+ORD10906,2024-06-16,Clothing,Cargo Pants,Central,Bahawalpur,25.0,Returning,cash on delivery,29.42,4,0,117.68,5.0,3.0
+ORD10554,2024-02-28,Electronics,Power Bank,East,Sialkot,40.0,VIP,Bank Transfer,35.83,3,0,107.49,3.0,8.0
+ORD10306,2024-02-16,Clothing,Denim Jacket,Central,Sahiwal,37.0,Returning,Credit Card,16.28,2,0,32.56,4.0,4.0
+ORD10260,2023-07-06,Sports,Resistance Bands,West,Zhob,43.0,Returning,Debit Card,41.69,1,0,41.69,3.0,6.0
+ORD10527,2024-06-23,Clothing,Cargo Pants,South,Karachi,37.0,Returning,credit card,16.71,1,10,15.04,4.0,4.0
+ORD10799,2023-09-12,Books,Mystery Novel,North,Gilgit,39.0,New,cash on delivery,14.69,2,0,29.38,,5.0
+ORD10855,2023-09-19,Books,History Book,Central,Multan,31.0,New,Wallet,12.32,1,10,11.09,4.0,3.0
+ORD10454,2023-10-12,Sports,Yoga Mat,West,Zhob,,Returning,credit card,34.07,4,20,109.02,5.0,4.0
+ORD10368,2024-05-05,Clothing,Cargo Pants,Central,Multan,16.0,New,credit card,26.59,2,0,53.18,2.0,1.0
+ORD10453,2024-02-29,Beauty,Hair Dryer,East,Sialkot,26.0,New,Debit Card,19.6,3,5,55.86,5.0,4.0
+ORD10408,2024-09-23,Sports,Cycling Helmet,West,Zhob,34.0,New,Debit Card,40.58,1,0,40.58,1.0,7.0
+ORD10148,2024-04-29,Books,Mystery Novel,East,Sialkot,18.0,Returning,COD,14.64,4,0,58.56,3.0,5.0
+ORD10878,2024-05-16,Electronics,USB-C Cable,West,Zhob,29.0,Returning,cash on delivery,48.66,1,10,43.79,5.0,4.0
+ORD10361,2024-05-22,Sports,Cycling Helmet,West,Zhob,51.0,New,credit card,24.64,2,0,49.28,5.0,6.0
+ORD10390,2023-10-05,Clothing,Baseball Cap,Central,Bahawalpur,32.0,New,Debit Card,16.5,1,0,16.5,4.0,1.0
+ORD10052,2023-12-18,Home & Kitchen,Blender,Central,Multan,32.0,New,Wallet,59.65,4,5,226.67,5.0,4.0
+ORD10894,2023-09-01,Beauty,Face Moisturizer,Central,Bahawalpur,16.0,New,cash on delivery,27.0,1,0,27.0,5.0,4.0
+ORD10325,2024-11-28,Books,Self-Help Guide,West,Quetta,37.0,Returning,Credit Card,10.83,1,15,9.21,5.0,5.0
+ORD10023,2024-06-27,Clothing,Running Shoes,South,Sukkur,44.0,VIP,credit card,33.57,1,5,31.89,4.0,6.0
+ORD10578,2023-08-19,Beauty,Shampoo,South,Sukkur,30.0,Returning,Wallet,22.07,1,0,22.07,5.0,2.0
+ORD10823,2023-04-10,Home & Kitchen,Coffee Maker,South,Sukkur,45.0,New,Bank Transfer,40.68,2,0,81.36,4.0,5.0
+ORD10412,2024-12-12,Books,Self-Help Guide,East,Sialkot,36.0,Returning,Bank Transfer,7.79,3,15,19.86,4.0,5.0
+ORD10210,2023-08-14,Beauty,Hair Dryer,East,Lahore,41.0,New,Credit Card,18.49,3,0,55.47,4.0,4.0
+ORD10286,2023-06-18,Electronics,Webcam,South,Hyderabad,21.0,New,Bank Transfer,50.42,4,0,201.68,3.0,3.0
+ORD10143,2023-05-29,Books,Cookbook,West,Zhob,28.0,New,Cash on Delivery,18.18,3,5,51.81,4.0,1.0
+ORD10051,2023-04-29,Sports,Yoga Mat,South,Hyderabad,17.0,VIP,Cash on Delivery,44.69,2,0,89.38,4.0,4.0
+ORD10167,2024-01-09,Home & Kitchen,Cutting Board,North,Gilgit,35.0,Returning,Debit Card,37.01,2,0,74.02,5.0,6.0
+ORD10626,2024-03-27,Books,Sci-Fi Anthology,North,Peshawar,64.0,New,Wallet,17.3,5,0,86.5,5.0,2.0
+ORD10532,2023-11-21,Sports,Resistance Bands,West,Zhob,54.0,New,credit card,23.4,5,0,117.0,3.0,3.0
+ORD10082,2023-09-11,Sports,Resistance Bands,West,Gwadar,34.0,Returning,Wallet,37.17,1,0,37.17,4.0,4.0
+ORD10719,2023-01-17,Books,Sci-Fi Anthology,South,Karachi,42.0,New,COD,8.72,1,0,8.72,3.0,2.0
+ORD10707,2023-09-15,Home & Kitchen,Storage Jars,North,Gilgit,31.0,New,Bank Transfer,35.08,3,20,84.19,,2.0
+ORD10909,2023-12-08,Beauty,Sunscreen SPF50,West,Quetta,25.0,New,Bank Transfer,17.15,1,0,17.15,4.0,1.0
+ORD10067,2024-06-07,Sports,Water Bottle,West,Zhob,39.0,New,Bank Transfer,29.02,1,15,24.67,4.0,4.0
+ORD10329,2024-05-22,Books,Cookbook,North,Peshawar,41.0,New,Wallet,15.55,3,0,46.65,5.0,3.0
+ORD10661,2023-07-01,Sports,Dumbbell Set,East,Faisalabad,36.0,VIP,Debit Card,35.76,1,0,35.76,3.0,5.0
+ORD10285,2023-05-13,Clothing,Cargo Pants,Central,,33.0,New,Credit Card,27.42,1,0,27.42,5.0,3.0
+ORD10776,2023-09-15,Electronics,USB-C Cable,South,Sukkur,37.0,VIP,Debit Card,62.82,4,0,251.28,2.0,6.0
+ORD10284,2024-04-22,Clothing,Running Shoes,North,Peshawar,28.0,Returning,credit card,16.19,1,0,16.19,4.0,5.0
+ORD10427,2023-09-07,Sports,Yoga Mat,South,Sukkur,16.0,Returning,Cash on Delivery,35.85,1,5,34.06,5.0,4.0
+ORD10752,2023-09-13,Home & Kitchen,Non-Stick Pan,South,Karachi,38.0,Returning,credit card,31.57,6,20,151.54,5.0,6.0
+ORD10065,2023-04-29,Sports,Tennis Racket,East,Lahore,32.0,VIP,Wallet,23.53,3,0,70.59,4.0,3.0
+ORD10652,2024-05-06,Sports,Yoga Mat,East,Sialkot,49.0,Returning,COD,39.7,3,0,119.1,5.0,4.0
+ORD10265,2023-07-11,Sports,Resistance Bands,West,Gwadar,16.0,Returning,cash on delivery,20.6,2,5,39.14,,3.0
+ORD10472,2024-09-13,Sports,Water Bottle,South,Sukkur,41.0,Returning,COD,18.33,2,15,31.16,3.0,8.0
+ORD10474,2024-06-24,Books,Poetry Collection,Central,Multan,16.0,VIP,Credit Card,9.22,4,0,36.88,1.0,4.0
+ORD10509,2024-07-17,Electronics,Laptop Stand,West,Zhob,42.0,New,cash on delivery,29.74,4,15,101.12,3.0,2.0
+ORD10021,2024-04-09,Electronics,Bluetooth Speaker,West,Quetta,34.0,New,Wallet,19.1,1,0,19.1,5.0,2.0
+ORD10376,2024-05-15,Books,History Book,East,Faisalabad,16.0,VIP,cash on delivery,15.29,3,0,45.87,3.0,3.0
+ORD10774,2024-02-09,Sports,Water Bottle,Central,Sahiwal,16.0,New,cash on delivery,33.32,4,0,133.28,,2.0
+ORD10701,2023-07-03,Beauty,Shampoo,West,Quetta,28.0,Returning,Cash on Delivery,23.99,1,10,21.59,1.0,1.0
+ORD10297,2024-09-22,Electronics,Wireless Mouse,East,Faisalabad,45.0,New,Cash on Delivery,50.89,2,0,101.78,5.0,2.0
+ORD10563,2023-04-13,Clothing,Cargo Pants,Central,Sahiwal,32.0,VIP,Debit Card,17.78,2,20,28.45,5.0,3.0
+ORD10805,2023-01-10,Beauty,Face Moisturizer,West,Quetta,43.0,VIP,cash on delivery,16.22,1,0,16.22,4.0,7.0
+ORD10262,2024-02-12,Electronics,Bluetooth Speaker,East,Sialkot,38.0,VIP,cash on delivery,62.7,1,0,62.7,5.0,2.0
+ORD10657,2023-09-01,Sports,Cycling Helmet,Central,Bahawalpur,25.0,Returning,Wallet,36.11,1,0,36.11,5.0,1.0
+ORD10501,2024-11-09,Beauty,Perfume,North,Peshawar,16.0,VIP,Bank Transfer,22.21,1,25,16.66,,6.0
+ORD10322,2024-05-05,Home & Kitchen,Cutting Board,East,Sialkot,47.0,New,Wallet,31.89,2,0,63.78,2.0,2.0
+ORD10624,2024-05-09,Clothing,Cotton T-Shirt,West,Zhob,32.0,Returning,cash on delivery,19.86,2,0,39.72,4.0,5.0
+ORD10827,2024-09-06,Beauty,Lipstick Set,South,Sukkur,16.0,New,credit card,9.31,1,5,8.84,5.0,3.0
+ORD10831,2024-09-02,Electronics,Power Bank,North,,38.0,New,Cash on Delivery,60.52,1,0,60.52,5.0,2.0
+ORD10189,2023-02-14,Books,History Book,South,Sukkur,29.0,Returning,Wallet,12.07,4,0,48.28,,1.0
+ORD10252,2023-02-18,Home & Kitchen,Non-Stick Pan,East,,36.0,New,cash on delivery,34.84,1,10,31.36,4.0,1.0
+ORD10072,2024-08-05,Sports,Cycling Helmet,South,Sukkur,43.0,New,Credit Card,33.26,4,5,126.39,4.0,6.0
+ORD10438,2023-06-20,Sports,Tennis Racket,South,Sukkur,56.0,Returning,Cash on Delivery,28.64,3,0,85.92,4.0,2.0
+ORD10373,2024-02-28,Home & Kitchen,Non-Stick Pan,East,Faisalabad,38.0,New,Bank Transfer,35.63,1,5,33.85,3.0,4.0
+ORD10806,2023-04-02,Sports,Tennis Racket,South,Hyderabad,51.0,New,cash on delivery,30.29,4,10,109.04,4.0,1.0
+ORD10335,2024-05-03,Sports,Yoga Mat,South,Karachi,16.0,New,Bank Transfer,13.77,5,5,65.41,5.0,5.0
+ORD10358,2023-08-28,Electronics,USB-C Cable,Central,Bahawalpur,30.0,Returning,credit card,68.88,4,0,275.52,5.0,4.0
+ORD10627,2024-11-25,Sports,Water Bottle,North,Gilgit,22.0,Returning,Bank Transfer,14.86,1,0,14.86,3.0,2.0
+ORD10939,2023-12-23,Books,Sci-Fi Anthology,South,Hyderabad,39.0,Returning,Cash on Delivery,15.7,1,0,15.7,4.0,1.0
+ORD10757,2023-12-22,Books,History Book,North,Gilgit,37.0,New,Cash on Delivery,17.07,2,0,34.14,5.0,
+ORD10385,2024-01-18,Home & Kitchen,Blender,West,Quetta,52.0,VIP,cash on delivery,30.24,4,15,102.82,4.0,3.0
+ORD10579,2024-11-29,Sports,Resistance Bands,Central,Multan,43.0,New,Cash on Delivery,28.75,1,0,28.75,5.0,3.0
+ORD10735,2024-01-15,Electronics,Wireless Mouse,East,Lahore,16.0,New,Credit Card,36.94,4,0,147.76,5.0,4.0
+ORD10732,2024-12-17,Sports,Yoga Mat,South,Hyderabad,40.0,VIP,Debit Card,19.31,4,0,77.24,5.0,2.0
+ORD10930,2023-10-05,Beauty,Lipstick Set,Central,Bahawalpur,26.0,New,Wallet,17.53,1,10,15.78,5.0,1.0
+ORD10488,2024-06-05,Beauty,Hair Dryer,North,Islamabad,37.0,New,Credit Card,19.06,2,0,38.12,4.0,3.0
+ORD10682,2023-06-10,Books,Sci-Fi Anthology,North,Peshawar,41.0,Returning,Cash on Delivery,11.75,3,5,33.49,3.0,3.0
+ORD10396,2024-02-11,Home & Kitchen,Storage Jars,Central,Sahiwal,55.0,VIP,credit card,33.11,1,0,33.11,4.0,3.0
+ORD10340,2024-09-12,Books,Cookbook,West,Zhob,,New,cash on delivery,18.42,4,5,70.0,3.0,2.0
+ORD10725,2024-07-10,Clothing,Cotton T-Shirt,East,Sialkot,33.0,New,Bank Transfer,8.53,5,0,42.65,5.0,2.0
+ORD10967,2023-12-28,Beauty,Hair Dryer,East,Faisalabad,21.0,VIP,Wallet,15.4,1,0,15.4,3.0,6.0
+ORD10219,2024-06-06,Electronics,Webcam,North,Gilgit,51.0,New,credit card,47.43,1,5,45.06,5.0,2.0
+ORD10240,2024-09-17,Sports,Cycling Helmet,South,Hyderabad,29.0,New,cash on delivery,29.99,4,0,119.96,5.0,6.0
+ORD10526,2024-05-17,Books,History Book,East,Lahore,39.0,New,Credit Card,11.78,1,10,10.6,,
+ORD10901,2024-03-13,Home & Kitchen,Blender,West,Quetta,32.0,Returning,Debit Card,33.34,2,0,66.68,3.0,5.0
+ORD10193,2024-04-09,Books,History Book,Central,Bahawalpur,47.0,Returning,COD,16.01,2,5,30.42,4.0,1.0
+ORD10486,2023-03-20,Home & Kitchen,Table Lamp,Central,Sahiwal,33.0,Returning,credit card,38.26,2,5,72.69,5.0,1.0
+ORD10192,2023-05-10,Home & Kitchen,Storage Jars,South,Karachi,16.0,New,credit card,33.84,3,5,96.44,4.0,2.0
+ORD10455,2023-01-03,Books,Sci-Fi Anthology,East,Sialkot,45.0,VIP,Debit Card,18.91,2,0,37.82,4.0,4.0
+ORD10743,2024-02-21,Beauty,Face Moisturizer,East,Lahore,16.0,Returning,Debit Card,21.46,1,10,19.31,3.0,3.0
+ORD10949,2024-08-06,Clothing,Denim Jacket,East,Faisalabad,16.0,Returning,Wallet,29.57,3,20,70.97,5.0,7.0
+ORD10133,2024-10-12,Home & Kitchen,Non-Stick Pan,Central,Bahawalpur,55.0,Returning,Debit Card,13.14,1,20,10.51,5.0,5.0
+ORD10366,2023-04-05,Sports,Yoga Mat,West,Gwadar,41.0,Returning,Bank Transfer,565.65,1,5,537.37,3.0,5.0
+ORD10253,2024-07-02,Electronics,Wireless Mouse,West,Zhob,41.0,New,Bank Transfer,44.79,1,0,44.79,4.0,1.0
+ORD10676,2024-04-15,Sports,Yoga Mat,South,Karachi,16.0,Returning,Credit Card,23.77,4,10,85.57,2.0,1.0
+ORD10733,2024-07-17,Clothing,Cargo Pants,West,Gwadar,44.0,Returning,Credit Card,31.66,6,0,189.96,4.0,2.0
+ORD10264,2024-01-12,Sports,Water Bottle,East,Lahore,24.0,New,COD,46.19,3,10,124.71,4.0,4.0
+ORD10071,2023-07-16,Sports,Water Bottle,Central,Multan,36.0,New,COD,23.17,6,25,104.27,5.0,1.0
+ORD10273,2024-11-26,Beauty,Face Moisturizer,Central,Multan,39.0,New,credit card,30.02,2,0,60.04,4.0,4.0
+ORD10974,2023-12-18,Books,Cookbook,Central,Multan,,VIP,Cash on Delivery,21.25,1,0,21.25,4.0,4.0
+ORD10328,2023-02-08,Sports,Tennis Racket,South,Sukkur,31.0,VIP,Cash on Delivery,37.05,2,0,74.1,5.0,1.0
+ORD10116,2023-02-16,Sports,Tennis Racket,South,Hyderabad,37.0,VIP,Wallet,19.74,2,0,39.48,,4.0
+ORD10324,2024-10-15,Clothing,Cotton T-Shirt,Central,Multan,26.0,New,Debit Card,20.13,1,0,20.13,5.0,4.0
+ORD10969,2023-06-23,Electronics,Power Bank,West,Zhob,29.0,Returning,Wallet,47.95,5,0,239.75,4.0,5.0
+ORD10668,2023-10-28,Sports,Water Bottle,East,Faisalabad,40.0,New,cash on delivery,38.99,2,5,74.08,,4.0
+ORD10516,2024-09-20,Home & Kitchen,Cutting Board,South,Karachi,16.0,Returning,Bank Transfer,38.49,1,15,32.72,5.0,3.0
+ORD10724,2024-03-11,Home & Kitchen,Storage Jars,Central,Multan,38.0,New,cash on delivery,26.26,5,0,131.3,4.0,3.0
+ORD10625,2024-09-18,Clothing,Cargo Pants,West,Gwadar,58.0,New,Cash on Delivery,19.68,2,0,39.36,5.0,45.0
+ORD10779,2023-03-28,Electronics,Bluetooth Speaker,Central,Multan,23.0,Returning,COD,38.46,5,0,192.3,,1.0
+ORD10443,2024-04-13,Clothing,Cargo Pants,East,Lahore,17.0,Returning,cash on delivery,24.37,1,0,24.37,5.0,4.0
+ORD10456,2024-07-01,Sports,Resistance Bands,East,Lahore,44.0,New,COD,36.9,2,0,73.8,5.0,3.0
+ORD10566,2024-02-10,Beauty,Perfume,West,Quetta,30.0,VIP,credit card,27.72,1,0,27.72,5.0,3.0
+ORD10450,2024-08-09,Home & Kitchen,Table Lamp,East,Faisalabad,16.0,New,Debit Card,33.52,3,15,85.48,4.0,3.0
+ORD10614,2024-02-24,Beauty,Shampoo,East,Sialkot,29.0,New,Credit Card,28.64,1,0,28.64,5.0,1.0
+ORD10279,2023-12-22,Electronics,Power Bank,East,Sialkot,42.0,Returning,Wallet,58.82,1,10,52.94,4.0,6.0
+ORD10791,2024-02-27,Home & Kitchen,Table Lamp,Central,Bahawalpur,20.0,New,Debit Card,18.59,2,10,33.46,4.0,4.0
+ORD10653,2024-03-08,Sports,Cycling Helmet,Central,Bahawalpur,40.0,Returning,Debit Card,22.84,2,0,45.68,4.0,4.0
+ORD10003,2024-09-08,Electronics,USB-C Cable,South,Sukkur,16.0,New,Bank Transfer,48.27,2,0,96.54,5.0,3.0
+ORD10230,2024-02-23,Home & Kitchen,Blender,East,,21.0,Returning,Credit Card,29.39,2,0,58.78,4.0,2.0
+ORD10669,2024-11-15,Beauty,Hair Dryer,North,Islamabad,,New,Bank Transfer,14.16,4,0,56.64,4.0,3.0
+ORD10934,2023-07-22,Beauty,Lipstick Set,East,Faisalabad,24.0,Returning,Debit Card,23.76,1,0,23.76,2.0,1.0
+ORD10620,2024-11-10,Electronics,Wireless Mouse,North,Islamabad,30.0,Returning,credit card,55.92,5,0,279.6,5.0,3.0
+ORD10862,2024-05-28,Home & Kitchen,Table Lamp,East,Lahore,19.0,New,Credit Card,27.97,3,0,83.91,,4.0
+ORD10200,2023-11-16,Sports,Yoga Mat,East,Sialkot,45.0,New,Bank Transfer,17.47,3,0,52.41,4.0,6.0
+ORD10372,2024-05-24,Home & Kitchen,Blender,East,Sialkot,16.0,Returning,cash on delivery,42.36,5,0,211.8,5.0,3.0
+ORD10864,2023-05-21,Clothing,Running Shoes,West,Zhob,54.0,New,COD,42.05,2,0,84.1,4.0,2.0
+ORD10766,2024-02-12,Home & Kitchen,Storage Jars,Central,Multan,23.0,New,Cash on Delivery,43.52,1,0,43.52,,1.0
+ORD10066,2023-04-22,Clothing,Cargo Pants,East,Lahore,50.0,Returning,credit card,24.97,2,0,49.94,5.0,5.0
+ORD10473,2024-05-21,Home & Kitchen,Table Lamp,North,Islamabad,38.0,New,Bank Transfer,25.28,1,0,25.28,5.0,3.0
+ORD10041,2024-07-09,Clothing,Cotton T-Shirt,Central,Sahiwal,80.0,New,credit card,28.86,3,5,82.25,5.0,4.0
+ORD10747,2024-12-19,Electronics,Laptop Stand,South,Sukkur,40.0,New,credit card,45.24,2,0,90.48,4.0,2.0
+ORD10481,2023-09-02,Home & Kitchen,Table Lamp,West,Zhob,50.0,New,Debit Card,44.42,3,0,133.26,4.0,3.0
+ORD10615,2024-05-07,Beauty,Sunscreen SPF50,South,Sukkur,39.0,New,Credit Card,17.83,1,20,14.26,3.0,9.0
+ORD10319,2024-12-22,Home & Kitchen,Blender,South,Sukkur,33.0,Returning,cash on delivery,29.38,3,15,74.92,4.0,3.0
+ORD10953,2024-10-02,Books,Poetry Collection,Central,Bahawalpur,55.0,New,COD,8.74,1,0,8.74,4.0,4.0
+ORD10875,2024-02-01,Sports,Cycling Helmet,East,Lahore,28.0,Returning,Cash on Delivery,27.92,1,25,20.94,4.0,5.0
+ORD10274,2023-05-21,Home & Kitchen,Cutting Board,North,Gilgit,17.0,Returning,COD,50.28,1,10,45.25,3.0,1.0
+ORD10816,2023-06-07,Clothing,Cargo Pants,West,Zhob,,Returning,credit card,11.44,1,5,10.87,3.0,4.0
+ORD10911,2023-11-28,Home & Kitchen,Blender,Central,Sahiwal,51.0,Returning,Debit Card,67.31,2,0,134.62,3.0,5.0
+ORD10490,2023-11-26,Electronics,Webcam,West,Quetta,25.0,New,credit card,44.29,2,0,88.58,5.0,2.0
+ORD10762,2023-07-04,Home & Kitchen,Cutting Board,East,Faisalabad,30.0,Returning,Bank Transfer,31.2,3,0,93.6,2.0,4.0
+ORD10178,2024-11-01,Beauty,Hair Dryer,South,Hyderabad,23.0,New,cash on delivery,24.34,4,10,87.62,2.0,4.0
+ORD10301,2024-07-03,Beauty,Hair Dryer,West,Gwadar,34.0,New,Debit Card,25.3,2,0,50.6,3.0,6.0
+ORD10038,2024-05-12,Electronics,USB-C Cable,South,Hyderabad,37.0,Returning,COD,46.25,3,0,138.75,,2.0
+ORD10853,2024-07-04,Electronics,Bluetooth Speaker,South,Sukkur,37.0,New,Wallet,32.9,1,15,27.96,4.0,2.0
+ORD10203,2023-07-04,Beauty,Hair Dryer,East,Lahore,16.0,New,Wallet,20.47,1,0,20.47,,4.0
+ORD10237,2024-06-03,Clothing,Cotton T-Shirt,East,Lahore,33.0,Returning,Credit Card,26.0,3,5,74.1,2.0,1.0
+ORD10150,2024-04-12,Electronics,Laptop Stand,North,Gilgit,45.0,New,Cash on Delivery,18.95,3,0,56.85,5.0,4.0
+ORD10218,2023-12-14,Beauty,Face Moisturizer,West,Gwadar,24.0,New,Cash on Delivery,23.32,1,0,23.32,4.0,2.0
+ORD10678,2024-10-07,Home & Kitchen,Cutting Board,West,Gwadar,28.0,New,credit card,42.53,4,15,144.6,5.0,4.0
+ORD10404,2023-03-28,Electronics,Bluetooth Speaker,West,Gwadar,35.0,Returning,Bank Transfer,50.01,1,20,40.01,4.0,4.0
+ORD10966,2023-01-12,Beauty,Face Moisturizer,East,Sialkot,24.0,Returning,cash on delivery,15.95,2,0,31.9,2.0,6.0
+ORD10771,2024-09-20,Sports,Resistance Bands,North,,37.0,New,Cash on Delivery,38.62,1,0,38.62,5.0,7.0
+ORD10409,2023-12-07,Clothing,Running Shoes,North,Peshawar,42.0,Returning,COD,15.62,1,10,14.06,5.0,3.0
+ORD10303,2024-07-29,Electronics,Laptop Stand,North,Gilgit,47.0,New,Wallet,70.29,3,0,210.87,,1.0
+ORD10861,2023-06-10,Home & Kitchen,Cutting Board,West,Zhob,,New,credit card,32.73,2,5,62.19,4.0,2.0
+ORD10921,2024-03-30,Home & Kitchen,Coffee Maker,South,Karachi,38.0,Returning,cash on delivery,52.47,3,5,149.54,3.0,5.0
+ORD10672,2024-04-01,Beauty,Lipstick Set,Central,Sahiwal,44.0,Returning,Wallet,21.13,1,10,19.02,,6.0
+ORD10929,2024-07-27,Home & Kitchen,Coffee Maker,North,Gilgit,38.0,Returning,Bank Transfer,33.7,4,15,114.58,4.0,4.0
+ORD10389,2024-06-24,Sports,Water Bottle,Central,Multan,22.0,VIP,Bank Transfer,30.37,1,10,27.33,1.0,1.0
+ORD10419,2024-10-15,Home & Kitchen,Table Lamp,Central,Sahiwal,37.0,VIP,Debit Card,7.66,4,10,27.58,4.0,6.0
+ORD10388,2023-06-25,Electronics,Power Bank,North,Gilgit,24.0,New,COD,34.72,1,15,29.51,2.0,1.0
+ORD10887,2024-12-09,Books,Mystery Novel,East,Faisalabad,39.0,Returning,Cash on Delivery,15.01,2,10,27.02,3.0,7.0
+ORD10391,2024-11-04,Sports,Water Bottle,Central,Sahiwal,,New,credit card,51.71,1,0,51.71,,8.0
+ORD10650,2023-12-20,Clothing,Cargo Pants,East,Sialkot,41.0,VIP,Cash on Delivery,15.16,3,25,34.11,5.0,3.0
+ORD10353,2024-11-20,Electronics,Wireless Mouse,East,Faisalabad,41.0,Returning,COD,53.61,2,0,107.22,4.0,1.0
+ORD10194,2024-10-28,Electronics,Power Bank,North,Gilgit,41.0,VIP,Bank Transfer,37.27,2,15,63.36,5.0,1.0
+ORD10236,2023-07-16,Clothing,Denim Jacket,East,Faisalabad,26.0,New,Cash on Delivery,30.85,4,0,123.4,5.0,4.0
+ORD10918,2024-09-01,Beauty,Perfume,West,Quetta,25.0,New,Wallet,17.33,3,0,51.99,5.0,3.0
+ORD10839,2023-08-21,Home & Kitchen,Cutting Board,West,Quetta,23.0,Returning,Credit Card,39.15,1,0,39.15,5.0,6.0
+ORD10056,2023-02-06,Electronics,Power Bank,South,Sukkur,41.0,Returning,Cash on Delivery,52.85,4,0,211.4,5.0,2.0
+ORD10467,2024-06-27,Books,Cookbook,South,Karachi,31.0,Returning,Cash on Delivery,13.12,1,0,13.12,5.0,4.0
+ORD10097,2023-09-20,Beauty,Shampoo,West,Zhob,,Returning,Cash on Delivery,18.57,6,15,94.71,5.0,2.0
+ORD10142,2023-10-07,Sports,Water Bottle,Central,Sahiwal,58.0,New,cash on delivery,32.18,1,5,30.57,4.0,3.0
+ORD10700,2024-11-09,Books,Self-Help Guide,Central,Multan,38.0,New,Cash on Delivery,7.68,6,15,39.17,4.0,2.0
+ORD10865,2024-12-03,Beauty,Hair Dryer,Central,Sahiwal,44.0,New,Bank Transfer,14.68,4,0,58.72,4.0,5.0
+ORD10545,2023-07-30,Clothing,Cotton T-Shirt,North,Peshawar,16.0,VIP,COD,25.64,1,0,25.64,5.0,5.0
+ORD10572,2023-05-19,Electronics,Bluetooth Speaker,Central,Bahawalpur,43.0,Returning,Credit Card,38.61,2,0,77.22,4.0,1.0
+ORD10121,2024-09-25,Beauty,Sunscreen SPF50,Central,Sahiwal,34.0,New,COD,3.82,5,0,19.1,5.0,1.0
+ORD10601,2024-06-27,Sports,Water Bottle,North,Peshawar,46.0,New,Credit Card,31.66,2,0,63.32,2.0,4.0
+ORD10568,2023-10-15,Electronics,Bluetooth Speaker,East,Faisalabad,39.0,Returning,Debit Card,23.72,3,20,56.93,,3.0
+ORD10063,2023-01-25,Home & Kitchen,Blender,South,Karachi,28.0,Returning,COD,39.34,2,0,78.68,3.0,3.0
+ORD10761,2023-08-04,Home & Kitchen,Non-Stick Pan,West,Gwadar,16.0,New,credit card,31.19,1,25,23.39,4.0,3.0
+ORD10453,2024-02-29,Beauty,Hair Dryer,East,Sialkot,26.0,New,Debit Card,19.6,3,5,55.86,5.0,4.0
+ORD10415,2024-12-10,Sports,Dumbbell Set,West,Gwadar,43.0,New,COD,26.34,5,0,131.7,4.0,5.0
+ORD10004,2023-08-14,Sports,Cycling Helmet,Central,Bahawalpur,27.0,New,Wallet,23.32,1,0,23.32,4.0,5.0
+ORD10059,2023-06-16,Beauty,Hair Dryer,South,Karachi,31.0,VIP,Cash on Delivery,24.09,1,0,24.09,,3.0
+ORD10224,2024-06-03,Home & Kitchen,Storage Jars,North,Peshawar,43.0,New,cash on delivery,31.84,5,0,159.2,4.0,2.0
+ORD10840,2023-11-09,Sports,Cycling Helmet,West,Quetta,37.0,Returning,credit card,34.85,1,0,34.85,4.0,3.0
+ORD10102,2024-03-19,Electronics,Laptop Stand,West,Quetta,26.0,VIP,cash on delivery,55.26,3,10,149.2,4.0,8.0
+ORD10868,2024-03-16,Clothing,Running Shoes,Central,Multan,55.0,VIP,Cash on Delivery,26.34,2,0,52.68,5.0,3.0
+ORD10222,2024-11-28,Books,History Book,Central,Bahawalpur,40.0,VIP,credit card,14.66,2,0,29.32,5.0,4.0
+ORD10466,2024-01-12,Sports,Yoga Mat,North,Peshawar,23.0,VIP,Cash on Delivery,44.32,2,0,88.64,5.0,5.0
+ORD10005,2023-10-12,Electronics,USB-C Cable,West,Gwadar,,New,credit card,37.65,2,0,75.3,2.0,2.0
+ORD10053,2023-04-05,Beauty,Sunscreen SPF50,East,Lahore,42.0,Returning,Wallet,20.68,1,5,19.65,4.0,5.0
+ORD10018,2023-06-13,Electronics,Wireless Mouse,South,Sukkur,50.0,Returning,COD,54.09,1,0,54.09,5.0,3.0
+ORD10903,2024-12-13,Beauty,Sunscreen SPF50,Central,Multan,20.0,New,Credit Card,25.21,1,0,25.21,1.0,4.0
+ORD10913,2024-11-19,Clothing,Denim Jacket,East,Faisalabad,51.0,Returning,cash on delivery,32.45,3,20,77.88,5.0,3.0
+ORD10307,2024-06-15,Electronics,USB-C Cable,East,Faisalabad,40.0,Returning,Cash on Delivery,43.92,6,5,250.34,5.0,1.0
+ORD10665,2024-08-09,Sports,Tennis Racket,East,Faisalabad,22.0,Returning,Debit Card,22.66,2,0,45.32,4.0,2.0
+ORD10156,2024-01-03,Electronics,Bluetooth Speaker,North,,28.0,New,Cash on Delivery,66.88,2,0,133.76,3.0,2.0
+ORD10687,2024-08-03,Clothing,Cotton T-Shirt,South,Sukkur,32.0,VIP,cash on delivery,32.0,1,20,25.6,5.0,1.0
+ORD10874,2024-05-29,Home & Kitchen,Coffee Maker,West,Quetta,47.0,Returning,cash on delivery,42.68,3,10,115.24,5.0,7.0
+ORD10642,2023-12-13,Clothing,Wool Sweater,South,Sukkur,26.0,New,COD,22.46,4,0,89.84,2.0,4.0
+ORD10249,2024-04-28,Clothing,Denim Jacket,North,Peshawar,49.0,Returning,Cash on Delivery,28.28,1,5,26.87,4.0,1.0
+ORD10250,2023-01-06,Sports,Resistance Bands,West,Zhob,28.0,VIP,Credit Card,28.12,4,0,112.48,4.0,1.0
+ORD10359,2023-11-06,Beauty,Perfume,East,Lahore,30.0,VIP,Bank Transfer,23.73,5,0,118.65,4.0,3.0
+ORD10888,2023-04-27,Sports,Cycling Helmet,North,Islamabad,42.0,Returning,credit card,48.25,1,0,48.25,3.0,3.0
+ORD10431,2023-04-15,Home & Kitchen,Table Lamp,North,Gilgit,43.0,Returning,Cash on Delivery,34.94,1,0,34.94,5.0,2.0
+ORD10442,2023-08-14,Clothing,Cotton T-Shirt,Central,Multan,21.0,New,Wallet,20.4,3,0,61.2,4.0,1.0
+ORD10819,2024-02-02,Electronics,Wireless Mouse,Central,Sahiwal,42.0,Returning,Wallet,46.97,4,5,178.49,3.0,2.0
+ORD10851,2023-02-25,Clothing,Baseball Cap,North,Islamabad,45.0,New,Cash on Delivery,35.45,1,5,33.68,1.0,6.0
+ORD10031,2024-11-16,Electronics,Webcam,South,Hyderabad,26.0,Returning,Cash on Delivery,48.96,1,0,48.96,4.0,6.0
+ORD10282,2023-03-30,Books,History Book,South,,30.0,New,COD,17.6,2,5,33.44,4.0,4.0
+ORD10677,2023-09-15,Electronics,Wireless Mouse,North,Islamabad,34.0,Returning,Bank Transfer,31.64,1,0,31.64,5.0,3.0
+ORD10972,2023-06-28,Electronics,Power Bank,North,Gilgit,27.0,VIP,Cash on Delivery,24.45,4,5,92.91,4.0,3.0
+ORD10118,2023-02-22,Books,Sci-Fi Anthology,East,Lahore,47.0,New,cash on delivery,17.36,1,0,17.36,1.0,2.0
+ORD10529,2024-12-22,Electronics,Wireless Mouse,South,Sukkur,31.0,VIP,Debit Card,50.52,1,0,50.52,1.0,4.0
+ORD10117,2023-01-13,Sports,Dumbbell Set,West,,33.0,Returning,cash on delivery,21.09,6,10,113.89,3.0,9.0
+ORD10708,2024-05-13,Beauty,Sunscreen SPF50,East,Faisalabad,46.0,Returning,Credit Card,14.65,1,0,14.65,3.0,1.0
+ORD10667,2023-04-05,Books,History Book,Central,Bahawalpur,30.0,New,Bank Transfer,20.58,1,5,19.55,5.0,3.0
+ORD10292,2023-11-06,Sports,Tennis Racket,East,Sialkot,33.0,Returning,COD,30.79,2,20,49.26,4.0,2.0
+ORD10028,2023-09-11,Books,History Book,West,Quetta,31.0,New,credit card,17.37,2,0,34.74,5.0,3.0
+ORD10382,2023-01-18,Beauty,Perfume,West,Quetta,22.0,Returning,Wallet,20.41,3,20,48.98,3.0,6.0
+ORD10308,2024-02-07,Home & Kitchen,Storage Jars,East,Lahore,56.0,VIP,Wallet,32.32,1,0,32.32,5.0,4.0
+ORD10777,2023-04-08,Clothing,Denim Jacket,West,Quetta,40.0,New,cash on delivery,25.1,1,0,25.1,5.0,2.0
+ORD10597,2024-05-14,Clothing,Running Shoes,South,Karachi,,New,Cash on Delivery,17.12,2,5,32.53,4.0,6.0
+ORD10201,2023-04-21,Clothing,Baseball Cap,West,Quetta,40.0,New,credit card,27.86,2,15,47.36,4.0,3.0
+ORD10573,2023-09-13,Clothing,Denim Jacket,South,Karachi,40.0,New,Credit Card,24.29,3,0,72.87,5.0,6.0
+ORD10386,2024-12-01,Beauty,Shampoo,South,Hyderabad,46.0,Returning,Debit Card,32.62,4,0,130.48,4.0,7.0
+ORD10715,2024-11-08,Beauty,Perfume,North,Gilgit,30.0,Returning,Debit Card,14.18,2,10,25.52,4.0,3.0
+ORD10663,2024-08-21,Beauty,Lipstick Set,South,Karachi,47.0,Returning,Credit Card,21.37,4,0,85.48,5.0,7.0
+ORD10908,2024-10-02,Electronics,Wireless Mouse,North,Peshawar,26.0,Returning,Bank Transfer,53.33,2,0,106.66,5.0,4.0
+ORD10877,2024-11-18,Home & Kitchen,Cutting Board,South,Sukkur,37.0,VIP,Bank Transfer,34.13,1,0,34.13,5.0,3.0
+ORD10541,2024-04-07,Books,History Book,South,Karachi,46.0,New,Credit Card,22.1,1,10,19.89,,4.0
+ORD10315,2023-03-05,Books,History Book,Central,Bahawalpur,18.0,Returning,Bank Transfer,18.92,3,0,56.76,4.0,6.0
+ORD10499,2024-01-17,Clothing,Cargo Pants,West,Zhob,47.0,Returning,Debit Card,26.87,2,25,40.3,5.0,7.0
+ORD10281,2024-01-05,Clothing,Denim Jacket,West,Quetta,16.0,Returning,credit card,19.62,1,0,19.62,5.0,4.0
+ORD10956,2023-01-12,Home & Kitchen,Table Lamp,South,Karachi,37.0,New,Credit Card,43.46,1,0,43.46,4.0,2.0
+ORD10759,2023-04-14,Sports,Dumbbell Set,West,Zhob,27.0,New,Wallet,21.07,5,10,94.82,5.0,2.0
+ORD10354,2024-04-16,Beauty,Sunscreen SPF50,South,Karachi,46.0,New,Wallet,14.81,6,0,88.86,3.0,1.0
+ORD10673,2023-03-26,Sports,Dumbbell Set,East,Sialkot,,VIP,Cash on Delivery,21.13,3,5,60.22,5.0,4.0
+ORD10208,2024-09-13,Books,Poetry Collection,West,Gwadar,22.0,New,Wallet,15.3,5,5,72.68,5.0,5.0
+ORD10380,2023-08-12,Electronics,Power Bank,South,Karachi,34.0,Returning,credit card,57.76,5,0,288.8,4.0,
+ORD10769,2023-12-26,Home & Kitchen,Coffee Maker,West,Quetta,16.0,VIP,Bank Transfer,51.37,2,5,97.6,4.0,3.0
+ORD10413,2024-01-09,Home & Kitchen,Cutting Board,East,Faisalabad,44.0,New,Bank Transfer,27.81,2,0,55.62,5.0,2.0
+ORD10795,2023-04-03,Sports,Resistance Bands,North,Islamabad,31.0,New,cash on delivery,38.98,1,20,31.18,,2.0
+ORD10024,2023-11-11,Books,Mystery Novel,North,Peshawar,29.0,New,Bank Transfer,21.27,2,0,42.54,3.0,5.0
+ORD10341,2024-11-27,Beauty,Hair Dryer,South,Karachi,32.0,Returning,Debit Card,19.8,1,0,19.8,5.0,1.0
+ORD10696,2024-10-03,Beauty,Shampoo,East,Sialkot,20.0,New,Debit Card,24.44,1,0,24.44,5.0,1.0
+ORD10859,2023-04-01,Home & Kitchen,Cutting Board,Central,Sahiwal,22.0,New,cash on delivery,30.17,2,0,60.34,4.0,4.0
+ORD10155,2023-06-20,Sports,Cycling Helmet,North,Peshawar,32.0,Returning,Credit Card,38.86,5,0,194.3,5.0,6.0
+ORD10863,2024-07-22,Sports,Water Bottle,West,Quetta,28.0,VIP,Bank Transfer,42.98,1,0,42.98,1.0,1.0
+ORD10558,2023-08-05,Electronics,Laptop Stand,South,Karachi,48.0,Returning,Cash on Delivery,50.85,2,0,101.7,4.0,2.0
+ORD10729,2024-11-27,Beauty,Lipstick Set,Central,Bahawalpur,26.0,New,Bank Transfer,23.52,2,0,47.04,4.0,3.0
+ORD10664,2023-06-07,Home & Kitchen,Cutting Board,South,Karachi,28.0,VIP,Credit Card,30.39,5,0,151.95,3.0,2.0
+ORD10789,2024-10-23,Books,Cookbook,South,Sukkur,49.0,New,COD,14.97,2,0,29.94,4.0,4.0
+ORD10323,2023-04-22,Beauty,Hair Dryer,East,Lahore,55.0,Returning,Bank Transfer,25.7,4,0,102.8,2.0,5.0
+ORD10581,2024-01-21,Sports,Cycling Helmet,East,Faisalabad,52.0,VIP,cash on delivery,14.42,6,0,86.52,4.0,1.0
+ORD10603,2024-08-25,Clothing,Cotton T-Shirt,West,Zhob,16.0,New,Debit Card,26.72,3,15,68.14,5.0,6.0
+ORD10587,2023-11-24,Electronics,Webcam,West,Zhob,16.0,Returning,Credit Card,29.42,3,0,88.26,2.0,7.0
+ORD10570,2024-10-23,Home & Kitchen,Table Lamp,West,Zhob,31.0,New,cash on delivery,38.68,2,5,73.49,5.0,4.0
+ORD10263,2024-01-01,Home & Kitchen,Coffee Maker,South,Hyderabad,60.0,VIP,Credit Card,39.79,1,20,31.83,5.0,6.0
+ORD10458,2023-02-19,Beauty,Sunscreen SPF50,East,Sialkot,29.0,New,cash on delivery,7.79,2,20,12.46,1.0,1.0
+ORD10083,2024-03-26,Beauty,Sunscreen SPF50,South,Hyderabad,43.0,New,Wallet,12.17,1,0,12.17,3.0,1.0
+ORD10947,2023-08-11,Home & Kitchen,Cutting Board,North,Islamabad,18.0,Returning,Credit Card,31.48,1,15,26.76,5.0,4.0
+ORD10465,2023-03-14,Electronics,Laptop Stand,South,Hyderabad,31.0,New,Debit Card,49.96,3,10,134.89,5.0,3.0
+ORD10552,2023-09-27,Home & Kitchen,Non-Stick Pan,West,Quetta,40.0,New,Wallet,43.5,4,0,174.0,3.0,5.0
+ORD10334,2024-06-11,Clothing,Cargo Pants,West,Gwadar,30.0,New,COD,33.07,3,25,74.41,4.0,2.0
+ORD10011,2024-11-17,Clothing,Running Shoes,East,Lahore,46.0,New,Debit Card,27.48,1,0,27.48,4.0,6.0
+ORD10471,2024-09-14,Clothing,Cargo Pants,Central,Sahiwal,16.0,New,Credit Card,13.11,2,5,24.91,5.0,4.0
+ORD10033,2024-03-17,Clothing,Cotton T-Shirt,North,Gilgit,39.0,New,COD,32.23,3,0,96.69,3.0,1.0
+ORD10811,2024-05-16,Beauty,Lipstick Set,Central,Sahiwal,47.0,New,Cash on Delivery,31.69,2,0,63.38,4.0,1.0
+ORD10880,2024-08-08,Sports,Water Bottle,West,Zhob,40.0,Returning,Credit Card,35.29,3,0,105.87,4.0,5.0
+ORD10383,2024-12-15,Beauty,Lipstick Set,North,Gilgit,49.0,Returning,Cash on Delivery,23.69,1,0,23.69,,1.0
+ORD10978,2024-06-29,Books,Self-Help Guide,West,Zhob,39.0,New,COD,23.26,3,0,69.78,4.0,2.0
+ORD10802,2024-07-16,Home & Kitchen,Non-Stick Pan,North,Gilgit,28.0,Returning,Wallet,47.65,1,0,47.65,5.0,1.0
+ORD10904,2024-05-10,Electronics,Webcam,Central,Multan,24.0,Returning,Wallet,65.11,1,0,65.11,5.0,1.0
+ORD10912,2024-08-05,Sports,Water Bottle,East,Faisalabad,42.0,Returning,Credit Card,14.85,1,0,14.85,4.0,5.0
+ORD10379,2023-05-21,Sports,Yoga Mat,North,Peshawar,25.0,Returning,Bank Transfer,17.89,4,0,71.56,5.0,3.0
+ORD10090,2023-06-19,Sports,Cycling Helmet,West,Zhob,23.0,Returning,Cash on Delivery,21.11,4,0,84.44,4.0,4.0
+ORD10214,2023-01-20,Electronics,Laptop Stand,North,Peshawar,16.0,Returning,Debit Card,35.55,3,5,101.32,5.0,2.0
+ORD10841,2024-05-29,Beauty,Perfume,South,Hyderabad,18.0,Returning,Cash on Delivery,14.25,2,0,28.5,,4.0
+ORD10134,2023-11-25,Books,Self-Help Guide,West,Gwadar,60.0,Returning,Cash on Delivery,14.86,3,0,44.58,4.0,5.0
+ORD10347,2023-01-04,Sports,Yoga Mat,West,Gwadar,51.0,Returning,Debit Card,41.79,1,0,41.79,4.0,6.0
+ORD10008,2024-09-25,Electronics,Webcam,East,Sialkot,22.0,VIP,credit card,56.9,5,0,284.5,4.0,1.0
+ORD10617,2023-04-14,Electronics,Webcam,North,Gilgit,40.0,VIP,Bank Transfer,59.9,1,0,59.9,5.0,2.0
+ORD10321,2023-02-13,Books,Self-Help Guide,South,Hyderabad,57.0,New,Debit Card,16.65,1,0,16.65,1.0,1.0
+ORD10783,2024-10-13,Beauty,Perfume,West,Zhob,16.0,VIP,COD,26.58,5,20,106.32,4.0,1.0
+ORD10188,2024-04-04,Beauty,Face Moisturizer,North,Peshawar,39.0,Returning,Debit Card,25.7,4,0,102.8,5.0,8.0
+ORD10305,2023-12-14,Clothing,Cotton T-Shirt,West,Gwadar,30.0,Returning,credit card,22.49,1,15,19.12,5.0,3.0
+ORD10032,2023-09-06,Sports,Tennis Racket,Central,Bahawalpur,25.0,Returning,COD,41.93,1,5,39.83,5.0,1.0
+ORD10612,2023-04-18,Beauty,Perfume,South,Hyderabad,23.0,Returning,Debit Card,26.85,1,0,26.85,5.0,4.0
+ORD10241,2024-04-25,Clothing,Cargo Pants,South,Hyderabad,38.0,VIP,Bank Transfer,27.01,3,0,81.03,3.0,1.0
+ORD10857,2024-11-06,Electronics,Laptop Stand,East,Sialkot,44.0,New,Debit Card,37.35,1,0,37.35,3.0,5.0
+ORD10175,2023-05-24,Sports,Water Bottle,West,Quetta,22.0,New,Credit Card,46.62,1,0,46.62,,5.0
+ORD10246,2023-12-24,Books,Mystery Novel,South,Hyderabad,26.0,VIP,COD,9.23,3,0,27.69,,3.0
+ORD10057,2024-01-09,Books,Cookbook,North,Peshawar,36.0,VIP,Credit Card,14.91,1,10,13.42,4.0,7.0
+ORD10751,2023-07-24,Clothing,Baseball Cap,South,Hyderabad,44.0,New,Bank Transfer,11.11,1,0,11.11,4.0,4.0
+ORD10146,2023-12-20,Clothing,Wool Sweater,Central,Bahawalpur,44.0,New,COD,29.75,2,0,59.5,2.0,4.0
+ORD10091,2024-08-29,Beauty,Perfume,North,Peshawar,37.0,Returning,Credit Card,10.36,1,0,10.36,1.0,1.0
+ORD10393,2024-08-03,Home & Kitchen,Non-Stick Pan,Central,Multan,42.0,Returning,COD,42.07,1,0,42.07,1.0,5.0
+ORD10311,2024-04-30,Beauty,Lipstick Set,North,Gilgit,34.0,New,Bank Transfer,27.78,1,0,27.78,5.0,2.0
+ORD10360,2024-07-24,Books,Self-Help Guide,East,Lahore,17.0,VIP,Cash on Delivery,16.76,4,0,67.04,4.0,2.0
+ORD10094,2024-04-26,Home & Kitchen,Cutting Board,East,Lahore,51.0,New,Credit Card,51.61,1,0,51.61,5.0,1.0
+ORD10692,2023-11-17,Home & Kitchen,Cutting Board,South,Karachi,23.0,New,Bank Transfer,30.99,1,10,27.89,4.0,7.0
+ORD10750,2023-11-18,Electronics,Webcam,South,Hyderabad,34.0,New,Wallet,42.13,1,0,42.13,5.0,2.0
+ORD10377,2023-05-24,Books,Cookbook,East,Lahore,36.0,Returning,cash on delivery,12.64,3,0,37.92,1.0,2.0
+ORD10244,2024-07-21,Home & Kitchen,Coffee Maker,West,Gwadar,41.0,VIP,Debit Card,35.67,1,0,35.67,4.0,4.0
+ORD10986,2023-07-17,Home & Kitchen,Non-Stick Pan,East,Faisalabad,42.0,New,Debit Card,31.04,1,5,29.49,2.0,1.0
+ORD10088,2024-07-13,Home & Kitchen,Cutting Board,West,Zhob,28.0,Returning,Bank Transfer,28.49,3,0,85.47,4.0,1.0
+ORD10215,2024-02-19,Home & Kitchen,Storage Jars,West,Zhob,62.0,Returning,COD,8.76,1,0,8.76,4.0,6.0
+ORD10982,2023-09-19,Home & Kitchen,Blender,East,Lahore,25.0,Returning,COD,27.91,2,0,55.82,4.0,3.0
+ORD10174,2023-08-15,Beauty,Perfume,East,Sialkot,,Returning,cash on delivery,27.86,1,20,22.29,,1.0
+ORD10426,2024-12-28,Home & Kitchen,Coffee Maker,East,Lahore,41.0,New,credit card,39.02,1,10,35.12,2.0,4.0
+ORD10829,2024-07-30,Sports,Water Bottle,Central,Multan,43.0,Returning,COD,34.97,1,10,31.47,4.0,5.0
+ORD10119,2023-03-17,Electronics,Wireless Mouse,West,Gwadar,16.0,Returning,Credit Card,31.34,2,15,53.28,4.0,6.0
+ORD10120,2023-03-29,Clothing,Denim Jacket,Central,Bahawalpur,,VIP,Debit Card,18.86,2,0,37.72,3.0,3.0
+ORD10636,2024-07-29,Beauty,Perfume,East,Sialkot,38.0,New,cash on delivery,24.84,1,0,24.84,4.0,6.0
+ORD10001,2023-10-09,Sports,Yoga Mat,North,Gilgit,33.0,New,Cash on Delivery,34.47,3,0,103.41,3.0,4.0
+ORD10395,2023-04-11,Beauty,Hair Dryer,East,Lahore,37.0,New,Debit Card,21.04,3,0,63.12,4.0,3.0
+ORD10402,2024-02-22,Books,History Book,Central,Sahiwal,45.0,New,Debit Card,7.68,3,0,23.04,4.0,2.0
+ORD10405,2024-01-25,Beauty,Perfume,South,Sukkur,18.0,New,Wallet,32.15,1,5,30.54,,5.0
+ORD10243,2023-07-24,Beauty,Perfume,West,Quetta,,Returning,Cash on Delivery,19.85,2,10,35.73,3.0,1.0
+ORD10850,2023-08-28,Beauty,Shampoo,West,Quetta,33.0,New,credit card,19.31,3,0,57.93,,3.0
+ORD10163,2024-12-17,Beauty,Lipstick Set,Central,Bahawalpur,47.0,New,COD,17.06,3,0,51.18,4.0,4.0
+ORD10115,2024-01-05,Electronics,USB-C Cable,East,Lahore,43.0,New,Credit Card,46.48,3,15,118.52,5.0,4.0
+ORD10151,2024-04-25,Books,Poetry Collection,South,Karachi,47.0,Returning,Wallet,15.37,5,10,69.16,,6.0
+ORD10588,2024-03-04,Sports,Resistance Bands,East,Faisalabad,41.0,New,Credit Card,22.26,1,5,21.15,5.0,3.0
+ORD10910,2023-10-16,Electronics,Power Bank,South,Sukkur,28.0,New,Debit Card,40.85,6,0,245.1,5.0,4.0
+ORD10726,2024-06-19,Electronics,Power Bank,North,Gilgit,49.0,New,Credit Card,59.4,2,10,106.92,,2.0
+ORD10369,2023-05-01,Home & Kitchen,Coffee Maker,South,Karachi,31.0,Returning,cash on delivery,26.68,4,20,85.38,2.0,4.0
+ORD10544,2023-06-18,Sports,Yoga Mat,West,Zhob,21.0,Returning,COD,19.61,5,0,98.05,,4.0
+ORD10478,2024-10-17,Books,Poetry Collection,West,Quetta,31.0,Returning,Cash on Delivery,11.86,4,15,40.32,4.0,5.0
+ORD10533,2024-01-23,Clothing,Baseball Cap,Central,Multan,29.0,New,Wallet,4.39,2,25,6.58,5.0,6.0
+ORD10988,2024-11-03,Electronics,Webcam,South,Hyderabad,42.0,Returning,Cash on Delivery,61.53,1,10,55.38,5.0,1.0
+ORD10808,2023-05-09,Sports,Dumbbell Set,Central,Multan,29.0,Returning,credit card,36.84,1,10,33.16,5.0,1.0
+ORD10959,2024-03-10,Beauty,Shampoo,West,Zhob,26.0,Returning,cash on delivery,24.13,1,0,24.13,4.0,5.0
+ORD10259,2023-12-13,Clothing,Cotton T-Shirt,East,Sialkot,37.0,Returning,Cash on Delivery,22.26,1,0,22.26,,2.0
+ORD10846,2024-07-28,Books,Poetry Collection,Central,Multan,46.0,Returning,Bank Transfer,21.6,1,0,21.6,5.0,3.0
+ORD10136,2023-11-28,Books,Mystery Novel,East,Faisalabad,29.0,New,COD,17.48,2,5,33.21,1.0,5.0
+ORD10925,2024-08-31,Electronics,Bluetooth Speaker,North,Gilgit,18.0,VIP,credit card,58.27,1,15,49.53,2.0,8.0
+ORD10872,2023-07-09,Clothing,Denim Jacket,North,Islamabad,41.0,New,Wallet,16.31,5,5,77.47,3.0,1.0
+ORD10797,2023-05-30,Sports,Yoga Mat,East,Lahore,46.0,New,COD,19.91,3,0,59.73,2.0,1.0
+ORD10502,2024-12-18,Home & Kitchen,Blender,East,Faisalabad,34.0,Returning,credit card,40.77,3,0,122.31,5.0,2.0
+ORD10539,2024-01-31,Home & Kitchen,Coffee Maker,North,Islamabad,57.0,New,COD,42.2,5,0,211.0,2.0,7.0
+ORD10654,2024-11-17,Electronics,Laptop Stand,South,Karachi,22.0,New,Wallet,45.08,1,5,42.83,3.0,3.0
+ORD10582,2024-11-24,Home & Kitchen,Non-Stick Pan,West,Gwadar,,Returning,COD,44.81,5,0,224.05,4.0,4.0
+ORD10344,2024-11-27,Home & Kitchen,Storage Jars,West,Quetta,16.0,New,cash on delivery,40.13,4,15,136.44,5.0,2.0
+ORD10675,2024-07-04,Sports,Resistance Bands,North,Islamabad,27.0,Returning,COD,16.11,1,10,14.5,,6.0
+ORD10622,2024-04-12,Clothing,Cotton T-Shirt,West,Gwadar,37.0,New,COD,16.16,5,0,80.8,,2.0
+ORD10294,2024-09-13,Books,Sci-Fi Anthology,South,Hyderabad,29.0,New,credit card,16.57,1,0,16.57,4.0,
+ORD10365,2023-09-06,Beauty,Perfume,South,Hyderabad,45.0,New,credit card,16.24,1,20,12.99,1.0,2.0
+ORD10628,2024-12-05,Sports,Water Bottle,Central,Sahiwal,46.0,Returning,Debit Card,36.09,1,0,36.09,5.0,4.0
+ORD10015,2024-10-20,Clothing,Baseball Cap,West,Gwadar,39.0,Returning,Wallet,23.35,2,10,42.03,4.0,3.0
+ORD10087,2024-01-25,Books,History Book,North,Gilgit,37.0,Returning,credit card,11.85,4,15,40.29,2.0,5.0
+ORD10371,2024-04-22,Beauty,Lipstick Set,East,Faisalabad,25.0,Returning,credit card,10.35,1,0,10.35,5.0,3.0
+ORD10166,2023-04-10,Sports,Cycling Helmet,South,Sukkur,40.0,VIP,Credit Card,22.5,3,0,67.5,4.0,4.0
+ORD10881,2023-02-13,Beauty,Face Moisturizer,West,Gwadar,39.0,VIP,Bank Transfer,22.46,1,20,17.97,2.0,4.0
+ORD10336,2024-04-02,Electronics,Bluetooth Speaker,West,Quetta,36.0,Returning,credit card,37.68,5,10,169.56,5.0,2.0
+ORD10060,2023-12-07,Books,Mystery Novel,South,Sukkur,57.0,Returning,COD,12.24,5,20,48.96,4.0,6.0
+ORD10355,2024-11-07,Clothing,Baseball Cap,North,Islamabad,23.0,New,Credit Card,40.56,2,0,81.12,,4.0
+ORD10425,2023-04-10,Beauty,Sunscreen SPF50,East,Faisalabad,52.0,New,cash on delivery,16.41,2,5,31.18,2.0,7.0
+ORD10293,2023-03-03,Home & Kitchen,Cutting Board,North,Gilgit,19.0,New,COD,43.34,1,0,43.34,4.0,4.0
+ORD10042,2024-05-29,Electronics,Wireless Mouse,Central,Bahawalpur,36.0,VIP,Cash on Delivery,47.38,1,0,47.38,2.0,2.0
+ORD10330,2024-09-09,Electronics,Wireless Mouse,East,Sialkot,32.0,New,credit card,42.51,1,0,42.51,3.0,1.0
+ORD10430,2023-01-05,Books,History Book,West,Gwadar,47.0,Returning,Bank Transfer,17.43,1,0,17.43,5.0,5.0
+ORD10080,2023-05-17,Beauty,Shampoo,North,Peshawar,37.0,Returning,credit card,28.67,2,15,48.74,5.0,1.0
+ORD10029,2024-08-25,Electronics,Webcam,Central,Multan,44.0,New,Debit Card,48.51,1,0,48.51,5.0,5.0
+ORD10255,2024-11-15,Beauty,Sunscreen SPF50,South,Sukkur,32.0,New,credit card,28.83,4,20,92.26,5.0,6.0
+ORD10749,2024-11-20,Clothing,Running Shoes,North,Peshawar,37.0,Returning,credit card,17.61,1,0,17.61,5.0,6.0
+ORD10459,2024-04-12,Electronics,Wireless Mouse,South,Hyderabad,,New,COD,45.34,1,0,45.34,,4.0
+ORD10384,2023-09-04,Electronics,Wireless Mouse,Central,Multan,18.0,New,Wallet,45.23,2,0,90.46,2.0,1.0
+ORD10314,2024-03-04,Clothing,Cotton T-Shirt,West,Gwadar,30.0,New,Bank Transfer,19.07,1,5,18.12,5.0,5.0
+ORD10085,2023-08-08,Clothing,Wool Sweater,South,Sukkur,25.0,New,COD,21.02,1,0,21.02,3.0,1.0
+ORD10575,2024-01-17,Sports,Yoga Mat,North,,39.0,Returning,cash on delivery,23.43,5,0,117.15,5.0,2.0
+ORD10137,2024-02-28,Beauty,Face Moisturizer,Central,Bahawalpur,46.0,New,credit card,21.54,2,5,40.93,3.0,3.0
+ORD10112,2023-12-27,Books,Poetry Collection,Central,Bahawalpur,46.0,Returning,Wallet,13.0,1,0,13.0,5.0,5.0
+ORD10195,2023-12-14,Books,Sci-Fi Anthology,South,Hyderabad,,Returning,COD,12.18,3,15,31.06,3.0,4.0
+ORD10179,2024-12-07,Beauty,Sunscreen SPF50,East,Lahore,43.0,New,cash on delivery,21.18,3,0,63.54,3.0,4.0
+ORD10885,2024-05-27,Books,Poetry Collection,West,Quetta,40.0,New,Cash on Delivery,10.29,4,5,39.1,3.0,4.0
+ORD10497,2023-11-11,Home & Kitchen,Coffee Maker,West,Zhob,19.0,New,Bank Transfer,46.36,1,0,46.36,5.0,6.0
+ORD10130,2023-03-24,Beauty,Perfume,West,Gwadar,27.0,Returning,COD,21.52,1,5,20.44,5.0,2.0
+ORD10338,2023-11-11,Electronics,Power Bank,North,Peshawar,41.0,New,Wallet,38.37,1,0,38.37,5.0,3.0
+ORD10609,2023-01-21,Beauty,Face Moisturizer,North,Gilgit,45.0,New,Debit Card,7.09,2,0,14.18,4.0,3.0
+ORD10125,2023-10-26,Books,Poetry Collection,Central,Bahawalpur,53.0,New,Wallet,13.85,2,0,27.7,4.0,1.0
+ORD10960,2024-03-10,Books,Self-Help Guide,South,Karachi,30.0,Returning,cash on delivery,18.0,5,15,76.5,5.0,4.0
+ORD10227,2024-09-11,Books,History Book,South,Hyderabad,,Returning,Cash on Delivery,15.2,2,0,30.4,4.0,6.0
+ORD10269,2023-12-28,Home & Kitchen,Cutting Board,North,Gilgit,27.0,Returning,COD,39.2,4,0,156.8,4.0,4.0
+ORD10977,2023-02-23,Electronics,Power Bank,East,,22.0,New,COD,84.63,4,0,338.52,5.0,5.0
+ORD11000,2023-02-26,Home & Kitchen,Table Lamp,East,Faisalabad,48.0,Returning,Debit Card,29.89,2,0,59.78,5.0,2.0
+ORD10104,2024-03-22,Beauty,Perfume,West,Gwadar,40.0,Returning,Wallet,20.54,1,0,20.54,5.0,7.0
+ORD10594,2024-10-11,Books,Mystery Novel,West,Quetta,42.0,Returning,Debit Card,261.6,2,10,470.88,4.0,2.0
+ORD10958,2024-12-13,Electronics,USB-C Cable,West,Gwadar,31.0,Returning,COD,65.92,1,0,65.92,1.0,2.0
+ORD10656,2024-04-08,Clothing,Cargo Pants,North,Peshawar,65.0,New,Bank Transfer,12.01,2,0,24.02,5.0,1.0
+ORD10228,2023-03-28,Electronics,Laptop Stand,North,Peshawar,39.0,Returning,Cash on Delivery,22.25,2,25,33.38,4.0,2.0
+ORD10883,2023-11-08,Clothing,Running Shoes,West,Gwadar,41.0,Returning,Wallet,32.55,1,0,32.55,4.0,2.0
+ORD10302,2024-01-10,Books,Cookbook,East,Sialkot,16.0,Returning,credit card,17.27,1,10,15.54,5.0,4.0
+ORD10276,2023-05-01,Books,History Book,West,Zhob,55.0,New,Wallet,16.52,2,0,33.04,1.0,
+ORD10127,2023-04-28,Sports,Tennis Racket,South,Hyderabad,56.0,Returning,Cash on Delivery,20.0,1,0,20.0,5.0,3.0
+ORD10406,2023-03-06,Home & Kitchen,Blender,West,Quetta,35.0,New,Wallet,28.9,5,20,115.6,,5.0
+ORD10889,2024-06-07,Electronics,Webcam,West,Zhob,38.0,Returning,Cash on Delivery,37.78,2,0,75.56,5.0,5.0
+ORD10037,2024-10-29,Books,History Book,North,Islamabad,16.0,VIP,Credit Card,11.19,4,0,44.76,3.0,5.0
+ORD10140,2023-01-15,Sports,Dumbbell Set,East,Sialkot,36.0,Returning,Debit Card,14.22,2,5,27.02,4.0,4.0
+ORD10304,2024-07-17,Electronics,Laptop Stand,Central,Bahawalpur,45.0,New,Debit Card,46.59,3,10,125.79,,3.0
+ORD10268,2024-03-12,Home & Kitchen,Cutting Board,Central,Sahiwal,38.0,New,cash on delivery,42.71,3,0,128.13,,4.0
+ORD10534,2024-08-09,Clothing,Denim Jacket,North,Gilgit,27.0,New,Credit Card,22.26,1,0,22.26,4.0,1.0
+ORD10546,2024-11-07,Sports,Tennis Racket,Central,Bahawalpur,41.0,New,Bank Transfer,37.34,2,15,63.48,2.0,5.0
+ORD10213,2024-07-26,Beauty,Hair Dryer,South,Sukkur,16.0,Returning,credit card,14.05,1,0,14.05,4.0,4.0
+ORD10469,2023-05-07,Clothing,Cotton T-Shirt,North,Islamabad,31.0,Returning,COD,23.37,2,5,44.4,4.0,3.0
+ORD10199,2024-11-12,Sports,Yoga Mat,West,Gwadar,19.0,VIP,COD,30.69,1,10,27.62,4.0,5.0
+ORD10528,2023-07-01,Beauty,Shampoo,South,Hyderabad,41.0,VIP,credit card,14.93,4,10,53.75,4.0,2.0
+ORD10793,2023-07-12,Home & Kitchen,Table Lamp,Central,Bahawalpur,61.0,New,Cash on Delivery,36.73,2,20,58.77,5.0,6.0
+ORD10242,2024-04-17,Home & Kitchen,Table Lamp,Central,,35.0,Returning,COD,31.29,3,0,93.87,5.0,4.0
+ORD10343,2024-08-09,Electronics,Webcam,Central,Multan,46.0,Returning,Cash on Delivery,28.89,1,10,26.0,4.0,5.0
+ORD10550,2024-04-27,Books,Mystery Novel,East,Faisalabad,20.0,Returning,Wallet,6.67,1,0,6.67,3.0,3.0
+ORD10387,2024-02-20,Sports,Cycling Helmet,North,Islamabad,24.0,New,cash on delivery,33.39,3,0,100.17,5.0,7.0
+ORD10858,2024-01-25,Electronics,Bluetooth Speaker,West,Quetta,56.0,Returning,Debit Card,46.85,2,10,84.33,5.0,3.0
+ORD10207,2023-02-20,Electronics,USB-C Cable,South,Sukkur,39.0,Returning,Wallet,47.03,2,5,89.36,5.0,3.0
+ORD10296,2023-10-01,Home & Kitchen,Non-Stick Pan,West,Quetta,34.0,New,Cash on Delivery,36.6,3,0,109.8,4.0,2.0
+ORD10770,2023-10-19,Beauty,Perfume,Central,Multan,21.0,New,cash on delivery,18.08,2,0,36.16,2.0,1.0
+ORD10074,2023-08-07,Books,Sci-Fi Anthology,West,Zhob,16.0,Returning,Cash on Delivery,14.61,4,10,52.6,4.0,2.0
+ORD10745,2024-05-10,Sports,Resistance Bands,West,Zhob,35.0,Returning,credit card,11.41,3,0,34.23,4.0,5.0
+ORD10105,2024-04-06,Home & Kitchen,Non-Stick Pan,North,Peshawar,30.0,New,cash on delivery,38.54,1,0,38.54,3.0,5.0
+ORD10838,2023-02-27,Sports,Tennis Racket,West,Quetta,35.0,VIP,credit card,29.89,1,0,29.89,,7.0
+ORD10709,2023-08-24,Beauty,Shampoo,West,Quetta,41.0,New,Wallet,14.64,1,0,14.64,5.0,5.0
+ORD10964,2024-09-16,Books,History Book,North,Gilgit,20.0,New,cash on delivery,9.7,4,0,38.8,5.0,4.0
+ORD10017,2023-05-22,Beauty,Sunscreen SPF50,East,Lahore,41.0,Returning,Debit Card,16.82,4,0,67.28,5.0,3.0
+ORD10440,2024-07-29,Books,Cookbook,South,Hyderabad,31.0,Returning,cash on delivery,17.34,2,10,31.21,4.0,2.0
+ORD10092,2024-04-17,Electronics,Power Bank,West,Quetta,37.0,New,Wallet,36.17,1,0,36.17,5.0,5.0
+ORD10089,2024-05-12,Books,Cookbook,East,Faisalabad,51.0,New,credit card,8.18,2,5,15.54,2.0,5.0
+ORD10451,2024-11-02,Clothing,Wool Sweater,North,,51.0,New,Cash on Delivery,38.12,2,0,76.24,5.0,4.0
+ORD10103,2024-06-18,Sports,Dumbbell Set,West,Quetta,32.0,VIP,Wallet,35.19,4,20,112.61,3.0,4.0
+ORD10239,2024-03-24,Clothing,Baseball Cap,Central,Multan,16.0,New,credit card,16.72,2,0,33.44,,4.0
+ORD10721,2024-05-08,Beauty,Perfume,North,Islamabad,54.0,Returning,Credit Card,21.92,4,0,87.68,4.0,3.0
+ORD10247,2023-08-30,Electronics,Laptop Stand,Central,Bahawalpur,30.0,New,Debit Card,47.01,6,0,282.06,3.0,3.0
+ORD10713,2024-08-29,Clothing,Cotton T-Shirt,South,Sukkur,40.0,New,Credit Card,16.18,1,20,12.94,,4.0
+ORD10158,2024-09-26,Clothing,Cotton T-Shirt,Central,Bahawalpur,39.0,Returning,cash on delivery,16.2,3,5,46.17,4.0,3.0
+ORD10480,2024-10-11,Beauty,Lipstick Set,West,Zhob,,Returning,Debit Card,15.87,1,0,15.87,4.0,2.0
+ORD10646,2023-11-26,Electronics,Laptop Stand,Central,Sahiwal,25.0,Returning,COD,46.77,1,0,46.77,1.0,4.0
+ORD10844,2024-02-13,Books,History Book,North,Gilgit,21.0,New,COD,13.41,1,0,13.41,3.0,5.0
+ORD10822,2023-09-30,Home & Kitchen,Table Lamp,North,Gilgit,28.0,Returning,Debit Card,48.87,1,5,46.43,4.0,3.0
+ORD10019,2024-09-02,Beauty,Face Moisturizer,West,Gwadar,32.0,VIP,Wallet,20.03,2,0,40.06,3.0,4.0
+ORD10955,2024-01-04,Clothing,Denim Jacket,Central,Bahawalpur,41.0,Returning,Cash on Delivery,32.72,2,20,52.35,5.0,4.0
+ORD10122,2024-03-15,Books,Sci-Fi Anthology,East,Sialkot,25.0,New,Credit Card,17.33,6,0,103.98,,3.0
+ORD10835,2023-11-04,Beauty,Shampoo,South,Hyderabad,50.0,New,COD,21.94,2,10,39.49,5.0,5.0
+ORD10980,2024-11-30,Books,Poetry Collection,East,Sialkot,31.0,VIP,Debit Card,13.61,3,0,40.83,4.0,5.0
+ORD10275,2023-04-27,Home & Kitchen,Table Lamp,East,Lahore,30.0,New,Cash on Delivery,42.59,6,0,255.54,4.0,5.0
+ORD10434,2023-06-26,Home & Kitchen,Blender,West,Zhob,37.0,Returning,Wallet,35.42,4,0,141.68,4.0,6.0
+ORD10917,2023-12-14,Electronics,USB-C Cable,East,Lahore,42.0,VIP,Cash on Delivery,54.06,1,0,54.06,4.0,4.0
+ORD10312,2023-06-24,Sports,Yoga Mat,Central,Bahawalpur,44.0,Returning,COD,26.3,1,0,26.3,5.0,6.0
+ORD10758,2023-11-20,Books,Mystery Novel,Central,Bahawalpur,38.0,Returning,Credit Card,21.42,4,5,81.4,3.0,5.0
+ORD10834,2023-06-09,Electronics,Wireless Mouse,West,Gwadar,21.0,New,credit card,34.14,4,20,109.25,3.0,4.0
+ORD10547,2024-07-16,Electronics,Wireless Mouse,West,Zhob,55.0,Returning,Cash on Delivery,32.19,2,15,54.72,5.0,3.0
+ORD10182,2024-10-16,Electronics,Power Bank,South,Sukkur,47.0,Returning,Credit Card,35.71,2,5,67.85,5.0,1.0
+ORD10185,2023-09-14,Home & Kitchen,Non-Stick Pan,South,Sukkur,31.0,Returning,Debit Card,24.48,2,5,46.51,5.0,3.0
+ORD10407,2024-01-05,Books,Self-Help Guide,West,Quetta,40.0,New,Bank Transfer,12.11,2,5,23.01,4.0,6.0
+ORD10607,2024-05-31,Clothing,Baseball Cap,North,Gilgit,43.0,New,credit card,31.61,1,0,31.61,5.0,1.0
+ORD10693,2024-01-04,Sports,Cycling Helmet,West,Gwadar,25.0,New,credit card,37.72,2,0,75.44,5.0,3.0
+ORD10521,2023-10-15,Home & Kitchen,Storage Jars,South,Karachi,45.0,New,cash on delivery,32.07,1,0,32.07,5.0,1.0
+ORD10381,2024-11-06,Electronics,Webcam,Central,Bahawalpur,46.0,Returning,Credit Card,64.21,1,0,64.21,5.0,4.0
+ORD10411,2023-07-25,Home & Kitchen,Blender,Central,Sahiwal,32.0,Returning,Cash on Delivery,42.81,6,0,256.86,5.0,1.0
+ORD10635,2024-07-24,Electronics,Laptop Stand,West,Quetta,25.0,Returning,Debit Card,71.89,1,0,71.89,5.0,3.0
+ORD10370,2023-07-29,Clothing,Baseball Cap,Central,Sahiwal,52.0,New,Bank Transfer,29.56,1,0,29.56,5.0,4.0
+ORD10815,2023-03-06,Beauty,Shampoo,East,Sialkot,35.0,Returning,COD,16.85,2,0,33.7,4.0,4.0
+ORD10832,2023-08-08,Home & Kitchen,Coffee Maker,East,Lahore,43.0,VIP,Credit Card,45.43,1,0,45.43,5.0,6.0
+ORD10753,2024-11-23,Clothing,Cotton T-Shirt,North,Islamabad,18.0,VIP,cash on delivery,31.47,2,0,62.94,5.0,2.0
+ORD10079,2024-12-13,Electronics,Laptop Stand,South,Karachi,51.0,Returning,Credit Card,53.71,3,0,161.13,3.0,1.0
+ORD10574,2024-01-13,Home & Kitchen,Table Lamp,South,Hyderabad,35.0,Returning,COD,30.02,1,25,22.52,5.0,3.0
+ORD10638,2024-04-08,Sports,Cycling Helmet,East,Sialkot,18.0,New,Bank Transfer,45.72,5,0,228.6,5.0,5.0
+ORD10608,2024-10-17,Sports,Cycling Helmet,North,Peshawar,42.0,New,Credit Card,23.18,1,0,23.18,3.0,9.0
+ORD10794,2023-04-15,Electronics,Webcam,North,Islamabad,25.0,New,Cash on Delivery,47.68,2,5,90.59,4.0,3.0
+ORD10993,2024-05-18,Beauty,Sunscreen SPF50,South,Sukkur,31.0,New,COD,16.06,6,10,86.72,4.0,2.0
+ORD10830,2024-04-08,Beauty,Hair Dryer,East,Faisalabad,19.0,New,COD,7.86,1,10,7.07,3.0,4.0
+ORD10923,2024-11-23,Home & Kitchen,Non-Stick Pan,North,Gilgit,16.0,VIP,Bank Transfer,46.51,2,5,88.37,5.0,3.0
+ORD10417,2024-04-04,Sports,Resistance Bands,West,Quetta,46.0,VIP,cash on delivery,28.3,3,0,84.9,4.0,4.0
+ORD10919,2024-02-28,Sports,Water Bottle,North,Peshawar,50.0,New,Bank Transfer,25.34,2,15,43.08,5.0,3.0
+ORD10562,2024-03-05,Sports,Tennis Racket,Central,Sahiwal,55.0,New,Cash on Delivery,27.19,3,20,65.26,2.0,4.0
+ORD10068,2024-06-16,Home & Kitchen,Coffee Maker,West,Quetta,40.0,VIP,Bank Transfer,45.33,6,0,271.98,4.0,4.0
+ORD10537,2024-11-17,Clothing,Baseball Cap,North,Gilgit,38.0,Returning,credit card,20.73,2,0,41.46,3.0,6.0
+ORD10078,2024-02-14,Sports,Cycling Helmet,West,Gwadar,47.0,New,Credit Card,43.96,4,0,175.84,4.0,4.0
+ORD10106,2023-01-30,Beauty,Perfume,West,Gwadar,31.0,Returning,credit card,26.21,2,0,52.42,5.0,5.0
+ORD10263,2024-01-01,Home & Kitchen,Coffee Maker,South,Hyderabad,60.0,VIP,Credit Card,39.79,1,20,31.83,5.0,6.0
+ORD10780,2023-10-18,Home & Kitchen,Non-Stick Pan,South,Sukkur,23.0,New,Cash on Delivery,34.36,4,0,137.44,3.0,5.0
+ORD10639,2023-10-26,Electronics,Bluetooth Speaker,East,Sialkot,,Returning,credit card,27.61,1,5,26.23,5.0,1.0
+ORD10560,2023-03-10,Beauty,Lipstick Set,East,Sialkot,39.0,New,COD,22.77,1,0,22.77,3.0,3.0
+ORD10965,2024-10-10,Sports,Cycling Helmet,North,Gilgit,34.0,Returning,Wallet,22.18,2,0,44.36,3.0,1.0
+ORD10691,2024-08-21,Home & Kitchen,Storage Jars,East,Sialkot,33.0,New,credit card,33.09,3,0,99.27,4.0,6.0
+ORD10867,2024-07-08,Clothing,Baseball Cap,South,Sukkur,16.0,Returning,Bank Transfer,19.91,1,5,18.91,4.0,3.0
+ORD10938,2023-03-08,Home & Kitchen,Cutting Board,West,Quetta,35.0,Returning,credit card,35.23,2,15,59.89,4.0,4.0
+ORD10869,2023-03-11,Sports,Tennis Racket,South,,34.0,Returning,Debit Card,17.47,2,0,34.94,,4.0
+ORD10736,2024-11-02,Sports,Resistance Bands,West,,,Returning,Credit Card,28.7,4,0,114.8,5.0,3.0
+ORD10778,2024-06-20,Beauty,Face Moisturizer,North,Peshawar,33.0,Returning,Debit Card,16.38,1,0,16.38,4.0,7.0
+ORD10491,2023-05-03,Home & Kitchen,Coffee Maker,Central,Bahawalpur,,Returning,Credit Card,39.86,1,5,37.87,5.0,5.0
+ORD10998,2023-03-13,Books,Sci-Fi Anthology,West,Zhob,39.0,Returning,Credit Card,13.63,1,0,13.63,3.0,5.0
+ORD10843,2023-06-01,Clothing,Wool Sweater,East,Faisalabad,47.0,New,Debit Card,16.1,1,0,16.1,3.0,6.0
+ORD10606,2023-08-18,Clothing,Wool Sweater,North,Islamabad,25.0,Returning,Cash on Delivery,30.32,1,0,30.32,4.0,4.0
+ORD10364,2023-03-01,Home & Kitchen,Table Lamp,South,Hyderabad,30.0,Returning,COD,32.47,3,5,92.54,4.0,2.0
+ORD10070,2024-11-13,Sports,Water Bottle,Central,Bahawalpur,33.0,New,COD,38.79,2,0,77.58,4.0,1.0
+ORD10549,2023-06-24,Clothing,Cotton T-Shirt,North,Islamabad,31.0,Returning,Debit Card,34.17,1,5,32.46,4.0,3.0
+ORD10161,2024-10-16,Books,Self-Help Guide,Central,Bahawalpur,25.0,VIP,Wallet,14.2,1,0,14.2,5.0,2.0
+ORD10012,2023-09-08,Beauty,Hair Dryer,South,Sukkur,22.0,New,COD,14.61,2,15,24.84,5.0,3.0
+ORD10145,2024-08-16,Home & Kitchen,Table Lamp,East,Sialkot,42.0,VIP,cash on delivery,38.99,4,5,148.16,5.0,3.0
+ORD10518,2023-07-24,Home & Kitchen,Cutting Board,South,Hyderabad,16.0,Returning,Bank Transfer,43.2,2,0,86.4,5.0,3.0
+ORD10428,2023-08-26,Home & Kitchen,Storage Jars,West,Gwadar,47.0,Returning,Cash on Delivery,24.96,2,0,49.92,4.0,5.0
+ORD10640,2024-05-19,Sports,Yoga Mat,North,Islamabad,20.0,New,COD,31.19,3,0,93.57,3.0,3.0
+ORD10177,2024-12-14,Books,Sci-Fi Anthology,East,Sialkot,48.0,VIP,COD,14.63,6,0,87.78,5.0,5.0
+ORD10441,2024-12-28,Books,Poetry Collection,West,Gwadar,34.0,Returning,cash on delivery,16.55,1,0,16.55,3.0,7.0
+ORD10522,2023-06-13,Beauty,Lipstick Set,Central,Multan,31.0,New,Bank Transfer,11.19,4,0,44.76,4.0,6.0
+ORD10870,2023-01-31,Clothing,Running Shoes,South,Sukkur,22.0,Returning,COD,24.0,2,5,45.6,4.0,4.0
+ORD10942,2023-03-09,Beauty,Shampoo,West,Gwadar,31.0,New,COD,25.41,2,0,50.82,5.0,1.0
+ORD10689,2023-12-05,Clothing,Baseball Cap,Central,Bahawalpur,35.0,New,Bank Transfer,28.18,1,0,28.18,4.0,1.0
+ORD10232,2023-12-08,Home & Kitchen,Blender,Central,Multan,20.0,New,Cash on Delivery,36.14,3,0,108.42,5.0,1.0
+ORD10211,2023-05-21,Electronics,USB-C Cable,East,Lahore,20.0,Returning,Wallet,61.06,4,10,219.82,5.0,6.0
+ORD10641,2023-07-12,Electronics,Bluetooth Speaker,Central,Multan,19.0,New,COD,38.55,1,0,38.55,4.0,1.0
+ORD10144,2024-06-03,Electronics,Bluetooth Speaker,West,Gwadar,19.0,New,Credit Card,60.45,1,15,51.38,4.0,3.0
+ORD10754,2024-05-08,Beauty,Face Moisturizer,Central,Multan,45.0,New,credit card,13.07,5,0,65.35,5.0,3.0
+ORD10520,2024-02-02,Home & Kitchen,Storage Jars,Central,Bahawalpur,49.0,New,Credit Card,42.16,4,0,168.64,,4.0
+ORD10369,2023-05-01,Home & Kitchen,Coffee Maker,South,Karachi,31.0,Returning,cash on delivery,26.68,4,20,85.38,2.0,4.0
+ORD10299,2023-04-03,Books,Self-Help Guide,West,Quetta,25.0,VIP,cash on delivery,12.09,1,0,12.09,5.0,1.0
+ORD10767,2024-10-06,Electronics,USB-C Cable,East,Faisalabad,45.0,New,credit card,63.24,6,0,379.44,5.0,6.0
+ORD10429,2023-01-30,Clothing,Baseball Cap,West,Gwadar,40.0,Returning,Bank Transfer,26.73,3,15,68.16,4.0,2.0
+ORD10613,2023-07-23,Home & Kitchen,Coffee Maker,North,Peshawar,47.0,Returning,Wallet,46.56,3,15,118.73,4.0,5.0
+ORD10952,2023-10-16,Sports,Tennis Racket,East,Lahore,42.0,VIP,Bank Transfer,31.64,6,0,189.84,3.0,3.0
+ORD10937,2023-07-07,Beauty,Lipstick Set,East,Faisalabad,33.0,Returning,credit card,15.59,1,25,11.69,5.0,2.0
+ORD10009,2024-11-08,Beauty,Shampoo,North,Islamabad,47.0,New,Wallet,17.24,1,0,17.24,3.0,5.0
+ORD10157,2024-11-29,Clothing,Cargo Pants,West,Zhob,49.0,Returning,Cash on Delivery,20.22,1,20,16.18,5.0,3.0
+ORD10540,2023-12-26,Clothing,Wool Sweater,West,Gwadar,41.0,Returning,Debit Card,26.03,1,0,26.03,4.0,4.0
+ORD10507,2024-12-29,Clothing,Running Shoes,South,Karachi,21.0,New,credit card,26.81,1,15,22.79,5.0,1.0
+ORD10437,2024-01-28,Books,History Book,South,Sukkur,18.0,New,cash on delivery,10.37,2,0,20.74,5.0,2.0
+ORD10267,2023-03-23,Beauty,Lipstick Set,East,Lahore,38.0,New,Wallet,19.0,3,0,57.0,5.0,5.0
+ORD10462,2024-12-17,Electronics,Laptop Stand,East,Sialkot,16.0,Returning,COD,29.92,1,0,29.92,4.0,5.0
+ORD10577,2023-01-29,Sports,Cycling Helmet,North,Peshawar,38.0,New,Cash on Delivery,33.5,1,0,33.5,3.0,1.0
+ORD10339,2024-09-21,Sports,Yoga Mat,East,Faisalabad,51.0,New,Cash on Delivery,20.19,2,0,40.38,5.0,4.0
+ORD10256,2024-06-03,Electronics,Webcam,Central,Sahiwal,33.0,Returning,COD,29.87,2,0,59.74,5.0,5.0
+ORD10943,2024-12-11,Books,History Book,East,Sialkot,39.0,New,Debit Card,22.31,1,0,22.31,3.0,7.0
+ORD10849,2023-06-23,Home & Kitchen,Storage Jars,North,Peshawar,58.0,VIP,cash on delivery,24.08,2,0,48.16,5.0,
+ORD10666,2023-07-08,Sports,Water Bottle,Central,Multan,17.0,Returning,Cash on Delivery,31.8,1,0,31.8,4.0,4.0
+ORD10561,2024-04-14,Beauty,Lipstick Set,East,Sialkot,40.0,VIP,Credit Card,21.14,2,0,42.28,4.0,1.0
+ORD10209,2024-03-16,Clothing,Cargo Pants,North,Peshawar,21.0,New,cash on delivery,37.25,1,5,35.39,,6.0
+ORD10288,2024-06-30,Clothing,Baseball Cap,East,Sialkot,39.0,New,Cash on Delivery,16.77,1,10,15.09,2.0,4.0
+ORD10002,2024-08-27,Sports,Yoga Mat,Central,Multan,28.0,New,Credit Card,39.09,3,0,117.27,3.0,2.0
+ORD10342,2024-01-06,Beauty,Sunscreen SPF50,Central,Sahiwal,40.0,New,Debit Card,24.4,3,5,69.54,4.0,45.0
+ORD10270,2024-11-18,Home & Kitchen,Table Lamp,North,Islamabad,16.0,Returning,credit card,42.6,2,0,85.2,5.0,4.0
+ORD10266,2024-03-10,Home & Kitchen,Storage Jars,East,Lahore,18.0,New,Cash on Delivery,31.52,1,15,26.79,5.0,5.0
+ORD10814,2023-07-09,Books,Mystery Novel,Central,Bahawalpur,57.0,VIP,credit card,16.28,2,10,29.3,4.0,5.0
+ORD10821,2024-10-16,Sports,Resistance Bands,North,Peshawar,46.0,New,COD,39.72,4,20,127.1,,6.0
+ORD10096,2023-09-02,Clothing,Cotton T-Shirt,Central,Multan,16.0,New,Debit Card,21.9,1,0,21.9,,5.0
+ORD10970,2024-05-11,Sports,Tennis Racket,North,Peshawar,38.0,New,Debit Card,31.61,5,5,150.15,4.0,2.0
+ORD10043,2023-03-12,Electronics,Webcam,North,Islamabad,16.0,Returning,Bank Transfer,76.25,1,0,76.25,2.0,2.0
+ORD10803,2024-01-05,Books,Poetry Collection,East,Lahore,36.0,VIP,Bank Transfer,10.25,1,0,10.25,4.0,7.0
+ORD10819,2024-02-02,Electronics,Wireless Mouse,Central,Sahiwal,42.0,Returning,Wallet,46.97,4,5,178.49,3.0,2.0
+ORD10860,2023-09-11,Beauty,Hair Dryer,North,Islamabad,51.0,VIP,Wallet,20.06,2,10,36.11,5.0,3.0
+ORD10629,2023-12-21,Books,Poetry Collection,South,Hyderabad,28.0,Returning,COD,19.98,2,0,39.96,5.0,
+ORD10046,2023-09-29,Clothing,Baseball Cap,East,,29.0,New,Wallet,28.32,1,10,25.49,2.0,1.0
+ORD10162,2024-05-09,Books,Self-Help Guide,South,Hyderabad,16.0,New,COD,14.96,1,5,14.21,5.0,2.0
+ORD10728,2023-09-25,Clothing,Wool Sweater,Central,Bahawalpur,26.0,VIP,COD,20.73,3,0,62.19,5.0,6.0
+ORD10630,2023-01-12,Clothing,Cargo Pants,Central,Multan,32.0,Returning,Cash on Delivery,31.03,1,0,31.03,5.0,1.0
+ORD10289,2024-11-05,Beauty,Perfume,South,Karachi,32.0,Returning,credit card,19.4,1,0,19.4,,2.0
+ORD10590,2024-01-03,Sports,Tennis Racket,West,Zhob,40.0,Returning,Cash on Delivery,38.76,4,0,155.04,4.0,2.0
+ORD10893,2023-01-13,Clothing,Cotton T-Shirt,Central,Bahawalpur,,Returning,cash on delivery,24.82,2,0,49.64,5.0,3.0
+ORD10954,2023-08-05,Books,Sci-Fi Anthology,West,Zhob,35.0,Returning,cash on delivery,15.58,1,10,14.02,2.0,2.0
+ORD10576,2023-12-25,Clothing,Wool Sweater,Central,Sahiwal,31.0,New,Wallet,17.29,2,0,34.58,4.0,3.0
+ORD10316,2024-01-21,Beauty,Lipstick Set,West,Zhob,43.0,New,Cash on Delivery,12.1,5,15,51.42,5.0,5.0
+ORD10890,2023-06-24,Books,History Book,West,Quetta,38.0,VIP,Cash on Delivery,9.31,1,5,8.84,3.0,6.0
+ORD10231,2023-12-04,Sports,Cycling Helmet,East,Lahore,25.0,New,COD,30.31,1,10,27.28,4.0,6.0
+ORD10810,2023-02-10,Home & Kitchen,Table Lamp,South,Hyderabad,45.0,Returning,cash on delivery,51.35,1,0,51.35,5.0,1.0
+ORD10699,2023-10-25,Home & Kitchen,Cutting Board,South,Sukkur,34.0,New,Debit Card,37.91,2,25,56.86,5.0,4.0
+ORD10826,2023-06-20,Sports,Resistance Bands,West,Quetta,31.0,Returning,COD,38.29,1,0,38.29,5.0,4.0
+ORD10712,2024-10-24,Books,Cookbook,Central,Multan,50.0,Returning,Credit Card,12.53,1,25,9.4,4.0,2.0
+ORD10077,2024-04-11,Clothing,Wool Sweater,Central,Multan,50.0,New,Bank Transfer,13.49,1,5,12.82,4.0,4.0
+ORD10634,2023-05-02,Electronics,Laptop Stand,West,Gwadar,27.0,VIP,Credit Card,43.87,5,0,219.35,3.0,5.0
+ORD10976,2024-08-14,Sports,Cycling Helmet,South,Karachi,28.0,Returning,credit card,35.78,1,0,35.78,4.0,4.0
+ORD10248,2023-04-12,Home & Kitchen,Non-Stick Pan,North,Peshawar,35.0,Returning,credit card,27.58,1,5,26.2,,2.0
+ORD10820,2023-03-14,Electronics,Bluetooth Speaker,South,Sukkur,38.0,New,Bank Transfer,57.78,2,0,115.56,1.0,3.0
+ORD10477,2023-10-21,Electronics,Wireless Mouse,West,Zhob,32.0,Returning,COD,27.19,4,15,92.45,4.0,3.0
+ORD10671,2024-07-07,Books,Mystery Novel,West,Gwadar,25.0,Returning,Credit Card,18.52,3,0,55.56,4.0,
+ORD10086,2023-03-05,Home & Kitchen,Storage Jars,West,Gwadar,33.0,New,COD,32.99,1,0,32.99,5.0,4.0
+ORD10470,2023-09-11,Home & Kitchen,Cutting Board,East,Lahore,36.0,New,Debit Card,28.77,1,0,28.77,5.0,4.0
+ORD10226,2024-04-18,Beauty,Perfume,Central,Bahawalpur,30.0,Returning,Credit Card,12.57,1,5,11.94,3.0,4.0
+ORD10775,2024-04-06,Home & Kitchen,Table Lamp,Central,Sahiwal,37.0,New,Cash on Delivery,29.59,4,0,118.36,2.0,1.0
+ORD10332,2023-04-26,Beauty,Sunscreen SPF50,East,Lahore,39.0,New,cash on delivery,16.53,2,0,33.06,4.0,3.0
+ORD10234,2023-12-03,Home & Kitchen,Storage Jars,West,Zhob,54.0,Returning,Debit Card,41.61,2,0,83.22,4.0,3.0
+ORD10589,2023-12-18,Beauty,Hair Dryer,Central,Multan,25.0,Returning,Bank Transfer,13.99,2,0,27.98,5.0,5.0
+ORD10476,2023-03-11,Books,Mystery Novel,North,Gilgit,16.0,New,Bank Transfer,15.59,4,10,56.12,5.0,3.0
+ORD10891,2023-02-22,Clothing,Denim Jacket,South,Sukkur,31.0,New,Wallet,16.13,3,10,43.55,3.0,6.0
+ORD10871,2024-10-14,Books,Self-Help Guide,West,Zhob,25.0,VIP,Wallet,16.11,2,10,29.0,4.0,3.0
+ORD10600,2023-01-05,Books,Sci-Fi Anthology,West,Gwadar,28.0,New,Bank Transfer,13.77,2,0,27.54,5.0,2.0
+ORD10422,2024-11-26,Books,Self-Help Guide,West,Gwadar,26.0,Returning,Cash on Delivery,3.49,1,20,2.79,4.0,1.0
+ORD10688,2024-11-18,Sports,Tennis Racket,North,Peshawar,46.0,New,Debit Card,37.14,1,20,29.71,4.0,2.0
+ORD10183,2024-08-01,Electronics,Bluetooth Speaker,South,Karachi,34.0,New,Bank Transfer,31.95,1,25,23.96,3.0,8.0
+ORD10618,2023-02-21,Books,Self-Help Guide,East,Faisalabad,,New,Cash on Delivery,10.14,2,15,17.24,5.0,6.0
+ORD10333,2023-12-12,Sports,Water Bottle,South,Karachi,25.0,Returning,Bank Transfer,31.92,1,0,31.92,4.0,3.0
+ORD10439,2023-02-24,Clothing,Running Shoes,West,Zhob,28.0,VIP,Credit Card,23.83,5,5,113.19,5.0,1.0
+ORD10050,2024-11-14,Beauty,Hair Dryer,Central,Multan,19.0,Returning,Wallet,31.23,1,0,31.23,4.0,3.0
+ORD10006,2024-01-03,Electronics,Wireless Mouse,West,Quetta,22.0,Returning,Wallet,57.79,1,5,54.9,4.0,3.0
+ORD10530,2024-12-22,Beauty,Lipstick Set,North,Peshawar,33.0,VIP,COD,22.25,2,10,40.05,4.0,1.0
+ORD10235,2024-01-06,Sports,Cycling Helmet,West,Zhob,42.0,New,Wallet,39.82,5,0,199.1,4.0,4.0
+ORD10487,2024-01-12,Electronics,Laptop Stand,Central,Multan,27.0,New,Debit Card,33.56,1,0,33.56,4.0,5.0
+ORD10995,2023-01-20,Electronics,Webcam,East,Faisalabad,34.0,VIP,Cash on Delivery,47.68,3,0,143.04,,1.0
+ORD10498,2024-12-29,Books,Sci-Fi Anthology,North,Islamabad,47.0,New,Credit Card,17.83,1,10,16.05,5.0,8.0
+ORD10899,2023-06-15,Electronics,Wireless Mouse,West,Quetta,29.0,Returning,Cash on Delivery,64.27,1,0,64.27,4.0,3.0
+ORD10107,2023-09-22,Clothing,Wool Sweater,South,Hyderabad,22.0,New,Wallet,9.71,2,0,19.42,5.0,1.0
+ORD10444,2023-04-27,Beauty,Perfume,North,Gilgit,33.0,New,credit card,22.38,1,0,22.38,3.0,4.0
+ORD10489,2024-01-28,Clothing,Cotton T-Shirt,West,Gwadar,47.0,VIP,Cash on Delivery,28.83,3,0,86.49,5.0,4.0
+ORD10647,2024-02-12,Books,History Book,South,Hyderabad,51.0,VIP,Wallet,20.19,2,0,40.38,4.0,4.0
+ORD10013,2024-12-02,Home & Kitchen,Table Lamp,Central,Multan,53.0,New,Credit Card,38.79,3,0,116.37,4.0,3.0
+ORD10739,2024-11-01,Sports,Yoga Mat,East,Lahore,44.0,New,Cash on Delivery,30.44,1,0,30.44,5.0,3.0
+ORD10727,2023-11-20,Books,Poetry Collection,South,Sukkur,,New,Debit Card,21.27,4,10,76.57,4.0,3.0
+ORD10191,2024-03-30,Sports,Yoga Mat,West,Zhob,36.0,New,Debit Card,30.34,1,5,28.82,2.0,6.0
+ORD10948,2024-06-28,Clothing,Baseball Cap,South,Hyderabad,29.0,New,cash on delivery,25.02,2,0,50.04,3.0,1.0
+ORD10833,2024-07-23,Sports,Water Bottle,Central,Sahiwal,48.0,Returning,Cash on Delivery,37.59,1,0,37.59,3.0,4.0
+ORD10283,2024-02-25,Sports,Cycling Helmet,West,Zhob,48.0,Returning,Debit Card,26.65,2,0,53.3,3.0,1.0
+ORD10030,2023-03-11,Sports,Cycling Helmet,North,Islamabad,37.0,VIP,credit card,40.95,1,0,40.95,1.0,5.0
+ORD10170,2024-04-24,Home & Kitchen,Table Lamp,East,Lahore,16.0,VIP,Cash on Delivery,30.75,3,0,92.25,5.0,5.0
+ORD10181,2023-05-06,Electronics,Laptop Stand,East,Lahore,27.0,VIP,cash on delivery,56.35,1,0,56.35,1.0,3.0
+ORD10101,2024-01-15,Home & Kitchen,Storage Jars,West,Zhob,35.0,New,credit card,28.16,1,0,28.16,2.0,2.0
+ORD10198,2024-07-23,Books,Mystery Novel,East,Lahore,16.0,New,credit card,9.39,1,10,8.45,2.0,3.0
+ORD10496,2023-08-27,Clothing,Cotton T-Shirt,West,Quetta,49.0,Returning,Credit Card,21.22,1,0,21.22,5.0,2.0
+ORD10722,2024-03-06,Sports,Cycling Helmet,West,Zhob,50.0,New,Credit Card,26.14,5,0,130.7,4.0,2.0
+ORD10648,2024-09-08,Books,Cookbook,South,Hyderabad,18.0,Returning,Wallet,17.28,3,0,51.84,3.0,2.0
+ORD10981,2024-09-17,Beauty,Hair Dryer,East,Faisalabad,40.0,VIP,Wallet,24.92,1,15,21.18,4.0,2.0
+ORD10935,2024-12-16,Books,History Book,South,Karachi,72.0,Returning,cash on delivery,18.2,1,5,17.29,3.0,3.0
+ORD10711,2023-04-27,Sports,Dumbbell Set,West,Gwadar,33.0,Returning,cash on delivery,26.55,1,0,26.55,,4.0
+ORD10374,2024-07-20,Sports,Dumbbell Set,North,Peshawar,27.0,VIP,COD,39.03,2,0,78.06,5.0,4.0
+ORD10679,2023-01-07,Electronics,Laptop Stand,North,Gilgit,39.0,Returning,Debit Card,47.02,1,0,47.02,5.0,1.0
+ORD10886,2023-01-26,Books,Sci-Fi Anthology,East,Faisalabad,44.0,New,Bank Transfer,17.5,1,5,16.62,5.0,2.0
+ORD10649,2024-07-20,Sports,Tennis Racket,East,Sialkot,28.0,Returning,Bank Transfer,34.47,3,0,103.41,4.0,2.0
+ORD10798,2023-07-16,Electronics,Webcam,West,Quetta,22.0,VIP,Wallet,28.52,1,0,28.52,4.0,
+ORD10848,2024-01-10,Electronics,Power Bank,West,Gwadar,36.0,New,credit card,55.72,3,0,167.16,4.0,4.0
+ORD10461,2023-03-26,Electronics,Power Bank,East,Faisalabad,39.0,New,Cash on Delivery,55.67,4,5,211.55,3.0,1.0
+ORD10414,2024-07-17,Beauty,Perfume,South,Sukkur,16.0,New,cash on delivery,16.41,5,0,82.05,2.0,4.0
+ORD10132,2023-06-29,Sports,Water Bottle,Central,Multan,44.0,Returning,cash on delivery,22.65,1,0,22.65,4.0,1.0
+ORD10040,2024-05-13,Home & Kitchen,Cutting Board,Central,Sahiwal,,New,Wallet,49.51,1,10,44.56,,4.0
+ORD10435,2023-05-18,Beauty,Perfume,North,Gilgit,24.0,New,Bank Transfer,17.13,1,15,14.56,5.0,2.0
+ORD10216,2023-11-29,Home & Kitchen,Coffee Maker,West,Quetta,43.0,New,cash on delivery,15.85,2,5,30.12,5.0,5.0
+ORD10556,2023-03-22,Beauty,Shampoo,West,Gwadar,36.0,New,Credit Card,22.7,1,0,22.7,4.0,3.0
+ORD10567,2024-05-01,Sports,Dumbbell Set,North,Gilgit,28.0,VIP,credit card,29.16,1,15,24.79,5.0,4.0
+ORD10763,2024-07-22,Electronics,Power Bank,East,Lahore,32.0,New,COD,62.7,4,0,250.8,4.0,3.0
+ORD10475,2024-08-05,Home & Kitchen,Blender,South,Hyderabad,21.0,New,Cash on Delivery,62.52,2,5,118.79,4.0,6.0
+ORD10457,2023-10-18,Clothing,Wool Sweater,East,Faisalabad,52.0,New,Cash on Delivery,23.27,2,0,46.54,5.0,1.0
+ORD10812,2024-04-24,Beauty,Lipstick Set,East,Sialkot,21.0,New,Cash on Delivery,19.5,1,0,19.5,4.0,2.0
+ORD10261,2023-07-26,Sports,Resistance Bands,North,Peshawar,43.0,New,Bank Transfer,40.67,1,0,40.67,3.0,5.0
+ORD10817,2023-04-09,Books,Poetry Collection,East,Lahore,59.0,Returning,Debit Card,4.33,1,5,4.11,5.0,4.0
+ORD10036,2024-04-18,Clothing,Wool Sweater,South,Hyderabad,33.0,New,Debit Card,32.33,1,5,30.71,,5.0
+ORD10828,2024-02-27,Home & Kitchen,Storage Jars,East,Faisalabad,38.0,Returning,COD,19.11,4,15,64.97,3.0,1.0
+ORD10310,2024-11-20,Books,Mystery Novel,East,Faisalabad,33.0,New,COD,16.58,1,0,16.58,4.0,6.0
+ORD10277,2023-10-20,Sports,Resistance Bands,South,Sukkur,50.0,Returning,cash on delivery,16.27,3,0,48.81,5.0,8.0
+ORD10637,2024-04-10,Home & Kitchen,Blender,North,Islamabad,51.0,New,cash on delivery,37.65,4,5,143.07,5.0,1.0
+ORD10655,2023-03-05,Clothing,Running Shoes,East,Lahore,20.0,Returning,Wallet,20.64,3,0,61.92,4.0,6.0
+ORD10623,2023-06-20,Sports,Resistance Bands,West,Zhob,33.0,New,Credit Card,24.66,1,0,24.66,3.0,1.0
+ORD10836,2023-11-29,Beauty,Shampoo,North,Gilgit,37.0,Returning,Cash on Delivery,22.7,1,5,21.56,2.0,3.0
+ORD10845,2024-05-07,Beauty,Sunscreen SPF50,South,Karachi,47.0,Returning,cash on delivery,17.07,3,0,51.21,5.0,6.0
+ORD10394,2023-05-24,Sports,Tennis Racket,East,Faisalabad,46.0,Returning,Debit Card,23.32,2,0,46.64,,1.0
+ORD10944,2023-04-28,Sports,Cycling Helmet,Central,Bahawalpur,34.0,Returning,cash on delivery,25.32,3,25,56.97,4.0,1.0
+ORD10108,2023-03-29,Beauty,Face Moisturizer,Central,Multan,45.0,New,COD,20.1,4,0,80.4,5.0,4.0
+ORD10951,2024-07-16,Clothing,Running Shoes,North,Peshawar,62.0,VIP,Credit Card,32.17,6,0,193.02,2.0,6.0
+ORD10525,2024-07-31,Beauty,Face Moisturizer,East,Sialkot,20.0,New,Bank Transfer,28.86,1,0,28.86,3.0,2.0
+ORD10785,2024-02-27,Electronics,Laptop Stand,East,Faisalabad,27.0,New,Wallet,46.49,1,0,46.49,4.0,1.0
+ORD10048,2023-09-29,Electronics,Webcam,South,Sukkur,39.0,New,credit card,23.23,3,5,66.21,5.0,7.0
+ORD10204,2023-05-27,Home & Kitchen,Blender,North,Islamabad,16.0,Returning,COD,39.75,4,0,159.0,5.0,9.0
+ORD10931,2023-11-15,Beauty,Shampoo,South,Karachi,16.0,Returning,credit card,13.95,1,0,13.95,4.0,2.0
+ORD10632,2024-06-03,Clothing,Running Shoes,East,Lahore,41.0,New,COD,28.25,3,0,84.75,2.0,2.0
+ORD10022,2024-10-02,Beauty,Shampoo,Central,Multan,,New,Bank Transfer,20.02,1,15,17.02,4.0,3.0
+ORD10403,2024-09-04,Home & Kitchen,Storage Jars,North,Gilgit,53.0,Returning,COD,11.78,1,0,11.78,4.0,4.0
+ORD10084,2024-07-07,Clothing,Running Shoes,East,Faisalabad,59.0,New,Cash on Delivery,28.66,1,15,24.36,3.0,3.0
+ORD10131,2023-01-27,Sports,Water Bottle,Central,Bahawalpur,19.0,New,Credit Card,32.94,2,15,56.0,5.0,1.0
+ORD10416,2023-11-07,Sports,Resistance Bands,South,Sukkur,44.0,New,Cash on Delivery,53.71,3,0,161.13,,3.0
+ORD10991,2023-03-05,Home & Kitchen,Non-Stick Pan,North,Peshawar,47.0,New,credit card,32.3,1,0,32.3,4.0,5.0
+ORD10842,2024-09-01,Electronics,Power Bank,West,Gwadar,34.0,Returning,Debit Card,41.03,1,5,38.98,,4.0
+ORD10742,2023-07-19,Home & Kitchen,Blender,South,Sukkur,32.0,Returning,COD,38.99,3,5,111.12,4.0,9.0
+ORD10698,2024-07-06,Electronics,Webcam,East,Sialkot,57.0,Returning,Cash on Delivery,38.87,4,0,155.48,4.0,2.0
+ORD10287,2023-09-14,Home & Kitchen,Storage Jars,East,,56.0,New,Wallet,34.71,2,5,65.95,5.0,4.0
+ORD10124,2023-03-18,Clothing,Denim Jacket,South,Sukkur,65.0,New,COD,26.16,1,0,26.16,2.0,1.0
+ORD10034,2024-10-31,Books,Poetry Collection,North,Gilgit,,VIP,Debit Card,11.53,1,20,9.22,5.0,3.0
+ORD10983,2024-11-19,Books,Poetry Collection,South,Sukkur,59.0,Returning,Bank Transfer,7.68,1,5,7.3,5.0,2.0
+ORD10517,2024-07-17,Sports,Water Bottle,West,Gwadar,38.0,Returning,Debit Card,26.76,2,0,53.52,3.0,1.0
+ORD10924,2024-12-31,Sports,Yoga Mat,West,Gwadar,39.0,VIP,Debit Card,27.52,4,0,110.08,3.0,4.0
+ORD10020,2024-07-03,Beauty,Face Moisturizer,North,Gilgit,23.0,Returning,credit card,19.0,1,0,19.0,,6.0
+ORD10933,2024-03-12,Electronics,Laptop Stand,North,Islamabad,54.0,New,cash on delivery,52.63,2,0,105.26,5.0,10.0
+ORD10220,2023-04-16,Home & Kitchen,Table Lamp,South,Karachi,23.0,New,Bank Transfer,18.34,1,0,18.34,4.0,5.0
+ORD10892,2023-07-05,Sports,Resistance Bands,East,Sialkot,35.0,New,Cash on Delivery,30.24,5,0,151.2,4.0,5.0
+ORD10811,2024-05-16,Beauty,Lipstick Set,Central,Sahiwal,47.0,New,Cash on Delivery,31.69,2,0,63.38,4.0,1.0
+ORD10482,2024-09-15,Books,Mystery Novel,West,Zhob,38.0,New,Cash on Delivery,24.5,1,10,22.05,2.0,7.0
+ORD10932,2023-01-30,Beauty,Sunscreen SPF50,North,Islamabad,23.0,Returning,Credit Card,26.85,2,5,51.02,,2.0
+ORD10357,2024-03-25,Clothing,Baseball Cap,North,Peshawar,16.0,New,Bank Transfer,44.83,1,20,35.86,,4.0
+ORD10662,2024-01-22,Clothing,Denim Jacket,Central,Multan,34.0,New,Wallet,40.9,2,0,81.8,1.0,4.0
+ORD10225,2023-10-21,Books,Mystery Novel,North,Peshawar,49.0,New,Debit Card,13.67,3,0,41.01,5.0,8.0
+ORD10760,2023-10-03,Clothing,Cargo Pants,East,Lahore,41.0,Returning,credit card,20.68,3,0,62.04,2.0,1.0
+ORD10093,2023-12-01,Books,Self-Help Guide,South,Hyderabad,52.0,New,COD,14.96,1,0,14.96,5.0,3.0
+ORD10152,2023-03-24,Home & Kitchen,Storage Jars,West,Zhob,46.0,VIP,COD,27.82,2,0,55.64,,4.0
+ORD10990,2024-12-09,Sports,Resistance Bands,East,Faisalabad,44.0,VIP,credit card,35.06,5,0,175.3,5.0,2.0
+ORD10318,2023-10-13,Beauty,Sunscreen SPF50,South,Karachi,,Returning,Bank Transfer,6.34,4,0,25.36,3.0,3.0
+ORD10449,2024-06-29,Clothing,Cotton T-Shirt,Central,Bahawalpur,30.0,New,Cash on Delivery,33.43,1,5,31.76,,45.0
+ORD10804,2023-01-16,Electronics,USB-C Cable,West,Gwadar,38.0,New,Wallet,35.3,1,0,35.3,,3.0
+ORD10746,2023-01-29,Books,Poetry Collection,West,Zhob,33.0,Returning,Wallet,13.95,1,0,13.95,3.0,7.0
+ORD10523,2024-08-12,Home & Kitchen,Storage Jars,North,Islamabad,31.0,Returning,COD,51.41,1,0,51.41,,4.0
+ORD10280,2024-06-04,Home & Kitchen,Non-Stick Pan,South,Hyderabad,16.0,New,Bank Transfer,28.18,3,10,76.09,3.0,5.0
+ORD10584,2023-10-17,Beauty,Hair Dryer,Central,Sahiwal,43.0,New,Debit Card,16.34,4,0,65.36,2.0,2.0
+ORD10765,2023-11-20,Clothing,Baseball Cap,Central,Sahiwal,37.0,Returning,Wallet,24.15,1,5,22.94,5.0,5.0
+ORD10605,2024-05-16,Books,Poetry Collection,South,Hyderabad,,New,Bank Transfer,13.93,3,0,41.79,5.0,1.0
+ORD10989,2023-10-29,Electronics,Power Bank,South,Hyderabad,23.0,Returning,Debit Card,24.8,2,10,44.64,,8.0
+ORD10350,2024-01-27,Sports,Cycling Helmet,West,Gwadar,16.0,New,COD,26.74,1,10,24.07,,3.0
+ORD10928,2023-05-01,Beauty,Lipstick Set,West,Zhob,21.0,New,Cash on Delivery,21.19,2,20,33.9,4.0,3.0
+ORD10375,2023-08-24,Home & Kitchen,Non-Stick Pan,South,Hyderabad,23.0,New,Bank Transfer,43.47,4,10,156.49,5.0,1.0
+ORD10401,2023-05-16,Books,Self-Help Guide,East,Lahore,60.0,New,COD,11.24,1,20,8.99,4.0,4.0
+ORD10705,2024-06-17,Sports,Water Bottle,North,Gilgit,28.0,Returning,Wallet,34.18,1,5,32.47,3.0,4.0
+ORD10258,2024-11-03,Electronics,Bluetooth Speaker,South,Sukkur,32.0,Returning,credit card,45.85,3,0,137.55,3.0,4.0
+ORD10945,2023-06-30,Home & Kitchen,Storage Jars,North,Peshawar,32.0,New,COD,46.78,3,15,119.29,4.0,3.0
+ORD10852,2023-04-24,Home & Kitchen,Coffee Maker,East,Sialkot,43.0,New,cash on delivery,20.03,1,10,18.03,4.0,1.0
+ORD10073,2024-08-16,Home & Kitchen,Blender,South,Hyderabad,29.0,Returning,credit card,47.38,6,0,284.28,5.0,4.0
+ORD10196,2024-03-13,Books,Poetry Collection,North,Peshawar,33.0,New,Wallet,13.69,2,0,27.38,4.0,6.0
+ORD10484,2024-01-16,Beauty,Perfume,East,,26.0,New,Wallet,20.34,3,5,57.97,3.0,5.0
+ORD10856,2023-02-24,Clothing,Baseball Cap,Central,,20.0,Returning,Credit Card,20.03,6,5,114.17,,3.0
+ORD10138,2023-07-28,Beauty,Sunscreen SPF50,West,Quetta,30.0,New,Cash on Delivery,24.84,1,0,24.84,5.0,4.0
+ORD10495,2024-07-13,Beauty,Sunscreen SPF50,South,Sukkur,42.0,Returning,Bank Transfer,24.54,4,25,73.62,4.0,3.0
+ORD10773,2023-08-22,Electronics,Wireless Mouse,South,Hyderabad,39.0,New,Wallet,44.25,2,15,75.22,5.0,6.0
+ORD10551,2023-07-09,Electronics,Power Bank,Central,Bahawalpur,36.0,New,COD,57.3,1,5,54.43,5.0,7.0
+ORD10463,2023-08-07,Sports,Yoga Mat,North,Islamabad,41.0,Returning,Cash on Delivery,34.34,1,15,29.19,,1.0
+ORD10202,2024-03-15,Electronics,Bluetooth Speaker,Central,Multan,33.0,Returning,Credit Card,37.56,1,0,37.56,,1.0
+ORD10313,2024-08-09,Clothing,Baseball Cap,South,Karachi,29.0,VIP,Debit Card,32.49,2,20,51.98,5.0,4.0
+ORD10291,2024-09-24,Sports,Dumbbell Set,Central,Bahawalpur,45.0,Returning,cash on delivery,8.18,1,15,6.95,1.0,4.0
+ORD10961,2024-02-25,Sports,Dumbbell Set,Central,Bahawalpur,40.0,VIP,credit card,33.53,2,0,67.06,5.0,3.0
+ORD10190,2024-05-05,Books,Poetry Collection,North,Islamabad,70.0,Returning,COD,12.62,3,5,35.97,5.0,3.0
+ORD10764,2023-01-10,Clothing,Denim Jacket,South,Hyderabad,37.0,New,cash on delivery,30.7,4,0,122.8,4.0,4.0
+ORD10113,2023-07-17,Home & Kitchen,Blender,South,Karachi,57.0,New,Cash on Delivery,39.34,1,0,39.34,3.0,
+ORD10950,2024-08-19,Books,Poetry Collection,East,Lahore,16.0,New,COD,15.38,2,0,30.76,1.0,4.0
+ORD10184,2023-06-01,Beauty,Shampoo,South,Hyderabad,24.0,Returning,Credit Card,19.86,3,0,59.58,4.0,4.0
+ORD10153,2023-02-06,Home & Kitchen,Table Lamp,West,Zhob,52.0,Returning,Bank Transfer,30.32,2,5,57.61,4.0,3.0
+ORD10825,2023-04-19,Beauty,Hair Dryer,Central,Bahawalpur,16.0,Returning,credit card,17.89,1,5,17.0,5.0,2.0
+ORD10326,2024-05-02,Beauty,Shampoo,West,Zhob,52.0,Returning,Bank Transfer,36.13,2,0,72.26,5.0,3.0
+ORD10704,2024-04-10,Beauty,Lipstick Set,West,Gwadar,22.0,VIP,Credit Card,18.13,5,0,90.65,4.0,1.0
+ORD10045,2024-06-19,Books,Poetry Collection,Central,Sahiwal,27.0,New,Wallet,15.21,2,5,28.9,5.0,4.0
+ORD10445,2023-08-12,Beauty,Face Moisturizer,West,Zhob,51.0,VIP,Debit Card,30.04,2,0,60.08,1.0,6.0
+ORD10788,2024-01-18,Beauty,Shampoo,North,Gilgit,58.0,New,COD,25.42,6,0,152.52,4.0,8.0
+ORD10007,2023-05-08,Electronics,Power Bank,West,Zhob,20.0,VIP,COD,56.1,1,0,56.1,4.0,4.0
+ORD10251,2024-09-15,Home & Kitchen,Non-Stick Pan,South,Sukkur,44.0,Returning,Debit Card,40.69,3,0,122.07,4.0,3.0
+ORD10824,2024-06-22,Beauty,Sunscreen SPF50,South,Karachi,26.0,Returning,Cash on Delivery,19.66,2,0,39.32,,4.0
+ORD10076,2023-07-23,Electronics,USB-C Cable,East,Lahore,18.0,New,Credit Card,23.41,1,20,18.73,5.0,5.0
+ORD10513,2023-12-06,Sports,Resistance Bands,South,Karachi,32.0,New,cash on delivery,27.69,6,10,149.53,,45.0
+ORD10941,2024-08-27,Home & Kitchen,Storage Jars,West,Gwadar,50.0,New,Bank Transfer,22.02,5,15,93.58,4.0,4.0
+ORD10392,2024-12-30,Electronics,USB-C Cable,Central,Multan,36.0,Returning,Debit Card,47.92,1,10,43.13,,7.0
+ORD10896,2024-07-24,Beauty,Lipstick Set,Central,Sahiwal,34.0,Returning,Bank Transfer,16.88,2,0,33.76,4.0,3.0
+ORD10433,2024-02-02,Beauty,Hair Dryer,East,Sialkot,41.0,Returning,Debit Card,25.34,2,20,40.54,2.0,7.0
+ORD10069,2023-12-05,Home & Kitchen,Cutting Board,North,Gilgit,46.0,Returning,Debit Card,50.24,2,5,95.46,5.0,3.0
+ORD10168,2023-07-25,Home & Kitchen,Blender,West,Quetta,41.0,New,credit card,37.24,1,10,33.52,4.0,4.0
+ORD10905,2024-06-22,Books,History Book,East,Faisalabad,,Returning,credit card,11.37,1,0,11.37,4.0,4.0
+ORD10731,2024-12-23,Home & Kitchen,Blender,Central,Bahawalpur,37.0,New,Cash on Delivery,54.48,1,0,54.48,3.0,5.0
+ORD10555,2024-03-04,Beauty,Face Moisturizer,West,Zhob,,VIP,cash on delivery,323.25,1,20,258.6,5.0,3.0
+ORD10367,2024-09-11,Electronics,Bluetooth Speaker,West,Zhob,44.0,Returning,Debit Card,837.1500000000001,3,10,2260.31,5.0,2.0
+ORD10346,2024-04-18,Books,History Book,North,Gilgit,23.0,Returning,Wallet,9.53,1,15,8.1,1.0,3.0
+ORD10585,2024-10-17,Books,Mystery Novel,East,Faisalabad,30.0,New,Wallet,3.0,1,0,3.0,4.0,
+ORD10536,2023-03-21,Books,Cookbook,East,Sialkot,16.0,New,credit card,12.7,2,10,22.86,2.0,3.0
+ORD10399,2023-10-02,Clothing,Baseball Cap,North,,48.0,New,Cash on Delivery,28.74,1,5,27.3,4.0,5.0
+ORD10186,2024-01-02,Sports,Yoga Mat,South,Karachi,56.0,Returning,Bank Transfer,26.0,1,5,24.7,5.0,4.0
+ORD10349,2024-02-23,Electronics,Laptop Stand,North,Peshawar,34.0,New,Cash on Delivery,38.6,2,20,61.76,4.0,1.0
+ORD10616,2024-08-10,Electronics,Power Bank,North,Islamabad,49.0,Returning,Cash on Delivery,36.33,2,0,72.66,4.0,8.0
+ORD10920,2024-06-21,Home & Kitchen,Cutting Board,East,Lahore,45.0,New,Debit Card,23.12,4,5,87.86,5.0,4.0
+ORD10212,2024-03-16,Home & Kitchen,Coffee Maker,North,Peshawar,19.0,New,COD,32.26,1,0,32.26,5.0,1.0
+ORD10580,2023-08-18,Sports,Dumbbell Set,Central,Multan,26.0,New,Wallet,29.27,2,0,58.54,2.0,6.0
+ORD10503,2023-03-18,Home & Kitchen,Cutting Board,East,Lahore,52.0,VIP,Cash on Delivery,23.88,5,0,119.4,4.0,6.0
+ORD10538,2023-09-13,Books,Mystery Novel,East,Lahore,38.0,Returning,credit card,12.81,1,10,11.53,4.0,3.0
+ORD10197,2023-04-04,Home & Kitchen,Non-Stick Pan,West,Quetta,,Returning,Debit Card,47.06,1,0,47.06,,5.0
+ORD10176,2023-08-29,Home & Kitchen,Cutting Board,North,Islamabad,35.0,VIP,Cash on Delivery,32.83,1,0,32.83,4.0,3.0

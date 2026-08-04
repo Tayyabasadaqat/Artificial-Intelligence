@@ -1,0 +1,101 @@
+Bill_ID,Date,Time,Customer_Type,Item,Category,Quantity,Unit_Price,Total_Amount,Payment_Method
+B001,2026-07-15,12:15,Trainer,Tea,Beverage,5,120,600,EasyPaisa
+B002,2026-07-17,09:45,Student,Juice,Beverage,2,180,360,JazzCash
+B003,2026-07-20,09:30,Student,Cake,Dessert,2,200,400,Card
+B004,2026-07-05,16:15,Visitor,Tea,Beverage,5,120,600,Cash
+B005,2026-07-07,16:45,Visitor,Burger,Fast Food,5,450,2250,EasyPaisa
+B006,2026-07-16,10:45,Visitor,Fries,Snack,5,200,1000,Cash
+B007,2026-07-22,16:45,Visitor,Burger,Fast Food,1,450,450,Card
+B008,2026-07-03,11:15,Student,Samosa,Snack,3,80,240,JazzCash
+B009,2026-07-11,14:45,Visitor,Water,Beverage,3,60,180,JazzCash
+B010,2026-07-09,12:00,Visitor,Fries,Snack,1,200,200,Card
+B011,2026-07-17,12:00,Trainer,Cake,Dessert,2,200,400,EasyPaisa
+B012,2026-07-16,11:00,Trainer,Pizza Slice,Fast Food,1,300,300,EasyPaisa
+B013,2026-07-29,14:30,Visitor,Tea,Beverage,2,120,240,Cash
+B014,2026-07-07,15:30,Trainer,Tea,Beverage,5,120,600,JazzCash
+B015,2026-07-08,16:30,Visitor,Juice,Beverage,2,180,360,JazzCash
+B016,2026-07-24,15:45,Visitor,Fries,Snack,4,200,800,Card
+B017,2026-07-30,09:00,Visitor,Cake,Dessert,4,200,800,Cash
+B018,2026-07-15,15:00,Visitor,Pizza Slice,Fast Food,2,300,600,EasyPaisa
+B019,2026-07-01,14:30,Visitor,Samosa,Snack,2,80,160,Card
+B020,2026-07-26,08:45,Visitor,Tea,Beverage,3,120,360,Cash
+B021,2026-07-16,09:45,Trainer,Water,Beverage,1,60,60,Card
+B022,2026-07-09,14:00,Trainer,Juice,Beverage,4,180,720,JazzCash
+B023,2026-07-10,08:15,Visitor,Burger,Fast Food,3,450,1350,Cash
+B024,2026-07-01,08:15,Student,Sandwich,Snack,5,250,1250,Cash
+B025,2026-07-10,13:15,Trainer,Juice,Beverage,3,180,540,JazzCash
+B026,2026-07-05,13:45,Visitor,Coffee,Beverage,4,220,880,Cash
+B027,2026-07-03,14:45,Trainer,Tea,Beverage,4,120,480,Cash
+B028,2026-07-14,15:30,Trainer,Burger,Fast Food,5,450,2250,JazzCash
+B029,2026-07-05,16:00,Student,Cake,Dessert,4,200,800,Cash
+B030,2026-07-27,12:45,Visitor,Juice,Beverage,3,180,540,EasyPaisa
+B031,2026-07-12,14:45,Visitor,Burger,Fast Food,3,450,1350,EasyPaisa
+B032,2026-07-18,17:00,Trainer,Juice,Beverage,1,180,180,EasyPaisa
+B033,2026-07-10,10:00,Student,Coffee,Beverage,1,220,220,Cash
+B034,2026-07-27,14:00,Trainer,Fries,Snack,1,200,200,Cash
+B035,2026-07-23,16:45,Trainer,Tea,Beverage,4,120,480,Cash
+B036,2026-07-04,09:30,Visitor,Burger,Fast Food,1,450,450,Cash
+B037,2026-07-15,14:30,Trainer,Fries,Snack,3,200,600,EasyPaisa
+B038,2026-07-07,13:15,Trainer,Cake,Dessert,1,200,200,JazzCash
+B039,2026-07-17,11:00,Visitor,Burger,Fast Food,1,450,450,Card
+B040,2026-07-04,17:00,Student,Sandwich,Snack,5,250,1250,EasyPaisa
+B041,2026-07-01,12:15,Visitor,Burger,Fast Food,1,450,450,Card
+B042,2026-07-09,09:00,Trainer,Burger,Fast Food,1,450,450,EasyPaisa
+B043,2026-07-20,16:45,Student,Cake,Dessert,3,200,600,EasyPaisa
+B044,2026-07-21,16:30,Trainer,Samosa,Snack,1,80,80,Cash
+B045,2026-07-15,17:00,Student,Tea,Beverage,5,120,600,JazzCash
+B046,2026-07-05,17:00,Student,Tea,Beverage,5,120,600,Cash
+B047,2026-07-13,14:45,Student,Fries,Snack,2,200,400,JazzCash
+B048,2026-07-02,14:15,Visitor,Water,Beverage,1,60,60,JazzCash
+B049,2026-07-04,08:15,Student,Cake,Dessert,2,200,400,JazzCash
+B050,2026-07-06,14:15,Student,Samosa,Snack,5,80,400,Cash
+B051,2026-07-17,10:30,Trainer,Burger,Fast Food,1,450,450,Cash
+B052,2026-07-25,08:30,Visitor,Fries,Snack,1,200,200,Cash
+B053,2026-07-26,09:30,Student,Burger,Fast Food,4,450,1800,Cash
+B054,2026-07-13,12:00,Student,Coffee,Beverage,5,220,1100,EasyPaisa
+B055,2026-07-05,12:45,Visitor,Tea,Beverage,3,120,360,Card
+B056,2026-07-15,15:45,Student,Fries,Snack,3,200,600,Card
+B057,2026-07-20,16:15,Trainer,Cake,Dessert,3,200,600,Card
+B058,2026-07-16,12:30,Student,Sandwich,Snack,1,250,250,EasyPaisa
+B059,2026-07-05,16:30,Trainer,Samosa,Snack,3,80,240,JazzCash
+B060,2026-07-12,14:30,Visitor,Tea,Beverage,3,120,360,JazzCash
+B061,2026-07-21,11:30,Trainer,Samosa,Snack,3,80,240,EasyPaisa
+B062,2026-07-26,10:00,Trainer,Tea,Beverage,3,120,360,EasyPaisa
+B063,2026-07-22,11:30,Trainer,Samosa,Snack,2,80,160,Cash
+B064,2026-07-03,16:30,Student,Juice,Beverage,2,180,360,Cash
+B065,2026-07-09,10:00,Student,Juice,Beverage,4,180,720,Cash
+B066,2026-07-29,15:15,Visitor,Water,Beverage,2,60,120,JazzCash
+B067,2026-07-17,09:00,Visitor,Burger,Fast Food,2,450,900,Cash
+B068,2026-07-04,17:15,Visitor,Water,Beverage,4,60,240,Card
+B069,2026-07-04,16:15,Trainer,Sandwich,Snack,2,250,500,JazzCash
+B070,2026-07-11,10:15,Trainer,Fries,Snack,1,200,200,Cash
+B071,2026-07-28,11:15,Visitor,Pizza Slice,Fast Food,2,300,600,Card
+B072,2026-07-24,13:15,Visitor,Tea,Beverage,4,120,480,JazzCash
+B073,2026-07-30,09:30,Trainer,Fries,Snack,2,200,400,Card
+B074,2026-07-03,17:15,Trainer,Fries,Snack,3,200,600,Card
+B075,2026-07-24,17:45,Student,Water,Beverage,2,60,120,EasyPaisa
+B076,2026-07-05,13:45,Visitor,Coffee,Beverage,2,220,440,Card
+B077,2026-07-19,08:00,Student,Samosa,Snack,4,80,320,EasyPaisa
+B078,2026-07-16,13:00,Visitor,Burger,Fast Food,1,450,450,Card
+B079,2026-07-14,10:30,Trainer,Water,Beverage,1,60,60,EasyPaisa
+B080,2026-07-15,08:00,Visitor,Juice,Beverage,4,180,720,EasyPaisa
+B081,2026-07-27,12:30,Student,Coffee,Beverage,4,220,880,EasyPaisa
+B082,2026-07-29,08:30,Student,Coffee,Beverage,5,220,1100,EasyPaisa
+B083,2026-07-08,11:15,Visitor,Fries,Snack,3,200,600,Card
+B084,2026-07-10,17:15,Visitor,Burger,Fast Food,1,450,450,JazzCash
+B085,2026-07-06,08:45,Student,Burger,Fast Food,4,450,1800,Cash
+B086,2026-07-14,13:45,Trainer,Sandwich,Snack,2,250,500,JazzCash
+B087,2026-07-07,13:00,Visitor,Coffee,Beverage,1,220,220,Cash
+B088,2026-07-16,13:45,Student,Fries,Snack,5,200,1000,JazzCash
+B089,2026-07-12,14:00,Student,Fries,Snack,3,200,600,Cash
+B090,2026-07-24,09:45,Student,Cake,Dessert,3,200,600,Cash
+B091,2026-07-13,10:45,Trainer,Fries,Snack,4,200,800,Cash
+B092,2026-07-21,08:45,Student,Burger,Fast Food,2,450,900,Cash
+B093,2026-07-30,17:45,Student,Sandwich,Snack,1,250,250,Cash
+B094,2026-07-10,09:00,Visitor,Fries,Snack,5,200,1000,Card
+B095,2026-07-29,15:15,Student,Samosa,Snack,4,80,320,EasyPaisa
+B096,2026-07-05,17:15,Visitor,Samosa,Snack,5,80,400,Cash
+B097,2026-07-14,09:30,Visitor,Coffee,Beverage,3,220,660,JazzCash
+B098,2026-07-30,08:15,Student,Samosa,Snack,2,80,160,EasyPaisa
+B099,2026-07-17,08:15,Student,Cake,Dessert,2,200,400,EasyPaisa
+B100,2026-07-23,14:15,Student,Samosa,Snack,4,80,320,Card
