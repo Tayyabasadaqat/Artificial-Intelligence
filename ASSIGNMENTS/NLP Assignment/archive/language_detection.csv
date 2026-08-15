@@ -1,0 +1,2001 @@
+id,text,language,language_code
+1,بصراحة، هو يدرس لامتحاناته النهائية.,Arabic,ar
+2,"Questa mattina, Il negozio chiude presto la domenica. È vero.",Italian,it
+3,"Come al solito, Il tempo è bellissimo oggi.",Italian,it
+4,"Surprisingly, We watched a movie last night. That's for sure.",English,en
+5,"Au fait, Les enfants jouent dans le jardin. Tout le monde est d'accord.",French,fr
+6,"Ce matin, Il joue au football chaque week-end. C'est certain.",French,fr
+7,"Wie immer, Die Kinder spielen im Garten. Alle sind sich einig.",German,de
+8,"Überraschenderweise, Wir haben gestern Abend einen Film gesehen. Alle sind sich einig.",German,de
+9,"Na verdade, O show começa às oito horas.",Portuguese,pt
+10,"Surpreendentemente, Vamos ao mercado amanhã. É verdade.",Portuguese,pt
+11,"Gestern, Können Sie mir helfen, den Bahnhof zu finden?",German,de
+12,دراصل، ہم کل بازار جا رہے ہیں۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+13,"Apparemment, J'aime apprendre de nouvelles langues.",French,fr
+14,"कल, कृपया मुझे एक कप कॉफी दीजिए। यह निश्चित है।",Hindi,hi
+15,"Por cierto, Me gustaría una taza de café, por favor. Todos están de acuerdo.",Spanish,es
+16,"Wieder einmal, Sie arbeitet in einer kleinen Bäckerei.",German,de
+17,"Na verdade, O show começa às oito horas. É verdade.",Portuguese,pt
+18,"Onestamente, Il tempo è bellissimo oggi. Tutti sono d'accordo.",Italian,it
+19,"Honestamente, Vamos ao mercado amanhã.",Portuguese,pt
+20,"Honnêtement, Le magasin ferme tôt le dimanche. C'est certain.",French,fr
+21,"De hecho, Me gustaría una taza de café, por favor.",Spanish,es
+22,مرة أخرى، هو يلعب كرة القدم كل نهاية أسبوع.,Arabic,ar
+23,"Übrigens, Meine Familie besucht uns diesen Sommer. Das ist sicher.",German,de
+24,"हैरानी की बात है, संग्रहालय सुबह नौ बजे खुलता है। यह निश्चित है।",Hindi,hi
+25,"Esta mañana, ¿Puedes ayudarme a encontrar la estación de tren? Es verdad.",Spanish,es
+26,"Esta manhã, Ela está lendo um livro no parque. Todos concordam.",Portuguese,pt
+27,دراصل، وہ ایک چھوٹی بیکری میں کام کرتی ہے۔ یہ سچ ہے۔,Urdu,ur
+28,"कल, हम कल बाजार जा रहे हैं। यह सच है।",Hindi,hi
+29,بشكل مفاجئ، الأطفال يلعبون في الحديقة. هذا مؤكد.,Arabic,ar
+30,"Una vez más, Mi familia nos visita este verano. Todos están de acuerdo.",Spanish,es
+31,بالمناسبة، يغلق المتجر مبكرًا أيام الأحد. هذا صحيح.,Arabic,ar
+32,ویسے، وہ ایک چھوٹی بیکری میں کام کرتی ہے۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+33,بصراحة، شاهدنا فيلمًا الليلة الماضية. هذا صحيح.,Arabic,ar
+34,"एक बार फिर, वे पहाड़ों की यात्रा की योजना बना रहे हैं।",Hindi,hi
+35,بظاہر، ہم نے کل رات ایک فلم دیکھی۔,Urdu,ur
+36,"Como sempre, O show começa às oito horas. É verdade.",Portuguese,pt
+37,ایک بار پھر، کیا آپ ٹرین اسٹیشن ڈھونڈنے میں میری مدد کر سکتے ہیں؟ یہ سچ ہے۔,Urdu,ur
+38,"By the way, My family is visiting this summer.",English,en
+39,Devo comprare pane e latte. È vero.,Italian,it
+40,"Una vez más, El autobús llega cada quince minutos. Todos están de acuerdo.",Spanish,es
+41,"A proposito, Il negozio chiude presto la domenica.",Italian,it
+42,ایمانداری سے، بچے باغ میں کھیل رہے ہیں۔ یہ یقینی ہے۔,Urdu,ur
+43,"Once again, The bus arrives every fifteen minutes.",English,en
+44,"हैरानी की बात है, यह रेस्तरां स्वादिष्ट भोजन परोसता है। यह सच है।",Hindi,hi
+45,"Aparentemente, Eu preciso comprar pão e leite. Todos concordam.",Portuguese,pt
+46,بالأمس، عائلتي ستزورنا هذا الصيف. هذا مؤكد.,Arabic,ar
+47,"Yesterday, They are planning a trip to the mountains.",English,en
+48,دراصل، مجھے روٹی اور دودھ خریدنے کی ضرورت ہے۔ یہ سچ ہے۔,Urdu,ur
+49,"Como sempre, Você pode me ajudar a encontrar a estação de trem?",Portuguese,pt
+50,"Étonnamment, Nous avons regardé un film hier soir. C'est certain.",French,fr
+51,"Heute Morgen, Der Garten ist voller bunter Blumen.",German,de
+52,"Sorprendentemente, ¿Puedes ayudarme a encontrar la estación de tren? Eso es seguro.",Spanish,es
+53,"Ieri, L'autobus arriva ogni quindici minuti.",Italian,it
+54,"Ce matin, Le concert commence à huit heures. C'est vrai.",French,fr
+55,"Honestamente, Vamos al mercado mañana. Es verdad.",Spanish,es
+56,Mi piace imparare nuove lingue. Questo è certo.,Italian,it
+57,في الواقع، الطقس جميل اليوم.,Arabic,ar
+58,"By the way, The garden is full of colorful flowers. That's for sure.",English,en
+59,"Aparentemente, El concierto comienza a las ocho. Todos están de acuerdo.",Spanish,es
+60,حیرت کی بات ہے، ہم کل بازار جا رہے ہیں۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+61,"En fait, J'ai besoin d'acheter du pain et du lait. C'est vrai.",French,fr
+62,"Apparentemente, Questo ristorante serve cibo delizioso. Questo è certo.",Italian,it
+63,"Anscheinend, Der Garten ist voller bunter Blumen. Das ist sicher.",German,de
+64,"Gestern, Das Konzert beginnt um acht Uhr. Es ist wahr.",German,de
+65,"एक बार फिर, बस हर पंद्रह मिनट में आती है।",Hindi,hi
+66,"Once again, The bus arrives every fifteen minutes. It's true.",English,en
+67,بالأمس، هو يلعب كرة القدم كل نهاية أسبوع.,Arabic,ar
+68,"Yesterday, The weather is beautiful today. It's true.",English,en
+69,"Yesterday, The concert starts at eight o'clock.",English,en
+70,"Wie immer, Sie arbeitet in einer kleinen Bäckerei. Es ist wahr.",German,de
+71,"Honestamente, O jardim está cheio de flores coloridas. Todos concordam.",Portuguese,pt
+72,Este restaurante sirve comida deliciosa.,Spanish,es
+73,"Au fait, Elle travaille dans une petite boulangerie. C'est vrai.",French,fr
+74,"Wie immer, Er spielt jedes Wochenende Fußball. Alle sind sich einig.",German,de
+75,كالعادة، يخططون لرحلة إلى الجبال. هذا مؤكد.,Arabic,ar
+76,"Au fait, J'aime apprendre de nouvelles langues.",French,fr
+77,کیا آپ ٹرین اسٹیشن ڈھونڈنے میں میری مدد کر سکتے ہیں؟ یہ سچ ہے۔,Urdu,ur
+78,"Sorprendentemente, Lui sta studiando per gli esami finali. Questo è certo.",Italian,it
+79,"A proposito, Stanno pianificando un viaggio in montagna. È vero.",Italian,it
+80,"Na verdade, O jardim está cheio de flores coloridas. Isso é certo.",Portuguese,pt
+81,"Wieder einmal, Sie planen eine Reise in die Berge. Es ist wahr.",German,de
+82,"Honestly, She works at a small bakery downtown. It's true.",English,en
+83,"Wie immer, Ich hätte gerne eine Tasse Kaffee, bitte. Das ist sicher.",German,de
+84,"Ieri, Lei sta leggendo un libro nel parco. Tutti sono d'accordo.",Italian,it
+85,"Por cierto, Mi familia nos visita este verano. Eso es seguro.",Spanish,es
+86,"Como siempre, Vimos una película anoche.",Spanish,es
+87,El autobús llega cada quince minutos.,Spanish,es
+88,بصراحة، أود كوب قهوة من فضلك. الجميع يوافق.,Arabic,ar
+89,"Au fait, Ma famille nous rend visite cet été.",French,fr
+90,"Apparentemente, Puoi aiutarmi a trovare la stazione dei treni? Questo è certo.",Italian,it
+91,"जाहिर तौर पर, यह रेस्तरां स्वादिष्ट भोजन परोसता है। यह निश्चित है।",Hindi,hi
+92,Eu preciso comprar pão e leite. É verdade.,Portuguese,pt
+93,"हमेशा की तरह, आज मौसम बहुत सुंदर है। यह निश्चित है।",Hindi,hi
+94,بشكل مفاجئ، عائلتي ستزورنا هذا الصيف. الجميع يوافق.,Arabic,ar
+95,"आज सुबह, आज मौसम बहुत सुंदर है।",Hindi,hi
+96,"वास्तव में, संगीत कार्यक्रम आठ बजे शुरू होता है।",Hindi,hi
+97,"कल, वे पहाड़ों की यात्रा की योजना बना रहे हैं। यह निश्चित है।",Hindi,hi
+98,هي تعمل في مخبز صغير. هذا صحيح.,Arabic,ar
+99,"Étonnamment, Le musée ouvre à neuf heures du matin. Tout le monde est d'accord.",French,fr
+100,Le magasin ferme tôt le dimanche. C'est certain.,French,fr
+101,"Como siempre, Este restaurante sirve comida deliciosa. Es verdad.",Spanish,es
+102,بالمناسبة، أود كوب قهوة من فضلك. هذا مؤكد.,Arabic,ar
+103,مجھے روٹی اور دودھ خریدنے کی ضرورت ہے۔ یہ یقینی ہے۔,Urdu,ur
+104,هذا الصباح، هي تقرأ كتابًا في الحديقة. هذا مؤكد.,Arabic,ar
+105,"Honestly, I need to buy some bread and milk. Everyone agrees.",English,en
+106,"Yesterday, We are going to the market tomorrow. It's true.",English,en
+107,"Comme d'habitude, Nous avons regardé un film hier soir. C'est vrai.",French,fr
+108,"Comme d'habitude, Pouvez-vous m'aider à trouver la gare ? Tout le monde est d'accord.",French,fr
+109,ایمانداری سے، مجھے نئی زبانیں سیکھنا پسند ہے۔ یہ سچ ہے۔,Urdu,ur
+110,"Sorprendentemente, L'autobus arriva ogni quindici minuti. È vero.",Italian,it
+111,वे पहाड़ों की यात्रा की योजना बना रहे हैं। यह सच है।,Hindi,hi
+112,"Honestly, We are going to the market tomorrow. That's for sure.",English,en
+113,"Hier, Je voudrais une tasse de café, s'il vous plaît. C'est vrai.",French,fr
+114,"Surpreendentemente, O show começa às oito horas. Isso é certo.",Portuguese,pt
+115,بظاہر، میرا خاندان اس گرمی میں ہم سے ملنے آ رہا ہے۔ یہ سچ ہے۔,Urdu,ur
+116,"As usual, The children are playing in the garden. That's for sure.",English,en
+117,في الواقع، سنذهب إلى السوق غدًا. هذا صحيح.,Arabic,ar
+118,O tempo está lindo hoje.,Portuguese,pt
+119,"This morning, This restaurant serves delicious food. It's true.",English,en
+120,"जाहिर तौर पर, मेरा परिवार इस गर्मी में हमसे मिलने आ रहा है। सभी सहमत हैं।",Hindi,hi
+121,حیرت کی بات ہے، مجھے نئی زبانیں سیکھنا پسند ہے۔,Urdu,ur
+122,"वास्तव में, वह हर सप्ताहांत फुटबॉल खेलता है। सभी सहमत हैं।",Hindi,hi
+123,"Como sempre, Ela está lendo um livro no parque. Todos concordam.",Portuguese,pt
+124,"हमेशा की तरह, आज मौसम बहुत सुंदर है। सभी सहमत हैं।",Hindi,hi
+125,دراصل، مجھے نئی زبانیں سیکھنا پسند ہے۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+126,Ella está leyendo un libro en el parque.,Spanish,es
+127,"Étonnamment, Il étudie pour ses examens finaux. C'est vrai.",French,fr
+128,بالأمس، شاهدنا فيلمًا الليلة الماضية. هذا صحيح.,Arabic,ar
+129,"Una vez más, El concierto comienza a las ocho. Eso es seguro.",Spanish,es
+130,"Sorprendentemente, Stanno pianificando un viaggio in montagna. È vero.",Italian,it
+131,"हैरानी की बात है, दुकान रविवार को जल्दी बंद हो जाती है। यह सच है।",Hindi,hi
+132,यह रेस्तरां स्वादिष्ट भोजन परोसता है। सभी सहमत हैं।,Hindi,hi
+133,"Étonnamment, J'aime apprendre de nouvelles langues.",French,fr
+134,هذا الصباح، هي تعمل في مخبز صغير. الجميع يوافق.,Arabic,ar
+135,"Ce matin, Il joue au football chaque week-end.",French,fr
+136,"Como siempre, El clima está hermoso hoy. Todos están de acuerdo.",Spanish,es
+137,"Surprisingly, They are planning a trip to the mountains. That's for sure.",English,en
+138,بالمناسبة، هو يدرس لامتحاناته النهائية. الجميع يوافق.,Arabic,ar
+139,"Once again, We are going to the market tomorrow. It's true.",English,en
+140,بالمناسبة، هو يدرس لامتحاناته النهائية.,Arabic,ar
+141,بصراحة، أستمتع بتعلم لغات جديدة. الجميع يوافق.,Arabic,ar
+142,"Übrigens, Dieses Restaurant serviert köstliches Essen. Das ist sicher.",German,de
+143,بالمناسبة، أود كوب قهوة من فضلك. هذا صحيح.,Arabic,ar
+144,"वैसे, हम कल बाजार जा रहे हैं। यह निश्चित है।",Hindi,hi
+145,بالمناسبة، أحتاج إلى شراء خبز وحليب. هذا مؤكد.,Arabic,ar
+146,"Questa mattina, L'autobus arriva ogni quindici minuti. È vero.",Italian,it
+147,بالمناسبة، الحديقة مليئة بالزهور الملونة. الجميع يوافق.,Arabic,ar
+148,"Infatti, Il concerto inizia alle otto. È vero.",Italian,it
+149,"ईमानदारी से, दुकान रविवार को जल्दी बंद हो जाती है। यह निश्चित है।",Hindi,hi
+150,"Once again, My family is visiting this summer. That's for sure.",English,en
+151,"Ontem, Eu gosto de aprender novos idiomas. É verdade.",Portuguese,pt
+152,"Honnêtement, Les enfants jouent dans le jardin.",French,fr
+153,"Sorprendentemente, Il giardino è pieno di fiori colorati. Questo è certo.",Italian,it
+154,بظاہر، دکان اتوار کو جلدی بند ہو جاتی ہے۔ یہ سچ ہے۔,Urdu,ur
+155,El autobús llega cada quince minutos. Eso es seguro.,Spanish,es
+156,"वास्तव में, वह अपनी अंतिम परीक्षाओं के लिए पढ़ रहा है।",Hindi,hi
+157,"Sorprendentemente, La tienda cierra temprano los domingos.",Spanish,es
+158,بالمناسبة، شاهدنا فيلمًا الليلة الماضية.,Arabic,ar
+159,"Yesterday, They are planning a trip to the mountains. It's true.",English,en
+160,"कल, वह पार्क में एक किताब पढ़ रही है। यह सच है।",Hindi,hi
+161,"Una vez más, Ella trabaja en una pequeña panadería. Todos están de acuerdo.",Spanish,es
+162,Nous avons regardé un film hier soir.,French,fr
+163,"Übrigens, Das Museum öffnet um neun Uhr morgens. Das ist sicher.",German,de
+164,"Honnêtement, Elle lit un livre dans le parc.",French,fr
+165,"Sorprendentemente, El clima está hermoso hoy.",Spanish,es
+166,"Encore une fois, Elle travaille dans une petite boulangerie.",French,fr
+167,"Honestamente, Ella está leyendo un libro en el parque. Todos están de acuerdo.",Spanish,es
+168,"Ancora una volta, Vorrei una tazza di caffè, per favore. Tutti sono d'accordo.",Italian,it
+169,"Übrigens, Sie planen eine Reise in die Berge.",German,de
+170,حیرت کی بات ہے، بچے باغ میں کھیل رہے ہیں۔ یہ یقینی ہے۔,Urdu,ur
+171,"This morning, The store closes early on Sundays. Everyone agrees.",English,en
+172,"Mais uma vez, Assistimos a um filme ontem à noite. Todos concordam.",Portuguese,pt
+173,"Wieder einmal, Das Konzert beginnt um acht Uhr. Alle sind sich einig.",German,de
+174,"Au fait, Le jardin est plein de fleurs colorées. C'est vrai.",French,fr
+175,Il joue au football chaque week-end.,French,fr
+176,"Honnêtement, Le concert commence à huit heures.",French,fr
+177,"Honnêtement, Nous allons au marché demain. C'est vrai.",French,fr
+178,"Wieder einmal, Das Museum öffnet um neun Uhr morgens.",German,de
+179,"हमेशा की तरह, कृपया मुझे एक कप कॉफी दीजिए। यह निश्चित है।",Hindi,hi
+180,"Esta manhã, As crianças estão brincando no jardim. É verdade.",Portuguese,pt
+181,"Hier, Ma famille nous rend visite cet été. C'est certain.",French,fr
+182,La tienda cierra temprano los domingos. Es verdad.,Spanish,es
+183,حیرت کی بات ہے، وہ ایک چھوٹی بیکری میں کام کرتی ہے۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+184,"As usual, The children are playing in the garden. Everyone agrees.",English,en
+185,"Como sempre, Assistimos a um filme ontem à noite.",Portuguese,pt
+186,"Una vez más, Vimos una película anoche.",Spanish,es
+187,"Wie immer, Ich lerne gerne neue Sprachen. Das ist sicher.",German,de
+188,"Ce matin, Le jardin est plein de fleurs colorées. C'est vrai.",French,fr
+189,"Ancora una volta, Devo comprare pane e latte. È vero.",Italian,it
+190,"Once again, Can you help me find the train station? Everyone agrees.",English,en
+191,حیرت کی بات ہے، ہم کل بازار جا رہے ہیں۔ یہ سچ ہے۔,Urdu,ur
+192,"Once again, I would like a cup of coffee, please.",English,en
+193,"Surprisingly, The weather is beautiful today. It's true.",English,en
+194,بالمناسبة، يبدأ الحفل الساعة الثامنة. هذا صحيح.,Arabic,ar
+195,"Questa mattina, Il concerto inizia alle otto. Tutti sono d'accordo.",Italian,it
+196,بشكل مفاجئ، هو يدرس لامتحاناته النهائية. هذا صحيح.,Arabic,ar
+197,مرة أخرى، يغلق المتجر مبكرًا أيام الأحد. هذا مؤكد.,Arabic,ar
+198,"Esta manhã, Minha família vai nos visitar neste verão. É verdade.",Portuguese,pt
+199,"Ce matin, Le jardin est plein de fleurs colorées. Tout le monde est d'accord.",French,fr
+200,L'autobus arriva ogni quindici minuti.,Italian,it
+201,"Wieder einmal, Sie liest ein Buch im Park.",German,de
+202,كالعادة، الحديقة مليئة بالزهور الملونة.,Arabic,ar
+203,"Questa mattina, Il negozio chiude presto la domenica.",Italian,it
+204,"Wieder einmal, Die Kinder spielen im Garten. Es ist wahr.",German,de
+205,"A propósito, Eu gosto de aprender novos idiomas. Todos concordam.",Portuguese,pt
+206,"वास्तव में, क्या आप मुझे रेलवे स्टेशन खोजने में मदद कर सकते हैं? सभी सहमत हैं।",Hindi,hi
+207,"Sorprendentemente, Questo ristorante serve cibo delizioso.",Italian,it
+208,The museum opens at nine in the morning. It's true.,English,en
+209,"Como siempre, El clima está hermoso hoy.",Spanish,es
+210,"Hier, Ils prévoient un voyage à la montagne. Tout le monde est d'accord.",French,fr
+211,"Übrigens, Wir haben gestern Abend einen Film gesehen.",German,de
+212,"Questa mattina, Lei lavora in una piccola panetteria. Tutti sono d'accordo.",Italian,it
+213,بالمناسبة، أود كوب قهوة من فضلك.,Arabic,ar
+214,"By the way, He plays football every weekend. It's true.",English,en
+215,بشكل مفاجئ، عائلتي ستزورنا هذا الصيف. هذا مؤكد.,Arabic,ar
+216,"कल, क्या आप मुझे रेलवे स्टेशन खोजने में मदद कर सकते हैं? यह सच है।",Hindi,hi
+217,Der Garten ist voller bunter Blumen. Es ist wahr.,German,de
+218,"हमेशा की तरह, क्या आप मुझे रेलवे स्टेशन खोजने में मदद कर सकते हैं? यह निश्चित है।",Hindi,hi
+219,هذا الصباح، شاهدنا فيلمًا الليلة الماضية. الجميع يوافق.,Arabic,ar
+220,"Por cierto, Él está estudiando para sus exámenes finales. Eso es seguro.",Spanish,es
+221,"Honnêtement, J'aime apprendre de nouvelles langues. Tout le monde est d'accord.",French,fr
+222,"Yesterday, She is reading a book in the park. Everyone agrees.",English,en
+223,"Come al solito, Il museo apre alle nove del mattino.",Italian,it
+224,"हमेशा की तरह, वह एक छोटी बेकरी में काम करती है। यह सच है।",Hindi,hi
+225,بظاہر، میرا خاندان اس گرمی میں ہم سے ملنے آ رہا ہے۔,Urdu,ur
+226,"Überraschenderweise, Das Wetter ist heute wunderschön. Alle sind sich einig.",German,de
+227,"Wie immer, Er lernt für seine Abschlussprüfungen. Das ist sicher.",German,de
+228,"Once again, He is studying for his final exams. It's true.",English,en
+229,"जाहिर तौर पर, बस हर पंद्रह मिनट में आती है। यह निश्चित है।",Hindi,hi
+230,"हैरानी की बात है, वे पहाड़ों की यात्रा की योजना बना रहे हैं। यह सच है।",Hindi,hi
+231,"By the way, My family is visiting this summer. That's for sure.",English,en
+232,"Una vez más, Me gustaría una taza de café, por favor.",Spanish,es
+233,بشكل مفاجئ، شاهدنا فيلمًا الليلة الماضية. هذا صحيح.,Arabic,ar
+234,آج صبح، میرا خاندان اس گرمی میں ہم سے ملنے آ رہا ہے۔ یہ یقینی ہے۔,Urdu,ur
+235,"A proposito, Puoi aiutarmi a trovare la stazione dei treni?",Italian,it
+236,دراصل، کنسرٹ آٹھ بجے شروع ہوتا ہے۔ یہ سچ ہے۔,Urdu,ur
+237,ایک بار پھر، بچے باغ میں کھیل رہے ہیں۔ یہ یقینی ہے۔,Urdu,ur
+238,"Como siempre, Necesito comprar pan y leche. Todos están de acuerdo.",Spanish,es
+239,"वास्तव में, संग्रहालय सुबह नौ बजे खुलता है। यह निश्चित है।",Hindi,hi
+240,"Apparentemente, Mi piace imparare nuove lingue. Questo è certo.",Italian,it
+241,"Infatti, Il negozio chiude presto la domenica. Questo è certo.",Italian,it
+242,"कल, आज मौसम बहुत सुंदर है।",Hindi,hi
+243,"Onestamente, Il giardino è pieno di fiori colorati. Tutti sono d'accordo.",Italian,it
+244,"In fact, I would like a cup of coffee, please.",English,en
+245,في الواقع، عائلتي ستزورنا هذا الصيف. الجميع يوافق.,Arabic,ar
+246,"Como sempre, Minha família vai nos visitar neste verão.",Portuguese,pt
+247,"Como siempre, El concierto comienza a las ocho. Es verdad.",Spanish,es
+248,آج صبح، میوزیم صبح نو بجے کھلتا ہے۔,Urdu,ur
+249,"As usual, I would like a cup of coffee, please. That's for sure.",English,en
+250,"Wie immer, Dieses Restaurant serviert köstliches Essen. Das ist sicher.",German,de
+251,"Heute Morgen, Dieses Restaurant serviert köstliches Essen. Alle sind sich einig.",German,de
+252,"वास्तव में, यह रेस्तरां स्वादिष्ट भोजन परोसता है। यह सच है।",Hindi,hi
+253,"Por cierto, Este restaurante sirve comida deliciosa. Todos están de acuerdo.",Spanish,es
+254,"Gestern, Das Museum öffnet um neun Uhr morgens. Das ist sicher.",German,de
+255,"A propósito, Ele joga futebol todo fim de semana. Todos concordam.",Portuguese,pt
+256,"Wieder einmal, Sie liest ein Buch im Park. Es ist wahr.",German,de
+257,"हैरानी की बात है, बस हर पंद्रह मिनट में आती है। यह सच है।",Hindi,hi
+258,"Ieri, Lui sta studiando per gli esami finali. Questo è certo.",Italian,it
+259,"Honestly, The museum opens at nine in the morning. It's true.",English,en
+260,"As usual, He plays football every weekend.",English,en
+261,"A propósito, Este restaurante serve comida deliciosa.",Portuguese,pt
+262,"Esta manhã, O jardim está cheio de flores coloridas. Todos concordam.",Portuguese,pt
+263,"Sorprendentemente, Los niños están jugando en el jardín. Todos están de acuerdo.",Spanish,es
+264,As crianças estão brincando no jardim.,Portuguese,pt
+265,"वास्तव में, संग्रहालय सुबह नौ बजे खुलता है। सभी सहमत हैं।",Hindi,hi
+266,بچے باغ میں کھیل رہے ہیں۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+267,"वास्तव में, बच्चे बगीचे में खेल रहे हैं। सभी सहमत हैं।",Hindi,hi
+268,"Honnêtement, Je voudrais une tasse de café, s'il vous plaît. C'est vrai.",French,fr
+269,"De hecho, El autobús llega cada quince minutos.",Spanish,es
+270,बगीचा रंग-बिरंगे फूलों से भरा है। यह निश्चित है।,Hindi,hi
+271,"Ayer, El museo abre a las nueve de la mañana. Es verdad.",Spanish,es
+272,"This morning, The store closes early on Sundays. That's for sure.",English,en
+273,ہمیشہ کی طرح، میوزیم صبح نو بجے کھلتا ہے۔ یہ یقینی ہے۔,Urdu,ur
+274,"एक बार फिर, हमने कल रात एक फिल्म देखी।",Hindi,hi
+275,"Ieri, Mi piace imparare nuove lingue.",Italian,it
+276,"In fact, I enjoy learning new languages. It's true.",English,en
+277,بظاہر، وہ ہر ہفتے کے آخر میں فٹبال کھیلتا ہے۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+278,"Aparentemente, Ela trabalha em uma pequena padaria. Todos concordam.",Portuguese,pt
+279,"Mais uma vez, Minha família vai nos visitar neste verão. Isso é certo.",Portuguese,pt
+280,कृपया मुझे एक कप कॉफी दीजिए। यह सच है।,Hindi,hi
+281,"Encore une fois, Le jardin est plein de fleurs colorées. Tout le monde est d'accord.",French,fr
+282,"वैसे, मुझे नई भाषाएँ सीखना पसंद है।",Hindi,hi
+283,"This morning, My family is visiting this summer.",English,en
+284,"Au fait, J'aime apprendre de nouvelles langues. C'est vrai.",French,fr
+285,Abbiamo visto un film ieri sera. Tutti sono d'accordo.,Italian,it
+286,"This morning, She is reading a book in the park.",English,en
+287,"Sorprendentemente, Me gusta aprender nuevos idiomas. Eso es seguro.",Spanish,es
+288,"Como sempre, Minha família vai nos visitar neste verão. Todos concordam.",Portuguese,pt
+289,بشكل مفاجئ، يخططون لرحلة إلى الجبال. الجميع يوافق.,Arabic,ar
+290,كالعادة، هي تقرأ كتابًا في الحديقة. هذا صحيح.,Arabic,ar
+291,"Übrigens, Wir gehen morgen auf den Markt. Alle sind sich einig.",German,de
+292,کل، کنسرٹ آٹھ بجے شروع ہوتا ہے۔ یہ یقینی ہے۔,Urdu,ur
+293,"Ehrlich gesagt, Das Konzert beginnt um acht Uhr. Es ist wahr.",German,de
+294,"A propósito, Ele joga futebol todo fim de semana. É verdade.",Portuguese,pt
+295,بالأمس، الحديقة مليئة بالزهور الملونة. الجميع يوافق.,Arabic,ar
+296,"Ancora una volta, Il museo apre alle nove del mattino.",Italian,it
+297,كالعادة، سنذهب إلى السوق غدًا. هذا صحيح.,Arabic,ar
+298,"Sorprendentemente, La tienda cierra temprano los domingos. Eso es seguro.",Spanish,es
+299,"A proposito, Il concerto inizia alle otto.",Italian,it
+300,"A propósito, Eu preciso comprar pão e leite. Isso é certo.",Portuguese,pt
+301,"हमेशा की तरह, वे पहाड़ों की यात्रा की योजना बना रहे हैं।",Hindi,hi
+302,کل، مجھے روٹی اور دودھ خریدنے کی ضرورت ہے۔ یہ یقینی ہے۔,Urdu,ur
+303,"Wie immer, Er lernt für seine Abschlussprüfungen.",German,de
+304,بظاہر، میوزیم صبح نو بجے کھلتا ہے۔ یہ سچ ہے۔,Urdu,ur
+305,"In fact, He is studying for his final exams. Everyone agrees.",English,en
+306,دراصل، میرا خاندان اس گرمی میں ہم سے ملنے آ رہا ہے۔,Urdu,ur
+307,ویسے، مجھے نئی زبانیں سیکھنا پسند ہے۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+308,"De hecho, El museo abre a las nueve de la mañana.",Spanish,es
+309,"A propósito, As crianças estão brincando no jardim. É verdade.",Portuguese,pt
+310,"Encore une fois, Il étudie pour ses examens finaux.",French,fr
+311,"Questa mattina, Questo ristorante serve cibo delizioso. Tutti sono d'accordo.",Italian,it
+312,"Questa mattina, La mia famiglia ci fa visita questa estate. Tutti sono d'accordo.",Italian,it
+313,My family is visiting this summer.,English,en
+314,"Como siempre, Vimos una película anoche. Es verdad.",Spanish,es
+315,ایک بار پھر، آج موسم بہت خوبصورت ہے۔ یہ یقینی ہے۔,Urdu,ur
+316,في الواقع، الأطفال يلعبون في الحديقة. هذا مؤكد.,Arabic,ar
+317,"जाहिर तौर पर, दुकान रविवार को जल्दी बंद हो जाती है। सभी सहमत हैं।",Hindi,hi
+318,بالمناسبة، الحديقة مليئة بالزهور الملونة. هذا مؤكد.,Arabic,ar
+319,"As usual, They are planning a trip to the mountains. Everyone agrees.",English,en
+320,"Infatti, Il concerto inizia alle otto. Questo è certo.",Italian,it
+321,"In fact, My family is visiting this summer. Everyone agrees.",English,en
+322,"जाहिर तौर पर, बस हर पंद्रह मिनट में आती है। यह सच है।",Hindi,hi
+323,باغ رنگ برنگے پھولوں سے بھرا ہے۔ یہ سچ ہے۔,Urdu,ur
+324,يغلق المتجر مبكرًا أيام الأحد. الجميع يوافق.,Arabic,ar
+325,"Honnêtement, Il étudie pour ses examens finaux. C'est vrai.",French,fr
+326,"Ehrlich gesagt, Wir gehen morgen auf den Markt. Alle sind sich einig.",German,de
+327,"Por cierto, El museo abre a las nueve de la mañana.",Spanish,es
+328,"Au fait, Elle travaille dans une petite boulangerie. Tout le monde est d'accord.",French,fr
+329,میرا خاندان اس گرمی میں ہم سے ملنے آ رہا ہے۔ یہ سچ ہے۔,Urdu,ur
+330,دراصل، بچے باغ میں کھیل رہے ہیں۔ یہ سچ ہے۔,Urdu,ur
+331,"Übrigens, Er spielt jedes Wochenende Fußball. Alle sind sich einig.",German,de
+332,"Come al solito, L'autobus arriva ogni quindici minuti. Tutti sono d'accordo.",Italian,it
+333,"Apparemment, Le magasin ferme tôt le dimanche. Tout le monde est d'accord.",French,fr
+334,على ما يبدو، شاهدنا فيلمًا الليلة الماضية.,Arabic,ar
+335,حیرت کی بات ہے، آج موسم بہت خوبصورت ہے۔ یہ سچ ہے۔,Urdu,ur
+336,"Comme d'habitude, Le musée ouvre à neuf heures du matin.",French,fr
+337,مرة أخرى، هو يلعب كرة القدم كل نهاية أسبوع. هذا صحيح.,Arabic,ar
+338,Il tempo è bellissimo oggi. È vero.,Italian,it
+339,"Wie immer, Ich muss Brot und Milch kaufen. Alle sind sich einig.",German,de
+340,"Heute Morgen, Ich muss Brot und Milch kaufen.",German,de
+341,ہمیشہ کی طرح، وہ ایک چھوٹی بیکری میں کام کرتی ہے۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+342,"Hier, Les enfants jouent dans le jardin. C'est vrai.",French,fr
+343,Il giardino è pieno di fiori colorati.,Italian,it
+344,"Questa mattina, Devo comprare pane e latte. Questo è certo.",Italian,it
+345,हमने कल रात एक फिल्म देखी। सभी सहमत हैं।,Hindi,hi
+346,"Heute Morgen, Die Kinder spielen im Garten. Es ist wahr.",German,de
+347,"Infatti, Vorrei una tazza di caffè, per favore. Tutti sono d'accordo.",Italian,it
+348,هذا الصباح، يفتح المتحف الساعة التاسعة صباحًا. هذا مؤكد.,Arabic,ar
+349,كالعادة، يغلق المتجر مبكرًا أيام الأحد. هذا صحيح.,Arabic,ar
+350,"Mais uma vez, Eu gostaria de uma xícara de café, por favor. Todos concordam.",Portuguese,pt
+351,"Onestamente, L'autobus arriva ogni quindici minuti. È vero.",Italian,it
+352,"Yesterday, The museum opens at nine in the morning. It's true.",English,en
+353,دراصل، کیا آپ ٹرین اسٹیشن ڈھونڈنے میں میری مدد کر سکتے ہیں؟,Urdu,ur
+354,"Gestern, Sie liest ein Buch im Park. Das ist sicher.",German,de
+355,"ईमानदारी से, वे पहाड़ों की यात्रा की योजना बना रहे हैं। सभी सहमत हैं।",Hindi,hi
+356,كالعادة، تصل الحافلة كل خمس عشرة دقيقة.,Arabic,ar
+357,"Once again, I need to buy some bread and milk. That's for sure.",English,en
+358,"Wie immer, Das Wetter ist heute wunderschön. Es ist wahr.",German,de
+359,"Honestly, Can you help me find the train station? Everyone agrees.",English,en
+360,بظاہر، کنسرٹ آٹھ بجے شروع ہوتا ہے۔ یہ سچ ہے۔,Urdu,ur
+361,ویسے، ہم نے کل رات ایک فلم دیکھی۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+362,بالمناسبة، يفتح المتحف الساعة التاسعة صباحًا. هذا مؤكد.,Arabic,ar
+363,"वैसे, यह रेस्तरां स्वादिष्ट भोजन परोसता है।",Hindi,hi
+364,"As usual, He is studying for his final exams. Everyone agrees.",English,en
+365,"कल, संग्रहालय सुबह नौ बजे खुलता है। यह सच है।",Hindi,hi
+366,"एक बार फिर, मेरा परिवार इस गर्मी में हमसे मिलने आ रहा है।",Hindi,hi
+367,"Questa mattina, Il tempo è bellissimo oggi. Questo è certo.",Italian,it
+368,"As usual, She is reading a book in the park.",English,en
+369,"Honestamente, Necesito comprar pan y leche.",Spanish,es
+370,"Ontem, Ele joga futebol todo fim de semana. Todos concordam.",Portuguese,pt
+371,"Honnêtement, Nous avons regardé un film hier soir.",French,fr
+372,"Aparentemente, El jardín está lleno de flores coloridas.",Spanish,es
+373,Sie liest ein Buch im Park. Es ist wahr.,German,de
+374,"Aparentemente, Eu gosto de aprender novos idiomas. Todos concordam.",Portuguese,pt
+375,"Honnêtement, Je voudrais une tasse de café, s'il vous plaît.",French,fr
+376,"A propósito, Eu preciso comprar pão e leite. Todos concordam.",Portuguese,pt
+377,كالعادة، سنذهب إلى السوق غدًا. هذا مؤكد.,Arabic,ar
+378,"Once again, I enjoy learning new languages. That's for sure.",English,en
+379,"Heute Morgen, Der Bus kommt alle fünfzehn Minuten. Alle sind sich einig.",German,de
+380,"En fait, Le jardin est plein de fleurs colorées. C'est vrai.",French,fr
+381,"As usual, I need to buy some bread and milk. That's for sure.",English,en
+382,"Yesterday, He is studying for his final exams.",English,en
+383,"Ayer, Mi familia nos visita este verano. Es verdad.",Spanish,es
+384,"Honestamente, Assistimos a um filme ontem à noite.",Portuguese,pt
+385,"Apparentemente, Puoi aiutarmi a trovare la stazione dei treni? È vero.",Italian,it
+386,"वैसे, संगीत कार्यक्रम आठ बजे शुरू होता है।",Hindi,hi
+387,"Gestern, Ich muss Brot und Milch kaufen. Es ist wahr.",German,de
+388,"Honestamente, Você pode me ajudar a encontrar a estação de trem? Isso é certo.",Portuguese,pt
+389,"Onestamente, Il museo apre alle nove del mattino. Questo è certo.",Italian,it
+390,"Gestern, Er spielt jedes Wochenende Fußball.",German,de
+391,¿Puedes ayudarme a encontrar la estación de tren? Es verdad.,Spanish,es
+392,"Au fait, Elle lit un livre dans le parc. C'est vrai.",French,fr
+393,"In fact, She works at a small bakery downtown.",English,en
+394,"एक बार फिर, वे पहाड़ों की यात्रा की योजना बना रहे हैं। सभी सहमत हैं।",Hindi,hi
+395,بالمناسبة، الأطفال يلعبون في الحديقة. هذا مؤكد.,Arabic,ar
+396,"Tatsächlich, Ich muss Brot und Milch kaufen. Es ist wahr.",German,de
+397,ویسے، کنسرٹ آٹھ بجے شروع ہوتا ہے۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+398,"Überraschenderweise, Der Laden schließt sonntags früh. Es ist wahr.",German,de
+399,"A proposito, Il concerto inizia alle otto. È vero.",Italian,it
+400,"Ayer, El museo abre a las nueve de la mañana. Eso es seguro.",Spanish,es
+401,ایمانداری سے، وہ پارک میں کتاب پڑھ رہی ہے۔ یہ سچ ہے۔,Urdu,ur
+402,"De hecho, Él está estudiando para sus exámenes finales. Es verdad.",Spanish,es
+403,"Honestamente, Me gusta aprender nuevos idiomas. Es verdad.",Spanish,es
+404,کل، مجھے نئی زبانیں سیکھنا پسند ہے۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+405,"जाहिर तौर पर, मुझे रोटी और दूध खरीदने की जरूरत है। यह निश्चित है।",Hindi,hi
+406,"Once again, My family is visiting this summer.",English,en
+407,"En fait, Les enfants jouent dans le jardin.",French,fr
+408,"Apparently, I need to buy some bread and milk.",English,en
+409,"कल, बस हर पंद्रह मिनट में आती है। यह निश्चित है।",Hindi,hi
+410,"वैसे, यह रेस्तरां स्वादिष्ट भोजन परोसता है। यह सच है।",Hindi,hi
+411,J'aime apprendre de nouvelles langues.,French,fr
+412,في الواقع، أود كوب قهوة من فضلك. هذا صحيح.,Arabic,ar
+413,"Heute Morgen, Sie liest ein Buch im Park.",German,de
+414,"Überraschenderweise, Die Kinder spielen im Garten. Das ist sicher.",German,de
+415,"Encore une fois, Ils prévoient un voyage à la montagne.",French,fr
+416,"Comme d'habitude, Elle travaille dans une petite boulangerie.",French,fr
+417,ہمیشہ کی طرح، ہم کل بازار جا رہے ہیں۔ یہ سچ ہے۔,Urdu,ur
+418,"वास्तव में, मुझे रोटी और दूध खरीदने की जरूरत है। यह सच है।",Hindi,hi
+419,"Ce matin, Le magasin ferme tôt le dimanche. C'est certain.",French,fr
+420,"De hecho, Ellos están planeando un viaje a las montañas. Eso es seguro.",Spanish,es
+421,"In fact, He is studying for his final exams.",English,en
+422,"जाहिर तौर पर, बगीचा रंग-बिरंगे फूलों से भरा है।",Hindi,hi
+423,"Étonnamment, Les enfants jouent dans le jardin. Tout le monde est d'accord.",French,fr
+424,"Ancora una volta, Il concerto inizia alle otto.",Italian,it
+425,"Übrigens, Sie arbeitet in einer kleinen Bäckerei. Es ist wahr.",German,de
+426,"A propósito, Ela está lendo um livro no parque. Todos concordam.",Portuguese,pt
+427,"Onestamente, Lei sta leggendo un libro nel parco. Questo è certo.",Italian,it
+428,"Apparemment, J'ai besoin d'acheter du pain et du lait.",French,fr
+429,ہمیشہ کی طرح، ہم نے کل رات ایک فلم دیکھی۔,Urdu,ur
+430,"Apparemment, Il joue au football chaque week-end. C'est vrai.",French,fr
+431,"This morning, I need to buy some bread and milk.",English,en
+432,Ela está lendo um livro no parque. Isso é certo.,Portuguese,pt
+433,حیرت کی بات ہے، بچے باغ میں کھیل رہے ہیں۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+434,"Aparentemente, Ellos están planeando un viaje a las montañas. Eso es seguro.",Spanish,es
+435,ایک بار پھر، بس ہر پندرہ منٹ میں آتی ہے۔ یہ یقینی ہے۔,Urdu,ur
+436,هذا الصباح، أستمتع بتعلم لغات جديدة.,Arabic,ar
+437,"Übrigens, Können Sie mir helfen, den Bahnhof zu finden? Es ist wahr.",German,de
+438,"Esta mañana, Me gusta aprender nuevos idiomas. Es verdad.",Spanish,es
+439,"Hier, Elle lit un livre dans le parc. C'est vrai.",French,fr
+440,"Aparentemente, O show começa às oito horas. É verdade.",Portuguese,pt
+441,هذا الصباح، سنذهب إلى السوق غدًا. هذا مؤكد.,Arabic,ar
+442,"Once again, We watched a movie last night.",English,en
+443,بالأمس، أحتاج إلى شراء خبز وحليب. الجميع يوافق.,Arabic,ar
+444,"वास्तव में, हम कल बाजार जा रहे हैं। यह सच है।",Hindi,hi
+445,بشكل مفاجئ، هي تقرأ كتابًا في الحديقة. الجميع يوافق.,Arabic,ar
+446,بصراحة، يغلق المتجر مبكرًا أيام الأحد.,Arabic,ar
+447,هي تقرأ كتابًا في الحديقة. هذا مؤكد.,Arabic,ar
+448,"ईमानदारी से, दुकान रविवार को जल्दी बंद हो जाती है।",Hindi,hi
+449,بظاہر، کنسرٹ آٹھ بجے شروع ہوتا ہے۔ یہ یقینی ہے۔,Urdu,ur
+450,Ellos están planeando un viaje a las montañas.,Spanish,es
+451,"Apparemment, Ce restaurant sert une nourriture délicieuse.",French,fr
+452,"Honestamente, Este restaurante serve comida deliciosa. Todos concordam.",Portuguese,pt
+453,"A proposito, Il tempo è bellissimo oggi. È vero.",Italian,it
+454,संग्रहालय सुबह नौ बजे खुलता है।,Hindi,hi
+455,"Honestamente, Eu preciso comprar pão e leite. Isso é certo.",Portuguese,pt
+456,"In fact, The store closes early on Sundays. It's true.",English,en
+457,हम कल बाजार जा रहे हैं। यह निश्चित है।,Hindi,hi
+458,"Apparemment, Nous allons au marché demain. Tout le monde est d'accord.",French,fr
+459,بشكل مفاجئ، هو يدرس لامتحاناته النهائية. الجميع يوافق.,Arabic,ar
+460,"Ontem, Eles estão planejando uma viagem para as montanhas. É verdade.",Portuguese,pt
+461,هذا الصباح، يبدأ الحفل الساعة الثامنة. هذا صحيح.,Arabic,ar
+462,"Esta mañana, Ella trabaja en una pequeña panadería. Todos están de acuerdo.",Spanish,es
+463,بصراحة، يفتح المتحف الساعة التاسعة صباحًا.,Arabic,ar
+464,بشكل مفاجئ، هذا المطعم يقدم طعامًا لذيذًا. هذا مؤكد.,Arabic,ar
+465,ہمیشہ کی طرح، میرا خاندان اس گرمی میں ہم سے ملنے آ رہا ہے۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+466,هذا الصباح، يغلق المتجر مبكرًا أيام الأحد.,Arabic,ar
+467,"Esta mañana, Él está estudiando para sus exámenes finales. Todos están de acuerdo.",Spanish,es
+468,أستمتع بتعلم لغات جديدة. هذا صحيح.,Arabic,ar
+469,"Surprisingly, I need to buy some bread and milk.",English,en
+470,"Una vez más, Él está estudiando para sus exámenes finales. Eso es seguro.",Spanish,es
+471,"In fact, Can you help me find the train station? Everyone agrees.",English,en
+472,"Honestly, He plays football every weekend. That's for sure.",English,en
+473,"कल, वह अपनी अंतिम परीक्षाओं के लिए पढ़ रहा है। यह सच है।",Hindi,hi
+474,"Heute Morgen, Sie liest ein Buch im Park. Das ist sicher.",German,de
+475,"Apparemment, Ils prévoient un voyage à la montagne. C'est vrai.",French,fr
+476,Sie liest ein Buch im Park. Das ist sicher.,German,de
+477,"Questa mattina, Il tempo è bellissimo oggi.",Italian,it
+478,بظاہر، وہ اپنے فائنل امتحانات کی تیاری کر رہا ہے۔ یہ سچ ہے۔,Urdu,ur
+479,"Come al solito, Vorrei una tazza di caffè, per favore. Questo è certo.",Italian,it
+480,"A propósito, Ela trabalha em uma pequena padaria. Isso é certo.",Portuguese,pt
+481,बच्चे बगीचे में खेल रहे हैं। यह सच है।,Hindi,hi
+482,"ईमानदारी से, संग्रहालय सुबह नौ बजे खुलता है। सभी सहमत हैं।",Hindi,hi
+483,"As usual, The store closes early on Sundays. Everyone agrees.",English,en
+484,"हमेशा की तरह, संगीत कार्यक्रम आठ बजे शुरू होता है।",Hindi,hi
+485,"Ehrlich gesagt, Der Laden schließt sonntags früh. Das ist sicher.",German,de
+486,"En fait, Il joue au football chaque week-end. C'est certain.",French,fr
+487,"Honestly, The store closes early on Sundays. That's for sure.",English,en
+488,بشكل مفاجئ، تصل الحافلة كل خمس عشرة دقيقة. هذا مؤكد.,Arabic,ar
+489,El autobús llega cada quince minutos. Todos están de acuerdo.,Spanish,es
+490,"Sorprendentemente, Los niños están jugando en el jardín. Eso es seguro.",Spanish,es
+491,"हमेशा की तरह, वे पहाड़ों की यात्रा की योजना बना रहे हैं। यह सच है।",Hindi,hi
+492,"Surpreendentemente, O jardim está cheio de flores coloridas.",Portuguese,pt
+493,ویسے، وہ ایک چھوٹی بیکری میں کام کرتی ہے۔ یہ یقینی ہے۔,Urdu,ur
+494,"Infatti, Puoi aiutarmi a trovare la stazione dei treni? Tutti sono d'accordo.",Italian,it
+495,"Tatsächlich, Dieses Restaurant serviert köstliches Essen.",German,de
+496,"वास्तव में, क्या आप मुझे रेलवे स्टेशन खोजने में मदद कर सकते हैं? यह सच है।",Hindi,hi
+497,"Como sempre, Eu gosto de aprender novos idiomas. É verdade.",Portuguese,pt
+498,"Once again, The weather is beautiful today. It's true.",English,en
+499,"A proposito, La mia famiglia ci fa visita questa estate. Questo è certo.",Italian,it
+500,"A propósito, O ônibus chega a cada quinze minutos. Isso é certo.",Portuguese,pt
+501,"Aparentemente, Mi familia nos visita este verano.",Spanish,es
+502,"Apparentemente, Abbiamo visto un film ieri sera. È vero.",Italian,it
+503,मुझे रोटी और दूध खरीदने की जरूरत है। यह सच है।,Hindi,hi
+504,Wir haben gestern Abend einen Film gesehen. Es ist wahr.,German,de
+505,"वैसे, दुकान रविवार को जल्दी बंद हो जाती है। यह निश्चित है।",Hindi,hi
+506,ایمانداری سے، ہم نے کل رات ایک فلم دیکھی۔,Urdu,ur
+507,"Por cierto, El autobús llega cada quince minutos. Todos están de acuerdo.",Spanish,es
+508,"Yesterday, Can you help me find the train station? Everyone agrees.",English,en
+509,"Infatti, Mi piace imparare nuove lingue. Questo è certo.",Italian,it
+510,"Onestamente, Devo comprare pane e latte.",Italian,it
+511,"En fait, Ma famille nous rend visite cet été.",French,fr
+512,"Mais uma vez, A loja fecha cedo aos domingos. Todos concordam.",Portuguese,pt
+513,"Au fait, Le jardin est plein de fleurs colorées.",French,fr
+514,"Heute Morgen, Wir haben gestern Abend einen Film gesehen.",German,de
+515,"Esta manhã, Ela trabalha em uma pequena padaria. Isso é certo.",Portuguese,pt
+516,"This morning, I enjoy learning new languages. It's true.",English,en
+517,"Once again, The children are playing in the garden. Everyone agrees.",English,en
+518,آج صبح، مجھے روٹی اور دودھ خریدنے کی ضرورت ہے۔,Urdu,ur
+519,"Heute Morgen, Wir gehen morgen auf den Markt. Das ist sicher.",German,de
+520,"Überraschenderweise, Dieses Restaurant serviert köstliches Essen.",German,de
+521,بالأمس، يغلق المتجر مبكرًا أيام الأحد. هذا مؤكد.,Arabic,ar
+522,"Honnêtement, Ils prévoient un voyage à la montagne. C'est vrai.",French,fr
+523,"Onestamente, Lei lavora in una piccola panetteria. È vero.",Italian,it
+524,"ईमानदारी से, क्या आप मुझे रेलवे स्टेशन खोजने में मदद कर सकते हैं? यह निश्चित है।",Hindi,hi
+525,أود كوب قهوة من فضلك. هذا صحيح.,Arabic,ar
+526,"Esta manhã, Ela está lendo um livro no parque. É verdade.",Portuguese,pt
+527,"कल, क्या आप मुझे रेलवे स्टेशन खोजने में मदद कर सकते हैं? सभी सहमत हैं।",Hindi,hi
+528,"Onestamente, Questo ristorante serve cibo delizioso. Questo è certo.",Italian,it
+529,بالأمس، الأطفال يلعبون في الحديقة. هذا مؤكد.,Arabic,ar
+530,على ما يبدو، أود كوب قهوة من فضلك.,Arabic,ar
+531,"Ieri, Il concerto inizia alle otto. È vero.",Italian,it
+532,"Apparentemente, Lei sta leggendo un libro nel parco. Tutti sono d'accordo.",Italian,it
+533,دراصل، مجھے روٹی اور دودھ خریدنے کی ضرورت ہے۔ یہ یقینی ہے۔,Urdu,ur
+534,"Surprisingly, She works at a small bakery downtown. It's true.",English,en
+535,"Ontem, O museu abre às nove da manhã.",Portuguese,pt
+536,"Übrigens, Wir gehen morgen auf den Markt. Es ist wahr.",German,de
+537,"Tatsächlich, Sie planen eine Reise in die Berge. Alle sind sich einig.",German,de
+538,हमने कल रात एक फिल्म देखी।,Hindi,hi
+539,حیرت کی بات ہے، وہ پارک میں کتاب پڑھ رہی ہے۔ یہ یقینی ہے۔,Urdu,ur
+540,"Surpreendentemente, Ela trabalha em uma pequena padaria. Isso é certo.",Portuguese,pt
+541,"Aparentemente, El museo abre a las nueve de la mañana. Eso es seguro.",Spanish,es
+542,"Once again, I enjoy learning new languages.",English,en
+543,"De hecho, Los niños están jugando en el jardín. Es verdad.",Spanish,es
+544,El clima está hermoso hoy.,Spanish,es
+545,"Como siempre, El museo abre a las nueve de la mañana. Todos están de acuerdo.",Spanish,es
+546,"Apparently, I would like a cup of coffee, please.",English,en
+547,"Encore une fois, Le jardin est plein de fleurs colorées. C'est certain.",French,fr
+548,"हमेशा की तरह, वह एक छोटी बेकरी में काम करती है।",Hindi,hi
+549,آج صبح، وہ پارک میں کتاب پڑھ رہی ہے۔,Urdu,ur
+550,بشكل مفاجئ، هل يمكنك مساعدتي في إيجاد محطة القطار؟,Arabic,ar
+551,"वास्तव में, बच्चे बगीचे में खेल रहे हैं। यह सच है।",Hindi,hi
+552,"Por cierto, Vamos al mercado mañana. Eso es seguro.",Spanish,es
+553,"Hier, Elle travaille dans une petite boulangerie.",French,fr
+554,"As usual, The bus arrives every fifteen minutes. That's for sure.",English,en
+555,"Apparemment, Elle travaille dans une petite boulangerie.",French,fr
+556,"Sorprendentemente, Ellos están planeando un viaje a las montañas. Eso es seguro.",Spanish,es
+557,"Anscheinend, Die Kinder spielen im Garten. Alle sind sich einig.",German,de
+558,"Aparentemente, Él está estudiando para sus exámenes finales. Eso es seguro.",Spanish,es
+559,"En fait, Ma famille nous rend visite cet été. Tout le monde est d'accord.",French,fr
+560,"Anscheinend, Der Bus kommt alle fünfzehn Minuten. Alle sind sich einig.",German,de
+561,"Étonnamment, Le concert commence à huit heures. C'est certain.",French,fr
+562,"हैरानी की बात है, वह एक छोटी बेकरी में काम करती है। यह निश्चित है।",Hindi,hi
+563,"Surpreendentemente, O jardim está cheio de flores coloridas. É verdade.",Portuguese,pt
+564,"Yesterday, Can you help me find the train station? It's true.",English,en
+565,"Honestly, We are going to the market tomorrow. It's true.",English,en
+566,"कल, वह हर सप्ताहांत फुटबॉल खेलता है।",Hindi,hi
+567,"Una vez más, Este restaurante sirve comida deliciosa.",Spanish,es
+568,"Können Sie mir helfen, den Bahnhof zu finden? Es ist wahr.",German,de
+569,"A propósito, Ele está estudando para as provas finais.",Portuguese,pt
+570,"Yesterday, I enjoy learning new languages. It's true.",English,en
+571,الحديقة مليئة بالزهور الملونة. هذا مؤكد.,Arabic,ar
+572,"Étonnamment, Les enfants jouent dans le jardin. C'est vrai.",French,fr
+573,"एक बार फिर, वह अपनी अंतिम परीक्षाओं के लिए पढ़ रहा है। यह सच है।",Hindi,hi
+574,"As usual, The weather is beautiful today. It's true.",English,en
+575,مرة أخرى، هي تعمل في مخبز صغير. الجميع يوافق.,Arabic,ar
+576,"Ancora una volta, Stanno pianificando un viaggio in montagna. Questo è certo.",Italian,it
+577,"De hecho, Vamos al mercado mañana. Es verdad.",Spanish,es
+578,"Encore une fois, Le musée ouvre à neuf heures du matin. C'est certain.",French,fr
+579,"जाहिर तौर पर, क्या आप मुझे रेलवे स्टेशन खोजने में मदद कर सकते हैं? सभी सहमत हैं।",Hindi,hi
+580,"Yesterday, I need to buy some bread and milk.",English,en
+581,على ما يبدو، الطقس جميل اليوم. الجميع يوافق.,Arabic,ar
+582,"Étonnamment, Nous allons au marché demain. Tout le monde est d'accord.",French,fr
+583,"Anscheinend, Können Sie mir helfen, den Bahnhof zu finden? Das ist sicher.",German,de
+584,"Aparentemente, Ele está estudando para as provas finais. Todos concordam.",Portuguese,pt
+585,"एक बार फिर, आज मौसम बहुत सुंदर है। यह निश्चित है।",Hindi,hi
+586,"A proposito, Lui sta studiando per gli esami finali. Questo è certo.",Italian,it
+587,"Onestamente, Mi piace imparare nuove lingue. Tutti sono d'accordo.",Italian,it
+588,آج صبح، کنسرٹ آٹھ بجے شروع ہوتا ہے۔,Urdu,ur
+589,"Wieder einmal, Er spielt jedes Wochenende Fußball.",German,de
+590,"Étonnamment, Il étudie pour ses examens finaux.",French,fr
+591,"Ancora una volta, Il museo apre alle nove del mattino. Questo è certo.",Italian,it
+592,"एक बार फिर, बगीचा रंग-बिरंगे फूलों से भरा है।",Hindi,hi
+593,بالمناسبة، هو يلعب كرة القدم كل نهاية أسبوع. هذا مؤكد.,Arabic,ar
+594,"By the way, The museum opens at nine in the morning. Everyone agrees.",English,en
+595,"Aparentemente, ¿Puedes ayudarme a encontrar la estación de tren? Todos están de acuerdo.",Spanish,es
+596,مرة أخرى، هل يمكنك مساعدتي في إيجاد محطة القطار؟,Arabic,ar
+597,"Sorprendentemente, Ella está leyendo un libro en el parque.",Spanish,es
+598,"Gestern, Sie arbeitet in einer kleinen Bäckerei. Das ist sicher.",German,de
+599,"Ehrlich gesagt, Ich muss Brot und Milch kaufen. Das ist sicher.",German,de
+600,بالمناسبة، هي تقرأ كتابًا في الحديقة.,Arabic,ar
+601,Ele está estudando para as provas finais. Isso é certo.,Portuguese,pt
+602,"Ontem, Este restaurante serve comida deliciosa. Isso é certo.",Portuguese,pt
+603,بالأمس، أود كوب قهوة من فضلك. هذا صحيح.,Arabic,ar
+604,"Apparently, The museum opens at nine in the morning. Everyone agrees.",English,en
+605,دراصل، مجھے نئی زبانیں سیکھنا پسند ہے۔,Urdu,ur
+606,"Questa mattina, Il negozio chiude presto la domenica. Questo è certo.",Italian,it
+607,"Apparemment, J'ai besoin d'acheter du pain et du lait. Tout le monde est d'accord.",French,fr
+608,"Na verdade, O tempo está lindo hoje. Todos concordam.",Portuguese,pt
+609,"Wieder einmal, Sie planen eine Reise in die Berge. Das ist sicher.",German,de
+610,"Na verdade, O show começa às oito horas. Isso é certo.",Portuguese,pt
+611,"वैसे, मुझे रोटी और दूध खरीदने की जरूरत है। यह सच है।",Hindi,hi
+612,"Überraschenderweise, Das Konzert beginnt um acht Uhr. Alle sind sich einig.",German,de
+613,في الواقع، تصل الحافلة كل خمس عشرة دقيقة. الجميع يوافق.,Arabic,ar
+614,هذا الصباح، هي تعمل في مخبز صغير. هذا صحيح.,Arabic,ar
+615,"Étonnamment, Ce restaurant sert une nourriture délicieuse. C'est vrai.",French,fr
+616,"A propósito, Ele está estudando para as provas finais. Isso é certo.",Portuguese,pt
+617,هذا الصباح، هو يدرس لامتحاناته النهائية. الجميع يوافق.,Arabic,ar
+618,"Como siempre, Me gustaría una taza de café, por favor. Eso es seguro.",Spanish,es
+619,"En fait, Il joue au football chaque week-end. C'est vrai.",French,fr
+620,"Honestamente, Me gusta aprender nuevos idiomas. Eso es seguro.",Spanish,es
+621,"Honestamente, Vimos una película anoche. Todos están de acuerdo.",Spanish,es
+622,هذا الصباح، هو يدرس لامتحاناته النهائية.,Arabic,ar
+623,"Como siempre, Él está estudiando para sus exámenes finales. Todos están de acuerdo.",Spanish,es
+624,My family is visiting this summer. It's true.,English,en
+625,"Encore une fois, Les enfants jouent dans le jardin. Tout le monde est d'accord.",French,fr
+626,"Infatti, Questo ristorante serve cibo delizioso. Tutti sono d'accordo.",Italian,it
+627,حیرت کی بات ہے، وہ ہر ہفتے کے آخر میں فٹبال کھیلتا ہے۔ یہ یقینی ہے۔,Urdu,ur
+628,"In fact, The weather is beautiful today. It's true.",English,en
+629,"Honestly, She is reading a book in the park. That's for sure.",English,en
+630,ویسے، وہ ہر ہفتے کے آخر میں فٹبال کھیلتا ہے۔ یہ سچ ہے۔,Urdu,ur
+631,کل، کیا آپ ٹرین اسٹیشن ڈھونڈنے میں میری مدد کر سکتے ہیں؟ سب اس بات پر متفق ہیں۔,Urdu,ur
+632,دراصل، وہ پارک میں کتاب پڑھ رہی ہے۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+633,"As usual, I enjoy learning new languages. It's true.",English,en
+634,Le temps est magnifique aujourd'hui.,French,fr
+635,هي تعمل في مخبز صغير. الجميع يوافق.,Arabic,ar
+636,"Sorprendentemente, Ellos están planeando un viaje a las montañas. Todos están de acuerdo.",Spanish,es
+637,بصراحة، يغلق المتجر مبكرًا أيام الأحد. الجميع يوافق.,Arabic,ar
+638,حیرت کی بات ہے، براہ کرم مجھے ایک کپ کافی دیں۔ یہ یقینی ہے۔,Urdu,ur
+639,ایک بار پھر، ہم کل بازار جا رہے ہیں۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+640,"Étonnamment, Le concert commence à huit heures. Tout le monde est d'accord.",French,fr
+641,ایک بار پھر، آج موسم بہت خوبصورت ہے۔,Urdu,ur
+642,"Au fait, Le temps est magnifique aujourd'hui. C'est vrai.",French,fr
+643,ویسے، ہم نے کل رات ایک فلم دیکھی۔ یہ سچ ہے۔,Urdu,ur
+644,"Encore une fois, J'aime apprendre de nouvelles langues. Tout le monde est d'accord.",French,fr
+645,Este restaurante serve comida deliciosa. É verdade.,Portuguese,pt
+646,بصراحة، الأطفال يلعبون في الحديقة. هذا مؤكد.,Arabic,ar
+647,"Übrigens, Ich hätte gerne eine Tasse Kaffee, bitte. Es ist wahr.",German,de
+648,Wir gehen morgen auf den Markt. Alle sind sich einig.,German,de
+649,"Ontem, Ele está estudando para as provas finais. Todos concordam.",Portuguese,pt
+650,"By the way, The bus arrives every fifteen minutes. That's for sure.",English,en
+651,Eles estão planejando uma viagem para as montanhas. Isso é certo.,Portuguese,pt
+652,"Come al solito, Il museo apre alle nove del mattino. È vero.",Italian,it
+653,"Ontem, Você pode me ajudar a encontrar a estação de trem? Isso é certo.",Portuguese,pt
+654,"Esta manhã, Ele joga futebol todo fim de semana. Isso é certo.",Portuguese,pt
+655,"आज सुबह, दुकान रविवार को जल्दी बंद हो जाती है।",Hindi,hi
+656,"Hier, Nous allons au marché demain. C'est certain.",French,fr
+657,"कल, वे पहाड़ों की यात्रा की योजना बना रहे हैं।",Hindi,hi
+658,"Questa mattina, Devo comprare pane e latte. Tutti sono d'accordo.",Italian,it
+659,"By the way, The weather is beautiful today.",English,en
+660,"Hier, J'aime apprendre de nouvelles langues. C'est certain.",French,fr
+661,"Honestamente, Vimos una película anoche. Es verdad.",Spanish,es
+662,"Tatsächlich, Der Garten ist voller bunter Blumen. Das ist sicher.",German,de
+663,"Como siempre, Ellos están planeando un viaje a las montañas. Es verdad.",Spanish,es
+664,"कल, बगीचा रंग-बिरंगे फूलों से भरा है। यह निश्चित है।",Hindi,hi
+665,"Überraschenderweise, Wir gehen morgen auf den Markt. Alle sind sich einig.",German,de
+666,"Questa mattina, L'autobus arriva ogni quindici minuti.",Italian,it
+667,"Wie immer, Wir haben gestern Abend einen Film gesehen. Es ist wahr.",German,de
+668,"Wie immer, Das Wetter ist heute wunderschön. Das ist sicher.",German,de
+669,"Ieri, Devo comprare pane e latte. È vero.",Italian,it
+670,بالمناسبة، شاهدنا فيلمًا الليلة الماضية. الجميع يوافق.,Arabic,ar
+671,آج صبح، یہ ریستوران لذیذ کھانا پیش کرتا ہے۔ یہ سچ ہے۔,Urdu,ur
+672,"Esta manhã, Ela está lendo um livro no parque. Isso é certo.",Portuguese,pt
+673,"Una vez más, Él juega fútbol cada fin de semana.",Spanish,es
+674,ایمانداری سے، میوزیم صبح نو بجے کھلتا ہے۔ یہ سچ ہے۔,Urdu,ur
+675,ہمیشہ کی طرح، وہ پہاڑوں کے سفر کی منصوبہ بندی کر رہے ہیں۔ یہ یقینی ہے۔,Urdu,ur
+676,"A propósito, O museu abre às nove da manhã. É verdade.",Portuguese,pt
+677,مرة أخرى، أستمتع بتعلم لغات جديدة. الجميع يوافق.,Arabic,ar
+678,"By the way, She works at a small bakery downtown. That's for sure.",English,en
+679,"Ayer, El clima está hermoso hoy. Todos están de acuerdo.",Spanish,es
+680,"Ehrlich gesagt, Meine Familie besucht uns diesen Sommer. Alle sind sich einig.",German,de
+681,"Überraschenderweise, Ich lerne gerne neue Sprachen. Es ist wahr.",German,de
+682,"Infatti, Andiamo al mercato domani. È vero.",Italian,it
+683,"Hier, Ma famille nous rend visite cet été.",French,fr
+684,کنسرٹ آٹھ بجے شروع ہوتا ہے۔ یہ یقینی ہے۔,Urdu,ur
+685,"एक बार फिर, वे पहाड़ों की यात्रा की योजना बना रहे हैं। यह सच है।",Hindi,hi
+686,"Heute Morgen, Der Garten ist voller bunter Blumen. Alle sind sich einig.",German,de
+687,"Ancora una volta, Devo comprare pane e latte.",Italian,it
+688,"Mais uma vez, O show começa às oito horas. Todos concordam.",Portuguese,pt
+689,We are going to the market tomorrow.,English,en
+690,"हैरानी की बात है, बगीचा रंग-बिरंगे फूलों से भरा है। यह निश्चित है।",Hindi,hi
+691,"Ieri, Abbiamo visto un film ieri sera. Tutti sono d'accordo.",Italian,it
+692,کل، کیا آپ ٹرین اسٹیشن ڈھونڈنے میں میری مدد کر سکتے ہیں؟ یہ یقینی ہے۔,Urdu,ur
+693,في الواقع، هي تقرأ كتابًا في الحديقة.,Arabic,ar
+694,"Aparentemente, Minha família vai nos visitar neste verão. Todos concordam.",Portuguese,pt
+695,"Ehrlich gesagt, Er spielt jedes Wochenende Fußball. Es ist wahr.",German,de
+696,"Encore une fois, Les enfants jouent dans le jardin.",French,fr
+697,"Esta manhã, Ele está estudando para as provas finais. Isso é certo.",Portuguese,pt
+698,وہ پہاڑوں کے سفر کی منصوبہ بندی کر رہے ہیں۔,Urdu,ur
+699,ویسے، میوزیم صبح نو بجے کھلتا ہے۔ یہ سچ ہے۔,Urdu,ur
+700,"Esta manhã, O museu abre às nove da manhã.",Portuguese,pt
+701,"Honnêtement, Il étudie pour ses examens finaux. C'est certain.",French,fr
+702,"एक बार फिर, आज मौसम बहुत सुंदर है। सभी सहमत हैं।",Hindi,hi
+703,"Überraschenderweise, Ich lerne gerne neue Sprachen. Das ist sicher.",German,de
+704,بشكل مفاجئ، يفتح المتحف الساعة التاسعة صباحًا. هذا صحيح.,Arabic,ar
+705,بصراحة، عائلتي ستزورنا هذا الصيف.,Arabic,ar
+706,"Mais uma vez, Eu gosto de aprender novos idiomas. É verdade.",Portuguese,pt
+707,"Honnêtement, Le temps est magnifique aujourd'hui. C'est vrai.",French,fr
+708,"Esta manhã, A loja fecha cedo aos domingos. Isso é certo.",Portuguese,pt
+709,ایمانداری سے، ہم نے کل رات ایک فلم دیکھی۔ یہ سچ ہے۔,Urdu,ur
+710,هو يلعب كرة القدم كل نهاية أسبوع. هذا صحيح.,Arabic,ar
+711,"Questa mattina, Il concerto inizia alle otto. Questo è certo.",Italian,it
+712,"Ce matin, Ils prévoient un voyage à la montagne. Tout le monde est d'accord.",French,fr
+713,بصراحة، أحتاج إلى شراء خبز وحليب. هذا مؤكد.,Arabic,ar
+714,"By the way, Can you help me find the train station? Everyone agrees.",English,en
+715,"ईमानदारी से, बस हर पंद्रह मिनट में आती है। यह सच है।",Hindi,hi
+716,Das Wetter ist heute wunderschön.,German,de
+717,في الواقع، الطقس جميل اليوم. هذا مؤكد.,Arabic,ar
+718,Il tempo è bellissimo oggi. Tutti sono d'accordo.,Italian,it
+719,ایک بار پھر، یہ ریستوران لذیذ کھانا پیش کرتا ہے۔ یہ سچ ہے۔,Urdu,ur
+720,"A propósito, Vamos ao mercado amanhã. É verdade.",Portuguese,pt
+721,Il negozio chiude presto la domenica. È vero.,Italian,it
+722,"Sorprendentemente, El concierto comienza a las ocho.",Spanish,es
+723,في الواقع، شاهدنا فيلمًا الليلة الماضية. هذا صحيح.,Arabic,ar
+724,شاهدنا فيلمًا الليلة الماضية. الجميع يوافق.,Arabic,ar
+725,Puoi aiutarmi a trovare la stazione dei treni? Questo è certo.,Italian,it
+726,على ما يبدو، عائلتي ستزورنا هذا الصيف. هذا صحيح.,Arabic,ar
+727,"Sorprendentemente, Stanno pianificando un viaggio in montagna. Questo è certo.",Italian,it
+728,کل، کنسرٹ آٹھ بجے شروع ہوتا ہے۔,Urdu,ur
+729,"Überraschenderweise, Das Konzert beginnt um acht Uhr. Es ist wahr.",German,de
+730,"In fact, We are going to the market tomorrow. It's true.",English,en
+731,They are planning a trip to the mountains. Everyone agrees.,English,en
+732,"Honestly, The weather is beautiful today. It's true.",English,en
+733,"Ce matin, Pouvez-vous m'aider à trouver la gare ? C'est vrai.",French,fr
+734,كالعادة، هي تقرأ كتابًا في الحديقة. الجميع يوافق.,Arabic,ar
+735,"वास्तव में, कृपया मुझे एक कप कॉफी दीजिए। यह निश्चित है।",Hindi,hi
+736,"Ayer, Vamos al mercado mañana. Es verdad.",Spanish,es
+737,"Apparemment, Elle lit un livre dans le parc. Tout le monde est d'accord.",French,fr
+738,"Wieder einmal, Das Museum öffnet um neun Uhr morgens. Es ist wahr.",German,de
+739,"Mais uma vez, Este restaurante serve comida deliciosa. Isso é certo.",Portuguese,pt
+740,بشكل مفاجئ، هل يمكنك مساعدتي في إيجاد محطة القطار؟ هذا صحيح.,Arabic,ar
+741,ویسے، ہم کل بازار جا رہے ہیں۔ یہ یقینی ہے۔,Urdu,ur
+742,"A propósito, Eles estão planejando uma viagem para as montanhas. Isso é certo.",Portuguese,pt
+743,بظاہر، وہ ہر ہفتے کے آخر میں فٹبال کھیلتا ہے۔,Urdu,ur
+744,آج صبح، میرا خاندان اس گرمی میں ہم سے ملنے آ رہا ہے۔ یہ سچ ہے۔,Urdu,ur
+745,"Hier, Nous avons regardé un film hier soir. C'est vrai.",French,fr
+746,"As usual, The weather is beautiful today. Everyone agrees.",English,en
+747,"Esta mañana, El museo abre a las nueve de la mañana. Es verdad.",Spanish,es
+748,"हैरानी की बात है, मुझे रोटी और दूध खरीदने की जरूरत है। सभी सहमत हैं।",Hindi,hi
+749,في الواقع، يبدأ الحفل الساعة الثامنة.,Arabic,ar
+750,على ما يبدو، هو يلعب كرة القدم كل نهاية أسبوع. الجميع يوافق.,Arabic,ar
+751,"Una vez más, Vimos una película anoche. Eso es seguro.",Spanish,es
+752,"Aparentemente, Este restaurante sirve comida deliciosa. Eso es seguro.",Spanish,es
+753,بصراحة، يفتح المتحف الساعة التاسعة صباحًا. هذا صحيح.,Arabic,ar
+754,Vimos una película anoche. Todos están de acuerdo.,Spanish,es
+755,على ما يبدو، أود كوب قهوة من فضلك. هذا صحيح.,Arabic,ar
+756,हम कल बाजार जा रहे हैं।,Hindi,hi
+757,"Aparentemente, Ela está lendo um livro no parque. Isso é certo.",Portuguese,pt
+758,"Encore une fois, Le concert commence à huit heures.",French,fr
+759,"कल, दुकान रविवार को जल्दी बंद हो जाती है। यह सच है।",Hindi,hi
+760,بظاہر، مجھے نئی زبانیں سیکھنا پسند ہے۔,Urdu,ur
+761,"As usual, Can you help me find the train station? That's for sure.",English,en
+762,"Ieri, Mi piace imparare nuove lingue. Questo è certo.",Italian,it
+763,"हमेशा की तरह, हम कल बाजार जा रहे हैं। सभी सहमत हैं।",Hindi,hi
+764,"Ancora una volta, Stanno pianificando un viaggio in montagna. È vero.",Italian,it
+765,"वास्तव में, बस हर पंद्रह मिनट में आती है।",Hindi,hi
+766,بصراحة، أحتاج إلى شراء خبز وحليب.,Arabic,ar
+767,"A propósito, Ele joga futebol todo fim de semana. Isso é certo.",Portuguese,pt
+768,"Ehrlich gesagt, Er lernt für seine Abschlussprüfungen. Alle sind sich einig.",German,de
+769,بظاہر، وہ ہر ہفتے کے آخر میں فٹبال کھیلتا ہے۔ یہ سچ ہے۔,Urdu,ur
+770,کل، وہ ہر ہفتے کے آخر میں فٹبال کھیلتا ہے۔ یہ سچ ہے۔,Urdu,ur
+771,"Au fait, Ce restaurant sert une nourriture délicieuse.",French,fr
+772,"Na verdade, Você pode me ajudar a encontrar a estação de trem? Isso é certo.",Portuguese,pt
+773,دراصل، بچے باغ میں کھیل رہے ہیں۔,Urdu,ur
+774,"Wieder einmal, Das Museum öffnet um neun Uhr morgens. Das ist sicher.",German,de
+775,ایک بار پھر، کیا آپ ٹرین اسٹیشن ڈھونڈنے میں میری مدد کر سکتے ہیں؟ سب اس بات پر متفق ہیں۔,Urdu,ur
+776,"Na verdade, Minha família vai nos visitar neste verão. É verdade.",Portuguese,pt
+777,ایمانداری سے، میرا خاندان اس گرمی میں ہم سے ملنے آ رہا ہے۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+778,"Encore une fois, Il joue au football chaque week-end.",French,fr
+779,"Ieri, Il museo apre alle nove del mattino. Questo è certo.",Italian,it
+780,بشكل مفاجئ، تصل الحافلة كل خمس عشرة دقيقة. الجميع يوافق.,Arabic,ar
+781,"De hecho, El autobús llega cada quince minutos. Es verdad.",Spanish,es
+782,بظاہر، وہ پہاڑوں کے سفر کی منصوبہ بندی کر رہے ہیں۔,Urdu,ur
+783,"ईमानदारी से, कृपया मुझे एक कप कॉफी दीजिए। सभी सहमत हैं।",Hindi,hi
+784,"Étonnamment, Les enfants jouent dans le jardin.",French,fr
+785,"Como sempre, O jardim está cheio de flores coloridas. Isso é certo.",Portuguese,pt
+786,"Sorprendentemente, Este restaurante sirve comida deliciosa. Es verdad.",Spanish,es
+787,"Me gustaría una taza de café, por favor.",Spanish,es
+788,"Sorprendentemente, Il giardino è pieno di fiori colorati. È vero.",Italian,it
+789,Il museo apre alle nove del mattino. È vero.,Italian,it
+790,حیرت کی بات ہے، یہ ریستوران لذیذ کھانا پیش کرتا ہے۔,Urdu,ur
+791,"आज सुबह, मुझे नई भाषाएँ सीखना पसंद है। यह सच है।",Hindi,hi
+792,"Onestamente, I bambini stanno giocando in giardino. Questo è certo.",Italian,it
+793,"Wie immer, Wir gehen morgen auf den Markt. Das ist sicher.",German,de
+794,"कल, मुझे नई भाषाएँ सीखना पसंद है।",Hindi,hi
+795,"Questa mattina, Lei lavora in una piccola panetteria.",Italian,it
+796,"Sorprendentemente, Ella trabaja en una pequeña panadería. Eso es seguro.",Spanish,es
+797,Puoi aiutarmi a trovare la stazione dei treni? È vero.,Italian,it
+798,"एक बार फिर, दुकान रविवार को जल्दी बंद हो जाती है। यह निश्चित है।",Hindi,hi
+799,"हैरानी की बात है, वे पहाड़ों की यात्रा की योजना बना रहे हैं। यह निश्चित है।",Hindi,hi
+800,"Aparentemente, Me gusta aprender nuevos idiomas. Es verdad.",Spanish,es
+801,"A proposito, Puoi aiutarmi a trovare la stazione dei treni? È vero.",Italian,it
+802,"En fait, Ce restaurant sert une nourriture délicieuse.",French,fr
+803,کل، بچے باغ میں کھیل رہے ہیں۔ یہ یقینی ہے۔,Urdu,ur
+804,مرة أخرى، سنذهب إلى السوق غدًا. هذا صحيح.,Arabic,ar
+805,حیرت کی بات ہے، کنسرٹ آٹھ بجے شروع ہوتا ہے۔,Urdu,ur
+806,"Aparentemente, Vamos al mercado mañana. Es verdad.",Spanish,es
+807,"Honestamente, Assistimos a um filme ontem à noite. É verdade.",Portuguese,pt
+808,کل، آج موسم بہت خوبصورت ہے۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+809,آج صبح، ہم کل بازار جا رہے ہیں۔ یہ سچ ہے۔,Urdu,ur
+810,"Apparemment, Il étudie pour ses examens finaux. C'est vrai.",French,fr
+811,क्या आप मुझे रेलवे स्टेशन खोजने में मदद कर सकते हैं? यह सच है।,Hindi,hi
+812,Eu gosto de aprender novos idiomas. É verdade.,Portuguese,pt
+813,"Mais uma vez, Vamos ao mercado amanhã. Todos concordam.",Portuguese,pt
+814,"A propósito, Assistimos a um filme ontem à noite.",Portuguese,pt
+815,"Esta manhã, Este restaurante serve comida deliciosa. É verdade.",Portuguese,pt
+816,"Wie immer, Das Museum öffnet um neun Uhr morgens.",German,de
+817,"Ayer, La tienda cierra temprano los domingos.",Spanish,es
+818,"Honestamente, Él juega fútbol cada fin de semana. Eso es seguro.",Spanish,es
+819,"Mais uma vez, Vamos ao mercado amanhã. É verdade.",Portuguese,pt
+820,بشكل مفاجئ، عائلتي ستزورنا هذا الصيف. هذا صحيح.,Arabic,ar
+821,"Yesterday, This restaurant serves delicious food.",English,en
+822,ایمانداری سے، میوزیم صبح نو بجے کھلتا ہے۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+823,"Esta manhã, Eles estão planejando uma viagem para as montanhas. É verdade.",Portuguese,pt
+824,"Apparently, The weather is beautiful today.",English,en
+825,"ईमानदारी से, कृपया मुझे एक कप कॉफी दीजिए। यह सच है।",Hindi,hi
+826,"En fait, J'aime apprendre de nouvelles langues. Tout le monde est d'accord.",French,fr
+827,في الواقع، أستمتع بتعلم لغات جديدة. الجميع يوافق.,Arabic,ar
+828,آج صبح، بس ہر پندرہ منٹ میں آتی ہے۔ یہ سچ ہے۔,Urdu,ur
+829,"हैरानी की बात है, दुकान रविवार को जल्दी बंद हो जाती है।",Hindi,hi
+830,Il tempo è bellissimo oggi.,Italian,it
+831,"Anscheinend, Der Garten ist voller bunter Blumen. Es ist wahr.",German,de
+832,"Ieri, Il negozio chiude presto la domenica. Tutti sono d'accordo.",Italian,it
+833,ایمانداری سے، باغ رنگ برنگے پھولوں سے بھرا ہے۔ یہ سچ ہے۔,Urdu,ur
+834,"En fait, Les enfants jouent dans le jardin. C'est vrai.",French,fr
+835,"Ehrlich gesagt, Sie liest ein Buch im Park. Es ist wahr.",German,de
+836,"Wie immer, Der Bus kommt alle fünfzehn Minuten. Das ist sicher.",German,de
+837,مرة أخرى، يغلق المتجر مبكرًا أيام الأحد. هذا صحيح.,Arabic,ar
+838,"Onestamente, Puoi aiutarmi a trovare la stazione dei treni? Tutti sono d'accordo.",Italian,it
+839,"A proposito, Il giardino è pieno di fiori colorati. Tutti sono d'accordo.",Italian,it
+840,بالمناسبة، هو يلعب كرة القدم كل نهاية أسبوع.,Arabic,ar
+841,"Por cierto, ¿Puedes ayudarme a encontrar la estación de tren?",Spanish,es
+842,"Heute Morgen, Sie planen eine Reise in die Berge. Alle sind sich einig.",German,de
+843,"Apparently, The bus arrives every fifteen minutes. That's for sure.",English,en
+844,کل، بچے باغ میں کھیل رہے ہیں۔ یہ سچ ہے۔,Urdu,ur
+845,"Questa mattina, Lei sta leggendo un libro nel parco.",Italian,it
+846,"Au fait, Ce restaurant sert une nourriture délicieuse. Tout le monde est d'accord.",French,fr
+847,کل، وہ اپنے فائنل امتحانات کی تیاری کر رہا ہے۔ یہ یقینی ہے۔,Urdu,ur
+848,"Aparentemente, Este restaurante sirve comida deliciosa. Todos están de acuerdo.",Spanish,es
+849,تصل الحافلة كل خمس عشرة دقيقة.,Arabic,ar
+850,"ईमानदारी से, आज मौसम बहुत सुंदर है। यह सच है।",Hindi,hi
+851,"आज सुबह, हमने कल रात एक फिल्म देखी। यह निश्चित है।",Hindi,hi
+852,"Honestamente, Los niños están jugando en el jardín. Es verdad.",Spanish,es
+853,كالعادة، هو يدرس لامتحاناته النهائية.,Arabic,ar
+854,"Étonnamment, Il étudie pour ses examens finaux. Tout le monde est d'accord.",French,fr
+855,في الواقع، هي تعمل في مخبز صغير. الجميع يوافق.,Arabic,ar
+856,"Apparently, This restaurant serves delicious food.",English,en
+857,"वास्तव में, वह एक छोटी बेकरी में काम करती है। सभी सहमत हैं।",Hindi,hi
+858,"Surpreendentemente, Eu gostaria de uma xícara de café, por favor. Isso é certo.",Portuguese,pt
+859,"Étonnamment, Le jardin est plein de fleurs colorées. C'est vrai.",French,fr
+860,"Esta mañana, Vimos una película anoche.",Spanish,es
+861,"Ontem, O ônibus chega a cada quinze minutos.",Portuguese,pt
+862,"Hier, Nous allons au marché demain.",French,fr
+863,"Hier, Elle travaille dans une petite boulangerie. C'est certain.",French,fr
+864,کل، بچے باغ میں کھیل رہے ہیں۔,Urdu,ur
+865,I bambini stanno giocando in giardino. Tutti sono d'accordo.,Italian,it
+866,"A proposito, Stanno pianificando un viaggio in montagna.",Italian,it
+867,"This morning, The children are playing in the garden. That's for sure.",English,en
+868,"Anscheinend, Wir gehen morgen auf den Markt.",German,de
+869,"Encore une fois, Elle travaille dans une petite boulangerie. Tout le monde est d'accord.",French,fr
+870,"Ancora una volta, Il museo apre alle nove del mattino. Tutti sono d'accordo.",Italian,it
+871,"Honestly, She is reading a book in the park. It's true.",English,en
+872,"Ontem, O show começa às oito horas. É verdade.",Portuguese,pt
+873,"Surprisingly, She works at a small bakery downtown.",English,en
+874,"Yesterday, She is reading a book in the park. That's for sure.",English,en
+875,"Come al solito, Lei lavora in una piccola panetteria.",Italian,it
+876,"As usual, He is studying for his final exams. It's true.",English,en
+877,"हमेशा की तरह, वह हर सप्ताहांत फुटबॉल खेलता है। यह सच है।",Hindi,hi
+878,"In fact, I enjoy learning new languages. Everyone agrees.",English,en
+879,"Por cierto, El museo abre a las nueve de la mañana. Todos están de acuerdo.",Spanish,es
+880,ایک بار پھر، دکان اتوار کو جلدی بند ہو جاتی ہے۔,Urdu,ur
+881,"I would like a cup of coffee, please.",English,en
+882,"Como sempre, Eu preciso comprar pão e leite.",Portuguese,pt
+883,"Yesterday, I need to buy some bread and milk. It's true.",English,en
+884,دراصل، ہم نے کل رات ایک فلم دیکھی۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+885,"Aparentemente, Me gusta aprender nuevos idiomas.",Spanish,es
+886,"Honnêtement, Ma famille nous rend visite cet été.",French,fr
+887,"A proposito, Abbiamo visto un film ieri sera.",Italian,it
+888,في الواقع، يبدأ الحفل الساعة الثامنة. هذا مؤكد.,Arabic,ar
+889,"Questa mattina, Devo comprare pane e latte.",Italian,it
+890,"Gestern, Der Garten ist voller bunter Blumen. Alle sind sich einig.",German,de
+891,"Apparentemente, Lui sta studiando per gli esami finali. È vero.",Italian,it
+892,"Wie immer, Er lernt für seine Abschlussprüfungen. Es ist wahr.",German,de
+893,"Na verdade, Ela trabalha em uma pequena padaria. Isso é certo.",Portuguese,pt
+894,هذا المطعم يقدم طعامًا لذيذًا. هذا مؤكد.,Arabic,ar
+895,"This morning, She works at a small bakery downtown.",English,en
+896,"Apparemment, Elle lit un livre dans le parc. C'est vrai.",French,fr
+897,ایمانداری سے، ہم کل بازار جا رہے ہیں۔ یہ سچ ہے۔,Urdu,ur
+898,"Apparently, She works at a small bakery downtown. Everyone agrees.",English,en
+899,"Honestamente, El concierto comienza a las ocho.",Spanish,es
+900,"Überraschenderweise, Können Sie mir helfen, den Bahnhof zu finden? Es ist wahr.",German,de
+901,"Yesterday, The museum opens at nine in the morning. Everyone agrees.",English,en
+902,"Mais uma vez, Eu preciso comprar pão e leite. É verdade.",Portuguese,pt
+903,مرة أخرى، يخططون لرحلة إلى الجبال. الجميع يوافق.,Arabic,ar
+904,"Sorprendentemente, El museo abre a las nueve de la mañana. Todos están de acuerdo.",Spanish,es
+905,"Infatti, Andiamo al mercato domani. Questo è certo.",Italian,it
+906,"वास्तव में, वह पार्क में एक किताब पढ़ रही है। सभी सहमत हैं।",Hindi,hi
+907,"Mais uma vez, O show começa às oito horas. É verdade.",Portuguese,pt
+908,Can you help me find the train station? It's true.,English,en
+909,"वास्तव में, बगीचा रंग-बिरंगे फूलों से भरा है।",Hindi,hi
+910,"आज सुबह, कृपया मुझे एक कप कॉफी दीजिए। सभी सहमत हैं।",Hindi,hi
+911,بالأمس، يبدأ الحفل الساعة الثامنة.,Arabic,ar
+912,حیرت کی بات ہے، مجھے نئی زبانیں سیکھنا پسند ہے۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+913,They are planning a trip to the mountains. It's true.,English,en
+914,"कल, संगीत कार्यक्रम आठ बजे शुरू होता है। यह निश्चित है।",Hindi,hi
+915,"Aparentemente, Ele joga futebol todo fim de semana.",Portuguese,pt
+916,"Sorprendentemente, Lei lavora in una piccola panetteria. È vero.",Italian,it
+917,بالأمس، تصل الحافلة كل خمس عشرة دقيقة. هذا صحيح.,Arabic,ar
+918,"Ieri, Mi piace imparare nuove lingue. Tutti sono d'accordo.",Italian,it
+919,"Encore une fois, Le musée ouvre à neuf heures du matin.",French,fr
+920,ایک بار پھر، وہ اپنے فائنل امتحانات کی تیاری کر رہا ہے۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+921,"वैसे, दुकान रविवार को जल्दी बंद हो जाती है।",Hindi,hi
+922,"This morning, The concert starts at eight o'clock. It's true.",English,en
+923,"Aparentemente, Me gusta aprender nuevos idiomas. Todos están de acuerdo.",Spanish,es
+924,बगीचा रंग-बिरंगे फूलों से भरा है। यह सच है।,Hindi,hi
+925,"ईमानदारी से, मेरा परिवार इस गर्मी में हमसे मिलने आ रहा है।",Hindi,hi
+926,"Sorprendentemente, Il concerto inizia alle otto.",Italian,it
+927,"Honnêtement, J'aime apprendre de nouvelles langues.",French,fr
+928,"Ancora una volta, Mi piace imparare nuove lingue. Tutti sono d'accordo.",Italian,it
+929,"Honestamente, Minha família vai nos visitar neste verão. Isso é certo.",Portuguese,pt
+930,"Étonnamment, J'aime apprendre de nouvelles langues. C'est vrai.",French,fr
+931,بشكل مفاجئ، هي تعمل في مخبز صغير. هذا مؤكد.,Arabic,ar
+932,"Übrigens, Der Garten ist voller bunter Blumen. Alle sind sich einig.",German,de
+933,على ما يبدو، هو يلعب كرة القدم كل نهاية أسبوع.,Arabic,ar
+934,"Por cierto, Vimos una película anoche. Es verdad.",Spanish,es
+935,"हैरानी की बात है, क्या आप मुझे रेलवे स्टेशन खोजने में मदद कर सकते हैं? यह निश्चित है।",Hindi,hi
+936,"Étonnamment, Le bus arrive toutes les quinze minutes. C'est certain.",French,fr
+937,"Ancora una volta, Vorrei una tazza di caffè, per favore. Questo è certo.",Italian,it
+938,"Yesterday, My family is visiting this summer. Everyone agrees.",English,en
+939,"De hecho, Mi familia nos visita este verano.",Spanish,es
+940,بظاہر، وہ پہاڑوں کے سفر کی منصوبہ بندی کر رہے ہیں۔ یہ یقینی ہے۔,Urdu,ur
+941,"वैसे, मुझे रोटी और दूध खरीदने की जरूरत है। यह निश्चित है।",Hindi,hi
+942,"As usual, She is reading a book in the park. It's true.",English,en
+943,"हमेशा की तरह, संग्रहालय सुबह नौ बजे खुलता है।",Hindi,hi
+944,As crianças estão brincando no jardim. É verdade.,Portuguese,pt
+945,Eles estão planejando uma viagem para as montanhas. É verdade.,Portuguese,pt
+946,"By the way, He is studying for his final exams. That's for sure.",English,en
+947,على ما يبدو، الحديقة مليئة بالزهور الملونة. الجميع يوافق.,Arabic,ar
+948,"Na verdade, Ela está lendo um livro no parque. Isso é certo.",Portuguese,pt
+949,"आज सुबह, बस हर पंद्रह मिनट में आती है।",Hindi,hi
+950,"This morning, The bus arrives every fifteen minutes. It's true.",English,en
+951,"Aparentemente, El clima está hermoso hoy. Eso es seguro.",Spanish,es
+952,"जाहिर तौर पर, वे पहाड़ों की यात्रा की योजना बना रहे हैं। सभी सहमत हैं।",Hindi,hi
+953,"Questa mattina, Lei sta leggendo un libro nel parco. Tutti sono d'accordo.",Italian,it
+954,"Ce matin, J'aime apprendre de nouvelles langues. C'est vrai.",French,fr
+955,"Ce matin, Les enfants jouent dans le jardin.",French,fr
+956,"Honestly, Can you help me find the train station?",English,en
+957,"Gestern, Das Museum öffnet um neun Uhr morgens. Alle sind sich einig.",German,de
+958,"Apparentemente, Lei lavora in una piccola panetteria. Questo è certo.",Italian,it
+959,"A proposito, Lui gioca a calcio ogni fine settimana. È vero.",Italian,it
+960,"Na verdade, Este restaurante serve comida deliciosa. Todos concordam.",Portuguese,pt
+961,"Apparently, I need to buy some bread and milk. That's for sure.",English,en
+962,"Sorprendentemente, Puoi aiutarmi a trovare la stazione dei treni? È vero.",Italian,it
+963,"Étonnamment, Elle lit un livre dans le parc. C'est certain.",French,fr
+964,"Gestern, Das Wetter ist heute wunderschön. Es ist wahr.",German,de
+965,حیرت کی بات ہے، ہم نے کل رات ایک فلم دیکھی۔,Urdu,ur
+966,आज मौसम बहुत सुंदर है। सभी सहमत हैं।,Hindi,hi
+967,"Wie immer, Meine Familie besucht uns diesen Sommer. Alle sind sich einig.",German,de
+968,دراصل، یہ ریستوران لذیذ کھانا پیش کرتا ہے۔ یہ یقینی ہے۔,Urdu,ur
+969,بصراحة، عائلتي ستزورنا هذا الصيف. هذا مؤكد.,Arabic,ar
+970,ایمانداری سے، وہ ایک چھوٹی بیکری میں کام کرتی ہے۔ یہ سچ ہے۔,Urdu,ur
+971,Stanno pianificando un viaggio in montagna. È vero.,Italian,it
+972,"Esta mañana, Vamos al mercado mañana.",Spanish,es
+973,"Infatti, Lei sta leggendo un libro nel parco. È vero.",Italian,it
+974,"हमेशा की तरह, मेरा परिवार इस गर्मी में हमसे मिलने आ रहा है। यह निश्चित है।",Hindi,hi
+975,"Heute Morgen, Der Garten ist voller bunter Blumen. Das ist sicher.",German,de
+976,"By the way, I enjoy learning new languages. That's for sure.",English,en
+977,"In fact, We watched a movie last night. It's true.",English,en
+978,"Sorprendentemente, Mi piace imparare nuove lingue.",Italian,it
+979,ویسے، وہ پہاڑوں کے سفر کی منصوبہ بندی کر رہے ہیں۔,Urdu,ur
+980,"In fact, The bus arrives every fifteen minutes. Everyone agrees.",English,en
+981,"Honnêtement, Le concert commence à huit heures. C'est vrai.",French,fr
+982,"Sorprendentemente, Il museo apre alle nove del mattino. Questo è certo.",Italian,it
+983,"Questa mattina, Il giardino è pieno di fiori colorati. Questo è certo.",Italian,it
+984,"वैसे, मुझे नई भाषाएँ सीखना पसंद है। सभी सहमत हैं।",Hindi,hi
+985,The concert starts at eight o'clock. Everyone agrees.,English,en
+986,"Honestly, This restaurant serves delicious food. That's for sure.",English,en
+987,"Honestamente, As crianças estão brincando no jardim. Isso é certo.",Portuguese,pt
+988,"Sorprendentemente, Lui gioca a calcio ogni fine settimana. È vero.",Italian,it
+989,"Sorprendentemente, Il negozio chiude presto la domenica. Tutti sono d'accordo.",Italian,it
+990,"Encore une fois, Le musée ouvre à neuf heures du matin. Tout le monde est d'accord.",French,fr
+991,Lei sta leggendo un libro nel parco.,Italian,it
+992,"आज सुबह, वे पहाड़ों की यात्रा की योजना बना रहे हैं। सभी सहमत हैं।",Hindi,hi
+993,"Ayer, Este restaurante sirve comida deliciosa.",Spanish,es
+994,"Tatsächlich, Er lernt für seine Abschlussprüfungen. Es ist wahr.",German,de
+995,"In fact, The bus arrives every fifteen minutes. That's for sure.",English,en
+996,"Sorprendentemente, La mia famiglia ci fa visita questa estate. Tutti sono d'accordo.",Italian,it
+997,Wir gehen morgen auf den Markt. Das ist sicher.,German,de
+998,وہ ہر ہفتے کے آخر میں فٹبال کھیلتا ہے۔,Urdu,ur
+999,ایمانداری سے، وہ اپنے فائنل امتحانات کی تیاری کر رہا ہے۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+1000,بالمناسبة، هل يمكنك مساعدتي في إيجاد محطة القطار؟ هذا صحيح.,Arabic,ar
+1001,"Wieder einmal, Ich hätte gerne eine Tasse Kaffee, bitte. Das ist sicher.",German,de
+1002,"Infatti, La mia famiglia ci fa visita questa estate.",Italian,it
+1003,باغ رنگ برنگے پھولوں سے بھرا ہے۔ یہ یقینی ہے۔,Urdu,ur
+1004,"Por cierto, La tienda cierra temprano los domingos. Eso es seguro.",Spanish,es
+1005,"Honnêtement, Le concert commence à huit heures. C'est certain.",French,fr
+1006,"वास्तव में, वह हर सप्ताहांत फुटबॉल खेलता है। यह सच है।",Hindi,hi
+1007,"Questa mattina, Questo ristorante serve cibo delizioso.",Italian,it
+1008,दुकान रविवार को जल्दी बंद हो जाती है।,Hindi,hi
+1009,"Apparemment, Il étudie pour ses examens finaux. C'est certain.",French,fr
+1010,"A propósito, O ônibus chega a cada quinze minutos. É verdade.",Portuguese,pt
+1011,"Ehrlich gesagt, Der Garten ist voller bunter Blumen.",German,de
+1012,بالأمس، سنذهب إلى السوق غدًا.,Arabic,ar
+1013,ہمیشہ کی طرح، ہم کل بازار جا رہے ہیں۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+1014,هذا الصباح، عائلتي ستزورنا هذا الصيف. الجميع يوافق.,Arabic,ar
+1015,"Encore une fois, Ma famille nous rend visite cet été. C'est vrai.",French,fr
+1016,"Ayer, Vimos una película anoche. Es verdad.",Spanish,es
+1017,"कल, वे पहाड़ों की यात्रा की योजना बना रहे हैं। यह सच है।",Hindi,hi
+1018,"Yesterday, My family is visiting this summer. That's for sure.",English,en
+1019,"कल, वह हर सप्ताहांत फुटबॉल खेलता है। यह निश्चित है।",Hindi,hi
+1020,"Onestamente, Andiamo al mercato domani. È vero.",Italian,it
+1021,مرة أخرى، هي تقرأ كتابًا في الحديقة. هذا صحيح.,Arabic,ar
+1022,"Apparently, The store closes early on Sundays. That's for sure.",English,en
+1023,"This morning, Can you help me find the train station? It's true.",English,en
+1024,"Sorprendentemente, El clima está hermoso hoy. Es verdad.",Spanish,es
+1025,"हमेशा की तरह, बच्चे बगीचे में खेल रहे हैं। यह निश्चित है।",Hindi,hi
+1026,"Na verdade, As crianças estão brincando no jardim.",Portuguese,pt
+1027,"Honestly, I would like a cup of coffee, please. It's true.",English,en
+1028,بظاہر، براہ کرم مجھے ایک کپ کافی دیں۔,Urdu,ur
+1029,"Wieder einmal, Sie arbeitet in einer kleinen Bäckerei. Das ist sicher.",German,de
+1030,"Ehrlich gesagt, Ich lerne gerne neue Sprachen.",German,de
+1031,"Mais uma vez, O jardim está cheio de flores coloridas. Todos concordam.",Portuguese,pt
+1032,بالمناسبة، هي تعمل في مخبز صغير. هذا مؤكد.,Arabic,ar
+1033,بشكل مفاجئ، سنذهب إلى السوق غدًا.,Arabic,ar
+1034,"Honestly, The weather is beautiful today. Everyone agrees.",English,en
+1035,"Mais uma vez, Eu preciso comprar pão e leite.",Portuguese,pt
+1036,"By the way, The bus arrives every fifteen minutes.",English,en
+1037,آج صبح، وہ اپنے فائنل امتحانات کی تیاری کر رہا ہے۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+1038,"Sorprendentemente, Mi familia nos visita este verano. Es verdad.",Spanish,es
+1039,یہ ریستوران لذیذ کھانا پیش کرتا ہے۔ یہ سچ ہے۔,Urdu,ur
+1040,"Yesterday, The children are playing in the garden. It's true.",English,en
+1041,"Sorprendentemente, Lui sta studiando per gli esami finali. Tutti sono d'accordo.",Italian,it
+1042,"Surpreendentemente, Vamos ao mercado amanhã. Isso é certo.",Portuguese,pt
+1043,بظاہر، کیا آپ ٹرین اسٹیشن ڈھونڈنے میں میری مدد کر سکتے ہیں؟,Urdu,ur
+1044,Él juega fútbol cada fin de semana.,Spanish,es
+1045,"Sorprendentemente, Abbiamo visto un film ieri sera. Tutti sono d'accordo.",Italian,it
+1046,"Ontem, A loja fecha cedo aos domingos.",Portuguese,pt
+1047,"हमेशा की तरह, आज मौसम बहुत सुंदर है।",Hindi,hi
+1048,"Na verdade, Eu gosto de aprender novos idiomas.",Portuguese,pt
+1049,"Tatsächlich, Können Sie mir helfen, den Bahnhof zu finden? Es ist wahr.",German,de
+1050,"Tatsächlich, Der Bus kommt alle fünfzehn Minuten.",German,de
+1051,"Wie immer, Sie arbeitet in einer kleinen Bäckerei. Das ist sicher.",German,de
+1052,"Ehrlich gesagt, Sie planen eine Reise in die Berge. Es ist wahr.",German,de
+1053,"Ontem, O jardim está cheio de flores coloridas.",Portuguese,pt
+1054,ایمانداری سے، وہ پہاڑوں کے سفر کی منصوبہ بندی کر رہے ہیں۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+1055,"Como siempre, El museo abre a las nueve de la mañana. Es verdad.",Spanish,es
+1056,El jardín está lleno de flores coloridas. Todos están de acuerdo.,Spanish,es
+1057,يفتح المتحف الساعة التاسعة صباحًا. هذا مؤكد.,Arabic,ar
+1058,"Ehrlich gesagt, Meine Familie besucht uns diesen Sommer.",German,de
+1059,"Yesterday, Can you help me find the train station?",English,en
+1060,"Sorprendentemente, Me gustaría una taza de café, por favor.",Spanish,es
+1061,"Wieder einmal, Wir haben gestern Abend einen Film gesehen. Das ist sicher.",German,de
+1062,کل، بس ہر پندرہ منٹ میں آتی ہے۔ یہ سچ ہے۔,Urdu,ur
+1063,"एक बार फिर, बस हर पंद्रह मिनट में आती है। यह सच है।",Hindi,hi
+1064,بالأمس، سنذهب إلى السوق غدًا. الجميع يوافق.,Arabic,ar
+1065,"As usual, I would like a cup of coffee, please.",English,en
+1066,"Infatti, L'autobus arriva ogni quindici minuti. Questo è certo.",Italian,it
+1067,"वास्तव में, वह अपनी अंतिम परीक्षाओं के लिए पढ़ रहा है। यह निश्चित है।",Hindi,hi
+1068,"एक बार फिर, वह हर सप्ताहांत फुटबॉल खेलता है। यह सच है।",Hindi,hi
+1069,"Como siempre, Mi familia nos visita este verano. Eso es seguro.",Spanish,es
+1070,"Hier, Le jardin est plein de fleurs colorées. Tout le monde est d'accord.",French,fr
+1071,"This morning, The museum opens at nine in the morning. Everyone agrees.",English,en
+1072,كالعادة، أستمتع بتعلم لغات جديدة. هذا صحيح.,Arabic,ar
+1073,"जाहिर तौर पर, संग्रहालय सुबह नौ बजे खुलता है। सभी सहमत हैं।",Hindi,hi
+1074,"Wie immer, Er spielt jedes Wochenende Fußball.",German,de
+1075,"Na verdade, O ônibus chega a cada quinze minutos. Isso é certo.",Portuguese,pt
+1076,هل يمكنك مساعدتي في إيجاد محطة القطار؟ هذا مؤكد.,Arabic,ar
+1077,"De hecho, Ellos están planeando un viaje a las montañas.",Spanish,es
+1078,"This morning, The weather is beautiful today. It's true.",English,en
+1079,मुझे नई भाषाएँ सीखना पसंद है। यह निश्चित है।,Hindi,hi
+1080,"En fait, Je voudrais une tasse de café, s'il vous plaît.",French,fr
+1081,"Gestern, Der Garten ist voller bunter Blumen. Es ist wahr.",German,de
+1082,حیرت کی بات ہے، بچے باغ میں کھیل رہے ہیں۔,Urdu,ur
+1083,ہمیشہ کی طرح، بس ہر پندرہ منٹ میں آتی ہے۔ یہ یقینی ہے۔,Urdu,ur
+1084,ایک بار پھر، وہ پارک میں کتاب پڑھ رہی ہے۔ یہ سچ ہے۔,Urdu,ur
+1085,"Ancora una volta, Lui sta studiando per gli esami finali. Questo è certo.",Italian,it
+1086,ہمیشہ کی طرح، وہ اپنے فائنل امتحانات کی تیاری کر رہا ہے۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+1087,بشكل مفاجئ، يغلق المتجر مبكرًا أيام الأحد. هذا صحيح.,Arabic,ar
+1088,في الواقع، هو يلعب كرة القدم كل نهاية أسبوع. هذا صحيح.,Arabic,ar
+1089,"Apparemment, J'aime apprendre de nouvelles langues. Tout le monde est d'accord.",French,fr
+1090,"Onestamente, I bambini stanno giocando in giardino.",Italian,it
+1091,ایمانداری سے، وہ اپنے فائنل امتحانات کی تیاری کر رہا ہے۔ یہ سچ ہے۔,Urdu,ur
+1092,"Honestamente, Mi familia nos visita este verano. Eso es seguro.",Spanish,es
+1093,"Aparentemente, A loja fecha cedo aos domingos. É verdade.",Portuguese,pt
+1094,"A proposito, La mia famiglia ci fa visita questa estate.",Italian,it
+1095,"Come al solito, Lui gioca a calcio ogni fine settimana.",Italian,it
+1096,"Apparemment, Nous avons regardé un film hier soir. C'est vrai.",French,fr
+1097,بشكل مفاجئ، الحديقة مليئة بالزهور الملونة. الجميع يوافق.,Arabic,ar
+1098,"Ontem, Ele joga futebol todo fim de semana. É verdade.",Portuguese,pt
+1099,"आज सुबह, कृपया मुझे एक कप कॉफी दीजिए। यह निश्चित है।",Hindi,hi
+1100,"ईमानदारी से, हम कल बाजार जा रहे हैं। यह सच है।",Hindi,hi
+1101,"In fact, The store closes early on Sundays. Everyone agrees.",English,en
+1102,"Por cierto, El concierto comienza a las ocho. Eso es seguro.",Spanish,es
+1103,"Étonnamment, Il étudie pour ses examens finaux. C'est certain.",French,fr
+1104,"Honnêtement, J'aime apprendre de nouvelles langues. C'est certain.",French,fr
+1105,"Étonnamment, Le concert commence à huit heures.",French,fr
+1106,"Esta manhã, Você pode me ajudar a encontrar a estação de trem?",Portuguese,pt
+1107,"Sorprendentemente, Este restaurante sirve comida deliciosa. Todos están de acuerdo.",Spanish,es
+1108,"Honestamente, Ele está estudando para as provas finais. Todos concordam.",Portuguese,pt
+1109,Ella trabaja en una pequeña panadería. Eso es seguro.,Spanish,es
+1110,"Ontem, O museu abre às nove da manhã. Isso é certo.",Portuguese,pt
+1111,"Onestamente, Stanno pianificando un viaggio in montagna. Tutti sono d'accordo.",Italian,it
+1112,"A propósito, Ele está estudando para as provas finais. Todos concordam.",Portuguese,pt
+1113,"Once again, He is studying for his final exams. That's for sure.",English,en
+1114,"Infatti, Stanno pianificando un viaggio in montagna.",Italian,it
+1115,The children are playing in the garden. It's true.,English,en
+1116,"Tatsächlich, Sie liest ein Buch im Park.",German,de
+1117,"Sorprendentemente, Andiamo al mercato domani. Tutti sono d'accordo.",Italian,it
+1118,बगीचा रंग-बिरंगे फूलों से भरा है।,Hindi,hi
+1119,"Questa mattina, Lei sta leggendo un libro nel parco. È vero.",Italian,it
+1120,"Ehrlich gesagt, Wir gehen morgen auf den Markt.",German,de
+1121,"Once again, The store closes early on Sundays. That's for sure.",English,en
+1122,"Honnêtement, Le musée ouvre à neuf heures du matin.",French,fr
+1123,"Hier, Le concert commence à huit heures. C'est certain.",French,fr
+1124,"Sorprendentemente, Ella está leyendo un libro en el parque. Eso es seguro.",Spanish,es
+1125,كالعادة، الأطفال يلعبون في الحديقة.,Arabic,ar
+1126,Ich muss Brot und Milch kaufen. Alle sind sich einig.,German,de
+1127,بچے باغ میں کھیل رہے ہیں۔ یہ یقینی ہے۔,Urdu,ur
+1128,"Na verdade, Ele está estudando para as provas finais. É verdade.",Portuguese,pt
+1129,वह पार्क में एक किताब पढ़ रही है। यह सच है।,Hindi,hi
+1130,"Na verdade, A loja fecha cedo aos domingos. É verdade.",Portuguese,pt
+1131,"Apparentemente, Lei sta leggendo un libro nel parco. Questo è certo.",Italian,it
+1132,"Once again, I enjoy learning new languages. It's true.",English,en
+1133,J'aime apprendre de nouvelles langues. C'est vrai.,French,fr
+1134,"Ancora una volta, Il concerto inizia alle otto. Tutti sono d'accordo.",Italian,it
+1135,حیرت کی بات ہے، بس ہر پندرہ منٹ میں آتی ہے۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+1136,"Como siempre, Vimos una película anoche. Todos están de acuerdo.",Spanish,es
+1137,"Onestamente, Andiamo al mercato domani. Tutti sono d'accordo.",Italian,it
+1138,"Ce matin, Le magasin ferme tôt le dimanche.",French,fr
+1139,"एक बार फिर, वह हर सप्ताहांत फुटबॉल खेलता है।",Hindi,hi
+1140,O jardim está cheio de flores coloridas. Isso é certo.,Portuguese,pt
+1141,"ईमानदारी से, मुझे रोटी और दूध खरीदने की जरूरत है। यह निश्चित है।",Hindi,hi
+1142,في الواقع، أحتاج إلى شراء خبز وحليب. الجميع يوافق.,Arabic,ar
+1143,بصراحة، تصل الحافلة كل خمس عشرة دقيقة. الجميع يوافق.,Arabic,ar
+1144,في الواقع، تصل الحافلة كل خمس عشرة دقيقة. هذا مؤكد.,Arabic,ar
+1145,"Tatsächlich, Er spielt jedes Wochenende Fußball. Das ist sicher.",German,de
+1146,"Surprisingly, We watched a movie last night.",English,en
+1147,"Anscheinend, Sie planen eine Reise in die Berge. Alle sind sich einig.",German,de
+1148,بالمناسبة، سنذهب إلى السوق غدًا.,Arabic,ar
+1149,"Encore une fois, Pouvez-vous m'aider à trouver la gare ?",French,fr
+1150,دراصل، وہ اپنے فائنل امتحانات کی تیاری کر رہا ہے۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+1151,"Infatti, Il negozio chiude presto la domenica. Tutti sono d'accordo.",Italian,it
+1152,"Por cierto, Me gustaría una taza de café, por favor. Es verdad.",Spanish,es
+1153,"हमेशा की तरह, हमने कल रात एक फिल्म देखी।",Hindi,hi
+1154,ایمانداری سے، وہ ہر ہفتے کے آخر میں فٹبال کھیلتا ہے۔ یہ یقینی ہے۔,Urdu,ur
+1155,"हमेशा की तरह, मुझे रोटी और दूध खरीदने की जरूरत है। सभी सहमत हैं।",Hindi,hi
+1156,"वास्तव में, मुझे नई भाषाएँ सीखना पसंद है। यह निश्चित है।",Hindi,hi
+1157,"Ayer, Vamos al mercado mañana. Eso es seguro.",Spanish,es
+1158,"Honestly, The bus arrives every fifteen minutes.",English,en
+1159,"Come al solito, La mia famiglia ci fa visita questa estate.",Italian,it
+1160,"Überraschenderweise, Ich muss Brot und Milch kaufen. Es ist wahr.",German,de
+1161,"Por cierto, ¿Puedes ayudarme a encontrar la estación de tren? Todos están de acuerdo.",Spanish,es
+1162,بظاہر، مجھے روٹی اور دودھ خریدنے کی ضرورت ہے۔,Urdu,ur
+1163,She is reading a book in the park. It's true.,English,en
+1164,"Encore une fois, Nous allons au marché demain. C'est vrai.",French,fr
+1165,"Yesterday, The children are playing in the garden. Everyone agrees.",English,en
+1166,"Como sempre, O jardim está cheio de flores coloridas.",Portuguese,pt
+1167,بصراحة، سنذهب إلى السوق غدًا. الجميع يوافق.,Arabic,ar
+1168,"Na verdade, Ela trabalha em uma pequena padaria. É verdade.",Portuguese,pt
+1169,"This morning, I would like a cup of coffee, please. That's for sure.",English,en
+1170,"कल, बस हर पंद्रह मिनट में आती है। यह सच है।",Hindi,hi
+1171,"Yesterday, The weather is beautiful today. That's for sure.",English,en
+1172,"Como siempre, Él está estudiando para sus exámenes finales.",Spanish,es
+1173,"Comme d'habitude, Les enfants jouent dans le jardin.",French,fr
+1174,"By the way, The museum opens at nine in the morning.",English,en
+1175,"Gestern, Der Laden schließt sonntags früh. Alle sind sich einig.",German,de
+1176,کل، مجھے نئی زبانیں سیکھنا پسند ہے۔ یہ سچ ہے۔,Urdu,ur
+1177,"Esta mañana, Vamos al mercado mañana. Eso es seguro.",Spanish,es
+1178,بصراحة، يبدأ الحفل الساعة الثامنة. هذا مؤكد.,Arabic,ar
+1179,"Esta manhã, O show começa às oito horas.",Portuguese,pt
+1180,"Come al solito, Lei sta leggendo un libro nel parco. Questo è certo.",Italian,it
+1181,"Tatsächlich, Können Sie mir helfen, den Bahnhof zu finden? Das ist sicher.",German,de
+1182,ہمیشہ کی طرح، مجھے نئی زبانیں سیکھنا پسند ہے۔,Urdu,ur
+1183,"Apparemment, Il joue au football chaque week-end. Tout le monde est d'accord.",French,fr
+1184,"De hecho, El museo abre a las nueve de la mañana. Es verdad.",Spanish,es
+1185,"ईमानदारी से, मुझे रोटी और दूध खरीदने की जरूरत है। यह सच है।",Hindi,hi
+1186,"Anscheinend, Wir gehen morgen auf den Markt. Alle sind sich einig.",German,de
+1187,"Encore une fois, Elle lit un livre dans le parc. C'est certain.",French,fr
+1188,Você pode me ajudar a encontrar a estação de trem? Isso é certo.,Portuguese,pt
+1189,"Ce matin, Le musée ouvre à neuf heures du matin. Tout le monde est d'accord.",French,fr
+1190,"In fact, The concert starts at eight o'clock.",English,en
+1191,"Surprisingly, This restaurant serves delicious food. Everyone agrees.",English,en
+1192,ویسے، بچے باغ میں کھیل رہے ہیں۔ یہ یقینی ہے۔,Urdu,ur
+1193,"By the way, Can you help me find the train station? It's true.",English,en
+1194,"Heute Morgen, Ich muss Brot und Milch kaufen. Es ist wahr.",German,de
+1195,"Ieri, Stanno pianificando un viaggio in montagna. Tutti sono d'accordo.",Italian,it
+1196,"Yesterday, They are planning a trip to the mountains. Everyone agrees.",English,en
+1197,"Honestamente, Minha família vai nos visitar neste verão. Todos concordam.",Portuguese,pt
+1198,"Au fait, Nous avons regardé un film hier soir. C'est certain.",French,fr
+1199,The concert starts at eight o'clock.,English,en
+1200,"Come al solito, I bambini stanno giocando in giardino. Questo è certo.",Italian,it
+1201,"Aparentemente, Você pode me ajudar a encontrar a estação de trem?",Portuguese,pt
+1202,"Esta mañana, El clima está hermoso hoy. Es verdad.",Spanish,es
+1203,"Ontem, Vamos ao mercado amanhã. Todos concordam.",Portuguese,pt
+1204,"Überraschenderweise, Der Garten ist voller bunter Blumen. Es ist wahr.",German,de
+1205,"Überraschenderweise, Ich muss Brot und Milch kaufen. Alle sind sich einig.",German,de
+1206,"Comme d'habitude, Le jardin est plein de fleurs colorées.",French,fr
+1207,کل، میوزیم صبح نو بجے کھلتا ہے۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+1208,"Como sempre, O museu abre às nove da manhã.",Portuguese,pt
+1209,"Como siempre, Él juega fútbol cada fin de semana. Todos están de acuerdo.",Spanish,es
+1210,آج صبح، آج موسم بہت خوبصورت ہے۔,Urdu,ur
+1211,ایک بار پھر، میوزیم صبح نو بجے کھلتا ہے۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+1212,"Como sempre, Ela está lendo um livro no parque. Isso é certo.",Portuguese,pt
+1213,"वैसे, आज मौसम बहुत सुंदर है। यह सच है।",Hindi,hi
+1214,ایمانداری سے، آج موسم بہت خوبصورت ہے۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+1215,"एक बार फिर, बस हर पंद्रह मिनट में आती है। यह निश्चित है।",Hindi,hi
+1216,"En fait, Le temps est magnifique aujourd'hui. C'est vrai.",French,fr
+1217,"Überraschenderweise, Können Sie mir helfen, den Bahnhof zu finden? Das ist sicher.",German,de
+1218,"आज सुबह, संग्रहालय सुबह नौ बजे खुलता है। यह सच है।",Hindi,hi
+1219,"Honestamente, El concierto comienza a las ocho. Es verdad.",Spanish,es
+1220,"In fact, My family is visiting this summer.",English,en
+1221,"हमेशा की तरह, हम कल बाजार जा रहे हैं।",Hindi,hi
+1222,دراصل، وہ ایک چھوٹی بیکری میں کام کرتی ہے۔ یہ یقینی ہے۔,Urdu,ur
+1223,"Come al solito, Il tempo è bellissimo oggi. Tutti sono d'accordo.",Italian,it
+1224,"Ontem, Ela trabalha em uma pequena padaria. É verdade.",Portuguese,pt
+1225,"ईमानदारी से, वह एक छोटी बेकरी में काम करती है। यह निश्चित है।",Hindi,hi
+1226,"Ontem, Eu gostaria de uma xícara de café, por favor.",Portuguese,pt
+1227,"Anscheinend, Ich hätte gerne eine Tasse Kaffee, bitte.",German,de
+1228,"एक बार फिर, मुझे रोटी और दूध खरीदने की जरूरत है।",Hindi,hi
+1229,"Mais uma vez, O ônibus chega a cada quinze minutos. Todos concordam.",Portuguese,pt
+1230,"Apparentemente, Il tempo è bellissimo oggi. È vero.",Italian,it
+1231,"Ayer, Ella está leyendo un libro en el parque.",Spanish,es
+1232,"वैसे, वे पहाड़ों की यात्रा की योजना बना रहे हैं।",Hindi,hi
+1233,"Überraschenderweise, Er spielt jedes Wochenende Fußball.",German,de
+1234,"Anscheinend, Das Wetter ist heute wunderschön. Das ist sicher.",German,de
+1235,"De hecho, El clima está hermoso hoy. Todos están de acuerdo.",Spanish,es
+1236,آج صبح، دکان اتوار کو جلدی بند ہو جاتی ہے۔,Urdu,ur
+1237,"Honnêtement, Pouvez-vous m'aider à trouver la gare ? Tout le monde est d'accord.",French,fr
+1238,"En fait, Le musée ouvre à neuf heures du matin.",French,fr
+1239,بالأمس، هي تعمل في مخبز صغير.,Arabic,ar
+1240,"हैरानी की बात है, दुकान रविवार को जल्दी बंद हो जाती है। सभी सहमत हैं।",Hindi,hi
+1241,"Apparentemente, Stanno pianificando un viaggio in montagna. Tutti sono d'accordo.",Italian,it
+1242,"Encore une fois, Nous allons au marché demain. Tout le monde est d'accord.",French,fr
+1243,"Encore une fois, J'ai besoin d'acheter du pain et du lait. Tout le monde est d'accord.",French,fr
+1244,"Wieder einmal, Das Konzert beginnt um acht Uhr. Das ist sicher.",German,de
+1245,"हैरानी की बात है, हम कल बाजार जा रहे हैं। यह सच है।",Hindi,hi
+1246,"Na verdade, Eu preciso comprar pão e leite. É verdade.",Portuguese,pt
+1247,الأطفال يلعبون في الحديقة. هذا صحيح.,Arabic,ar
+1248,بالأمس، هو يدرس لامتحاناته النهائية.,Arabic,ar
+1249,"As usual, The concert starts at eight o'clock. Everyone agrees.",English,en
+1250,"Questa mattina, Il giardino è pieno di fiori colorati. È vero.",Italian,it
+1251,"Überraschenderweise, Der Laden schließt sonntags früh. Alle sind sich einig.",German,de
+1252,ہمیشہ کی طرح، وہ ایک چھوٹی بیکری میں کام کرتی ہے۔ یہ یقینی ہے۔,Urdu,ur
+1253,"Honestamente, Assistimos a um filme ontem à noite. Todos concordam.",Portuguese,pt
+1254,"This morning, She is reading a book in the park. It's true.",English,en
+1255,"Wie immer, Das Konzert beginnt um acht Uhr. Es ist wahr.",German,de
+1256,बच्चे बगीचे में खेल रहे हैं। सभी सहमत हैं।,Hindi,hi
+1257,"Surpreendentemente, Minha família vai nos visitar neste verão. Todos concordam.",Portuguese,pt
+1258,"Yesterday, He is studying for his final exams. That's for sure.",English,en
+1259,"Honestamente, Ella está leyendo un libro en el parque. Eso es seguro.",Spanish,es
+1260,"कल, संगीत कार्यक्रम आठ बजे शुरू होता है।",Hindi,hi
+1261,"Apparently, The concert starts at eight o'clock.",English,en
+1262,"Apparentemente, Il tempo è bellissimo oggi. Questo è certo.",Italian,it
+1263,بصراحة، يبدأ الحفل الساعة الثامنة.,Arabic,ar
+1264,"Honestamente, Este restaurante serve comida deliciosa. É verdade.",Portuguese,pt
+1265,ہمیشہ کی طرح، آج موسم بہت خوبصورت ہے۔,Urdu,ur
+1266,"एक बार फिर, संग्रहालय सुबह नौ बजे खुलता है। सभी सहमत हैं।",Hindi,hi
+1267,"Wie immer, Der Laden schließt sonntags früh.",German,de
+1268,"Na verdade, O museu abre às nove da manhã. É verdade.",Portuguese,pt
+1269,"Por cierto, Me gustaría una taza de café, por favor.",Spanish,es
+1270,"In fact, She works at a small bakery downtown. It's true.",English,en
+1271,"Überraschenderweise, Sie arbeitet in einer kleinen Bäckerei. Es ist wahr.",German,de
+1272,Ich lerne gerne neue Sprachen. Das ist sicher.,German,de
+1273,"Comme d'habitude, Le bus arrive toutes les quinze minutes.",French,fr
+1274,I bambini stanno giocando in giardino.,Italian,it
+1275,"Surpreendentemente, Vamos ao mercado amanhã.",Portuguese,pt
+1276,"Como sempre, O ônibus chega a cada quinze minutos. Todos concordam.",Portuguese,pt
+1277,"Surpreendentemente, Ela trabalha em uma pequena padaria. Todos concordam.",Portuguese,pt
+1278,"Ayer, El autobús llega cada quince minutos. Todos están de acuerdo.",Spanish,es
+1279,مرة أخرى، هل يمكنك مساعدتي في إيجاد محطة القطار؟ هذا صحيح.,Arabic,ar
+1280,"Ieri, Andiamo al mercato domani. Questo è certo.",Italian,it
+1281,"Aparentemente, Él juega fútbol cada fin de semana. Eso es seguro.",Spanish,es
+1282,"Aparentemente, Él juega fútbol cada fin de semana.",Spanish,es
+1283,كالعادة، أود كوب قهوة من فضلك.,Arabic,ar
+1284,"Heute Morgen, Das Konzert beginnt um acht Uhr.",German,de
+1285,"हमेशा की तरह, वह एक छोटी बेकरी में काम करती है। यह निश्चित है।",Hindi,hi
+1286,"As usual, The museum opens at nine in the morning. Everyone agrees.",English,en
+1287,"This morning, The bus arrives every fifteen minutes. Everyone agrees.",English,en
+1288,"Au fait, Le temps est magnifique aujourd'hui. C'est certain.",French,fr
+1289,"Gestern, Der Garten ist voller bunter Blumen. Das ist sicher.",German,de
+1290,"Por cierto, Necesito comprar pan y leche. Eso es seguro.",Spanish,es
+1291,"Come al solito, Devo comprare pane e latte.",Italian,it
+1292,"हैरानी की बात है, हम कल बाजार जा रहे हैं।",Hindi,hi
+1293,ہمیشہ کی طرح، ہم نے کل رات ایک فلم دیکھی۔ یہ یقینی ہے۔,Urdu,ur
+1294,Mi familia nos visita este verano. Eso es seguro.,Spanish,es
+1295,"Como siempre, El autobús llega cada quince minutos. Es verdad.",Spanish,es
+1296,"Comme d'habitude, Le magasin ferme tôt le dimanche. C'est certain.",French,fr
+1297,"Übrigens, Der Bus kommt alle fünfzehn Minuten. Es ist wahr.",German,de
+1298,Il concerto inizia alle otto.,Italian,it
+1299,"By the way, We watched a movie last night. It's true.",English,en
+1300,حیرت کی بات ہے، آج موسم بہت خوبصورت ہے۔ یہ یقینی ہے۔,Urdu,ur
+1301,"Infatti, Il negozio chiude presto la domenica.",Italian,it
+1302,"हमेशा की तरह, हमने कल रात एक फिल्म देखी। यह निश्चित है।",Hindi,hi
+1303,"Comme d'habitude, Nous avons regardé un film hier soir. C'est certain.",French,fr
+1304,آج صبح، وہ ایک چھوٹی بیکری میں کام کرتی ہے۔ یہ سچ ہے۔,Urdu,ur
+1305,"En fait, Les enfants jouent dans le jardin. C'est certain.",French,fr
+1306,Il joue au football chaque week-end. C'est vrai.,French,fr
+1307,"हैरानी की बात है, आज मौसम बहुत सुंदर है। यह सच है।",Hindi,hi
+1308,"Surpreendentemente, O museu abre às nove da manhã.",Portuguese,pt
+1309,"Esta manhã, O tempo está lindo hoje.",Portuguese,pt
+1310,"Sorprendentemente, Il museo apre alle nove del mattino. È vero.",Italian,it
+1311,The concert starts at eight o'clock. That's for sure.,English,en
+1312,"Sorprendentemente, Stanno pianificando un viaggio in montagna.",Italian,it
+1313,"Honnêtement, Nous avons regardé un film hier soir. C'est certain.",French,fr
+1314,"Onestamente, Lei lavora in una piccola panetteria. Questo è certo.",Italian,it
+1315,هذا الصباح، هو يدرس لامتحاناته النهائية. هذا صحيح.,Arabic,ar
+1316,هذا الصباح، هل يمكنك مساعدتي في إيجاد محطة القطار؟ هذا مؤكد.,Arabic,ar
+1317,"Honestamente, O show começa às oito horas. É verdade.",Portuguese,pt
+1318,"Mais uma vez, Eu preciso comprar pão e leite. Isso é certo.",Portuguese,pt
+1319,"Honestamente, ¿Puedes ayudarme a encontrar la estación de tren?",Spanish,es
+1320,"Tatsächlich, Das Konzert beginnt um acht Uhr. Das ist sicher.",German,de
+1321,"Wie immer, Sie liest ein Buch im Park. Alle sind sich einig.",German,de
+1322,"Tatsächlich, Die Kinder spielen im Garten. Alle sind sich einig.",German,de
+1323,ہمیشہ کی طرح، وہ پہاڑوں کے سفر کی منصوبہ بندی کر رہے ہیں۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+1324,بالمناسبة، هي تعمل في مخبز صغير. الجميع يوافق.,Arabic,ar
+1325,ہمیشہ کی طرح، مجھے روٹی اور دودھ خریدنے کی ضرورت ہے۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+1326,"Na verdade, Ele joga futebol todo fim de semana.",Portuguese,pt
+1327,"Comme d'habitude, Ce restaurant sert une nourriture délicieuse. Tout le monde est d'accord.",French,fr
+1328,بصراحة، هذا المطعم يقدم طعامًا لذيذًا.,Arabic,ar
+1329,El clima está hermoso hoy. Todos están de acuerdo.,Spanish,es
+1330,"Hier, Pouvez-vous m'aider à trouver la gare ?",French,fr
+1331,"Infatti, Puoi aiutarmi a trovare la stazione dei treni?",Italian,it
+1332,في الواقع، هذا المطعم يقدم طعامًا لذيذًا. الجميع يوافق.,Arabic,ar
+1333,"Una vez más, Me gustaría una taza de café, por favor. Eso es seguro.",Spanish,es
+1334,ایمانداری سے، میوزیم صبح نو بجے کھلتا ہے۔,Urdu,ur
+1335,"A propósito, O show começa às oito horas.",Portuguese,pt
+1336,"Mais uma vez, As crianças estão brincando no jardim.",Portuguese,pt
+1337,"Encore une fois, Le jardin est plein de fleurs colorées.",French,fr
+1338,"A propósito, O tempo está lindo hoje. Todos concordam.",Portuguese,pt
+1339,"Onestamente, Questo ristorante serve cibo delizioso. Tutti sono d'accordo.",Italian,it
+1340,"Ayer, ¿Puedes ayudarme a encontrar la estación de tren?",Spanish,es
+1341,"Hier, Le concert commence à huit heures.",French,fr
+1342,"Ce matin, Ce restaurant sert une nourriture délicieuse.",French,fr
+1343,"Una vez más, El jardín está lleno de flores coloridas. Todos están de acuerdo.",Spanish,es
+1344,بصراحة، تصل الحافلة كل خمس عشرة دقيقة.,Arabic,ar
+1345,"As usual, She is reading a book in the park. That's for sure.",English,en
+1346,Il joue au football chaque week-end. C'est certain.,French,fr
+1347,Você pode me ajudar a encontrar a estação de trem? É verdade.,Portuguese,pt
+1348,"Ieri, Lui sta studiando per gli esami finali. Tutti sono d'accordo.",Italian,it
+1349,"Apparentemente, L'autobus arriva ogni quindici minuti. Questo è certo.",Italian,it
+1350,"Como siempre, Los niños están jugando en el jardín. Todos están de acuerdo.",Spanish,es
+1351,Der Bus kommt alle fünfzehn Minuten. Alle sind sich einig.,German,de
+1352,"Comme d'habitude, Ce restaurant sert une nourriture délicieuse. C'est vrai.",French,fr
+1353,"कल, मुझे रोटी और दूध खरीदने की जरूरत है। सभी सहमत हैं।",Hindi,hi
+1354,"Surpreendentemente, Este restaurante serve comida deliciosa.",Portuguese,pt
+1355,वह अपनी अंतिम परीक्षाओं के लिए पढ़ रहा है।,Hindi,hi
+1356,على ما يبدو، يغلق المتجر مبكرًا أيام الأحد. الجميع يوافق.,Arabic,ar
+1357,"Sorprendentemente, El concierto comienza a las ocho. Es verdad.",Spanish,es
+1358,"Mais uma vez, Ele está estudando para as provas finais. Todos concordam.",Portuguese,pt
+1359,"Tatsächlich, Er spielt jedes Wochenende Fußball.",German,de
+1360,Meine Familie besucht uns diesen Sommer. Das ist sicher.,German,de
+1361,بالأمس، أستمتع بتعلم لغات جديدة. هذا صحيح.,Arabic,ar
+1362,کل، بس ہر پندرہ منٹ میں آتی ہے۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+1363,Le concert commence à huit heures. C'est certain.,French,fr
+1364,"Étonnamment, Ma famille nous rend visite cet été.",French,fr
+1365,"Apparentemente, Lui gioca a calcio ogni fine settimana.",Italian,it
+1366,"वैसे, मुझे रोटी और दूध खरीदने की जरूरत है। सभी सहमत हैं।",Hindi,hi
+1367,ایمانداری سے، وہ ایک چھوٹی بیکری میں کام کرتی ہے۔ یہ یقینی ہے۔,Urdu,ur
+1368,بالأمس، يغلق المتجر مبكرًا أيام الأحد. هذا صحيح.,Arabic,ar
+1369,مرة أخرى، هو يدرس لامتحاناته النهائية.,Arabic,ar
+1370,"Übrigens, Das Konzert beginnt um acht Uhr. Es ist wahr.",German,de
+1371,"Honestamente, O tempo está lindo hoje. É verdade.",Portuguese,pt
+1372,"De hecho, Ella está leyendo un libro en el parque. Todos están de acuerdo.",Spanish,es
+1373,I bambini stanno giocando in giardino. Questo è certo.,Italian,it
+1374,"A proposito, Mi piace imparare nuove lingue. Questo è certo.",Italian,it
+1375,"De hecho, Me gustaría una taza de café, por favor. Es verdad.",Spanish,es
+1376,كالعادة، هي تقرأ كتابًا في الحديقة. هذا مؤكد.,Arabic,ar
+1377,"Gestern, Das Museum öffnet um neun Uhr morgens.",German,de
+1378,Ich muss Brot und Milch kaufen.,German,de
+1379,"Esta mañana, Mi familia nos visita este verano. Eso es seguro.",Spanish,es
+1380,"En fait, Elle lit un livre dans le parc.",French,fr
+1381,"Aparentemente, Ellos están planeando un viaje a las montañas. Es verdad.",Spanish,es
+1382,بالأمس، هي تقرأ كتابًا في الحديقة.,Arabic,ar
+1383,"एक बार फिर, बच्चे बगीचे में खेल रहे हैं। सभी सहमत हैं।",Hindi,hi
+1384,"Surprisingly, She works at a small bakery downtown. That's for sure.",English,en
+1385,مرة أخرى، هي تعمل في مخبز صغير. هذا صحيح.,Arabic,ar
+1386,"Wieder einmal, Der Bus kommt alle fünfzehn Minuten. Es ist wahr.",German,de
+1387,بصراحة، يخططون لرحلة إلى الجبال.,Arabic,ar
+1388,"Esta manhã, O tempo está lindo hoje. Todos concordam.",Portuguese,pt
+1389,یہ ریستوران لذیذ کھانا پیش کرتا ہے۔ یہ یقینی ہے۔,Urdu,ur
+1390,في الواقع، يفتح المتحف الساعة التاسعة صباحًا. الجميع يوافق.,Arabic,ar
+1391,"By the way, He is studying for his final exams. It's true.",English,en
+1392,"Apparently, The store closes early on Sundays. It's true.",English,en
+1393,"A propósito, Você pode me ajudar a encontrar a estação de trem? Todos concordam.",Portuguese,pt
+1394,ایمانداری سے، کیا آپ ٹرین اسٹیشن ڈھونڈنے میں میری مدد کر سکتے ہیں؟,Urdu,ur
+1395,"Gestern, Wir haben gestern Abend einen Film gesehen. Das ist sicher.",German,de
+1396,"Por cierto, El autobús llega cada quince minutos. Eso es seguro.",Spanish,es
+1397,"Heute Morgen, Die Kinder spielen im Garten. Alle sind sich einig.",German,de
+1398,"Ieri, Puoi aiutarmi a trovare la stazione dei treni? Tutti sono d'accordo.",Italian,it
+1399,"Honnêtement, Le temps est magnifique aujourd'hui. Tout le monde est d'accord.",French,fr
+1400,"Esta mañana, Necesito comprar pan y leche. Eso es seguro.",Spanish,es
+1401,"Surprisingly, The museum opens at nine in the morning. It's true.",English,en
+1402,"Heute Morgen, Das Konzert beginnt um acht Uhr. Alle sind sich einig.",German,de
+1403,"Esta mañana, Me gustaría una taza de café, por favor. Eso es seguro.",Spanish,es
+1404,ہم نے کل رات ایک فلم دیکھی۔ یہ سچ ہے۔,Urdu,ur
+1405,يخططون لرحلة إلى الجبال. الجميع يوافق.,Arabic,ar
+1406,هذا الصباح، تصل الحافلة كل خمس عشرة دقيقة. هذا صحيح.,Arabic,ar
+1407,آج صبح، کنسرٹ آٹھ بجے شروع ہوتا ہے۔ یہ سچ ہے۔,Urdu,ur
+1408,"Surprisingly, I need to buy some bread and milk. It's true.",English,en
+1409,"जाहिर तौर पर, बच्चे बगीचे में खेल रहे हैं। सभी सहमत हैं।",Hindi,hi
+1410,"Como sempre, O ônibus chega a cada quinze minutos. É verdade.",Portuguese,pt
+1411,"Onestamente, Devo comprare pane e latte. È vero.",Italian,it
+1412,يخططون لرحلة إلى الجبال. هذا مؤكد.,Arabic,ar
+1413,"जाहिर तौर पर, हमने कल रात एक फिल्म देखी। यह निश्चित है।",Hindi,hi
+1414,"Honestly, The store closes early on Sundays. Everyone agrees.",English,en
+1415,"Ce matin, Ma famille nous rend visite cet été. Tout le monde est d'accord.",French,fr
+1416,"Ce matin, Le temps est magnifique aujourd'hui.",French,fr
+1417,"De hecho, Él juega fútbol cada fin de semana.",Spanish,es
+1418,حیرت کی بات ہے، وہ ہر ہفتے کے آخر میں فٹبال کھیلتا ہے۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+1419,بالمناسبة، يخططون لرحلة إلى الجبال. هذا مؤكد.,Arabic,ar
+1420,"Ontem, Ela está lendo um livro no parque.",Portuguese,pt
+1421,"एक बार फिर, यह रेस्तरां स्वादिष्ट भोजन परोसता है। यह निश्चित है।",Hindi,hi
+1422,کل، دکان اتوار کو جلدی بند ہو جاتی ہے۔ یہ سچ ہے۔,Urdu,ur
+1423,O show começa às oito horas. Isso é certo.,Portuguese,pt
+1424,"Come al solito, Il giardino è pieno di fiori colorati. Tutti sono d'accordo.",Italian,it
+1425,"Au fait, Nous allons au marché demain. C'est vrai.",French,fr
+1426,"ईमानदारी से, हमने कल रात एक फिल्म देखी। यह सच है।",Hindi,hi
+1427,"This morning, The bus arrives every fifteen minutes. That's for sure.",English,en
+1428,"Una vez más, Necesito comprar pan y leche.",Spanish,es
+1429,"Honestamente, Eu gostaria de uma xícara de café, por favor.",Portuguese,pt
+1430,"Tatsächlich, Das Wetter ist heute wunderschön. Alle sind sich einig.",German,de
+1431,"Étonnamment, Il joue au football chaque week-end. C'est vrai.",French,fr
+1432,"एक बार फिर, बगीचा रंग-बिरंगे फूलों से भरा है। यह सच है।",Hindi,hi
+1433,"Heute Morgen, Ich muss Brot und Milch kaufen. Alle sind sich einig.",German,de
+1434,"Ayer, Me gustaría una taza de café, por favor. Es verdad.",Spanish,es
+1435,"Esta manhã, O show começa às oito horas. Todos concordam.",Portuguese,pt
+1436,"Questa mattina, Mi piace imparare nuove lingue.",Italian,it
+1437,मेरा परिवार इस गर्मी में हमसे मिलने आ रहा है। यह निश्चित है।,Hindi,hi
+1438,ایک بار پھر، وہ پارک میں کتاب پڑھ رہی ہے۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+1439,"Ehrlich gesagt, Sie arbeitet in einer kleinen Bäckerei. Alle sind sich einig.",German,de
+1440,"Ontem, As crianças estão brincando no jardim.",Portuguese,pt
+1441,"Yesterday, We watched a movie last night. It's true.",English,en
+1442,"Esta mañana, El clima está hermoso hoy.",Spanish,es
+1443,"Gestern, Wir gehen morgen auf den Markt. Es ist wahr.",German,de
+1444,بشكل مفاجئ، هي تقرأ كتابًا في الحديقة. هذا صحيح.,Arabic,ar
+1445,بشكل مفاجئ، سنذهب إلى السوق غدًا. هذا مؤكد.,Arabic,ar
+1446,ہمیشہ کی طرح، بچے باغ میں کھیل رہے ہیں۔ یہ یقینی ہے۔,Urdu,ur
+1447,ہمیشہ کی طرح، کنسرٹ آٹھ بجے شروع ہوتا ہے۔,Urdu,ur
+1448,بشكل مفاجئ، هي تعمل في مخبز صغير. الجميع يوافق.,Arabic,ar
+1449,"Encore une fois, Le concert commence à huit heures. C'est vrai.",French,fr
+1450,"En fait, Ce restaurant sert une nourriture délicieuse. C'est vrai.",French,fr
+1451,वह पार्क में एक किताब पढ़ रही है।,Hindi,hi
+1452,"Surpreendentemente, Assistimos a um filme ontem à noite. Isso é certo.",Portuguese,pt
+1453,"Heute Morgen, Das Konzert beginnt um acht Uhr. Es ist wahr.",German,de
+1454,A loja fecha cedo aos domingos. Todos concordam.,Portuguese,pt
+1455,ویسے، بچے باغ میں کھیل رہے ہیں۔ یہ سچ ہے۔,Urdu,ur
+1456,"Anscheinend, Wir haben gestern Abend einen Film gesehen. Es ist wahr.",German,de
+1457,"Honestamente, Ella está leyendo un libro en el parque.",Spanish,es
+1458,"Apparently, We watched a movie last night. It's true.",English,en
+1459,دراصل، میوزیم صبح نو بجے کھلتا ہے۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+1460,ویسے، بس ہر پندرہ منٹ میں آتی ہے۔ یہ سچ ہے۔,Urdu,ur
+1461,"Tatsächlich, Die Kinder spielen im Garten.",German,de
+1462,"आज सुबह, वह अपनी अंतिम परीक्षाओं के लिए पढ़ रहा है। सभी सहमत हैं।",Hindi,hi
+1463,बस हर पंद्रह मिनट में आती है। सभी सहमत हैं।,Hindi,hi
+1464,"Au fait, Le bus arrive toutes les quinze minutes. Tout le monde est d'accord.",French,fr
+1465,"Esta mañana, Ella trabaja en una pequeña panadería. Eso es seguro.",Spanish,es
+1466,"Honnêtement, Ils prévoient un voyage à la montagne.",French,fr
+1467,"Au fait, Elle lit un livre dans le parc.",French,fr
+1468,"I would like a cup of coffee, please. Everyone agrees.",English,en
+1469,"Aparentemente, O ônibus chega a cada quinze minutos. Todos concordam.",Portuguese,pt
+1470,آج صبح، براہ کرم مجھے ایک کپ کافی دیں۔ یہ یقینی ہے۔,Urdu,ur
+1471,संगीत कार्यक्रम आठ बजे शुरू होता है। यह सच है।,Hindi,hi
+1472,"Encore une fois, J'ai besoin d'acheter du pain et du lait.",French,fr
+1473,ویسے، باغ رنگ برنگے پھولوں سے بھرا ہے۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+1474,"Surpreendentemente, Eu preciso comprar pão e leite.",Portuguese,pt
+1475,"Apparentemente, Il giardino è pieno di fiori colorati. Tutti sono d'accordo.",Italian,it
+1476,"A propósito, Você pode me ajudar a encontrar a estação de trem? Isso é certo.",Portuguese,pt
+1477,بالمناسبة، يخططون لرحلة إلى الجبال. هذا صحيح.,Arabic,ar
+1478,"Esta manhã, Minha família vai nos visitar neste verão.",Portuguese,pt
+1479,Der Garten ist voller bunter Blumen. Alle sind sich einig.,German,de
+1480,"Como sempre, Eu gostaria de uma xícara de café, por favor. Todos concordam.",Portuguese,pt
+1481,هذا الصباح، الأطفال يلعبون في الحديقة. الجميع يوافق.,Arabic,ar
+1482,"Apparentemente, Questo ristorante serve cibo delizioso. Tutti sono d'accordo.",Italian,it
+1483,بشكل مفاجئ، يغلق المتجر مبكرًا أيام الأحد. هذا مؤكد.,Arabic,ar
+1484,"Anscheinend, Sie planen eine Reise in die Berge. Es ist wahr.",German,de
+1485,"Honestly, The museum opens at nine in the morning. Everyone agrees.",English,en
+1486,"Como sempre, As crianças estão brincando no jardim. É verdade.",Portuguese,pt
+1487,"Esta manhã, Eu gostaria de uma xícara de café, por favor.",Portuguese,pt
+1488,"हमेशा की तरह, संग्रहालय सुबह नौ बजे खुलता है। सभी सहमत हैं।",Hindi,hi
+1489,"Ancora una volta, La mia famiglia ci fa visita questa estate.",Italian,it
+1490,دراصل، وہ ہر ہفتے کے آخر میں فٹبال کھیلتا ہے۔ یہ یقینی ہے۔,Urdu,ur
+1491,"Apparemment, Nous allons au marché demain. C'est certain.",French,fr
+1492,"Aparentemente, El jardín está lleno de flores coloridas. Eso es seguro.",Spanish,es
+1493,"जाहिर तौर पर, कृपया मुझे एक कप कॉफी दीजिए। सभी सहमत हैं।",Hindi,hi
+1494,"Ce matin, Le temps est magnifique aujourd'hui. C'est vrai.",French,fr
+1495,"Honestly, He plays football every weekend. It's true.",English,en
+1496,"Gestern, Sie liest ein Buch im Park. Es ist wahr.",German,de
+1497,"आज सुबह, वे पहाड़ों की यात्रा की योजना बना रहे हैं।",Hindi,hi
+1498,"जाहिर तौर पर, बस हर पंद्रह मिनट में आती है। सभी सहमत हैं।",Hindi,hi
+1499,"Überraschenderweise, Sie planen eine Reise in die Berge.",German,de
+1500,"Ancora una volta, Andiamo al mercato domani. Questo è certo.",Italian,it
+1501,"आज सुबह, वह एक छोटी बेकरी में काम करती है।",Hindi,hi
+1502,میوزیم صبح نو بجے کھلتا ہے۔,Urdu,ur
+1503,کل، براہ کرم مجھے ایک کپ کافی دیں۔ یہ یقینی ہے۔,Urdu,ur
+1504,Assistimos a um filme ontem à noite. Isso é certo.,Portuguese,pt
+1505,"कल, वह पार्क में एक किताब पढ़ रही है। यह निश्चित है।",Hindi,hi
+1506,O jardim está cheio de flores coloridas.,Portuguese,pt
+1507,"Infatti, Lei lavora in una piccola panetteria. Questo è certo.",Italian,it
+1508,"Anscheinend, Die Kinder spielen im Garten.",German,de
+1509,"Una vez más, Él está estudiando para sus exámenes finales.",Spanish,es
+1510,آج صبح، وہ ہر ہفتے کے آخر میں فٹبال کھیلتا ہے۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+1511,"Esta mañana, Este restaurante sirve comida deliciosa. Todos están de acuerdo.",Spanish,es
+1512,The weather is beautiful today.,English,en
+1513,"Honnêtement, Le magasin ferme tôt le dimanche.",French,fr
+1514,بالمناسبة، أستمتع بتعلم لغات جديدة. الجميع يوافق.,Arabic,ar
+1515,"En fait, Il étudie pour ses examens finaux.",French,fr
+1516,"Honestamente, Este restaurante sirve comida deliciosa. Todos están de acuerdo.",Spanish,es
+1517,"Infatti, L'autobus arriva ogni quindici minuti. È vero.",Italian,it
+1518,"By the way, We watched a movie last night.",English,en
+1519,"Ce matin, Nous avons regardé un film hier soir. C'est certain.",French,fr
+1520,بظاہر، مجھے نئی زبانیں سیکھنا پسند ہے۔ یہ سچ ہے۔,Urdu,ur
+1521,"A propósito, O tempo está lindo hoje.",Portuguese,pt
+1522,کل، میرا خاندان اس گرمی میں ہم سے ملنے آ رہا ہے۔,Urdu,ur
+1523,"Ayer, El clima está hermoso hoy.",Spanish,es
+1524,"हैरानी की बात है, कृपया मुझे एक कप कॉफी दीजिए। सभी सहमत हैं।",Hindi,hi
+1525,Il negozio chiude presto la domenica. Tutti sono d'accordo.,Italian,it
+1526,"जाहिर तौर पर, मुझे नई भाषाएँ सीखना पसंद है। सभी सहमत हैं।",Hindi,hi
+1527,دراصل، وہ اپنے فائنل امتحانات کی تیاری کر رہا ہے۔,Urdu,ur
+1528,على ما يبدو، الحديقة مليئة بالزهور الملونة. هذا صحيح.,Arabic,ar
+1529,بصراحة، الطقس جميل اليوم.,Arabic,ar
+1530,"Honestamente, Ella trabaja en una pequeña panadería. Eso es seguro.",Spanish,es
+1531,"Mais uma vez, Eu gosto de aprender novos idiomas. Todos concordam.",Portuguese,pt
+1532,دکان اتوار کو جلدی بند ہو جاتی ہے۔ یہ سچ ہے۔,Urdu,ur
+1533,"Sorprendentemente, Il negozio chiude presto la domenica.",Italian,it
+1534,"Übrigens, Ich muss Brot und Milch kaufen. Alle sind sich einig.",German,de
+1535,"Ayer, Ella está leyendo un libro en el parque. Todos están de acuerdo.",Spanish,es
+1536,"Überraschenderweise, Das Museum öffnet um neun Uhr morgens. Alle sind sich einig.",German,de
+1537,I enjoy learning new languages. It's true.,English,en
+1538,مرة أخرى، عائلتي ستزورنا هذا الصيف. هذا مؤكد.,Arabic,ar
+1539,"वास्तव में, आज मौसम बहुत सुंदर है। यह सच है।",Hindi,hi
+1540,"Au fait, Nous avons regardé un film hier soir.",French,fr
+1541,"Come al solito, Mi piace imparare nuove lingue. Questo è certo.",Italian,it
+1542,Sie planen eine Reise in die Berge. Das ist sicher.,German,de
+1543,بالأمس، يبدأ الحفل الساعة الثامنة. هذا صحيح.,Arabic,ar
+1544,ایمانداری سے، ہم کل بازار جا رہے ہیں۔ یہ یقینی ہے۔,Urdu,ur
+1545,"Tatsächlich, Ich muss Brot und Milch kaufen. Alle sind sich einig.",German,de
+1546,"Surprisingly, The store closes early on Sundays.",English,en
+1547,"Questa mattina, Il giardino è pieno di fiori colorati. Tutti sono d'accordo.",Italian,it
+1548,"Encore une fois, Elle travaille dans une petite boulangerie. C'est vrai.",French,fr
+1549,هو يلعب كرة القدم كل نهاية أسبوع.,Arabic,ar
+1550,بصراحة، عائلتي ستزورنا هذا الصيف. هذا صحيح.,Arabic,ar
+1551,"Honnêtement, Il joue au football chaque week-end. C'est vrai.",French,fr
+1552,"De hecho, Ella trabaja en una pequeña panadería. Eso es seguro.",Spanish,es
+1553,"Ce matin, Ce restaurant sert une nourriture délicieuse. Tout le monde est d'accord.",French,fr
+1554,Stanno pianificando un viaggio in montagna. Questo è certo.,Italian,it
+1555,کل، یہ ریستوران لذیذ کھانا پیش کرتا ہے۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+1556,"As usual, The concert starts at eight o'clock. It's true.",English,en
+1557,"हमेशा की तरह, बस हर पंद्रह मिनट में आती है। यह निश्चित है।",Hindi,hi
+1558,"Comme d'habitude, J'aime apprendre de nouvelles langues. C'est certain.",French,fr
+1559,"Übrigens, Der Bus kommt alle fünfzehn Minuten. Das ist sicher.",German,de
+1560,"Apparemment, Elle lit un livre dans le parc. C'est certain.",French,fr
+1561,"Tatsächlich, Die Kinder spielen im Garten. Es ist wahr.",German,de
+1562,"In fact, He is studying for his final exams. That's for sure.",English,en
+1563,"आज सुबह, वह हर सप्ताहांत फुटबॉल खेलता है। सभी सहमत हैं।",Hindi,hi
+1564,"Ehrlich gesagt, Er spielt jedes Wochenende Fußball.",German,de
+1565,"Aparentemente, A loja fecha cedo aos domingos.",Portuguese,pt
+1566,مرة أخرى، هو يلعب كرة القدم كل نهاية أسبوع. الجميع يوافق.,Arabic,ar
+1567,"Ce matin, Nous allons au marché demain.",French,fr
+1568,"Aparentemente, Los niños están jugando en el jardín. Es verdad.",Spanish,es
+1569,"जाहिर तौर पर, वे पहाड़ों की यात्रा की योजना बना रहे हैं। यह निश्चित है।",Hindi,hi
+1570,"Au fait, Le concert commence à huit heures.",French,fr
+1571,"कल, वह पार्क में एक किताब पढ़ रही है।",Hindi,hi
+1572,"हैरानी की बात है, वह हर सप्ताहांत फुटबॉल खेलता है।",Hindi,hi
+1573,"Once again, She works at a small bakery downtown.",English,en
+1574,"Esta mañana, La tienda cierra temprano los domingos. Es verdad.",Spanish,es
+1575,مرة أخرى، تصل الحافلة كل خمس عشرة دقيقة. الجميع يوافق.,Arabic,ar
+1576,كالعادة، هو يدرس لامتحاناته النهائية. هذا مؤكد.,Arabic,ar
+1577,"Infatti, Il giardino è pieno di fiori colorati. Questo è certo.",Italian,it
+1578,"Yesterday, The store closes early on Sundays. Everyone agrees.",English,en
+1579,"Sorprendentemente, Ella trabaja en una pequeña panadería.",Spanish,es
+1580,Sie arbeitet in einer kleinen Bäckerei. Es ist wahr.,German,de
+1581,"Por cierto, El jardín está lleno de flores coloridas. Es verdad.",Spanish,es
+1582,"Come al solito, Abbiamo visto un film ieri sera. È vero.",Italian,it
+1583,"Surpreendentemente, O show começa às oito horas. Todos concordam.",Portuguese,pt
+1584,"वास्तव में, दुकान रविवार को जल्दी बंद हो जाती है। यह सच है।",Hindi,hi
+1585,"Como siempre, ¿Puedes ayudarme a encontrar la estación de tren?",Spanish,es
+1586,Sie planen eine Reise in die Berge. Alle sind sich einig.,German,de
+1587,Il étudie pour ses examens finaux. C'est certain.,French,fr
+1588,بالمناسبة، عائلتي ستزورنا هذا الصيف. هذا مؤكد.,Arabic,ar
+1589,"Ce matin, J'ai besoin d'acheter du pain et du lait.",French,fr
+1590,"Au fait, Je voudrais une tasse de café, s'il vous plaît. Tout le monde est d'accord.",French,fr
+1591,"Étonnamment, Le bus arrive toutes les quinze minutes. C'est vrai.",French,fr
+1592,"Surpreendentemente, Ele joga futebol todo fim de semana. Isso é certo.",Portuguese,pt
+1593,آج صبح، دکان اتوار کو جلدی بند ہو جاتی ہے۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+1594,بالمناسبة، هذا المطعم يقدم طعامًا لذيذًا.,Arabic,ar
+1595,"Au fait, J'ai besoin d'acheter du pain et du lait. C'est vrai.",French,fr
+1596,"Hier, Les enfants jouent dans le jardin. C'est certain.",French,fr
+1597,في الواقع، تصل الحافلة كل خمس عشرة دقيقة.,Arabic,ar
+1598,"Come al solito, Il museo apre alle nove del mattino. Questo è certo.",Italian,it
+1599,"Wie immer, Ich lerne gerne neue Sprachen.",German,de
+1600,"Gestern, Der Garten ist voller bunter Blumen.",German,de
+1601,"हमेशा की तरह, वह हर सप्ताहांत फुटबॉल खेलता है। यह निश्चित है।",Hindi,hi
+1602,"जाहिर तौर पर, संगीत कार्यक्रम आठ बजे शुरू होता है। यह सच है।",Hindi,hi
+1603,"Sorprendentemente, Lei sta leggendo un libro nel parco.",Italian,it
+1604,"Apparemment, Il joue au football chaque week-end. C'est certain.",French,fr
+1605,"Por cierto, Él juega fútbol cada fin de semana. Todos están de acuerdo.",Spanish,es
+1606,"Honestamente, El clima está hermoso hoy. Es verdad.",Spanish,es
+1607,يبدأ الحفل الساعة الثامنة.,Arabic,ar
+1608,"Ayer, Este restaurante sirve comida deliciosa. Todos están de acuerdo.",Spanish,es
+1609,"A propósito, Eu preciso comprar pão e leite.",Portuguese,pt
+1610,"En fait, Le musée ouvre à neuf heures du matin. C'est certain.",French,fr
+1611,"Étonnamment, J'aime apprendre de nouvelles langues. Tout le monde est d'accord.",French,fr
+1612,على ما يبدو، هو يلعب كرة القدم كل نهاية أسبوع. هذا مؤكد.,Arabic,ar
+1613,بشكل مفاجئ، يبدأ الحفل الساعة الثامنة. هذا صحيح.,Arabic,ar
+1614,"As usual, They are planning a trip to the mountains. That's for sure.",English,en
+1615,J'aime apprendre de nouvelles langues. Tout le monde est d'accord.,French,fr
+1616,The bus arrives every fifteen minutes. Everyone agrees.,English,en
+1617,"Ayer, Ella está leyendo un libro en el parque. Es verdad.",Spanish,es
+1618,آج صبح، مجھے نئی زبانیں سیکھنا پسند ہے۔,Urdu,ur
+1619,"Una vez más, Ella está leyendo un libro en el parque.",Spanish,es
+1620,Der Laden schließt sonntags früh. Das ist sicher.,German,de
+1621,"Honestamente, Ella trabaja en una pequeña panadería. Todos están de acuerdo.",Spanish,es
+1622,ہم نے کل رات ایک فلم دیکھی۔ یہ یقینی ہے۔,Urdu,ur
+1623,بصراحة، الحديقة مليئة بالزهور الملونة. الجميع يوافق.,Arabic,ar
+1624,"Once again, She is reading a book in the park.",English,en
+1625,"Onestamente, Andiamo al mercato domani. Questo è certo.",Italian,it
+1626,"Surpreendentemente, A loja fecha cedo aos domingos.",Portuguese,pt
+1627,ہمیشہ کی طرح، وہ ہر ہفتے کے آخر میں فٹبال کھیلتا ہے۔ یہ یقینی ہے۔,Urdu,ur
+1628,"Apparently, He plays football every weekend. Everyone agrees.",English,en
+1629,"Esta manhã, O ônibus chega a cada quinze minutos. Isso é certo.",Portuguese,pt
+1630,مرة أخرى، يفتح المتحف الساعة التاسعة صباحًا. هذا صحيح.,Arabic,ar
+1631,في الواقع، أود كوب قهوة من فضلك. هذا مؤكد.,Arabic,ar
+1632,"हमेशा की तरह, वह अपनी अंतिम परीक्षाओं के लिए पढ़ रहा है। यह निश्चित है।",Hindi,hi
+1633,"Überraschenderweise, Sie arbeitet in einer kleinen Bäckerei. Das ist sicher.",German,de
+1634,في الواقع، هذا المطعم يقدم طعامًا لذيذًا. هذا صحيح.,Arabic,ar
+1635,ہمیشہ کی طرح، وہ پہاڑوں کے سفر کی منصوبہ بندی کر رہے ہیں۔,Urdu,ur
+1636,"Infatti, Lei sta leggendo un libro nel parco. Questo è certo.",Italian,it
+1637,"Honestamente, Eu gostaria de uma xícara de café, por favor. É verdade.",Portuguese,pt
+1638,کل، وہ اپنے فائنل امتحانات کی تیاری کر رہا ہے۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+1639,"Onestamente, Puoi aiutarmi a trovare la stazione dei treni?",Italian,it
+1640,بالأمس، شاهدنا فيلمًا الليلة الماضية.,Arabic,ar
+1641,"Surpreendentemente, O ônibus chega a cada quinze minutos. Todos concordam.",Portuguese,pt
+1642,"In fact, Can you help me find the train station?",English,en
+1643,"Onestamente, Lei lavora in una piccola panetteria. Tutti sono d'accordo.",Italian,it
+1644,"Sorprendentemente, Il tempo è bellissimo oggi. Questo è certo.",Italian,it
+1645,"Comme d'habitude, J'ai besoin d'acheter du pain et du lait.",French,fr
+1646,"Sorprendentemente, Questo ristorante serve cibo delizioso. Tutti sono d'accordo.",Italian,it
+1647,بشكل مفاجئ، أحتاج إلى شراء خبز وحليب.,Arabic,ar
+1648,"Heute Morgen, Der Garten ist voller bunter Blumen. Es ist wahr.",German,de
+1649,"De hecho, Necesito comprar pan y leche.",Spanish,es
+1650,"Esta mañana, Ella está leyendo un libro en el parque.",Spanish,es
+1651,"Aparentemente, O show começa às oito horas. Isso é certo.",Portuguese,pt
+1652,ہمیشہ کی طرح، کیا آپ ٹرین اسٹیشن ڈھونڈنے میں میری مدد کر سکتے ہیں؟,Urdu,ur
+1653,على ما يبدو، الطقس جميل اليوم. هذا مؤكد.,Arabic,ar
+1654,"Esta manhã, Assistimos a um filme ontem à noite. Todos concordam.",Portuguese,pt
+1655,"Aparentemente, Ella está leyendo un libro en el parque. Eso es seguro.",Spanish,es
+1656,"Comme d'habitude, Je voudrais une tasse de café, s'il vous plaît. Tout le monde est d'accord.",French,fr
+1657,"Sorprendentemente, Vimos una película anoche. Todos están de acuerdo.",Spanish,es
+1658,بالأمس، الأطفال يلعبون في الحديقة. هذا صحيح.,Arabic,ar
+1659,"En fait, Ils prévoient un voyage à la montagne. Tout le monde est d'accord.",French,fr
+1660,"Ontem, O jardim está cheio de flores coloridas. Isso é certo.",Portuguese,pt
+1661,Il étudie pour ses examens finaux. C'est vrai.,French,fr
+1662,"Honestamente, O ônibus chega a cada quinze minutos.",Portuguese,pt
+1663,"In fact, She is reading a book in the park. It's true.",English,en
+1664,هذا الصباح، الحديقة مليئة بالزهور الملونة. هذا مؤكد.,Arabic,ar
+1665,"Apparently, We are going to the market tomorrow. Everyone agrees.",English,en
+1666,كالعادة، هذا المطعم يقدم طعامًا لذيذًا. هذا صحيح.,Arabic,ar
+1667,"ईमानदारी से, क्या आप मुझे रेलवे स्टेशन खोजने में मदद कर सकते हैं? सभी सहमत हैं।",Hindi,hi
+1668,She works at a small bakery downtown. Everyone agrees.,English,en
+1669,"Honestamente, Él juega fútbol cada fin de semana. Es verdad.",Spanish,es
+1670,بشكل مفاجئ، أستمتع بتعلم لغات جديدة. الجميع يوافق.,Arabic,ar
+1671,حیرت کی بات ہے، باغ رنگ برنگے پھولوں سے بھرا ہے۔,Urdu,ur
+1672,"Once again, She is reading a book in the park. It's true.",English,en
+1673,آج صبح، بچے باغ میں کھیل رہے ہیں۔ یہ سچ ہے۔,Urdu,ur
+1674,"Sorprendentemente, El jardín está lleno de flores coloridas. Es verdad.",Spanish,es
+1675,"De hecho, Él está estudiando para sus exámenes finales. Todos están de acuerdo.",Spanish,es
+1676,"ईमानदारी से, वह पार्क में एक किताब पढ़ रही है। सभी सहमत हैं।",Hindi,hi
+1677,"Hier, Nous avons regardé un film hier soir. C'est certain.",French,fr
+1678,"Honnêtement, Elle lit un livre dans le parc. C'est certain.",French,fr
+1679,"Apparemment, Il étudie pour ses examens finaux. Tout le monde est d'accord.",French,fr
+1680,"Gestern, Er spielt jedes Wochenende Fußball. Alle sind sich einig.",German,de
+1681,"Onestamente, Lui sta studiando per gli esami finali. Questo è certo.",Italian,it
+1682,"Por cierto, Ella está leyendo un libro en el parque. Es verdad.",Spanish,es
+1683,"हैरानी की बात है, संगीत कार्यक्रम आठ बजे शुरू होता है। यह सच है।",Hindi,hi
+1684,"Infatti, La mia famiglia ci fa visita questa estate. È vero.",Italian,it
+1685,"Wie immer, Sie planen eine Reise in die Berge.",German,de
+1686,ایمانداری سے، یہ ریستوران لذیذ کھانا پیش کرتا ہے۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+1687,संग्रहालय सुबह नौ बजे खुलता है। यह सच है।,Hindi,hi
+1688,ایمانداری سے، وہ اپنے فائنل امتحانات کی تیاری کر رہا ہے۔,Urdu,ur
+1689,Ella está leyendo un libro en el parque. Eso es seguro.,Spanish,es
+1690,"Once again, I enjoy learning new languages. Everyone agrees.",English,en
+1691,کل، وہ پہاڑوں کے سفر کی منصوبہ بندی کر رہے ہیں۔ یہ یقینی ہے۔,Urdu,ur
+1692,"A propósito, Eu gosto de aprender novos idiomas. É verdade.",Portuguese,pt
+1693,"Apparentemente, I bambini stanno giocando in giardino. È vero.",Italian,it
+1694,"Ce matin, J'aime apprendre de nouvelles langues. Tout le monde est d'accord.",French,fr
+1695,"Esta manhã, Ele está estudando para as provas finais. Todos concordam.",Portuguese,pt
+1696,"Honestly, Can you help me find the train station? That's for sure.",English,en
+1697,ایمانداری سے، وہ پہاڑوں کے سفر کی منصوبہ بندی کر رہے ہیں۔ یہ سچ ہے۔,Urdu,ur
+1698,"Surpreendentemente, Eles estão planejando uma viagem para as montanhas. Todos concordam.",Portuguese,pt
+1699,بشكل مفاجئ، الحديقة مليئة بالزهور الملونة. هذا مؤكد.,Arabic,ar
+1700,"A propósito, Este restaurante serve comida deliciosa. É verdade.",Portuguese,pt
+1701,"Surpreendentemente, Ele está estudando para as provas finais. É verdade.",Portuguese,pt
+1702,"Aparentemente, Assistimos a um filme ontem à noite. Isso é certo.",Portuguese,pt
+1703,"Na verdade, O tempo está lindo hoje. Isso é certo.",Portuguese,pt
+1704,"Gestern, Wir gehen morgen auf den Markt. Alle sind sich einig.",German,de
+1705,"Como siempre, Este restaurante sirve comida deliciosa.",Spanish,es
+1706,"Hier, Ma famille nous rend visite cet été. Tout le monde est d'accord.",French,fr
+1707,"Apparently, We watched a movie last night.",English,en
+1708,"Comme d'habitude, Il étudie pour ses examens finaux. Tout le monde est d'accord.",French,fr
+1709,"In fact, He plays football every weekend. Everyone agrees.",English,en
+1710,"आज सुबह, संगीत कार्यक्रम आठ बजे शुरू होता है। यह सच है।",Hindi,hi
+1711,Il negozio chiude presto la domenica.,Italian,it
+1712,"वास्तव में, दुकान रविवार को जल्दी बंद हो जाती है। सभी सहमत हैं।",Hindi,hi
+1713,"Esta manhã, Ele está estudando para as provas finais. É verdade.",Portuguese,pt
+1714,"Surpreendentemente, O ônibus chega a cada quinze minutos.",Portuguese,pt
+1715,ہمیشہ کی طرح، ہم کل بازار جا رہے ہیں۔,Urdu,ur
+1716,"Apparentemente, Devo comprare pane e latte.",Italian,it
+1717,"Apparentemente, I bambini stanno giocando in giardino. Tutti sono d'accordo.",Italian,it
+1718,"De hecho, ¿Puedes ayudarme a encontrar la estación de tren?",Spanish,es
+1719,I need to buy some bread and milk. Everyone agrees.,English,en
+1720,"In fact, She works at a small bakery downtown. Everyone agrees.",English,en
+1721,"Questa mattina, Il museo apre alle nove del mattino. È vero.",Italian,it
+1722,"Wieder einmal, Wir haben gestern Abend einen Film gesehen. Es ist wahr.",German,de
+1723,O ônibus chega a cada quinze minutos.,Portuguese,pt
+1724,"Anscheinend, Ich hätte gerne eine Tasse Kaffee, bitte. Alle sind sich einig.",German,de
+1725,ایک بار پھر، بس ہر پندرہ منٹ میں آتی ہے۔ یہ سچ ہے۔,Urdu,ur
+1726,"Ich hätte gerne eine Tasse Kaffee, bitte. Das ist sicher.",German,de
+1727,"Anscheinend, Ich muss Brot und Milch kaufen. Das ist sicher.",German,de
+1728,"Übrigens, Können Sie mir helfen, den Bahnhof zu finden? Das ist sicher.",German,de
+1729,"Por cierto, Ellos están planeando un viaje a las montañas.",Spanish,es
+1730,वह पार्क में एक किताब पढ़ रही है। यह निश्चित है।,Hindi,hi
+1731,"हैरानी की बात है, कृपया मुझे एक कप कॉफी दीजिए। यह सच है।",Hindi,hi
+1732,"Una vez más, El museo abre a las nueve de la mañana. Eso es seguro.",Spanish,es
+1733,بالأمس، هي تقرأ كتابًا في الحديقة. هذا صحيح.,Arabic,ar
+1734,"ईमानदारी से, आज मौसम बहुत सुंदर है।",Hindi,hi
+1735,حیرت کی بات ہے، براہ کرم مجھے ایک کپ کافی دیں۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+1736,The bus arrives every fifteen minutes. That's for sure.,English,en
+1737,حیرت کی بات ہے، کیا آپ ٹرین اسٹیشن ڈھونڈنے میں میری مدد کر سکتے ہیں؟ یہ یقینی ہے۔,Urdu,ur
+1738,"Infatti, Il giardino è pieno di fiori colorati.",Italian,it
+1739,"ईमानदारी से, मेरा परिवार इस गर्मी में हमसे मिलने आ रहा है। सभी सहमत हैं।",Hindi,hi
+1740,"By the way, The children are playing in the garden. It's true.",English,en
+1741,"Once again, Can you help me find the train station? That's for sure.",English,en
+1742,"Tatsächlich, Der Garten ist voller bunter Blumen. Alle sind sich einig.",German,de
+1743,"Übrigens, Wir haben gestern Abend einen Film gesehen. Es ist wahr.",German,de
+1744,"Au fait, Ce restaurant sert une nourriture délicieuse. C'est vrai.",French,fr
+1745,کل، ہم کل بازار جا رہے ہیں۔ یہ یقینی ہے۔,Urdu,ur
+1746,"हमेशा की तरह, मेरा परिवार इस गर्मी में हमसे मिलने आ रहा है। सभी सहमत हैं।",Hindi,hi
+1747,"हैरानी की बात है, बस हर पंद्रह मिनट में आती है।",Hindi,hi
+1748,"Mais uma vez, Ela está lendo um livro no parque. É verdade.",Portuguese,pt
+1749,"Ontem, Este restaurante serve comida deliciosa. Todos concordam.",Portuguese,pt
+1750,"Apparently, My family is visiting this summer. That's for sure.",English,en
+1751,"Onestamente, Stanno pianificando un viaggio in montagna. Questo è certo.",Italian,it
+1752,"Honestamente, Minha família vai nos visitar neste verão.",Portuguese,pt
+1753,"Como siempre, Me gustaría una taza de café, por favor. Es verdad.",Spanish,es
+1754,"Übrigens, Der Garten ist voller bunter Blumen.",German,de
+1755,"Aparentemente, Eu gostaria de uma xícara de café, por favor. Todos concordam.",Portuguese,pt
+1756,"Yesterday, I would like a cup of coffee, please. That's for sure.",English,en
+1757,"Sorprendentemente, Él juega fútbol cada fin de semana. Es verdad.",Spanish,es
+1758,"कल, वह एक छोटी बेकरी में काम करती है।",Hindi,hi
+1759,على ما يبدو، الأطفال يلعبون في الحديقة. هذا صحيح.,Arabic,ar
+1760,ایک بار پھر، میرا خاندان اس گرمی میں ہم سے ملنے آ رہا ہے۔ یہ سچ ہے۔,Urdu,ur
+1761,"Honnêtement, J'aime apprendre de nouvelles langues. C'est vrai.",French,fr
+1762,"Übrigens, Der Laden schließt sonntags früh. Alle sind sich einig.",German,de
+1763,"Aparentemente, A loja fecha cedo aos domingos. Isso é certo.",Portuguese,pt
+1764,"En fait, Il joue au football chaque week-end.",French,fr
+1765,"Once again, I would like a cup of coffee, please. That's for sure.",English,en
+1766,كالعادة، الأطفال يلعبون في الحديقة. هذا صحيح.,Arabic,ar
+1767,"Apparently, I need to buy some bread and milk. Everyone agrees.",English,en
+1768,مرة أخرى، يفتح المتحف الساعة التاسعة صباحًا. هذا مؤكد.,Arabic,ar
+1769,"Tatsächlich, Sie liest ein Buch im Park. Es ist wahr.",German,de
+1770,"Once again, I would like a cup of coffee, please. It's true.",English,en
+1771,"Como siempre, Me gustaría una taza de café, por favor.",Spanish,es
+1772,"Ieri, Il negozio chiude presto la domenica.",Italian,it
+1773,"वैसे, मुझे नई भाषाएँ सीखना पसंद है। यह सच है।",Hindi,hi
+1774,ویسے، دکان اتوار کو جلدی بند ہو جاتی ہے۔,Urdu,ur
+1775,"Anscheinend, Der Garten ist voller bunter Blumen. Alle sind sich einig.",German,de
+1776,"Como siempre, El autobús llega cada quince minutos.",Spanish,es
+1777,ایک بار پھر، وہ اپنے فائنل امتحانات کی تیاری کر رہا ہے۔ یہ سچ ہے۔,Urdu,ur
+1778,آج صبح، باغ رنگ برنگے پھولوں سے بھرا ہے۔ یہ یقینی ہے۔,Urdu,ur
+1779,"Come al solito, Il negozio chiude presto la domenica. È vero.",Italian,it
+1780,"Na verdade, Assistimos a um filme ontem à noite. Isso é certo.",Portuguese,pt
+1781,"Tatsächlich, Der Laden schließt sonntags früh. Das ist sicher.",German,de
+1782,"Na verdade, O museu abre às nove da manhã. Isso é certo.",Portuguese,pt
+1783,"आज सुबह, हम कल बाजार जा रहे हैं।",Hindi,hi
+1784,"Una vez más, Me gusta aprender nuevos idiomas. Todos están de acuerdo.",Spanish,es
+1785,حیرت کی بات ہے، مجھے نئی زبانیں سیکھنا پسند ہے۔ یہ یقینی ہے۔,Urdu,ur
+1786,ہمیشہ کی طرح، وہ اپنے فائنل امتحانات کی تیاری کر رہا ہے۔ یہ یقینی ہے۔,Urdu,ur
+1787,"Comme d'habitude, Le musée ouvre à neuf heures du matin. Tout le monde est d'accord.",French,fr
+1788,Andiamo al mercato domani.,Italian,it
+1789,ایمانداری سے، وہ ہر ہفتے کے آخر میں فٹبال کھیلتا ہے۔ یہ سچ ہے۔,Urdu,ur
+1790,"Onestamente, Il concerto inizia alle otto. È vero.",Italian,it
+1791,"Wie immer, Der Bus kommt alle fünfzehn Minuten.",German,de
+1792,تصل الحافلة كل خمس عشرة دقيقة. هذا مؤكد.,Arabic,ar
+1793,ایک بار پھر، وہ ایک چھوٹی بیکری میں کام کرتی ہے۔ یہ سچ ہے۔,Urdu,ur
+1794,"Una vez más, Ellos están planeando un viaje a las montañas. Es verdad.",Spanish,es
+1795,"Como sempre, Vamos ao mercado amanhã.",Portuguese,pt
+1796,"A proposito, Il negozio chiude presto la domenica. È vero.",Italian,it
+1797,"वास्तव में, मुझे नई भाषाएँ सीखना पसंद है। सभी सहमत हैं।",Hindi,hi
+1798,"Ancora una volta, Puoi aiutarmi a trovare la stazione dei treni? Tutti sono d'accordo.",Italian,it
+1799,"In fact, The weather is beautiful today.",English,en
+1800,ایمانداری سے، مجھے نئی زبانیں سیکھنا پسند ہے۔,Urdu,ur
+1801,على ما يبدو، يفتح المتحف الساعة التاسعة صباحًا. الجميع يوافق.,Arabic,ar
+1802,"Wie immer, Dieses Restaurant serviert köstliches Essen. Alle sind sich einig.",German,de
+1803,"A propósito, Ela trabalha em uma pequena padaria.",Portuguese,pt
+1804,"Tatsächlich, Sie liest ein Buch im Park. Das ist sicher.",German,de
+1805,My family is visiting this summer. That's for sure.,English,en
+1806,"Ce matin, Nous allons au marché demain. C'est certain.",French,fr
+1807,"Ehrlich gesagt, Der Bus kommt alle fünfzehn Minuten. Alle sind sich einig.",German,de
+1808,"Esta mañana, La tienda cierra temprano los domingos.",Spanish,es
+1809,"Esta mañana, El clima está hermoso hoy. Eso es seguro.",Spanish,es
+1810,"Como sempre, Este restaurante serve comida deliciosa.",Portuguese,pt
+1811,"Anscheinend, Meine Familie besucht uns diesen Sommer.",German,de
+1812,بالمناسبة، شاهدنا فيلمًا الليلة الماضية. هذا صحيح.,Arabic,ar
+1813,"Ehrlich gesagt, Das Konzert beginnt um acht Uhr.",German,de
+1814,"Me gustaría una taza de café, por favor. Eso es seguro.",Spanish,es
+1815,"Come al solito, La mia famiglia ci fa visita questa estate. Questo è certo.",Italian,it
+1816,"Infatti, Lui sta studiando per gli esami finali. Tutti sono d'accordo.",Italian,it
+1817,"Wieder einmal, Er lernt für seine Abschlussprüfungen. Das ist sicher.",German,de
+1818,"Étonnamment, Je voudrais une tasse de café, s'il vous plaît. Tout le monde est d'accord.",French,fr
+1819,"Ayer, Él está estudiando para sus exámenes finales.",Spanish,es
+1820,वह अपनी अंतिम परीक्षाओं के लिए पढ़ रहा है। सभी सहमत हैं।,Hindi,hi
+1821,O tempo está lindo hoje. Todos concordam.,Portuguese,pt
+1822,بشكل مفاجئ، يخططون لرحلة إلى الجبال. هذا مؤكد.,Arabic,ar
+1823,بشكل مفاجئ، هي تقرأ كتابًا في الحديقة. هذا مؤكد.,Arabic,ar
+1824,"Gestern, Das Wetter ist heute wunderschön. Das ist sicher.",German,de
+1825,"Yesterday, She works at a small bakery downtown. It's true.",English,en
+1826,Le jardin est plein de fleurs colorées. C'est certain.,French,fr
+1827,"Onestamente, Il tempo è bellissimo oggi. Questo è certo.",Italian,it
+1828,"Comme d'habitude, Pouvez-vous m'aider à trouver la gare ? C'est vrai.",French,fr
+1829,"Esta mañana, ¿Puedes ayudarme a encontrar la estación de tren?",Spanish,es
+1830,"Anscheinend, Der Garten ist voller bunter Blumen.",German,de
+1831,"De hecho, Los niños están jugando en el jardín. Eso es seguro.",Spanish,es
+1832,"Surprisingly, The children are playing in the garden. That's for sure.",English,en
+1833,"Comme d'habitude, Nous allons au marché demain. Tout le monde est d'accord.",French,fr
+1834,"Étonnamment, Nous allons au marché demain.",French,fr
+1835,¿Puedes ayudarme a encontrar la estación de tren? Eso es seguro.,Spanish,es
+1836,"Sorprendentemente, Lui gioca a calcio ogni fine settimana.",Italian,it
+1837,"Übrigens, Er spielt jedes Wochenende Fußball. Das ist sicher.",German,de
+1838,كالعادة، هل يمكنك مساعدتي في إيجاد محطة القطار؟ هذا مؤكد.,Arabic,ar
+1839,"ईमानदारी से, वह एक छोटी बेकरी में काम करती है। सभी सहमत हैं।",Hindi,hi
+1840,Pouvez-vous m'aider à trouver la gare ? C'est certain.,French,fr
+1841,ویسے، وہ اپنے فائنل امتحانات کی تیاری کر رہا ہے۔ یہ یقینی ہے۔,Urdu,ur
+1842,"Encore une fois, Il étudie pour ses examens finaux. Tout le monde est d'accord.",French,fr
+1843,"Ieri, Stanno pianificando un viaggio in montagna. È vero.",Italian,it
+1844,آج موسم بہت خوبصورت ہے۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+1845,"Aparentemente, El concierto comienza a las ocho. Es verdad.",Spanish,es
+1846,"By the way, I enjoy learning new languages. Everyone agrees.",English,en
+1847,"Ce matin, Ils prévoient un voyage à la montagne. C'est certain.",French,fr
+1848,آج موسم بہت خوبصورت ہے۔ یہ یقینی ہے۔,Urdu,ur
+1849,"Aparentemente, O jardim está cheio de flores coloridas. Todos concordam.",Portuguese,pt
+1850,"ईमानदारी से, मुझे नई भाषाएँ सीखना पसंद है। यह निश्चित है।",Hindi,hi
+1851,Ella trabaja en una pequeña panadería. Todos están de acuerdo.,Spanish,es
+1852,"Onestamente, Mi piace imparare nuove lingue. È vero.",Italian,it
+1853,"Ieri, Stanno pianificando un viaggio in montagna.",Italian,it
+1854,"Ancora una volta, Devo comprare pane e latte. Tutti sono d'accordo.",Italian,it
+1855,"Ontem, O tempo está lindo hoje. É verdade.",Portuguese,pt
+1856,بالمناسبة، يغلق المتجر مبكرًا أيام الأحد. هذا مؤكد.,Arabic,ar
+1857,"Anscheinend, Das Konzert beginnt um acht Uhr. Das ist sicher.",German,de
+1858,"Yesterday, We watched a movie last night. That's for sure.",English,en
+1859,دراصل، دکان اتوار کو جلدی بند ہو جاتی ہے۔ یہ سچ ہے۔,Urdu,ur
+1860,بظاہر، وہ پہاڑوں کے سفر کی منصوبہ بندی کر رہے ہیں۔ یہ سچ ہے۔,Urdu,ur
+1861,بظاہر، بس ہر پندرہ منٹ میں آتی ہے۔ یہ یقینی ہے۔,Urdu,ur
+1862,"Surprisingly, The concert starts at eight o'clock. Everyone agrees.",English,en
+1863,"Onestamente, La mia famiglia ci fa visita questa estate. Questo è certo.",Italian,it
+1864,"Como sempre, Ele joga futebol todo fim de semana. Todos concordam.",Portuguese,pt
+1865,حیرت کی بات ہے، ہم نے کل رات ایک فلم دیکھی۔ یہ سچ ہے۔,Urdu,ur
+1866,"A proposito, Il giardino è pieno di fiori colorati. Questo è certo.",Italian,it
+1867,بشكل مفاجئ، هذا المطعم يقدم طعامًا لذيذًا.,Arabic,ar
+1868,"Honnêtement, Elle travaille dans une petite boulangerie. C'est vrai.",French,fr
+1869,ہمیشہ کی طرح، باغ رنگ برنگے پھولوں سے بھرا ہے۔,Urdu,ur
+1870,ویسے، باغ رنگ برنگے پھولوں سے بھرا ہے۔ یہ سچ ہے۔,Urdu,ur
+1871,"हैरानी की बात है, वह अपनी अंतिम परीक्षाओं के लिए पढ़ रहा है। यह निश्चित है।",Hindi,hi
+1872,آج صبح، میوزیم صبح نو بجے کھلتا ہے۔ یہ یقینی ہے۔,Urdu,ur
+1873,کل، وہ ایک چھوٹی بیکری میں کام کرتی ہے۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+1874,حیرت کی بات ہے، وہ اپنے فائنل امتحانات کی تیاری کر رہا ہے۔ یہ سچ ہے۔,Urdu,ur
+1875,"Comme d'habitude, Je voudrais une tasse de café, s'il vous plaît. C'est certain.",French,fr
+1876,"Como siempre, La tienda cierra temprano los domingos. Es verdad.",Spanish,es
+1877,"Tatsächlich, Das Museum öffnet um neun Uhr morgens. Es ist wahr.",German,de
+1878,ایک بار پھر، مجھے روٹی اور دودھ خریدنے کی ضرورت ہے۔ یہ یقینی ہے۔,Urdu,ur
+1879,ایک بار پھر، وہ پہاڑوں کے سفر کی منصوبہ بندی کر رہے ہیں۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+1880,"Yesterday, The concert starts at eight o'clock. It's true.",English,en
+1881,"Una vez más, La tienda cierra temprano los domingos. Eso es seguro.",Spanish,es
+1882,"Onestamente, Il negozio chiude presto la domenica. Tutti sono d'accordo.",Italian,it
+1883,"Anscheinend, Wir haben gestern Abend einen Film gesehen. Alle sind sich einig.",German,de
+1884,كالعادة، سنذهب إلى السوق غدًا.,Arabic,ar
+1885,"ईमानदारी से, कृपया मुझे एक कप कॉफी दीजिए। यह निश्चित है।",Hindi,hi
+1886,"Honestamente, Eles estão planejando uma viagem para as montanhas.",Portuguese,pt
+1887,"In fact, She is reading a book in the park.",English,en
+1888,"Heute Morgen, Das Wetter ist heute wunderschön. Es ist wahr.",German,de
+1889,"Tatsächlich, Der Bus kommt alle fünfzehn Minuten. Es ist wahr.",German,de
+1890,"Encore une fois, Il joue au football chaque week-end. C'est certain.",French,fr
+1891,वह एक छोटी बेकरी में काम करती है। यह निश्चित है।,Hindi,hi
+1892,Minha família vai nos visitar neste verão.,Portuguese,pt
+1893,في الواقع، هي تعمل في مخبز صغير. هذا صحيح.,Arabic,ar
+1894,"Überraschenderweise, Er lernt für seine Abschlussprüfungen. Es ist wahr.",German,de
+1895,"As usual, The children are playing in the garden.",English,en
+1896,"Honnêtement, J'ai besoin d'acheter du pain et du lait.",French,fr
+1897,"Wie immer, Der Laden schließt sonntags früh. Alle sind sich einig.",German,de
+1898,آج صبح، وہ اپنے فائنل امتحانات کی تیاری کر رہا ہے۔ یہ یقینی ہے۔,Urdu,ur
+1899,"Honestamente, Vamos ao mercado amanhã. Todos concordam.",Portuguese,pt
+1900,"Wieder einmal, Der Garten ist voller bunter Blumen. Das ist sicher.",German,de
+1901,"Apparently, The bus arrives every fifteen minutes.",English,en
+1902,"Wieder einmal, Der Bus kommt alle fünfzehn Minuten.",German,de
+1903,في الواقع، هل يمكنك مساعدتي في إيجاد محطة القطار؟ هذا صحيح.,Arabic,ar
+1904,"Hier, Il joue au football chaque week-end. Tout le monde est d'accord.",French,fr
+1905,"Surprisingly, He plays football every weekend. Everyone agrees.",English,en
+1906,في الواقع، الأطفال يلعبون في الحديقة.,Arabic,ar
+1907,هذا الصباح، هل يمكنك مساعدتي في إيجاد محطة القطار؟ هذا صحيح.,Arabic,ar
+1908,"वैसे, वह हर सप्ताहांत फुटबॉल खेलता है।",Hindi,hi
+1909,"Sorprendentemente, L'autobus arriva ogni quindici minuti. Questo è certo.",Italian,it
+1910,"Sorprendentemente, El concierto comienza a las ocho. Eso es seguro.",Spanish,es
+1911,"जाहिर तौर पर, यह रेस्तरां स्वादिष्ट भोजन परोसता है।",Hindi,hi
+1912,بالأمس، هي تقرأ كتابًا في الحديقة. هذا مؤكد.,Arabic,ar
+1913,"Yesterday, I would like a cup of coffee, please. Everyone agrees.",English,en
+1914,"A proposito, Vorrei una tazza di caffè, per favore. Tutti sono d'accordo.",Italian,it
+1915,"एक बार फिर, मुझे नई भाषाएँ सीखना पसंद है। यह सच है।",Hindi,hi
+1916,مرة أخرى، الأطفال يلعبون في الحديقة.,Arabic,ar
+1917,"Na verdade, A loja fecha cedo aos domingos.",Portuguese,pt
+1918,"Questa mattina, Il museo apre alle nove del mattino.",Italian,it
+1919,"Ehrlich gesagt, Das Museum öffnet um neun Uhr morgens. Alle sind sich einig.",German,de
+1920,"एक बार फिर, मेरा परिवार इस गर्मी में हमसे मिलने आ रहा है। यह सच है।",Hindi,hi
+1921,"Honestamente, El autobús llega cada quince minutos. Eso es seguro.",Spanish,es
+1922,"Como siempre, Él está estudiando para sus exámenes finales. Eso es seguro.",Spanish,es
+1923,I need to buy some bread and milk. It's true.,English,en
+1924,مرة أخرى، سنذهب إلى السوق غدًا. هذا مؤكد.,Arabic,ar
+1925,El jardín está lleno de flores coloridas.,Spanish,es
+1926,"Mais uma vez, O museu abre às nove da manhã. Isso é certo.",Portuguese,pt
+1927,"Étonnamment, J'ai besoin d'acheter du pain et du lait.",French,fr
+1928,"Una vez más, Este restaurante sirve comida deliciosa. Es verdad.",Spanish,es
+1929,"This morning, The children are playing in the garden.",English,en
+1930,"Ontem, Ele está estudando para as provas finais. Isso é certo.",Portuguese,pt
+1931,"Ieri, Puoi aiutarmi a trovare la stazione dei treni? Questo è certo.",Italian,it
+1932,Die Kinder spielen im Garten.,German,de
+1933,आज मौसम बहुत सुंदर है। यह निश्चित है।,Hindi,hi
+1934,"Heute Morgen, Er spielt jedes Wochenende Fußball. Alle sind sich einig.",German,de
+1935,كالعادة، الأطفال يلعبون في الحديقة. الجميع يوافق.,Arabic,ar
+1936,"हैरानी की बात है, मुझे रोटी और दूध खरीदने की जरूरत है। यह निश्चित है।",Hindi,hi
+1937,"Tatsächlich, Wir haben gestern Abend einen Film gesehen.",German,de
+1938,"Ehrlich gesagt, Das Konzert beginnt um acht Uhr. Das ist sicher.",German,de
+1939,"जाहिर तौर पर, हम कल बाजार जा रहे हैं। यह सच है।",Hindi,hi
+1940,"हमेशा की तरह, हमने कल रात एक फिल्म देखी। सभी सहमत हैं।",Hindi,hi
+1941,"Wie immer, Wir gehen morgen auf den Markt.",German,de
+1942,"Por cierto, El concierto comienza a las ocho. Todos están de acuerdo.",Spanish,es
+1943,"Encore une fois, Nous avons regardé un film hier soir.",French,fr
+1944,"Honnêtement, Pouvez-vous m'aider à trouver la gare ? C'est vrai.",French,fr
+1945,مرة أخرى، الطقس جميل اليوم. هذا مؤكد.,Arabic,ar
+1946,"Surpreendentemente, Ela está lendo um livro no parque.",Portuguese,pt
+1947,آج موسم بہت خوبصورت ہے۔ یہ سچ ہے۔,Urdu,ur
+1948,ویسے، میرا خاندان اس گرمی میں ہم سے ملنے آ رہا ہے۔ یہ سچ ہے۔,Urdu,ur
+1949,كالعادة، الحديقة مليئة بالزهور الملونة. الجميع يوافق.,Arabic,ar
+1950,Me gusta aprender nuevos idiomas. Es verdad.,Spanish,es
+1951,"Gestern, Ich hätte gerne eine Tasse Kaffee, bitte. Es ist wahr.",German,de
+1952,"A proposito, Lei lavora in una piccola panetteria. È vero.",Italian,it
+1953,"Ehrlich gesagt, Das Wetter ist heute wunderschön. Es ist wahr.",German,de
+1954,"Übrigens, Ich hätte gerne eine Tasse Kaffee, bitte.",German,de
+1955,"Honestamente, El jardín está lleno de flores coloridas. Todos están de acuerdo.",Spanish,es
+1956,"Heute Morgen, Sie planen eine Reise in die Berge. Das ist sicher.",German,de
+1957,بصراحة، الحديقة مليئة بالزهور الملونة. هذا صحيح.,Arabic,ar
+1958,"Apparentemente, Andiamo al mercato domani. È vero.",Italian,it
+1959,"Sorprendentemente, Ellos están planeando un viaje a las montañas.",Spanish,es
+1960,"Por cierto, Ella está leyendo un libro en el parque. Todos están de acuerdo.",Spanish,es
+1961,"वैसे, वे पहाड़ों की यात्रा की योजना बना रहे हैं। सभी सहमत हैं।",Hindi,hi
+1962,"Wieder einmal, Meine Familie besucht uns diesen Sommer.",German,de
+1963,Ellos están planeando un viaje a las montañas. Es verdad.,Spanish,es
+1964,"कल, क्या आप मुझे रेलवे स्टेशन खोजने में मदद कर सकते हैं?",Hindi,hi
+1965,"Infatti, Andiamo al mercato domani.",Italian,it
+1966,"Aparentemente, O tempo está lindo hoje. É verdade.",Portuguese,pt
+1967,"Once again, The store closes early on Sundays.",English,en
+1968,"Esta mañana, Mi familia nos visita este verano. Todos están de acuerdo.",Spanish,es
+1969,هذا الصباح، يغلق المتجر مبكرًا أيام الأحد. الجميع يوافق.,Arabic,ar
+1970,"Na verdade, Assistimos a um filme ontem à noite. É verdade.",Portuguese,pt
+1971,"En fait, Le magasin ferme tôt le dimanche. C'est vrai.",French,fr
+1972,"Gestern, Wir haben gestern Abend einen Film gesehen. Es ist wahr.",German,de
+1973,"Honestly, She works at a small bakery downtown.",English,en
+1974,"Honestly, The weather is beautiful today. That's for sure.",English,en
+1975,"Honestamente, Eu preciso comprar pão e leite. Todos concordam.",Portuguese,pt
+1976,Eu gosto de aprender novos idiomas. Isso é certo.,Portuguese,pt
+1977,"Yesterday, The store closes early on Sundays. It's true.",English,en
+1978,"Ancora una volta, I bambini stanno giocando in giardino. È vero.",Italian,it
+1979,"Questa mattina, Puoi aiutarmi a trovare la stazione dei treni? È vero.",Italian,it
+1980,بظاہر، براہ کرم مجھے ایک کپ کافی دیں۔ یہ یقینی ہے۔,Urdu,ur
+1981,ہمیشہ کی طرح، کنسرٹ آٹھ بجے شروع ہوتا ہے۔ یہ سچ ہے۔,Urdu,ur
+1982,"Honestly, The concert starts at eight o'clock. That's for sure.",English,en
+1983,"Aparentemente, Ela trabalha em uma pequena padaria. Isso é certo.",Portuguese,pt
+1984,کل، وہ پارک میں کتاب پڑھ رہی ہے۔ یہ یقینی ہے۔,Urdu,ur
+1985,"Ce matin, Le bus arrive toutes les quinze minutes.",French,fr
+1986,"Apparentemente, Il museo apre alle nove del mattino. Tutti sono d'accordo.",Italian,it
+1987,"Una vez más, El jardín está lleno de flores coloridas. Es verdad.",Spanish,es
+1988,دراصل، وہ پارک میں کتاب پڑھ رہی ہے۔,Urdu,ur
+1989,عائلتي ستزورنا هذا الصيف. هذا صحيح.,Arabic,ar
+1990,"आज सुबह, वह एक छोटी बेकरी में काम करती है। यह निश्चित है।",Hindi,hi
+1991,"Honestly, The store closes early on Sundays.",English,en
+1992,ایک بار پھر، وہ ہر ہفتے کے آخر میں فٹبال کھیلتا ہے۔ یہ یقینی ہے۔,Urdu,ur
+1993,بظاہر، مجھے نئی زبانیں سیکھنا پسند ہے۔ یہ یقینی ہے۔,Urdu,ur
+1994,"As usual, We are going to the market tomorrow. Everyone agrees.",English,en
+1995,ایک بار پھر، کنسرٹ آٹھ بجے شروع ہوتا ہے۔ سب اس بات پر متفق ہیں۔,Urdu,ur
+1996,حیرت کی بات ہے، وہ پہاڑوں کے سفر کی منصوبہ بندی کر رہے ہیں۔ یہ یقینی ہے۔,Urdu,ur
+1997,"Esta mañana, Necesito comprar pan y leche.",Spanish,es
+1998,"Ayer, Me gusta aprender nuevos idiomas. Todos están de acuerdo.",Spanish,es
+1999,"आज सुबह, यह रेस्तरां स्वादिष्ट भोजन परोसता है। यह सच है।",Hindi,hi
+2000,"Esta manhã, Vamos ao mercado amanhã. Todos concordam.",Portuguese,pt

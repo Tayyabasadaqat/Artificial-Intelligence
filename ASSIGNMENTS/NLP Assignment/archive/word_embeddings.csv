@@ -1,0 +1,2001 @@
+id,word,related_word,relationship,category,similarity_score
+1,commute,traffic,Related Concept,Daily Life,0.65
+2,lab,microscope,Object,Science,0.45
+3,test,verify,Action,Science,0.43
+4,score,win,Action,Sports,0.56
+5,hardware,keyboard,Category Member,Technology,0.69
+6,counselor,advisor,Profession,Education,0.53
+7,migrate,travel,Action,Nature,0.45
+8,tennis,court,Location,Sports,0.43
+9,public,private,Antonym,Technology,0.21
+10,hot,cold,Antonym,Nature,0.16
+11,gadget,smartwatch,Category Member,Technology,0.59
+12,measure,calculate,Action,Science,0.44
+13,cyclist,bicycle,Object,Sports,0.37
+14,appliance,refrigerator,Category Member,Daily Life,0.55
+15,hardware,monitor,Category Member,Technology,0.59
+16,ocean,sea,Synonym,Nature,0.8
+17,amateur,professional,Antonym,Sports,0.22
+18,physics,force,Related Concept,Science,0.65
+19,lab,research center,Location,Technology,0.49
+20,pass,fail,Antonym,Education,0.17
+21,executive,director,Profession,Business,0.54
+22,bug,glitch,Synonym,Technology,0.89
+23,ranger,conservationist,Profession,Nature,0.58
+24,victory,win,Synonym,Sports,0.91
+25,astronomer,telescope,Object,Science,0.47
+26,school,university,Category Member,Education,0.68
+27,class,lesson,Synonym,Education,0.93
+28,coach,mentor,Action,Sports,0.5
+29,teacher,student,Antonym,Education,0.3
+30,meal,dish,Synonym,Daily Life,0.87
+31,department,finance,Category Member,Business,0.68
+32,profit,earnings,Synonym,Business,0.82
+33,strong,weak,Antonym,Sports,0.23
+34,buy,sell,Antonym,Business,0.22
+35,startup,tech hub,Location,Technology,0.37
+36,astronomy,galaxy,Related Concept,Science,0.58
+37,offense,defense,Antonym,Sports,0.2
+38,device,tablet,Category Member,Technology,0.61
+39,team,squad,Synonym,Sports,0.81
+40,school,curriculum,Related Concept,Education,0.59
+41,tennis,racket,Object,Sports,0.5
+42,fast,quick,Synonym,Technology,0.84
+43,lab,beaker,Object,Science,0.44
+44,device,smartphone,Category Member,Technology,0.68
+45,soccer,ball,Object,Sports,0.49
+46,grade,evaluate,Action,Education,0.58
+47,classroom,desk,Object,Education,0.5
+48,running,track,Related Concept,Sports,0.58
+49,install,setup,Action,Technology,0.49
+50,compete,play,Action,Sports,0.42
+51,import,export,Antonym,Business,0.17
+52,analyze,interpret,Action,Science,0.53
+53,teacher,instructor,Synonym,Education,0.94
+54,park,neighborhood,Location,Daily Life,0.54
+55,developer,coder,Profession,Technology,0.6
+56,hire,recruit,Action,Business,0.46
+57,administrator,principal,Profession,Education,0.57
+58,biology,cell,Related Concept,Science,0.57
+59,compile,build,Action,Technology,0.44
+60,mountain,range,Location,Nature,0.38
+61,cook,prepare,Action,Daily Life,0.48
+62,full,empty,Antonym,Daily Life,0.19
+63,forest,national park,Location,Nature,0.52
+64,bedroom,pillow,Object,Daily Life,0.47
+65,science,laboratory,Location,Science,0.5
+66,accurate,inaccurate,Antonym,Science,0.21
+67,exam,test,Synonym,Education,0.9
+68,smart,intelligent,Synonym,Education,0.93
+69,student,pupil,Synonym,Education,0.81
+70,cleaner,housekeeper,Profession,Daily Life,0.5
+71,bathroom,mirror,Object,Daily Life,0.36
+72,large,major,Synonym,Business,0.82
+73,hypothesis,theory,Synonym,Science,0.81
+74,enroll,register,Action,Education,0.54
+75,discovery,finding,Synonym,Science,0.85
+76,fast,slow,Antonym,Technology,0.16
+77,laptop,battery,Object,Technology,0.52
+78,developer,programmer,Profession,Technology,0.57
+79,store,retail outlet,Location,Business,0.44
+80,animal,fox,Category Member,Nature,0.6
+81,river,ecosystem,Related Concept,Nature,0.51
+82,geology,mineral,Related Concept,Science,0.49
+83,educator,teacher,Profession,Education,0.6
+84,forest,woodland,Synonym,Nature,0.91
+85,sport,soccer,Category Member,Sports,0.57
+86,stable,unstable,Antonym,Science,0.26
+87,merge,combine,Action,Business,0.59
+88,coach,trainer,Synonym,Sports,0.87
+89,grade,score,Synonym,Education,0.89
+90,secure,protected,Synonym,Technology,0.9
+91,strong,powerful,Synonym,Sports,0.88
+92,teacher,chalkboard,Object,Education,0.5
+93,instrument,telescope,Category Member,Science,0.51
+94,cloud,storage,Related Concept,Technology,0.64
+95,planet,earth,Category Member,Science,0.63
+96,astronomy,observatory,Location,Science,0.49
+97,degree,master's,Category Member,Education,0.7
+98,morning,evening,Antonym,Daily Life,0.22
+99,element,oxygen,Category Member,Science,0.59
+100,official,umpire,Profession,Sports,0.4
+101,smart,intelligent,Synonym,Technology,0.84
+102,accurate,precise,Synonym,Science,0.92
+103,secure,vulnerable,Antonym,Technology,0.15
+104,student,backpack,Object,Education,0.52
+105,garden,planting,Related Concept,Daily Life,0.45
+106,animal,deer,Category Member,Nature,0.64
+107,bee,hive,Object,Nature,0.52
+108,planet,mars,Category Member,Science,0.61
+109,library,research,Related Concept,Education,0.57
+110,cheap,affordable,Synonym,Business,0.93
+111,equipment,gloves,Category Member,Sports,0.63
+112,server,data center,Location,Technology,0.41
+113,forest,wildlife,Related Concept,Nature,0.53
+114,swimming,pool,Location,Sports,0.54
+115,exam,grading,Related Concept,Education,0.52
+116,teach,instruct,Action,Education,0.42
+117,software,update,Related Concept,Technology,0.57
+118,observe,record,Action,Science,0.54
+119,book,textbook,Synonym,Education,0.87
+120,meeting,projector,Object,Business,0.46
+121,furniture,chair,Category Member,Daily Life,0.53
+122,sport,basketball,Category Member,Sports,0.69
+123,erode,wear,Action,Nature,0.52
+124,browser,tab,Related Concept,Technology,0.52
+125,awake,asleep,Antonym,Daily Life,0.25
+126,clean,dirty,Antonym,Daily Life,0.24
+127,employee,staff member,Profession,Business,0.53
+128,fast,quick,Synonym,Sports,0.8
+129,online,offline,Antonym,Technology,0.29
+130,experiment,trial,Synonym,Science,0.9
+131,commute,travel,Action,Daily Life,0.49
+132,basketball,court,Related Concept,Sports,0.52
+133,data,information,Synonym,Science,0.83
+134,subject,mathematics,Category Member,Education,0.58
+135,organic,synthetic,Antonym,Science,0.22
+136,mountain,peak,Synonym,Nature,0.93
+137,role,analyst,Category Member,Business,0.6
+138,official,referee,Profession,Sports,0.53
+139,technician,IT support,Profession,Technology,0.6
+140,network,router,Related Concept,Technology,0.5
+141,software,app,Category Member,Technology,0.63
+142,boxer,gloves,Object,Sports,0.37
+143,deploy,launch,Action,Technology,0.56
+144,ocean,coral reef,Related Concept,Nature,0.65
+145,marketing,advertising,Related Concept,Business,0.62
+146,visible,invisible,Antonym,Science,0.21
+147,furniture,table,Category Member,Daily Life,0.63
+148,swimming,pool,Related Concept,Sports,0.6
+149,cheap,affordable,Synonym,Technology,0.92
+150,bedroom,sleep,Related Concept,Daily Life,0.48
+151,equipment,helmet,Category Member,Sports,0.56
+152,executive,manager,Profession,Business,0.59
+153,library,reading room,Location,Education,0.38
+154,kitchen,home,Location,Daily Life,0.37
+155,classroom,whiteboard,Object,Education,0.39
+156,bloom,flower,Action,Nature,0.42
+157,clean,tidy,Action,Daily Life,0.48
+158,wet,dry,Antonym,Nature,0.12
+159,company,firm,Synonym,Business,0.86
+160,tree,pine,Category Member,Nature,0.53
+161,river,stream,Synonym,Nature,0.94
+162,researcher,biologist,Profession,Science,0.55
+163,appliance,microwave,Category Member,Daily Life,0.7
+164,educator,professor,Profession,Education,0.54
+165,cook,chef,Profession,Daily Life,0.44
+166,chemistry,reaction,Related Concept,Science,0.59
+167,bird,nest,Object,Nature,0.45
+168,market,town square,Location,Daily Life,0.54
+169,friend,companion,Synonym,Daily Life,0.93
+170,naturalist,biologist,Profession,Nature,0.58
+171,startup,funding,Related Concept,Business,0.57
+172,hibernate,rest,Action,Nature,0.58
+173,beginner,expert,Antonym,Education,0.3
+174,relax,unwind,Action,Daily Life,0.54
+175,profit,loss,Antonym,Business,0.15
+176,athlete,runner,Profession,Sports,0.59
+177,kitchen,cooking,Related Concept,Daily Life,0.6
+178,network,internet,Synonym,Technology,0.83
+179,researcher,scientist,Profession,Science,0.56
+180,school,classroom,Location,Education,0.52
+181,football,stadium,Related Concept,Sports,0.61
+182,driver,commuter,Profession,Daily Life,0.42
+183,fish,pond,Object,Nature,0.4
+184,computer,keyboard,Object,Technology,0.37
+185,classroom,lecture,Related Concept,Education,0.61
+186,invest,fund,Action,Business,0.43
+187,analyst,data scientist,Profession,Technology,0.46
+188,easy,difficult,Antonym,Education,0.18
+189,wild,tame,Antonym,Nature,0.27
+190,university,campus,Location,Education,0.52
+191,day,night,Antonym,Nature,0.28
+192,wireless,wired,Antonym,Technology,0.16
+193,computer,mouse,Object,Technology,0.36
+194,role,manager,Category Member,Business,0.5
+195,element,hydrogen,Category Member,Science,0.57
+196,supply,demand,Antonym,Business,0.18
+197,client,customer,Synonym,Business,0.94
+198,computer,laptop,Synonym,Technology,0.94
+199,algorithm,optimization,Related Concept,Technology,0.57
+200,modern,outdated,Antonym,Technology,0.26
+201,factory,warehouse,Location,Business,0.47
+202,football,stadium,Location,Sports,0.48
+203,debug,fix,Action,Technology,0.4
+204,bear,den,Object,Nature,0.35
+205,phone,charger,Object,Technology,0.46
+206,subject,history,Category Member,Education,0.52
+207,researcher,chemist,Profession,Science,0.41
+208,tree,oak,Category Member,Nature,0.56
+209,finance,budget,Related Concept,Business,0.58
+210,accountant,spreadsheet,Object,Business,0.47
+211,database,query,Related Concept,Technology,0.5
+212,train,practice,Action,Sports,0.6
+213,desert,drought,Related Concept,Nature,0.65
+214,house,home,Synonym,Daily Life,0.8
+215,chemist,flask,Object,Science,0.45
+216,retail,inventory,Related Concept,Business,0.61
+217,win,lose,Antonym,Sports,0.23
+218,kitchen,stove,Object,Daily Life,0.45
+219,tennis,racket,Related Concept,Sports,0.54
+220,athlete,player,Profession,Sports,0.55
+221,biology,field station,Location,Science,0.43
+222,negotiate,bargain,Action,Business,0.47
+223,instrument,microscope,Category Member,Science,0.59
+224,study,review,Action,Education,0.44
+225,department,marketing,Category Member,Business,0.51
+226,river,valley,Location,Nature,0.41
+227,large,huge,Synonym,Technology,0.86
+228,degree,bachelor's,Category Member,Education,0.65
+229,university,degree,Related Concept,Education,0.54
+230,happy,glad,Synonym,Daily Life,0.85
+231,company,headquarters,Location,Business,0.38
+232,researcher,physicist,Profession,Science,0.47
+233,office,desk,Object,Business,0.35
+234,public,private,Antonym,Education,0.23
+235,test,verify,Action,Science,0.57
+236,biology,cell,Related Concept,Science,0.56
+237,mountain,range,Location,Nature,0.41
+238,relax,unwind,Action,Daily Life,0.53
+239,bear,den,Object,Nature,0.46
+240,equipment,gloves,Category Member,Sports,0.55
+241,fast,slow,Antonym,Technology,0.26
+242,software,app,Category Member,Technology,0.55
+243,biology,cell,Related Concept,Science,0.58
+244,kitchen,stove,Object,Daily Life,0.37
+245,basketball,court,Related Concept,Sports,0.47
+246,analyst,data scientist,Profession,Technology,0.58
+247,boxer,gloves,Object,Sports,0.35
+248,retail,inventory,Related Concept,Business,0.6
+249,educator,professor,Profession,Education,0.44
+250,degree,bachelor's,Category Member,Education,0.62
+251,researcher,physicist,Profession,Science,0.54
+252,awake,asleep,Antonym,Daily Life,0.13
+253,role,manager,Category Member,Business,0.64
+254,win,lose,Antonym,Sports,0.17
+255,client,customer,Synonym,Business,0.88
+256,clean,tidy,Action,Daily Life,0.49
+257,official,referee,Profession,Sports,0.49
+258,coach,trainer,Synonym,Sports,0.94
+259,measure,calculate,Action,Science,0.47
+260,appliance,refrigerator,Category Member,Daily Life,0.54
+261,bee,hive,Object,Nature,0.47
+262,network,router,Related Concept,Technology,0.52
+263,awake,asleep,Antonym,Daily Life,0.23
+264,basketball,court,Related Concept,Sports,0.51
+265,compile,build,Action,Technology,0.41
+266,public,private,Antonym,Technology,0.12
+267,compile,build,Action,Technology,0.45
+268,appliance,refrigerator,Category Member,Daily Life,0.63
+269,wireless,wired,Antonym,Technology,0.18
+270,athlete,runner,Profession,Sports,0.47
+271,subject,history,Category Member,Education,0.51
+272,amateur,professional,Antonym,Sports,0.23
+273,phone,charger,Object,Technology,0.39
+274,full,empty,Antonym,Daily Life,0.22
+275,tennis,racket,Object,Sports,0.41
+276,classroom,lecture,Related Concept,Education,0.58
+277,cheap,affordable,Synonym,Technology,0.86
+278,lab,microscope,Object,Science,0.46
+279,debug,fix,Action,Technology,0.41
+280,full,empty,Antonym,Daily Life,0.24
+281,animal,fox,Category Member,Nature,0.69
+282,fast,slow,Antonym,Technology,0.11
+283,lab,beaker,Object,Science,0.46
+284,river,stream,Synonym,Nature,0.91
+285,tennis,court,Location,Sports,0.41
+286,forest,woodland,Synonym,Nature,0.92
+287,discovery,finding,Synonym,Science,0.91
+288,import,export,Antonym,Business,0.27
+289,appliance,refrigerator,Category Member,Daily Life,0.68
+290,appliance,microwave,Category Member,Daily Life,0.64
+291,developer,programmer,Profession,Technology,0.48
+292,gadget,smartwatch,Category Member,Technology,0.6
+293,hypothesis,theory,Synonym,Science,0.95
+294,kitchen,stove,Object,Daily Life,0.42
+295,buy,sell,Antonym,Business,0.15
+296,kitchen,stove,Object,Daily Life,0.54
+297,student,pupil,Synonym,Education,0.88
+298,degree,master's,Category Member,Education,0.6
+299,developer,programmer,Profession,Technology,0.43
+300,market,town square,Location,Daily Life,0.43
+301,athlete,player,Profession,Sports,0.41
+302,install,setup,Action,Technology,0.55
+303,profit,earnings,Synonym,Business,0.88
+304,library,reading room,Location,Education,0.53
+305,element,hydrogen,Category Member,Science,0.58
+306,laptop,battery,Object,Technology,0.46
+307,invest,fund,Action,Business,0.55
+308,tennis,racket,Object,Sports,0.52
+309,university,campus,Location,Education,0.42
+310,football,stadium,Location,Sports,0.45
+311,bedroom,sleep,Related Concept,Daily Life,0.51
+312,river,ecosystem,Related Concept,Nature,0.55
+313,cook,prepare,Action,Daily Life,0.51
+314,student,pupil,Synonym,Education,0.85
+315,boxer,gloves,Object,Sports,0.49
+316,strong,weak,Antonym,Sports,0.24
+317,teacher,student,Antonym,Education,0.24
+318,observe,record,Action,Science,0.48
+319,supply,demand,Antonym,Business,0.13
+320,forest,woodland,Synonym,Nature,0.81
+321,bee,hive,Object,Nature,0.4
+322,student,pupil,Synonym,Education,0.82
+323,university,degree,Related Concept,Education,0.55
+324,educator,professor,Profession,Education,0.51
+325,lab,research center,Location,Technology,0.53
+326,enroll,register,Action,Education,0.47
+327,researcher,scientist,Profession,Science,0.46
+328,student,pupil,Synonym,Education,0.91
+329,grade,evaluate,Action,Education,0.46
+330,gadget,smartwatch,Category Member,Technology,0.68
+331,smart,intelligent,Synonym,Education,0.94
+332,gadget,smartwatch,Category Member,Technology,0.7
+333,bug,glitch,Synonym,Technology,0.94
+334,science,laboratory,Location,Science,0.39
+335,coach,mentor,Action,Sports,0.42
+336,classroom,desk,Object,Education,0.4
+337,cloud,storage,Related Concept,Technology,0.46
+338,department,finance,Category Member,Business,0.61
+339,commute,travel,Action,Daily Life,0.56
+340,garden,planting,Related Concept,Daily Life,0.62
+341,executive,manager,Profession,Business,0.52
+342,secure,protected,Synonym,Technology,0.81
+343,tree,oak,Category Member,Nature,0.58
+344,subject,history,Category Member,Education,0.7
+345,driver,commuter,Profession,Daily Life,0.46
+346,school,classroom,Location,Education,0.46
+347,morning,evening,Antonym,Daily Life,0.19
+348,hardware,keyboard,Category Member,Technology,0.68
+349,strong,weak,Antonym,Sports,0.21
+350,win,lose,Antonym,Sports,0.27
+351,teach,instruct,Action,Education,0.54
+352,kitchen,home,Location,Daily Life,0.36
+353,bedroom,sleep,Related Concept,Daily Life,0.53
+354,marketing,advertising,Related Concept,Business,0.58
+355,researcher,chemist,Profession,Science,0.56
+356,ocean,sea,Synonym,Nature,0.91
+357,network,internet,Synonym,Technology,0.92
+358,discovery,finding,Synonym,Science,0.9
+359,river,valley,Location,Nature,0.42
+360,morning,evening,Antonym,Daily Life,0.28
+361,easy,difficult,Antonym,Education,0.27
+362,educator,teacher,Profession,Education,0.53
+363,researcher,physicist,Profession,Science,0.49
+364,team,squad,Synonym,Sports,0.84
+365,accurate,inaccurate,Antonym,Science,0.16
+366,researcher,physicist,Profession,Science,0.55
+367,team,squad,Synonym,Sports,0.82
+368,day,night,Antonym,Nature,0.26
+369,browser,tab,Related Concept,Technology,0.59
+370,test,verify,Action,Science,0.42
+371,teach,instruct,Action,Education,0.45
+372,device,tablet,Category Member,Technology,0.65
+373,department,marketing,Category Member,Business,0.52
+374,cloud,storage,Related Concept,Technology,0.59
+375,chemistry,reaction,Related Concept,Science,0.51
+376,school,classroom,Location,Education,0.49
+377,easy,difficult,Antonym,Education,0.12
+378,commute,traffic,Related Concept,Daily Life,0.54
+379,developer,coder,Profession,Technology,0.49
+380,strong,weak,Antonym,Sports,0.27
+381,role,analyst,Category Member,Business,0.52
+382,analyze,interpret,Action,Science,0.49
+383,study,review,Action,Education,0.56
+384,executive,manager,Profession,Business,0.48
+385,tree,oak,Category Member,Nature,0.68
+386,fish,pond,Object,Nature,0.48
+387,bedroom,pillow,Object,Daily Life,0.52
+388,astronomy,galaxy,Related Concept,Science,0.56
+389,data,information,Synonym,Science,0.94
+390,large,huge,Synonym,Technology,0.89
+391,employee,staff member,Profession,Business,0.48
+392,administrator,principal,Profession,Education,0.49
+393,office,desk,Object,Business,0.43
+394,erode,wear,Action,Nature,0.51
+395,bathroom,mirror,Object,Daily Life,0.46
+396,desert,drought,Related Concept,Nature,0.46
+397,lab,research center,Location,Technology,0.51
+398,instrument,telescope,Category Member,Science,0.52
+399,bloom,flower,Action,Nature,0.41
+400,lab,microscope,Object,Science,0.53
+401,commute,travel,Action,Daily Life,0.57
+402,athlete,player,Profession,Sports,0.4
+403,enroll,register,Action,Education,0.43
+404,library,reading room,Location,Education,0.44
+405,ocean,sea,Synonym,Nature,0.89
+406,bee,hive,Object,Nature,0.38
+407,cloud,storage,Related Concept,Technology,0.56
+408,physics,force,Related Concept,Science,0.64
+409,library,research,Related Concept,Education,0.65
+410,science,laboratory,Location,Science,0.53
+411,pass,fail,Antonym,Education,0.16
+412,researcher,chemist,Profession,Science,0.44
+413,bathroom,mirror,Object,Daily Life,0.37
+414,ranger,conservationist,Profession,Nature,0.43
+415,cook,prepare,Action,Daily Life,0.44
+416,researcher,physicist,Profession,Science,0.48
+417,school,classroom,Location,Education,0.37
+418,exam,grading,Related Concept,Education,0.51
+419,profit,earnings,Synonym,Business,0.94
+420,astronomy,observatory,Location,Science,0.37
+421,bear,den,Object,Nature,0.55
+422,erode,wear,Action,Nature,0.47
+423,cheap,affordable,Synonym,Business,0.94
+424,kitchen,cooking,Related Concept,Daily Life,0.62
+425,fish,pond,Object,Nature,0.54
+426,athlete,player,Profession,Sports,0.51
+427,network,router,Related Concept,Technology,0.46
+428,device,smartphone,Category Member,Technology,0.7
+429,basketball,court,Related Concept,Sports,0.61
+430,bloom,flower,Action,Nature,0.57
+431,startup,tech hub,Location,Technology,0.5
+432,bird,nest,Object,Nature,0.43
+433,import,export,Antonym,Business,0.12
+434,science,laboratory,Location,Science,0.47
+435,forest,national park,Location,Nature,0.48
+436,grade,evaluate,Action,Education,0.59
+437,furniture,table,Category Member,Daily Life,0.66
+438,instrument,telescope,Category Member,Science,0.66
+439,hardware,monitor,Category Member,Technology,0.57
+440,astronomy,galaxy,Related Concept,Science,0.61
+441,startup,funding,Related Concept,Business,0.54
+442,observe,record,Action,Science,0.41
+443,accurate,inaccurate,Antonym,Science,0.18
+444,strong,weak,Antonym,Sports,0.22
+445,technician,IT support,Profession,Technology,0.55
+446,exam,test,Synonym,Education,0.88
+447,amateur,professional,Antonym,Sports,0.17
+448,student,pupil,Synonym,Education,0.87
+449,athlete,runner,Profession,Sports,0.51
+450,smart,intelligent,Synonym,Education,0.83
+451,client,customer,Synonym,Business,0.83
+452,coach,trainer,Synonym,Sports,0.82
+453,secure,protected,Synonym,Technology,0.88
+454,pass,fail,Antonym,Education,0.27
+455,tennis,racket,Related Concept,Sports,0.49
+456,mountain,peak,Synonym,Nature,0.87
+457,cheap,affordable,Synonym,Technology,0.83
+458,teacher,instructor,Synonym,Education,0.86
+459,employee,staff member,Profession,Business,0.49
+460,cleaner,housekeeper,Profession,Daily Life,0.56
+461,appliance,refrigerator,Category Member,Daily Life,0.65
+462,bird,nest,Object,Nature,0.38
+463,naturalist,biologist,Profession,Nature,0.43
+464,supply,demand,Antonym,Business,0.28
+465,running,track,Related Concept,Sports,0.52
+466,basketball,court,Related Concept,Sports,0.58
+467,secure,vulnerable,Antonym,Technology,0.25
+468,visible,invisible,Antonym,Science,0.25
+469,developer,coder,Profession,Technology,0.4
+470,teacher,student,Antonym,Education,0.29
+471,instrument,microscope,Category Member,Science,0.5
+472,bug,glitch,Synonym,Technology,0.85
+473,fish,pond,Object,Nature,0.52
+474,degree,bachelor's,Category Member,Education,0.63
+475,basketball,court,Related Concept,Sports,0.57
+476,department,marketing,Category Member,Business,0.58
+477,day,night,Antonym,Nature,0.19
+478,device,smartphone,Category Member,Technology,0.51
+479,ocean,coral reef,Related Concept,Nature,0.45
+480,fast,quick,Synonym,Sports,0.83
+481,day,night,Antonym,Nature,0.21
+482,astronomer,telescope,Object,Science,0.38
+483,classroom,desk,Object,Education,0.41
+484,fish,pond,Object,Nature,0.36
+485,physics,force,Related Concept,Science,0.52
+486,mountain,range,Location,Nature,0.36
+487,school,classroom,Location,Education,0.5
+488,house,home,Synonym,Daily Life,0.89
+489,finance,budget,Related Concept,Business,0.5
+490,cook,prepare,Action,Daily Life,0.58
+491,science,laboratory,Location,Science,0.36
+492,accurate,inaccurate,Antonym,Science,0.11
+493,data,information,Synonym,Science,0.81
+494,invest,fund,Action,Business,0.47
+495,exam,grading,Related Concept,Education,0.56
+496,developer,coder,Profession,Technology,0.47
+497,strong,powerful,Synonym,Sports,0.9
+498,hire,recruit,Action,Business,0.44
+499,equipment,helmet,Category Member,Sports,0.58
+500,exam,grading,Related Concept,Education,0.64
+501,marketing,advertising,Related Concept,Business,0.63
+502,fast,quick,Synonym,Sports,0.88
+503,factory,warehouse,Location,Business,0.52
+504,fish,pond,Object,Nature,0.49
+505,executive,manager,Profession,Business,0.6
+506,morning,evening,Antonym,Daily Life,0.12
+507,import,export,Antonym,Business,0.16
+508,relax,unwind,Action,Daily Life,0.52
+509,device,smartphone,Category Member,Technology,0.57
+510,employee,staff member,Profession,Business,0.45
+511,startup,tech hub,Location,Technology,0.48
+512,hot,cold,Antonym,Nature,0.25
+513,accurate,precise,Synonym,Science,0.93
+514,planet,earth,Category Member,Science,0.54
+515,kitchen,home,Location,Daily Life,0.44
+516,employee,staff member,Profession,Business,0.5
+517,supply,demand,Antonym,Business,0.17
+518,chemistry,reaction,Related Concept,Science,0.61
+519,role,manager,Category Member,Business,0.59
+520,bloom,flower,Action,Nature,0.49
+521,profit,earnings,Synonym,Business,0.92
+522,amateur,professional,Antonym,Sports,0.25
+523,teacher,student,Antonym,Education,0.15
+524,profit,earnings,Synonym,Business,0.91
+525,organic,synthetic,Antonym,Science,0.26
+526,appliance,refrigerator,Category Member,Daily Life,0.52
+527,smart,intelligent,Synonym,Education,0.89
+528,wild,tame,Antonym,Nature,0.19
+529,buy,sell,Antonym,Business,0.24
+530,cook,prepare,Action,Daily Life,0.53
+531,online,offline,Antonym,Technology,0.26
+532,teach,instruct,Action,Education,0.53
+533,mountain,peak,Synonym,Nature,0.9
+534,bird,nest,Object,Nature,0.36
+535,football,stadium,Related Concept,Sports,0.62
+536,equipment,helmet,Category Member,Sports,0.61
+537,friend,companion,Synonym,Daily Life,0.89
+538,planet,mars,Category Member,Science,0.63
+539,beginner,expert,Antonym,Education,0.2
+540,server,data center,Location,Technology,0.48
+541,river,stream,Synonym,Nature,0.81
+542,official,referee,Profession,Sports,0.48
+543,naturalist,biologist,Profession,Nature,0.59
+544,startup,funding,Related Concept,Business,0.58
+545,bug,glitch,Synonym,Technology,0.8
+546,startup,funding,Related Concept,Business,0.55
+547,wet,dry,Antonym,Nature,0.26
+548,degree,bachelor's,Category Member,Education,0.59
+549,running,track,Related Concept,Sports,0.54
+550,tennis,court,Location,Sports,0.48
+551,factory,warehouse,Location,Business,0.4
+552,bedroom,sleep,Related Concept,Daily Life,0.64
+553,gadget,smartwatch,Category Member,Technology,0.55
+554,morning,evening,Antonym,Daily Life,0.11
+555,class,lesson,Synonym,Education,0.91
+556,accurate,precise,Synonym,Science,0.85
+557,cyclist,bicycle,Object,Sports,0.45
+558,sport,basketball,Category Member,Sports,0.6
+559,public,private,Antonym,Education,0.19
+560,instrument,microscope,Category Member,Science,0.62
+561,secure,vulnerable,Antonym,Technology,0.28
+562,factory,warehouse,Location,Business,0.44
+563,bear,den,Object,Nature,0.43
+564,team,squad,Synonym,Sports,0.92
+565,river,stream,Synonym,Nature,0.85
+566,classroom,lecture,Related Concept,Education,0.46
+567,ocean,coral reef,Related Concept,Nature,0.51
+568,clean,dirty,Antonym,Daily Life,0.2
+569,lab,research center,Location,Technology,0.45
+570,meeting,projector,Object,Business,0.41
+571,bloom,flower,Action,Nature,0.44
+572,astronomy,observatory,Location,Science,0.45
+573,mountain,peak,Synonym,Nature,0.83
+574,executive,manager,Profession,Business,0.43
+575,tennis,racket,Related Concept,Sports,0.53
+576,clean,dirty,Antonym,Daily Life,0.23
+577,startup,tech hub,Location,Technology,0.46
+578,public,private,Antonym,Education,0.24
+579,offense,defense,Antonym,Sports,0.17
+580,sport,basketball,Category Member,Sports,0.63
+581,compile,build,Action,Technology,0.43
+582,role,analyst,Category Member,Business,0.54
+583,supply,demand,Antonym,Business,0.12
+584,tennis,court,Location,Sports,0.42
+585,department,finance,Category Member,Business,0.56
+586,science,laboratory,Location,Science,0.48
+587,cook,prepare,Action,Daily Life,0.56
+588,tree,pine,Category Member,Nature,0.5
+589,hire,recruit,Action,Business,0.42
+590,secure,protected,Synonym,Technology,0.84
+591,computer,mouse,Object,Technology,0.37
+592,student,backpack,Object,Education,0.35
+593,ocean,coral reef,Related Concept,Nature,0.49
+594,bathroom,mirror,Object,Daily Life,0.39
+595,ocean,sea,Synonym,Nature,0.87
+596,tennis,racket,Object,Sports,0.47
+597,analyze,interpret,Action,Science,0.43
+598,element,oxygen,Category Member,Science,0.53
+599,device,tablet,Category Member,Technology,0.7
+600,equipment,gloves,Category Member,Sports,0.53
+601,educator,professor,Profession,Education,0.42
+602,degree,bachelor's,Category Member,Education,0.5
+603,score,win,Action,Sports,0.42
+604,day,night,Antonym,Nature,0.24
+605,finance,budget,Related Concept,Business,0.55
+606,tennis,racket,Object,Sports,0.44
+607,park,neighborhood,Location,Daily Life,0.45
+608,bird,nest,Object,Nature,0.53
+609,analyst,data scientist,Profession,Technology,0.56
+610,running,track,Related Concept,Sports,0.53
+611,school,classroom,Location,Education,0.53
+612,cheap,affordable,Synonym,Technology,0.81
+613,driver,commuter,Profession,Daily Life,0.57
+614,naturalist,biologist,Profession,Nature,0.45
+615,administrator,principal,Profession,Education,0.59
+616,import,export,Antonym,Business,0.26
+617,school,classroom,Location,Education,0.4
+618,import,export,Antonym,Business,0.14
+619,cyclist,bicycle,Object,Sports,0.47
+620,laptop,battery,Object,Technology,0.55
+621,fast,slow,Antonym,Technology,0.25
+622,basketball,court,Related Concept,Sports,0.59
+623,geology,mineral,Related Concept,Science,0.64
+624,naturalist,biologist,Profession,Nature,0.49
+625,developer,programmer,Profession,Technology,0.49
+626,accurate,precise,Synonym,Science,0.87
+627,river,valley,Location,Nature,0.35
+628,researcher,biologist,Profession,Science,0.46
+629,victory,win,Synonym,Sports,0.89
+630,computer,laptop,Synonym,Technology,0.86
+631,ocean,sea,Synonym,Nature,0.83
+632,house,home,Synonym,Daily Life,0.84
+633,boxer,gloves,Object,Sports,0.52
+634,meal,dish,Synonym,Daily Life,0.93
+635,easy,difficult,Antonym,Education,0.2
+636,enroll,register,Action,Education,0.42
+637,accountant,spreadsheet,Object,Business,0.37
+638,boxer,gloves,Object,Sports,0.47
+639,instrument,microscope,Category Member,Science,0.65
+640,executive,director,Profession,Business,0.59
+641,relax,unwind,Action,Daily Life,0.48
+642,device,smartphone,Category Member,Technology,0.67
+643,classroom,whiteboard,Object,Education,0.52
+644,win,lose,Antonym,Sports,0.11
+645,cook,chef,Profession,Daily Life,0.45
+646,device,smartphone,Category Member,Technology,0.56
+647,computer,laptop,Synonym,Technology,0.83
+648,day,night,Antonym,Nature,0.12
+649,wet,dry,Antonym,Nature,0.29
+650,student,backpack,Object,Education,0.41
+651,chemistry,reaction,Related Concept,Science,0.6
+652,fast,slow,Antonym,Technology,0.23
+653,device,smartphone,Category Member,Technology,0.65
+654,database,query,Related Concept,Technology,0.55
+655,book,textbook,Synonym,Education,0.83
+656,beginner,expert,Antonym,Education,0.24
+657,house,home,Synonym,Daily Life,0.94
+658,office,desk,Object,Business,0.39
+659,exam,test,Synonym,Education,0.94
+660,subject,mathematics,Category Member,Education,0.51
+661,score,win,Action,Sports,0.58
+662,grade,score,Synonym,Education,0.82
+663,factory,warehouse,Location,Business,0.45
+664,grade,evaluate,Action,Education,0.44
+665,happy,glad,Synonym,Daily Life,0.82
+666,naturalist,biologist,Profession,Nature,0.56
+667,network,router,Related Concept,Technology,0.48
+668,test,verify,Action,Science,0.52
+669,basketball,court,Related Concept,Sports,0.46
+670,accountant,spreadsheet,Object,Business,0.39
+671,sport,soccer,Category Member,Sports,0.7
+672,beginner,expert,Antonym,Education,0.26
+673,finance,budget,Related Concept,Business,0.56
+674,furniture,chair,Category Member,Daily Life,0.62
+675,beginner,expert,Antonym,Education,0.16
+676,class,lesson,Synonym,Education,0.94
+677,network,router,Related Concept,Technology,0.54
+678,erode,wear,Action,Nature,0.59
+679,offense,defense,Antonym,Sports,0.14
+680,pass,fail,Antonym,Education,0.14
+681,wild,tame,Antonym,Nature,0.26
+682,company,headquarters,Location,Business,0.47
+683,educator,professor,Profession,Education,0.49
+684,lab,research center,Location,Technology,0.36
+685,educator,professor,Profession,Education,0.57
+686,server,data center,Location,Technology,0.43
+687,ranger,conservationist,Profession,Nature,0.53
+688,mountain,peak,Synonym,Nature,0.89
+689,equipment,gloves,Category Member,Sports,0.67
+690,large,major,Synonym,Business,0.85
+691,naturalist,biologist,Profession,Nature,0.48
+692,football,stadium,Related Concept,Sports,0.51
+693,hardware,keyboard,Category Member,Technology,0.57
+694,kitchen,home,Location,Daily Life,0.48
+695,gadget,smartwatch,Category Member,Technology,0.66
+696,smart,intelligent,Synonym,Education,0.9
+697,developer,programmer,Profession,Technology,0.6
+698,researcher,scientist,Profession,Science,0.48
+699,role,analyst,Category Member,Business,0.59
+700,running,track,Related Concept,Sports,0.59
+701,phone,charger,Object,Technology,0.44
+702,test,verify,Action,Science,0.46
+703,fast,quick,Synonym,Technology,0.94
+704,teacher,chalkboard,Object,Education,0.47
+705,sport,basketball,Category Member,Sports,0.51
+706,researcher,scientist,Profession,Science,0.47
+707,element,oxygen,Category Member,Science,0.52
+708,software,app,Category Member,Technology,0.65
+709,role,analyst,Category Member,Business,0.68
+710,school,curriculum,Related Concept,Education,0.5
+711,educator,teacher,Profession,Education,0.56
+712,house,home,Synonym,Daily Life,0.95
+713,hardware,keyboard,Category Member,Technology,0.67
+714,researcher,physicist,Profession,Science,0.45
+715,hypothesis,theory,Synonym,Science,0.83
+716,computer,keyboard,Object,Technology,0.44
+717,relax,unwind,Action,Daily Life,0.49
+718,degree,master's,Category Member,Education,0.69
+719,compile,build,Action,Technology,0.48
+720,win,lose,Antonym,Sports,0.16
+721,tree,oak,Category Member,Nature,0.51
+722,cloud,storage,Related Concept,Technology,0.5
+723,kitchen,cooking,Related Concept,Daily Life,0.5
+724,lab,research center,Location,Technology,0.5
+725,public,private,Antonym,Technology,0.28
+726,cook,chef,Profession,Daily Life,0.52
+727,lab,beaker,Object,Science,0.4
+728,desert,drought,Related Concept,Nature,0.55
+729,online,offline,Antonym,Technology,0.13
+730,study,review,Action,Education,0.46
+731,accurate,precise,Synonym,Science,0.81
+732,river,valley,Location,Nature,0.39
+733,garden,planting,Related Concept,Daily Life,0.6
+734,accountant,spreadsheet,Object,Business,0.55
+735,discovery,finding,Synonym,Science,0.87
+736,win,lose,Antonym,Sports,0.24
+737,football,stadium,Related Concept,Sports,0.6
+738,enroll,register,Action,Education,0.55
+739,degree,bachelor's,Category Member,Education,0.55
+740,exam,test,Synonym,Education,0.84
+741,migrate,travel,Action,Nature,0.5
+742,mountain,range,Location,Nature,0.48
+743,fast,quick,Synonym,Sports,0.86
+744,wireless,wired,Antonym,Technology,0.12
+745,classroom,lecture,Related Concept,Education,0.48
+746,compete,play,Action,Sports,0.47
+747,university,degree,Related Concept,Education,0.62
+748,role,analyst,Category Member,Business,0.5
+749,meal,dish,Synonym,Daily Life,0.9
+750,company,headquarters,Location,Business,0.46
+751,biology,field station,Location,Science,0.41
+752,secure,vulnerable,Antonym,Technology,0.13
+753,database,query,Related Concept,Technology,0.52
+754,boxer,gloves,Object,Sports,0.54
+755,athlete,player,Profession,Sports,0.46
+756,deploy,launch,Action,Technology,0.41
+757,department,finance,Category Member,Business,0.65
+758,study,review,Action,Education,0.47
+759,teacher,instructor,Synonym,Education,0.83
+760,furniture,chair,Category Member,Daily Life,0.68
+761,athlete,runner,Profession,Sports,0.6
+762,instrument,microscope,Category Member,Science,0.68
+763,day,night,Antonym,Nature,0.29
+764,physics,force,Related Concept,Science,0.6
+765,planet,mars,Category Member,Science,0.64
+766,phone,charger,Object,Technology,0.49
+767,tennis,court,Location,Sports,0.51
+768,smart,intelligent,Synonym,Education,0.91
+769,football,stadium,Location,Sports,0.43
+770,driver,commuter,Profession,Daily Life,0.43
+771,client,customer,Synonym,Business,0.87
+772,instrument,microscope,Category Member,Science,0.54
+773,clean,dirty,Antonym,Daily Life,0.21
+774,element,oxygen,Category Member,Science,0.63
+775,department,finance,Category Member,Business,0.7
+776,basketball,court,Related Concept,Sports,0.6
+777,exam,grading,Related Concept,Education,0.61
+778,retail,inventory,Related Concept,Business,0.57
+779,network,internet,Synonym,Technology,0.91
+780,hardware,monitor,Category Member,Technology,0.51
+781,pass,fail,Antonym,Education,0.29
+782,software,update,Related Concept,Technology,0.6
+783,device,smartphone,Category Member,Technology,0.64
+784,hire,recruit,Action,Business,0.43
+785,tennis,racket,Related Concept,Sports,0.51
+786,official,umpire,Profession,Sports,0.42
+787,relax,unwind,Action,Daily Life,0.59
+788,accurate,precise,Synonym,Science,0.82
+789,offense,defense,Antonym,Sports,0.29
+790,strong,weak,Antonym,Sports,0.11
+791,large,major,Synonym,Business,0.8
+792,equipment,gloves,Category Member,Sports,0.5
+793,negotiate,bargain,Action,Business,0.42
+794,subject,history,Category Member,Education,0.58
+795,lab,research center,Location,Technology,0.46
+796,researcher,scientist,Profession,Science,0.58
+797,wireless,wired,Antonym,Technology,0.13
+798,hot,cold,Antonym,Nature,0.2
+799,algorithm,optimization,Related Concept,Technology,0.53
+800,cloud,storage,Related Concept,Technology,0.54
+801,kitchen,home,Location,Daily Life,0.51
+802,educator,teacher,Profession,Education,0.46
+803,modern,outdated,Antonym,Technology,0.22
+804,awake,asleep,Antonym,Daily Life,0.1
+805,school,curriculum,Related Concept,Education,0.54
+806,accurate,precise,Synonym,Science,0.89
+807,computer,mouse,Object,Technology,0.41
+808,factory,warehouse,Location,Business,0.39
+809,hardware,monitor,Category Member,Technology,0.58
+810,office,desk,Object,Business,0.5
+811,bird,nest,Object,Nature,0.48
+812,office,desk,Object,Business,0.42
+813,animal,fox,Category Member,Nature,0.58
+814,developer,coder,Profession,Technology,0.43
+815,install,setup,Action,Technology,0.4
+816,merge,combine,Action,Business,0.45
+817,hibernate,rest,Action,Nature,0.4
+818,kitchen,home,Location,Daily Life,0.42
+819,appliance,refrigerator,Category Member,Daily Life,0.58
+820,furniture,table,Category Member,Daily Life,0.55
+821,park,neighborhood,Location,Daily Life,0.48
+822,computer,laptop,Synonym,Technology,0.87
+823,supply,demand,Antonym,Business,0.2
+824,classroom,desk,Object,Education,0.39
+825,wireless,wired,Antonym,Technology,0.26
+826,large,huge,Synonym,Technology,0.81
+827,cleaner,housekeeper,Profession,Daily Life,0.55
+828,equipment,helmet,Category Member,Sports,0.69
+829,researcher,chemist,Profession,Science,0.46
+830,tennis,racket,Related Concept,Sports,0.55
+831,merge,combine,Action,Business,0.44
+832,official,umpire,Profession,Sports,0.54
+833,hot,cold,Antonym,Nature,0.23
+834,student,pupil,Synonym,Education,0.9
+835,science,laboratory,Location,Science,0.45
+836,mountain,range,Location,Nature,0.39
+837,easy,difficult,Antonym,Education,0.11
+838,school,classroom,Location,Education,0.54
+839,morning,evening,Antonym,Daily Life,0.21
+840,official,referee,Profession,Sports,0.5
+841,score,win,Action,Sports,0.45
+842,lab,beaker,Object,Science,0.38
+843,meeting,projector,Object,Business,0.45
+844,hot,cold,Antonym,Nature,0.22
+845,physics,force,Related Concept,Science,0.54
+846,hot,cold,Antonym,Nature,0.29
+847,modern,outdated,Antonym,Technology,0.13
+848,school,university,Category Member,Education,0.54
+849,class,lesson,Synonym,Education,0.82
+850,commute,travel,Action,Daily Life,0.55
+851,server,data center,Location,Technology,0.36
+852,degree,bachelor's,Category Member,Education,0.69
+853,cook,prepare,Action,Daily Life,0.54
+854,lab,beaker,Object,Science,0.53
+855,book,textbook,Synonym,Education,0.8
+856,supply,demand,Antonym,Business,0.14
+857,server,data center,Location,Technology,0.52
+858,hypothesis,theory,Synonym,Science,0.9
+859,developer,programmer,Profession,Technology,0.58
+860,football,stadium,Location,Sports,0.42
+861,bee,hive,Object,Nature,0.46
+862,network,router,Related Concept,Technology,0.55
+863,element,oxygen,Category Member,Science,0.57
+864,phone,charger,Object,Technology,0.36
+865,school,university,Category Member,Education,0.65
+866,network,internet,Synonym,Technology,0.9
+867,company,headquarters,Location,Business,0.39
+868,train,practice,Action,Sports,0.54
+869,office,desk,Object,Business,0.48
+870,tennis,racket,Related Concept,Sports,0.56
+871,teacher,chalkboard,Object,Education,0.4
+872,victory,win,Synonym,Sports,0.86
+873,running,track,Related Concept,Sports,0.56
+874,computer,laptop,Synonym,Technology,0.8
+875,win,lose,Antonym,Sports,0.22
+876,planet,earth,Category Member,Science,0.67
+877,technician,IT support,Profession,Technology,0.51
+878,company,headquarters,Location,Business,0.52
+879,mountain,peak,Synonym,Nature,0.86
+880,friend,companion,Synonym,Daily Life,0.94
+881,meal,dish,Synonym,Daily Life,0.91
+882,executive,manager,Profession,Business,0.46
+883,student,backpack,Object,Education,0.53
+884,appliance,microwave,Category Member,Daily Life,0.5
+885,win,lose,Antonym,Sports,0.2
+886,researcher,biologist,Profession,Science,0.45
+887,device,smartphone,Category Member,Technology,0.58
+888,stable,unstable,Antonym,Science,0.1
+889,bedroom,sleep,Related Concept,Daily Life,0.46
+890,meal,dish,Synonym,Daily Life,0.82
+891,offense,defense,Antonym,Sports,0.28
+892,equipment,helmet,Category Member,Sports,0.68
+893,friend,companion,Synonym,Daily Life,0.92
+894,invest,fund,Action,Business,0.59
+895,enroll,register,Action,Education,0.57
+896,teach,instruct,Action,Education,0.6
+897,administrator,principal,Profession,Education,0.54
+898,planet,mars,Category Member,Science,0.54
+899,counselor,advisor,Profession,Education,0.42
+900,naturalist,biologist,Profession,Nature,0.47
+901,forest,national park,Location,Nature,0.36
+902,furniture,table,Category Member,Daily Life,0.65
+903,browser,tab,Related Concept,Technology,0.61
+904,store,retail outlet,Location,Business,0.53
+905,technician,IT support,Profession,Technology,0.4
+906,enroll,register,Action,Education,0.59
+907,role,manager,Category Member,Business,0.51
+908,football,stadium,Location,Sports,0.36
+909,athlete,player,Profession,Sports,0.5
+910,forest,wildlife,Related Concept,Nature,0.46
+911,tree,pine,Category Member,Nature,0.69
+912,experiment,trial,Synonym,Science,0.86
+913,fast,slow,Antonym,Technology,0.2
+914,cloud,storage,Related Concept,Technology,0.48
+915,forest,wildlife,Related Concept,Nature,0.6
+916,deploy,launch,Action,Technology,0.42
+917,role,analyst,Category Member,Business,0.61
+918,cheap,affordable,Synonym,Business,0.9
+919,clean,tidy,Action,Daily Life,0.47
+920,athlete,runner,Profession,Sports,0.43
+921,science,laboratory,Location,Science,0.52
+922,software,update,Related Concept,Technology,0.47
+923,modern,outdated,Antonym,Technology,0.21
+924,morning,evening,Antonym,Daily Life,0.2
+925,student,backpack,Object,Education,0.43
+926,secure,vulnerable,Antonym,Technology,0.16
+927,lab,beaker,Object,Science,0.37
+928,wild,tame,Antonym,Nature,0.24
+929,class,lesson,Synonym,Education,0.8
+930,server,data center,Location,Technology,0.38
+931,cleaner,housekeeper,Profession,Daily Life,0.42
+932,buy,sell,Antonym,Business,0.16
+933,gadget,smartwatch,Category Member,Technology,0.64
+934,factory,warehouse,Location,Business,0.5
+935,kitchen,stove,Object,Daily Life,0.5
+936,degree,bachelor's,Category Member,Education,0.66
+937,computer,laptop,Synonym,Technology,0.81
+938,teacher,chalkboard,Object,Education,0.36
+939,furniture,chair,Category Member,Daily Life,0.67
+940,erode,wear,Action,Nature,0.53
+941,running,track,Related Concept,Sports,0.62
+942,discovery,finding,Synonym,Science,0.82
+943,river,valley,Location,Nature,0.52
+944,subject,mathematics,Category Member,Education,0.52
+945,teacher,instructor,Synonym,Education,0.82
+946,merge,combine,Action,Business,0.51
+947,teach,instruct,Action,Education,0.55
+948,cook,chef,Profession,Daily Life,0.47
+949,supply,demand,Antonym,Business,0.16
+950,sport,basketball,Category Member,Sports,0.55
+951,startup,funding,Related Concept,Business,0.59
+952,victory,win,Synonym,Sports,0.85
+953,equipment,gloves,Category Member,Sports,0.51
+954,retail,inventory,Related Concept,Business,0.59
+955,hardware,keyboard,Category Member,Technology,0.64
+956,meeting,projector,Object,Business,0.43
+957,tennis,racket,Object,Sports,0.45
+958,full,empty,Antonym,Daily Life,0.13
+959,animal,deer,Category Member,Nature,0.61
+960,developer,coder,Profession,Technology,0.56
+961,official,referee,Profession,Sports,0.51
+962,hardware,keyboard,Category Member,Technology,0.54
+963,football,stadium,Related Concept,Sports,0.53
+964,visible,invisible,Antonym,Science,0.27
+965,experiment,trial,Synonym,Science,0.92
+966,fish,pond,Object,Nature,0.39
+967,finance,budget,Related Concept,Business,0.61
+968,commute,traffic,Related Concept,Daily Life,0.56
+969,experiment,trial,Synonym,Science,0.82
+970,researcher,scientist,Profession,Science,0.55
+971,exam,test,Synonym,Education,0.81
+972,furniture,table,Category Member,Daily Life,0.57
+973,grade,score,Synonym,Education,0.83
+974,study,review,Action,Education,0.43
+975,supply,demand,Antonym,Business,0.29
+976,employee,staff member,Profession,Business,0.57
+977,animal,fox,Category Member,Nature,0.62
+978,department,finance,Category Member,Business,0.63
+979,startup,funding,Related Concept,Business,0.51
+980,geology,mineral,Related Concept,Science,0.54
+981,bug,glitch,Synonym,Technology,0.93
+982,river,valley,Location,Nature,0.44
+983,executive,manager,Profession,Business,0.53
+984,soccer,ball,Object,Sports,0.43
+985,amateur,professional,Antonym,Sports,0.26
+986,import,export,Antonym,Business,0.23
+987,bear,den,Object,Nature,0.47
+988,department,finance,Category Member,Business,0.52
+989,department,marketing,Category Member,Business,0.67
+990,grade,evaluate,Action,Education,0.47
+991,modern,outdated,Antonym,Technology,0.17
+992,large,huge,Synonym,Technology,0.92
+993,laptop,battery,Object,Technology,0.39
+994,awake,asleep,Antonym,Daily Life,0.22
+995,researcher,biologist,Profession,Science,0.53
+996,hire,recruit,Action,Business,0.5
+997,migrate,travel,Action,Nature,0.43
+998,chemistry,reaction,Related Concept,Science,0.45
+999,strong,powerful,Synonym,Sports,0.81
+1000,forest,national park,Location,Nature,0.42
+1001,data,information,Synonym,Science,0.89
+1002,developer,programmer,Profession,Technology,0.56
+1003,astronomy,observatory,Location,Science,0.38
+1004,hibernate,rest,Action,Nature,0.45
+1005,astronomer,telescope,Object,Science,0.44
+1006,office,desk,Object,Business,0.55
+1007,hire,recruit,Action,Business,0.54
+1008,profit,earnings,Synonym,Business,0.93
+1009,pass,fail,Antonym,Education,0.1
+1010,furniture,chair,Category Member,Daily Life,0.6
+1011,grade,evaluate,Action,Education,0.52
+1012,secure,protected,Synonym,Technology,0.87
+1013,tennis,court,Location,Sports,0.5
+1014,researcher,biologist,Profession,Science,0.47
+1015,smart,intelligent,Synonym,Education,0.86
+1016,teacher,instructor,Synonym,Education,0.84
+1017,clean,tidy,Action,Daily Life,0.44
+1018,large,huge,Synonym,Technology,0.82
+1019,database,query,Related Concept,Technology,0.47
+1020,chemist,flask,Object,Science,0.46
+1021,student,backpack,Object,Education,0.45
+1022,office,desk,Object,Business,0.44
+1023,forest,national park,Location,Nature,0.54
+1024,software,update,Related Concept,Technology,0.62
+1025,biology,field station,Location,Science,0.46
+1026,garden,planting,Related Concept,Daily Life,0.59
+1027,house,home,Synonym,Daily Life,0.86
+1028,swimming,pool,Related Concept,Sports,0.46
+1029,desert,drought,Related Concept,Nature,0.47
+1030,department,marketing,Category Member,Business,0.66
+1031,library,research,Related Concept,Education,0.52
+1032,analyze,interpret,Action,Science,0.47
+1033,swimming,pool,Location,Sports,0.42
+1034,official,umpire,Profession,Sports,0.47
+1035,running,track,Related Concept,Sports,0.63
+1036,mountain,peak,Synonym,Nature,0.88
+1037,fast,slow,Antonym,Technology,0.17
+1038,database,query,Related Concept,Technology,0.63
+1039,ocean,coral reef,Related Concept,Nature,0.48
+1040,running,track,Related Concept,Sports,0.45
+1041,tree,oak,Category Member,Nature,0.57
+1042,tree,oak,Category Member,Nature,0.63
+1043,cheap,affordable,Synonym,Technology,0.82
+1044,swimming,pool,Related Concept,Sports,0.55
+1045,market,town square,Location,Daily Life,0.41
+1046,strong,powerful,Synonym,Sports,0.87
+1047,bloom,flower,Action,Nature,0.46
+1048,athlete,player,Profession,Sports,0.48
+1049,hot,cold,Antonym,Nature,0.24
+1050,gadget,smartwatch,Category Member,Technology,0.65
+1051,coach,trainer,Synonym,Sports,0.85
+1052,kitchen,home,Location,Daily Life,0.54
+1053,smart,intelligent,Synonym,Technology,0.87
+1054,classroom,desk,Object,Education,0.54
+1055,company,headquarters,Location,Business,0.36
+1056,soccer,ball,Object,Sports,0.44
+1057,computer,laptop,Synonym,Technology,0.9
+1058,cleaner,housekeeper,Profession,Daily Life,0.46
+1059,cloud,storage,Related Concept,Technology,0.65
+1060,sport,soccer,Category Member,Sports,0.58
+1061,bear,den,Object,Nature,0.51
+1062,merge,combine,Action,Business,0.52
+1063,boxer,gloves,Object,Sports,0.4
+1064,coach,mentor,Action,Sports,0.59
+1065,developer,programmer,Profession,Technology,0.59
+1066,merge,combine,Action,Business,0.48
+1067,accountant,spreadsheet,Object,Business,0.52
+1068,animal,fox,Category Member,Nature,0.5
+1069,official,umpire,Profession,Sports,0.58
+1070,offense,defense,Antonym,Sports,0.19
+1071,classroom,lecture,Related Concept,Education,0.52
+1072,counselor,advisor,Profession,Education,0.59
+1073,wet,dry,Antonym,Nature,0.23
+1074,astronomer,telescope,Object,Science,0.49
+1075,soccer,ball,Object,Sports,0.38
+1076,lab,beaker,Object,Science,0.42
+1077,startup,tech hub,Location,Technology,0.38
+1078,cleaner,housekeeper,Profession,Daily Life,0.54
+1079,grade,evaluate,Action,Education,0.48
+1080,secure,protected,Synonym,Technology,0.95
+1081,football,stadium,Location,Sports,0.4
+1082,analyze,interpret,Action,Science,0.51
+1083,hardware,keyboard,Category Member,Technology,0.52
+1084,hypothesis,theory,Synonym,Science,0.89
+1085,physics,force,Related Concept,Science,0.49
+1086,river,ecosystem,Related Concept,Nature,0.53
+1087,university,degree,Related Concept,Education,0.48
+1088,device,tablet,Category Member,Technology,0.59
+1089,server,data center,Location,Technology,0.45
+1090,animal,fox,Category Member,Nature,0.65
+1091,bedroom,pillow,Object,Daily Life,0.4
+1092,river,valley,Location,Nature,0.49
+1093,install,setup,Action,Technology,0.56
+1094,wet,dry,Antonym,Nature,0.18
+1095,kitchen,home,Location,Daily Life,0.41
+1096,tree,pine,Category Member,Nature,0.52
+1097,soccer,ball,Object,Sports,0.51
+1098,river,stream,Synonym,Nature,0.82
+1099,measure,calculate,Action,Science,0.54
+1100,smart,intelligent,Synonym,Education,0.8
+1101,element,hydrogen,Category Member,Science,0.55
+1102,executive,manager,Profession,Business,0.45
+1103,mountain,peak,Synonym,Nature,0.81
+1104,university,campus,Location,Education,0.4
+1105,startup,tech hub,Location,Technology,0.43
+1106,book,textbook,Synonym,Education,0.91
+1107,strong,weak,Antonym,Sports,0.28
+1108,morning,evening,Antonym,Daily Life,0.24
+1109,soccer,ball,Object,Sports,0.45
+1110,bug,glitch,Synonym,Technology,0.91
+1111,role,manager,Category Member,Business,0.62
+1112,sport,soccer,Category Member,Sports,0.52
+1113,public,private,Antonym,Education,0.14
+1114,compete,play,Action,Sports,0.48
+1115,full,empty,Antonym,Daily Life,0.29
+1116,school,university,Category Member,Education,0.57
+1117,client,customer,Synonym,Business,0.85
+1118,swimming,pool,Related Concept,Sports,0.51
+1119,degree,master's,Category Member,Education,0.68
+1120,library,reading room,Location,Education,0.42
+1121,driver,commuter,Profession,Daily Life,0.53
+1122,river,stream,Synonym,Nature,0.86
+1123,library,research,Related Concept,Education,0.51
+1124,observe,record,Action,Science,0.58
+1125,wireless,wired,Antonym,Technology,0.2
+1126,gadget,smartwatch,Category Member,Technology,0.51
+1127,analyst,data scientist,Profession,Technology,0.48
+1128,instrument,microscope,Category Member,Science,0.53
+1129,furniture,chair,Category Member,Daily Life,0.55
+1130,negotiate,bargain,Action,Business,0.55
+1131,teacher,student,Antonym,Education,0.2
+1132,server,data center,Location,Technology,0.51
+1133,classroom,lecture,Related Concept,Education,0.49
+1134,exam,grading,Related Concept,Education,0.65
+1135,school,curriculum,Related Concept,Education,0.57
+1136,classroom,desk,Object,Education,0.52
+1137,hypothesis,theory,Synonym,Science,0.93
+1138,happy,glad,Synonym,Daily Life,0.87
+1139,computer,keyboard,Object,Technology,0.36
+1140,finance,budget,Related Concept,Business,0.57
+1141,lab,beaker,Object,Science,0.48
+1142,degree,bachelor's,Category Member,Education,0.58
+1143,modern,outdated,Antonym,Technology,0.18
+1144,exam,test,Synonym,Education,0.87
+1145,furniture,chair,Category Member,Daily Life,0.64
+1146,coach,trainer,Synonym,Sports,0.86
+1147,happy,glad,Synonym,Daily Life,0.91
+1148,classroom,desk,Object,Education,0.36
+1149,modern,outdated,Antonym,Technology,0.16
+1150,wet,dry,Antonym,Nature,0.19
+1151,planet,earth,Category Member,Science,0.7
+1152,ocean,coral reef,Related Concept,Nature,0.63
+1153,subject,mathematics,Category Member,Education,0.59
+1154,biology,cell,Related Concept,Science,0.47
+1155,computer,keyboard,Object,Technology,0.51
+1156,supply,demand,Antonym,Business,0.19
+1157,school,university,Category Member,Education,0.64
+1158,modern,outdated,Antonym,Technology,0.25
+1159,ocean,coral reef,Related Concept,Nature,0.47
+1160,secure,vulnerable,Antonym,Technology,0.2
+1161,school,university,Category Member,Education,0.6
+1162,organic,synthetic,Antonym,Science,0.2
+1163,relax,unwind,Action,Daily Life,0.41
+1164,buy,sell,Antonym,Business,0.11
+1165,network,router,Related Concept,Technology,0.6
+1166,software,update,Related Concept,Technology,0.58
+1167,finance,budget,Related Concept,Business,0.52
+1168,subject,mathematics,Category Member,Education,0.61
+1169,cleaner,housekeeper,Profession,Daily Life,0.49
+1170,online,offline,Antonym,Technology,0.2
+1171,strong,weak,Antonym,Sports,0.29
+1172,counselor,advisor,Profession,Education,0.54
+1173,clean,dirty,Antonym,Daily Life,0.26
+1174,tennis,court,Location,Sports,0.53
+1175,exam,test,Synonym,Education,0.89
+1176,import,export,Antonym,Business,0.25
+1177,merge,combine,Action,Business,0.53
+1178,exam,grading,Related Concept,Education,0.55
+1179,classroom,desk,Object,Education,0.47
+1180,researcher,scientist,Profession,Science,0.49
+1181,forest,woodland,Synonym,Nature,0.82
+1182,subject,history,Category Member,Education,0.57
+1183,astronomy,galaxy,Related Concept,Science,0.54
+1184,subject,history,Category Member,Education,0.53
+1185,happy,glad,Synonym,Daily Life,0.88
+1186,hardware,monitor,Category Member,Technology,0.66
+1187,commute,travel,Action,Daily Life,0.59
+1188,browser,tab,Related Concept,Technology,0.53
+1189,factory,warehouse,Location,Business,0.49
+1190,team,squad,Synonym,Sports,0.95
+1191,cook,chef,Profession,Daily Life,0.54
+1192,buy,sell,Antonym,Business,0.14
+1193,study,review,Action,Education,0.55
+1194,retail,inventory,Related Concept,Business,0.56
+1195,educator,professor,Profession,Education,0.43
+1196,biology,cell,Related Concept,Science,0.54
+1197,accurate,precise,Synonym,Science,0.9
+1198,university,degree,Related Concept,Education,0.5
+1199,profit,loss,Antonym,Business,0.28
+1200,startup,tech hub,Location,Technology,0.54
+1201,study,review,Action,Education,0.5
+1202,basketball,court,Related Concept,Sports,0.53
+1203,fast,quick,Synonym,Sports,0.9
+1204,cook,chef,Profession,Daily Life,0.4
+1205,meal,dish,Synonym,Daily Life,0.85
+1206,book,textbook,Synonym,Education,0.94
+1207,library,reading room,Location,Education,0.45
+1208,retail,inventory,Related Concept,Business,0.51
+1209,awake,asleep,Antonym,Daily Life,0.2
+1210,relax,unwind,Action,Daily Life,0.42
+1211,friend,companion,Synonym,Daily Life,0.81
+1212,exam,test,Synonym,Education,0.8
+1213,coach,mentor,Action,Sports,0.45
+1214,researcher,chemist,Profession,Science,0.53
+1215,market,town square,Location,Daily Life,0.37
+1216,kitchen,cooking,Related Concept,Daily Life,0.55
+1217,ocean,coral reef,Related Concept,Nature,0.62
+1218,meeting,projector,Object,Business,0.49
+1219,fish,pond,Object,Nature,0.53
+1220,discovery,finding,Synonym,Science,0.83
+1221,kitchen,home,Location,Daily Life,0.43
+1222,library,reading room,Location,Education,0.46
+1223,analyze,interpret,Action,Science,0.41
+1224,geology,mineral,Related Concept,Science,0.47
+1225,measure,calculate,Action,Science,0.55
+1226,negotiate,bargain,Action,Business,0.54
+1227,office,desk,Object,Business,0.51
+1228,software,app,Category Member,Technology,0.62
+1229,desert,drought,Related Concept,Nature,0.56
+1230,sport,basketball,Category Member,Sports,0.54
+1231,client,customer,Synonym,Business,0.9
+1232,school,curriculum,Related Concept,Education,0.49
+1233,startup,tech hub,Location,Technology,0.47
+1234,developer,coder,Profession,Technology,0.54
+1235,computer,laptop,Synonym,Technology,0.85
+1236,train,practice,Action,Sports,0.45
+1237,visible,invisible,Antonym,Science,0.23
+1238,bedroom,pillow,Object,Daily Life,0.39
+1239,astronomy,galaxy,Related Concept,Science,0.57
+1240,finance,budget,Related Concept,Business,0.49
+1241,computer,mouse,Object,Technology,0.45
+1242,public,private,Antonym,Education,0.17
+1243,element,oxygen,Category Member,Science,0.55
+1244,employee,staff member,Profession,Business,0.59
+1245,official,umpire,Profession,Sports,0.48
+1246,researcher,scientist,Profession,Science,0.52
+1247,fast,slow,Antonym,Technology,0.21
+1248,cook,prepare,Action,Daily Life,0.43
+1249,profit,loss,Antonym,Business,0.24
+1250,grade,score,Synonym,Education,0.86
+1251,discovery,finding,Synonym,Science,0.88
+1252,researcher,scientist,Profession,Science,0.5
+1253,market,town square,Location,Daily Life,0.4
+1254,furniture,table,Category Member,Daily Life,0.64
+1255,install,setup,Action,Technology,0.58
+1256,soccer,ball,Object,Sports,0.42
+1257,supply,demand,Antonym,Business,0.25
+1258,enroll,register,Action,Education,0.49
+1259,ocean,sea,Synonym,Nature,0.9
+1260,house,home,Synonym,Daily Life,0.91
+1261,amateur,professional,Antonym,Sports,0.24
+1262,relax,unwind,Action,Daily Life,0.5
+1263,install,setup,Action,Technology,0.59
+1264,commute,travel,Action,Daily Life,0.53
+1265,grade,score,Synonym,Education,0.8
+1266,counselor,advisor,Profession,Education,0.43
+1267,swimming,pool,Location,Sports,0.41
+1268,cloud,storage,Related Concept,Technology,0.57
+1269,mountain,peak,Synonym,Nature,0.94
+1270,ranger,conservationist,Profession,Nature,0.48
+1271,sport,soccer,Category Member,Sports,0.53
+1272,equipment,helmet,Category Member,Sports,0.59
+1273,department,marketing,Category Member,Business,0.55
+1274,wild,tame,Antonym,Nature,0.16
+1275,client,customer,Synonym,Business,0.81
+1276,strong,weak,Antonym,Sports,0.25
+1277,amateur,professional,Antonym,Sports,0.29
+1278,kitchen,stove,Object,Daily Life,0.44
+1279,cook,chef,Profession,Daily Life,0.5
+1280,meeting,projector,Object,Business,0.5
+1281,fish,pond,Object,Nature,0.46
+1282,commute,travel,Action,Daily Life,0.48
+1283,official,umpire,Profession,Sports,0.49
+1284,browser,tab,Related Concept,Technology,0.49
+1285,university,campus,Location,Education,0.39
+1286,coach,mentor,Action,Sports,0.4
+1287,coach,trainer,Synonym,Sports,0.8
+1288,animal,fox,Category Member,Nature,0.53
+1289,equipment,gloves,Category Member,Sports,0.65
+1290,startup,tech hub,Location,Technology,0.39
+1291,planet,earth,Category Member,Science,0.61
+1292,happy,glad,Synonym,Daily Life,0.86
+1293,forest,national park,Location,Nature,0.45
+1294,compile,build,Action,Technology,0.55
+1295,secure,vulnerable,Antonym,Technology,0.24
+1296,startup,tech hub,Location,Technology,0.55
+1297,database,query,Related Concept,Technology,0.57
+1298,deploy,launch,Action,Technology,0.5
+1299,browser,tab,Related Concept,Technology,0.5
+1300,animal,deer,Category Member,Nature,0.62
+1301,desert,drought,Related Concept,Nature,0.49
+1302,hire,recruit,Action,Business,0.52
+1303,astronomy,observatory,Location,Science,0.44
+1304,classroom,whiteboard,Object,Education,0.54
+1305,organic,synthetic,Antonym,Science,0.3
+1306,full,empty,Antonym,Daily Life,0.11
+1307,mountain,range,Location,Nature,0.51
+1308,observe,record,Action,Science,0.52
+1309,full,empty,Antonym,Daily Life,0.25
+1310,bathroom,mirror,Object,Daily Life,0.44
+1311,erode,wear,Action,Nature,0.56
+1312,university,campus,Location,Education,0.46
+1313,software,update,Related Concept,Technology,0.53
+1314,tree,pine,Category Member,Nature,0.6
+1315,beginner,expert,Antonym,Education,0.15
+1316,compete,play,Action,Sports,0.59
+1317,startup,funding,Related Concept,Business,0.53
+1318,biology,field station,Location,Science,0.47
+1319,degree,bachelor's,Category Member,Education,0.68
+1320,merge,combine,Action,Business,0.5
+1321,team,squad,Synonym,Sports,0.85
+1322,teacher,chalkboard,Object,Education,0.41
+1323,bathroom,mirror,Object,Daily Life,0.47
+1324,software,update,Related Concept,Technology,0.46
+1325,library,research,Related Concept,Education,0.62
+1326,retail,inventory,Related Concept,Business,0.63
+1327,clean,tidy,Action,Daily Life,0.5
+1328,analyst,data scientist,Profession,Technology,0.42
+1329,bug,glitch,Synonym,Technology,0.84
+1330,equipment,helmet,Category Member,Sports,0.7
+1331,element,hydrogen,Category Member,Science,0.54
+1332,forest,national park,Location,Nature,0.47
+1333,ranger,conservationist,Profession,Nature,0.41
+1334,easy,difficult,Antonym,Education,0.25
+1335,department,finance,Category Member,Business,0.62
+1336,software,update,Related Concept,Technology,0.5
+1337,offense,defense,Antonym,Sports,0.13
+1338,online,offline,Antonym,Technology,0.27
+1339,kitchen,cooking,Related Concept,Daily Life,0.51
+1340,happy,glad,Synonym,Daily Life,0.9
+1341,server,data center,Location,Technology,0.5
+1342,friend,companion,Synonym,Daily Life,0.85
+1343,researcher,chemist,Profession,Science,0.45
+1344,subject,mathematics,Category Member,Education,0.55
+1345,ocean,sea,Synonym,Nature,0.92
+1346,algorithm,optimization,Related Concept,Technology,0.58
+1347,online,offline,Antonym,Technology,0.16
+1348,executive,manager,Profession,Business,0.41
+1349,startup,funding,Related Concept,Business,0.6
+1350,company,firm,Synonym,Business,0.91
+1351,subject,history,Category Member,Education,0.68
+1352,biology,cell,Related Concept,Science,0.6
+1353,measure,calculate,Action,Science,0.43
+1354,victory,win,Synonym,Sports,0.82
+1355,client,customer,Synonym,Business,0.91
+1356,smart,intelligent,Synonym,Education,0.88
+1357,exam,grading,Related Concept,Education,0.5
+1358,house,home,Synonym,Daily Life,0.85
+1359,coach,trainer,Synonym,Sports,0.95
+1360,negotiate,bargain,Action,Business,0.4
+1361,instrument,telescope,Category Member,Science,0.53
+1362,bee,hive,Object,Nature,0.39
+1363,study,review,Action,Education,0.58
+1364,teacher,instructor,Synonym,Education,0.87
+1365,marketing,advertising,Related Concept,Business,0.48
+1366,tree,oak,Category Member,Nature,0.5
+1367,teacher,student,Antonym,Education,0.11
+1368,computer,mouse,Object,Technology,0.48
+1369,animal,deer,Category Member,Nature,0.58
+1370,furniture,table,Category Member,Daily Life,0.51
+1371,test,verify,Action,Science,0.6
+1372,import,export,Antonym,Business,0.29
+1373,equipment,helmet,Category Member,Sports,0.57
+1374,degree,master's,Category Member,Education,0.64
+1375,planet,mars,Category Member,Science,0.69
+1376,compete,play,Action,Sports,0.58
+1377,educator,teacher,Profession,Education,0.45
+1378,furniture,chair,Category Member,Daily Life,0.66
+1379,element,hydrogen,Category Member,Science,0.67
+1380,computer,keyboard,Object,Technology,0.48
+1381,official,referee,Profession,Sports,0.52
+1382,biology,field station,Location,Science,0.38
+1383,furniture,table,Category Member,Daily Life,0.58
+1384,online,offline,Antonym,Technology,0.1
+1385,employee,staff member,Profession,Business,0.41
+1386,biology,field station,Location,Science,0.37
+1387,river,stream,Synonym,Nature,0.89
+1388,animal,fox,Category Member,Nature,0.7
+1389,university,campus,Location,Education,0.43
+1390,soccer,ball,Object,Sports,0.48
+1391,bear,den,Object,Nature,0.48
+1392,grade,score,Synonym,Education,0.84
+1393,teach,instruct,Action,Education,0.52
+1394,degree,master's,Category Member,Education,0.63
+1395,forest,wildlife,Related Concept,Nature,0.5
+1396,browser,tab,Related Concept,Technology,0.62
+1397,garden,planting,Related Concept,Daily Life,0.49
+1398,classroom,whiteboard,Object,Education,0.47
+1399,bedroom,pillow,Object,Daily Life,0.37
+1400,meal,dish,Synonym,Daily Life,0.86
+1401,network,router,Related Concept,Technology,0.47
+1402,executive,director,Profession,Business,0.43
+1403,experiment,trial,Synonym,Science,0.87
+1404,physics,force,Related Concept,Science,0.62
+1405,classroom,whiteboard,Object,Education,0.43
+1406,analyze,interpret,Action,Science,0.4
+1407,clean,dirty,Antonym,Daily Life,0.27
+1408,bedroom,pillow,Object,Daily Life,0.38
+1409,clean,dirty,Antonym,Daily Life,0.18
+1410,train,practice,Action,Sports,0.44
+1411,debug,fix,Action,Technology,0.54
+1412,university,campus,Location,Education,0.38
+1413,startup,funding,Related Concept,Business,0.47
+1414,employee,staff member,Profession,Business,0.51
+1415,chemistry,reaction,Related Concept,Science,0.63
+1416,commute,traffic,Related Concept,Daily Life,0.59
+1417,athlete,player,Profession,Sports,0.57
+1418,animal,fox,Category Member,Nature,0.52
+1419,teacher,student,Antonym,Education,0.14
+1420,observe,record,Action,Science,0.51
+1421,awake,asleep,Antonym,Daily Life,0.21
+1422,administrator,principal,Profession,Education,0.47
+1423,store,retail outlet,Location,Business,0.47
+1424,awake,asleep,Antonym,Daily Life,0.26
+1425,pass,fail,Antonym,Education,0.22
+1426,department,marketing,Category Member,Business,0.64
+1427,book,textbook,Synonym,Education,0.88
+1428,startup,funding,Related Concept,Business,0.63
+1429,astronomy,observatory,Location,Science,0.43
+1430,fast,slow,Antonym,Technology,0.19
+1431,technician,IT support,Profession,Technology,0.52
+1432,office,desk,Object,Business,0.37
+1433,modern,outdated,Antonym,Technology,0.2
+1434,grade,score,Synonym,Education,0.93
+1435,computer,keyboard,Object,Technology,0.46
+1436,subject,history,Category Member,Education,0.62
+1437,school,university,Category Member,Education,0.59
+1438,university,campus,Location,Education,0.51
+1439,appliance,microwave,Category Member,Daily Life,0.62
+1440,browser,tab,Related Concept,Technology,0.56
+1441,company,headquarters,Location,Business,0.54
+1442,science,laboratory,Location,Science,0.38
+1443,chemistry,reaction,Related Concept,Science,0.58
+1444,sport,basketball,Category Member,Sports,0.58
+1445,offense,defense,Antonym,Sports,0.24
+1446,market,town square,Location,Daily Life,0.53
+1447,classroom,desk,Object,Education,0.51
+1448,furniture,chair,Category Member,Daily Life,0.58
+1449,teacher,student,Antonym,Education,0.22
+1450,ocean,coral reef,Related Concept,Nature,0.56
+1451,invest,fund,Action,Business,0.42
+1452,school,curriculum,Related Concept,Education,0.46
+1453,role,manager,Category Member,Business,0.52
+1454,erode,wear,Action,Nature,0.58
+1455,profit,loss,Antonym,Business,0.25
+1456,hot,cold,Antonym,Nature,0.26
+1457,modern,outdated,Antonym,Technology,0.27
+1458,football,stadium,Location,Sports,0.49
+1459,planet,earth,Category Member,Science,0.66
+1460,equipment,gloves,Category Member,Sports,0.57
+1461,supply,demand,Antonym,Business,0.23
+1462,company,headquarters,Location,Business,0.42
+1463,win,lose,Antonym,Sports,0.1
+1464,hypothesis,theory,Synonym,Science,0.82
+1465,developer,programmer,Profession,Technology,0.44
+1466,school,classroom,Location,Education,0.41
+1467,device,tablet,Category Member,Technology,0.52
+1468,test,verify,Action,Science,0.51
+1469,student,pupil,Synonym,Education,0.89
+1470,exam,test,Synonym,Education,0.86
+1471,amateur,professional,Antonym,Sports,0.28
+1472,river,ecosystem,Related Concept,Nature,0.5
+1473,library,research,Related Concept,Education,0.63
+1474,biology,cell,Related Concept,Science,0.61
+1475,algorithm,optimization,Related Concept,Technology,0.59
+1476,tennis,racket,Object,Sports,0.37
+1477,department,marketing,Category Member,Business,0.69
+1478,day,night,Antonym,Nature,0.2
+1479,subject,history,Category Member,Education,0.56
+1480,school,curriculum,Related Concept,Education,0.63
+1481,cleaner,housekeeper,Profession,Daily Life,0.41
+1482,hot,cold,Antonym,Nature,0.14
+1483,relax,unwind,Action,Daily Life,0.57
+1484,official,referee,Profession,Sports,0.54
+1485,mountain,peak,Synonym,Nature,0.92
+1486,forest,woodland,Synonym,Nature,0.94
+1487,geology,mineral,Related Concept,Science,0.48
+1488,element,oxygen,Category Member,Science,0.56
+1489,sport,basketball,Category Member,Sports,0.53
+1490,commute,travel,Action,Daily Life,0.47
+1491,degree,master's,Category Member,Education,0.52
+1492,debug,fix,Action,Technology,0.59
+1493,element,hydrogen,Category Member,Science,0.69
+1494,planet,earth,Category Member,Science,0.51
+1495,bird,nest,Object,Nature,0.37
+1496,algorithm,optimization,Related Concept,Technology,0.62
+1497,book,textbook,Synonym,Education,0.93
+1498,awake,asleep,Antonym,Daily Life,0.14
+1499,meal,dish,Synonym,Daily Life,0.81
+1500,mountain,range,Location,Nature,0.53
+1501,biology,cell,Related Concept,Science,0.49
+1502,large,major,Synonym,Business,0.83
+1503,subject,history,Category Member,Education,0.64
+1504,erode,wear,Action,Nature,0.6
+1505,server,data center,Location,Technology,0.55
+1506,park,neighborhood,Location,Daily Life,0.53
+1507,marketing,advertising,Related Concept,Business,0.47
+1508,cheap,affordable,Synonym,Business,0.8
+1509,bedroom,sleep,Related Concept,Daily Life,0.57
+1510,river,ecosystem,Related Concept,Nature,0.56
+1511,company,firm,Synonym,Business,0.88
+1512,hardware,keyboard,Category Member,Technology,0.56
+1513,software,app,Category Member,Technology,0.54
+1514,score,win,Action,Sports,0.43
+1515,friend,companion,Synonym,Daily Life,0.82
+1516,pass,fail,Antonym,Education,0.23
+1517,team,squad,Synonym,Sports,0.94
+1518,compile,build,Action,Technology,0.56
+1519,tree,oak,Category Member,Nature,0.66
+1520,train,practice,Action,Sports,0.52
+1521,hot,cold,Antonym,Nature,0.13
+1522,test,verify,Action,Science,0.44
+1523,organic,synthetic,Antonym,Science,0.12
+1524,researcher,chemist,Profession,Science,0.52
+1525,fast,quick,Synonym,Technology,0.85
+1526,forest,wildlife,Related Concept,Nature,0.56
+1527,animal,fox,Category Member,Nature,0.63
+1528,swimming,pool,Related Concept,Sports,0.64
+1529,equipment,helmet,Category Member,Sports,0.66
+1530,large,major,Synonym,Business,0.91
+1531,cheap,affordable,Synonym,Technology,0.85
+1532,biology,cell,Related Concept,Science,0.63
+1533,algorithm,optimization,Related Concept,Technology,0.54
+1534,server,data center,Location,Technology,0.42
+1535,tennis,court,Location,Sports,0.55
+1536,enroll,register,Action,Education,0.6
+1537,marketing,advertising,Related Concept,Business,0.61
+1538,install,setup,Action,Technology,0.42
+1539,factory,warehouse,Location,Business,0.55
+1540,astronomy,galaxy,Related Concept,Science,0.5
+1541,cook,chef,Profession,Daily Life,0.53
+1542,factory,warehouse,Location,Business,0.54
+1543,sport,basketball,Category Member,Sports,0.62
+1544,desert,drought,Related Concept,Nature,0.5
+1545,physics,force,Related Concept,Science,0.5
+1546,equipment,gloves,Category Member,Sports,0.62
+1547,researcher,chemist,Profession,Science,0.42
+1548,offense,defense,Antonym,Sports,0.18
+1549,lab,microscope,Object,Science,0.42
+1550,kitchen,cooking,Related Concept,Daily Life,0.64
+1551,laptop,battery,Object,Technology,0.42
+1552,classroom,lecture,Related Concept,Education,0.47
+1553,buy,sell,Antonym,Business,0.28
+1554,commute,travel,Action,Daily Life,0.41
+1555,official,referee,Profession,Sports,0.45
+1556,soccer,ball,Object,Sports,0.54
+1557,researcher,scientist,Profession,Science,0.45
+1558,instrument,microscope,Category Member,Science,0.57
+1559,school,university,Category Member,Education,0.63
+1560,stable,unstable,Antonym,Science,0.27
+1561,strong,powerful,Synonym,Sports,0.8
+1562,deploy,launch,Action,Technology,0.58
+1563,data,information,Synonym,Science,0.91
+1564,cheap,affordable,Synonym,Business,0.88
+1565,friend,companion,Synonym,Daily Life,0.83
+1566,element,hydrogen,Category Member,Science,0.68
+1567,educator,professor,Profession,Education,0.46
+1568,grade,score,Synonym,Education,0.81
+1569,football,stadium,Location,Sports,0.52
+1570,friend,companion,Synonym,Daily Life,0.84
+1571,software,app,Category Member,Technology,0.52
+1572,kitchen,cooking,Related Concept,Daily Life,0.54
+1573,ocean,coral reef,Related Concept,Nature,0.6
+1574,river,ecosystem,Related Concept,Nature,0.52
+1575,device,smartphone,Category Member,Technology,0.59
+1576,bug,glitch,Synonym,Technology,0.92
+1577,offense,defense,Antonym,Sports,0.11
+1578,offense,defense,Antonym,Sports,0.22
+1579,tree,pine,Category Member,Nature,0.63
+1580,appliance,microwave,Category Member,Daily Life,0.54
+1581,forest,wildlife,Related Concept,Nature,0.49
+1582,large,huge,Synonym,Technology,0.83
+1583,running,track,Related Concept,Sports,0.6
+1584,developer,coder,Profession,Technology,0.44
+1585,grade,score,Synonym,Education,0.87
+1586,cheap,affordable,Synonym,Technology,0.84
+1587,park,neighborhood,Location,Daily Life,0.46
+1588,software,update,Related Concept,Technology,0.49
+1589,element,oxygen,Category Member,Science,0.66
+1590,grade,score,Synonym,Education,0.91
+1591,stable,unstable,Antonym,Science,0.19
+1592,study,review,Action,Education,0.41
+1593,database,query,Related Concept,Technology,0.49
+1594,negotiate,bargain,Action,Business,0.58
+1595,software,app,Category Member,Technology,0.69
+1596,exam,grading,Related Concept,Education,0.62
+1597,desert,drought,Related Concept,Nature,0.64
+1598,book,textbook,Synonym,Education,0.92
+1599,role,analyst,Category Member,Business,0.66
+1600,researcher,physicist,Profession,Science,0.46
+1601,team,squad,Synonym,Sports,0.86
+1602,win,lose,Antonym,Sports,0.26
+1603,library,reading room,Location,Education,0.5
+1604,profit,loss,Antonym,Business,0.27
+1605,forest,national park,Location,Nature,0.46
+1606,cheap,affordable,Synonym,Technology,0.89
+1607,employee,staff member,Profession,Business,0.46
+1608,library,reading room,Location,Education,0.47
+1609,laptop,battery,Object,Technology,0.43
+1610,planet,earth,Category Member,Science,0.56
+1611,chemistry,reaction,Related Concept,Science,0.47
+1612,hardware,monitor,Category Member,Technology,0.69
+1613,marketing,advertising,Related Concept,Business,0.46
+1614,accountant,spreadsheet,Object,Business,0.43
+1615,planet,mars,Category Member,Science,0.59
+1616,university,degree,Related Concept,Education,0.52
+1617,erode,wear,Action,Nature,0.4
+1618,cook,prepare,Action,Daily Life,0.59
+1619,desert,drought,Related Concept,Nature,0.51
+1620,hire,recruit,Action,Business,0.47
+1621,tree,pine,Category Member,Nature,0.54
+1622,market,town square,Location,Daily Life,0.55
+1623,offense,defense,Antonym,Sports,0.1
+1624,house,home,Synonym,Daily Life,0.81
+1625,algorithm,optimization,Related Concept,Technology,0.45
+1626,bloom,flower,Action,Nature,0.51
+1627,discovery,finding,Synonym,Science,0.92
+1628,ocean,coral reef,Related Concept,Nature,0.53
+1629,market,town square,Location,Daily Life,0.39
+1630,algorithm,optimization,Related Concept,Technology,0.46
+1631,hardware,monitor,Category Member,Technology,0.56
+1632,device,tablet,Category Member,Technology,0.6
+1633,accurate,inaccurate,Antonym,Science,0.22
+1634,bedroom,pillow,Object,Daily Life,0.45
+1635,store,retail outlet,Location,Business,0.45
+1636,relax,unwind,Action,Daily Life,0.46
+1637,educator,professor,Profession,Education,0.4
+1638,large,major,Synonym,Business,0.81
+1639,school,curriculum,Related Concept,Education,0.65
+1640,degree,bachelor's,Category Member,Education,0.6
+1641,swimming,pool,Location,Sports,0.53
+1642,install,setup,Action,Technology,0.51
+1643,tennis,racket,Object,Sports,0.4
+1644,database,query,Related Concept,Technology,0.61
+1645,grade,evaluate,Action,Education,0.54
+1646,analyst,data scientist,Profession,Technology,0.45
+1647,import,export,Antonym,Business,0.13
+1648,tennis,court,Location,Sports,0.36
+1649,fast,quick,Synonym,Sports,0.92
+1650,park,neighborhood,Location,Daily Life,0.42
+1651,astronomy,observatory,Location,Science,0.4
+1652,profit,earnings,Synonym,Business,0.85
+1653,accountant,spreadsheet,Object,Business,0.5
+1654,furniture,table,Category Member,Daily Life,0.54
+1655,enroll,register,Action,Education,0.53
+1656,hardware,monitor,Category Member,Technology,0.5
+1657,computer,laptop,Synonym,Technology,0.88
+1658,tree,pine,Category Member,Nature,0.51
+1659,negotiate,bargain,Action,Business,0.43
+1660,forest,wildlife,Related Concept,Nature,0.47
+1661,secure,vulnerable,Antonym,Technology,0.12
+1662,large,huge,Synonym,Technology,0.9
+1663,fast,quick,Synonym,Technology,0.81
+1664,bee,hive,Object,Nature,0.44
+1665,modern,outdated,Antonym,Technology,0.14
+1666,cleaner,housekeeper,Profession,Daily Life,0.43
+1667,swimming,pool,Location,Sports,0.52
+1668,garden,planting,Related Concept,Daily Life,0.46
+1669,bear,den,Object,Nature,0.45
+1670,element,oxygen,Category Member,Science,0.69
+1671,ranger,conservationist,Profession,Nature,0.57
+1672,friend,companion,Synonym,Daily Life,0.95
+1673,day,night,Antonym,Nature,0.25
+1674,forest,woodland,Synonym,Nature,0.86
+1675,hire,recruit,Action,Business,0.53
+1676,classroom,desk,Object,Education,0.53
+1677,market,town square,Location,Daily Life,0.38
+1678,desert,drought,Related Concept,Nature,0.61
+1679,device,tablet,Category Member,Technology,0.63
+1680,compete,play,Action,Sports,0.52
+1681,hypothesis,theory,Synonym,Science,0.84
+1682,department,marketing,Category Member,Business,0.54
+1683,hibernate,rest,Action,Nature,0.52
+1684,wild,tame,Antonym,Nature,0.18
+1685,coach,mentor,Action,Sports,0.41
+1686,migrate,travel,Action,Nature,0.49
+1687,computer,mouse,Object,Technology,0.39
+1688,lab,beaker,Object,Science,0.49
+1689,supply,demand,Antonym,Business,0.15
+1690,pass,fail,Antonym,Education,0.19
+1691,degree,master's,Category Member,Education,0.65
+1692,element,oxygen,Category Member,Science,0.51
+1693,victory,win,Synonym,Sports,0.87
+1694,public,private,Antonym,Technology,0.27
+1695,online,offline,Antonym,Technology,0.22
+1696,library,research,Related Concept,Education,0.58
+1697,official,umpire,Profession,Sports,0.56
+1698,profit,loss,Antonym,Business,0.29
+1699,client,customer,Synonym,Business,0.95
+1700,happy,glad,Synonym,Daily Life,0.95
+1701,public,private,Antonym,Education,0.15
+1702,teacher,chalkboard,Object,Education,0.45
+1703,university,degree,Related Concept,Education,0.53
+1704,ranger,conservationist,Profession,Nature,0.5
+1705,strong,weak,Antonym,Sports,0.15
+1706,counselor,advisor,Profession,Education,0.48
+1707,network,router,Related Concept,Technology,0.64
+1708,bear,den,Object,Nature,0.5
+1709,startup,tech hub,Location,Technology,0.52
+1710,element,oxygen,Category Member,Science,0.7
+1711,garden,planting,Related Concept,Daily Life,0.47
+1712,kitchen,stove,Object,Daily Life,0.35
+1713,secure,protected,Synonym,Technology,0.82
+1714,factory,warehouse,Location,Business,0.53
+1715,teacher,student,Antonym,Education,0.26
+1716,chemist,flask,Object,Science,0.54
+1717,science,laboratory,Location,Science,0.46
+1718,store,retail outlet,Location,Business,0.52
+1719,river,valley,Location,Nature,0.5
+1720,forest,woodland,Synonym,Nature,0.89
+1721,browser,tab,Related Concept,Technology,0.6
+1722,degree,bachelor's,Category Member,Education,0.57
+1723,house,home,Synonym,Daily Life,0.92
+1724,teacher,student,Antonym,Education,0.18
+1725,biology,field station,Location,Science,0.49
+1726,happy,glad,Synonym,Daily Life,0.81
+1727,kitchen,cooking,Related Concept,Daily Life,0.65
+1728,ranger,conservationist,Profession,Nature,0.59
+1729,win,lose,Antonym,Sports,0.15
+1730,geology,mineral,Related Concept,Science,0.61
+1731,mountain,range,Location,Nature,0.55
+1732,swimming,pool,Location,Sports,0.36
+1733,element,oxygen,Category Member,Science,0.64
+1734,role,manager,Category Member,Business,0.61
+1735,tree,oak,Category Member,Nature,0.64
+1736,bug,glitch,Synonym,Technology,0.9
+1737,role,manager,Category Member,Business,0.58
+1738,day,night,Antonym,Nature,0.1
+1739,software,update,Related Concept,Technology,0.64
+1740,animal,fox,Category Member,Nature,0.54
+1741,analyst,data scientist,Profession,Technology,0.52
+1742,instrument,telescope,Category Member,Science,0.54
+1743,physics,force,Related Concept,Science,0.61
+1744,animal,fox,Category Member,Nature,0.57
+1745,driver,commuter,Profession,Daily Life,0.48
+1746,import,export,Antonym,Business,0.11
+1747,measure,calculate,Action,Science,0.53
+1748,enroll,register,Action,Education,0.44
+1749,mountain,range,Location,Nature,0.49
+1750,day,night,Antonym,Nature,0.22
+1751,company,headquarters,Location,Business,0.45
+1752,student,backpack,Object,Education,0.44
+1753,classroom,desk,Object,Education,0.43
+1754,furniture,table,Category Member,Daily Life,0.62
+1755,instrument,telescope,Category Member,Science,0.7
+1756,measure,calculate,Action,Science,0.5
+1757,river,ecosystem,Related Concept,Nature,0.61
+1758,garden,planting,Related Concept,Daily Life,0.5
+1759,tree,pine,Category Member,Nature,0.68
+1760,accurate,precise,Synonym,Science,0.88
+1761,developer,programmer,Profession,Technology,0.42
+1762,store,retail outlet,Location,Business,0.36
+1763,kitchen,cooking,Related Concept,Daily Life,0.61
+1764,large,huge,Synonym,Technology,0.91
+1765,school,classroom,Location,Education,0.35
+1766,measure,calculate,Action,Science,0.45
+1767,library,research,Related Concept,Education,0.64
+1768,cyclist,bicycle,Object,Sports,0.48
+1769,strong,powerful,Synonym,Sports,0.82
+1770,class,lesson,Synonym,Education,0.85
+1771,factory,warehouse,Location,Business,0.36
+1772,buy,sell,Antonym,Business,0.25
+1773,ranger,conservationist,Profession,Nature,0.46
+1774,data,information,Synonym,Science,0.82
+1775,instrument,microscope,Category Member,Science,0.56
+1776,park,neighborhood,Location,Daily Life,0.5
+1777,secure,protected,Synonym,Technology,0.93
+1778,bathroom,mirror,Object,Daily Life,0.35
+1779,cloud,storage,Related Concept,Technology,0.49
+1780,accountant,spreadsheet,Object,Business,0.36
+1781,cook,chef,Profession,Daily Life,0.43
+1782,house,home,Synonym,Daily Life,0.83
+1783,university,degree,Related Concept,Education,0.49
+1784,role,manager,Category Member,Business,0.68
+1785,appliance,microwave,Category Member,Daily Life,0.67
+1786,migrate,travel,Action,Nature,0.52
+1787,software,update,Related Concept,Technology,0.54
+1788,swimming,pool,Related Concept,Sports,0.61
+1789,lab,research center,Location,Technology,0.44
+1790,buy,sell,Antonym,Business,0.1
+1791,invest,fund,Action,Business,0.4
+1792,cloud,storage,Related Concept,Technology,0.61
+1793,executive,director,Profession,Business,0.56
+1794,river,ecosystem,Related Concept,Nature,0.58
+1795,tennis,racket,Related Concept,Sports,0.46
+1796,planet,mars,Category Member,Science,0.65
+1797,bedroom,sleep,Related Concept,Daily Life,0.62
+1798,researcher,chemist,Profession,Science,0.57
+1799,phone,charger,Object,Technology,0.53
+1800,class,lesson,Synonym,Education,0.92
+1801,train,practice,Action,Sports,0.53
+1802,mountain,range,Location,Nature,0.35
+1803,teach,instruct,Action,Education,0.4
+1804,employee,staff member,Profession,Business,0.55
+1805,river,stream,Synonym,Nature,0.8
+1806,migrate,travel,Action,Nature,0.46
+1807,score,win,Action,Sports,0.52
+1808,university,degree,Related Concept,Education,0.64
+1809,network,internet,Synonym,Technology,0.84
+1810,wireless,wired,Antonym,Technology,0.27
+1811,kitchen,cooking,Related Concept,Daily Life,0.48
+1812,wet,dry,Antonym,Nature,0.13
+1813,software,update,Related Concept,Technology,0.59
+1814,profit,earnings,Synonym,Business,0.95
+1815,discovery,finding,Synonym,Science,0.84
+1816,river,valley,Location,Nature,0.47
+1817,coach,mentor,Action,Sports,0.6
+1818,online,offline,Antonym,Technology,0.28
+1819,cyclist,bicycle,Object,Sports,0.51
+1820,data,information,Synonym,Science,0.88
+1821,instrument,telescope,Category Member,Science,0.6
+1822,hot,cold,Antonym,Nature,0.12
+1823,counselor,advisor,Profession,Education,0.46
+1824,equipment,gloves,Category Member,Sports,0.6
+1825,startup,funding,Related Concept,Business,0.49
+1826,store,retail outlet,Location,Business,0.46
+1827,school,university,Category Member,Education,0.58
+1828,cloud,storage,Related Concept,Technology,0.52
+1829,technician,IT support,Profession,Technology,0.48
+1830,browser,tab,Related Concept,Technology,0.64
+1831,clean,tidy,Action,Daily Life,0.58
+1832,cheap,affordable,Synonym,Technology,0.95
+1833,educator,professor,Profession,Education,0.45
+1834,coach,trainer,Synonym,Sports,0.92
+1835,garden,planting,Related Concept,Daily Life,0.51
+1836,grade,score,Synonym,Education,0.95
+1837,kitchen,cooking,Related Concept,Daily Life,0.46
+1838,debug,fix,Action,Technology,0.53
+1839,wet,dry,Antonym,Nature,0.14
+1840,observe,record,Action,Science,0.43
+1841,astronomer,telescope,Object,Science,0.46
+1842,mountain,peak,Synonym,Nature,0.84
+1843,buy,sell,Antonym,Business,0.23
+1844,mountain,range,Location,Nature,0.5
+1845,geology,mineral,Related Concept,Science,0.59
+1846,gadget,smartwatch,Category Member,Technology,0.58
+1847,exam,test,Synonym,Education,0.82
+1848,forest,woodland,Synonym,Nature,0.85
+1849,offense,defense,Antonym,Sports,0.27
+1850,lab,research center,Location,Technology,0.47
+1851,animal,deer,Category Member,Nature,0.52
+1852,secure,protected,Synonym,Technology,0.86
+1853,boxer,gloves,Object,Sports,0.48
+1854,sport,soccer,Category Member,Sports,0.6
+1855,cloud,storage,Related Concept,Technology,0.45
+1856,element,hydrogen,Category Member,Science,0.66
+1857,fast,quick,Synonym,Sports,0.95
+1858,bird,nest,Object,Nature,0.41
+1859,clean,tidy,Action,Daily Life,0.56
+1860,furniture,table,Category Member,Daily Life,0.67
+1861,cleaner,housekeeper,Profession,Daily Life,0.57
+1862,teach,instruct,Action,Education,0.58
+1863,official,referee,Profession,Sports,0.44
+1864,researcher,scientist,Profession,Science,0.41
+1865,morning,evening,Antonym,Daily Life,0.23
+1866,deploy,launch,Action,Technology,0.57
+1867,university,degree,Related Concept,Education,0.63
+1868,clean,tidy,Action,Daily Life,0.46
+1869,soccer,ball,Object,Sports,0.5
+1870,study,review,Action,Education,0.4
+1871,public,private,Antonym,Technology,0.13
+1872,public,private,Antonym,Technology,0.18
+1873,naturalist,biologist,Profession,Nature,0.54
+1874,developer,coder,Profession,Technology,0.46
+1875,computer,keyboard,Object,Technology,0.53
+1876,exam,grading,Related Concept,Education,0.45
+1877,subject,mathematics,Category Member,Education,0.63
+1878,exam,test,Synonym,Education,0.92
+1879,victory,win,Synonym,Sports,0.83
+1880,ranger,conservationist,Profession,Nature,0.44
+1881,ocean,coral reef,Related Concept,Nature,0.46
+1882,tree,oak,Category Member,Nature,0.62
+1883,team,squad,Synonym,Sports,0.9
+1884,appliance,microwave,Category Member,Daily Life,0.51
+1885,erode,wear,Action,Nature,0.54
+1886,athlete,runner,Profession,Sports,0.55
+1887,market,town square,Location,Daily Life,0.51
+1888,executive,director,Profession,Business,0.51
+1889,awake,asleep,Antonym,Daily Life,0.19
+1890,hypothesis,theory,Synonym,Science,0.85
+1891,planet,earth,Category Member,Science,0.55
+1892,browser,tab,Related Concept,Technology,0.65
+1893,lab,microscope,Object,Science,0.37
+1894,server,data center,Location,Technology,0.53
+1895,import,export,Antonym,Business,0.22
+1896,gadget,smartwatch,Category Member,Technology,0.62
+1897,compile,build,Action,Technology,0.53
+1898,athlete,player,Profession,Sports,0.54
+1899,secure,vulnerable,Antonym,Technology,0.14
+1900,day,night,Antonym,Nature,0.23
+1901,hardware,keyboard,Category Member,Technology,0.53
+1902,river,ecosystem,Related Concept,Nature,0.64
+1903,appliance,microwave,Category Member,Daily Life,0.6
+1904,coach,trainer,Synonym,Sports,0.83
+1905,animal,deer,Category Member,Nature,0.59
+1906,phone,charger,Object,Technology,0.42
+1907,official,umpire,Profession,Sports,0.44
+1908,desert,drought,Related Concept,Nature,0.6
+1909,profit,earnings,Synonym,Business,0.8
+1910,observe,record,Action,Science,0.44
+1911,compete,play,Action,Sports,0.51
+1912,researcher,physicist,Profession,Science,0.6
+1913,swimming,pool,Location,Sports,0.47
+1914,network,internet,Synonym,Technology,0.89
+1915,cyclist,bicycle,Object,Sports,0.38
+1916,official,referee,Profession,Sports,0.41
+1917,computer,laptop,Synonym,Technology,0.91
+1918,hire,recruit,Action,Business,0.41
+1919,device,tablet,Category Member,Technology,0.57
+1920,boxer,gloves,Object,Sports,0.39
+1921,animal,fox,Category Member,Nature,0.61
+1922,lab,research center,Location,Technology,0.43
+1923,instrument,telescope,Category Member,Science,0.69
+1924,astronomy,galaxy,Related Concept,Science,0.63
+1925,computer,keyboard,Object,Technology,0.38
+1926,study,review,Action,Education,0.42
+1927,bedroom,pillow,Object,Daily Life,0.43
+1928,student,pupil,Synonym,Education,0.92
+1929,astronomy,observatory,Location,Science,0.5
+1930,forest,wildlife,Related Concept,Nature,0.61
+1931,accurate,inaccurate,Antonym,Science,0.24
+1932,computer,keyboard,Object,Technology,0.52
+1933,import,export,Antonym,Business,0.1
+1934,office,desk,Object,Business,0.53
+1935,install,setup,Action,Technology,0.48
+1936,athlete,runner,Profession,Sports,0.52
+1937,coach,mentor,Action,Sports,0.54
+1938,victory,win,Synonym,Sports,0.93
+1939,basketball,court,Related Concept,Sports,0.5
+1940,developer,coder,Profession,Technology,0.52
+1941,fast,slow,Antonym,Technology,0.13
+1942,fast,quick,Synonym,Technology,0.89
+1943,educator,professor,Profession,Education,0.5
+1944,role,analyst,Category Member,Business,0.51
+1945,athlete,runner,Profession,Sports,0.42
+1946,discovery,finding,Synonym,Science,0.81
+1947,study,review,Action,Education,0.52
+1948,network,internet,Synonym,Technology,0.8
+1949,fish,pond,Object,Nature,0.41
+1950,teacher,chalkboard,Object,Education,0.43
+1951,beginner,expert,Antonym,Education,0.27
+1952,profit,loss,Antonym,Business,0.26
+1953,river,valley,Location,Nature,0.45
+1954,astronomer,telescope,Object,Science,0.52
+1955,secure,protected,Synonym,Technology,0.89
+1956,smart,intelligent,Synonym,Technology,0.82
+1957,kitchen,stove,Object,Daily Life,0.46
+1958,software,app,Category Member,Technology,0.56
+1959,experiment,trial,Synonym,Science,0.83
+1960,study,review,Action,Education,0.51
+1961,lab,beaker,Object,Science,0.55
+1962,ranger,conservationist,Profession,Nature,0.42
+1963,astronomer,telescope,Object,Science,0.51
+1964,astronomy,galaxy,Related Concept,Science,0.6
+1965,debug,fix,Action,Technology,0.44
+1966,astronomy,observatory,Location,Science,0.41
+1967,bedroom,pillow,Object,Daily Life,0.51
+1968,stable,unstable,Antonym,Science,0.11
+1969,element,oxygen,Category Member,Science,0.6
+1970,organic,synthetic,Antonym,Science,0.23
+1971,swimming,pool,Related Concept,Sports,0.5
+1972,online,offline,Antonym,Technology,0.19
+1973,university,degree,Related Concept,Education,0.47
+1974,employee,staff member,Profession,Business,0.54
+1975,train,practice,Action,Sports,0.43
+1976,modern,outdated,Antonym,Technology,0.12
+1977,grade,score,Synonym,Education,0.94
+1978,wild,tame,Antonym,Nature,0.13
+1979,score,win,Action,Sports,0.53
+1980,train,practice,Action,Sports,0.58
+1981,wireless,wired,Antonym,Technology,0.14
+1982,student,pupil,Synonym,Education,0.93
+1983,browser,tab,Related Concept,Technology,0.48
+1984,hot,cold,Antonym,Nature,0.28
+1985,grade,evaluate,Action,Education,0.56
+1986,device,tablet,Category Member,Technology,0.55
+1987,tennis,racket,Related Concept,Sports,0.57
+1988,element,hydrogen,Category Member,Science,0.5
+1989,lab,beaker,Object,Science,0.54
+1990,basketball,court,Related Concept,Sports,0.48
+1991,data,information,Synonym,Science,0.84
+1992,lab,microscope,Object,Science,0.54
+1993,astronomer,telescope,Object,Science,0.53
+1994,victory,win,Synonym,Sports,0.81
+1995,cook,chef,Profession,Daily Life,0.49
+1996,beginner,expert,Antonym,Education,0.14
+1997,classroom,lecture,Related Concept,Education,0.5
+1998,degree,master's,Category Member,Education,0.62
+1999,invest,fund,Action,Business,0.58
+2000,bear,den,Object,Nature,0.37
