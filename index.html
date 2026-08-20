@@ -1,0 +1,1682 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Signal Lab — Neural Network Playground</title>
+<style>
+:root{
+  --bg:#0a0e14; --panel:#10141c; --panel-2:#161b26; --panel-3:#1c2230;
+  --border:#232938; --border-soft:#1a2030;
+  --text:#e6e9f0; --text-dim:#8a93a6; --text-faint:#5c6478;
+  --accent:#6ea8fe; --accent-dim:#3d5a99;
+  --pos:#2dd4bf; --pos-soft:rgba(45,212,191,0.18);
+  --neg:#ff6b5b; --neg-soft:rgba(255,107,91,0.18);
+  --warn:#ffb84d;
+  --neutral-rgb:16,20,28;
+  --pos-rgb:45,212,191;
+  --neg-rgb:255,107,91;
+  --radius:8px;
+  --mono: 'JetBrains Mono', 'SF Mono', Consolas, monospace;
+  --sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --shadow: 0 1px 2px rgba(0,0,0,0.4);
+}
+html[data-theme="light"]{
+  --bg:#f3f4f7; --panel:#ffffff; --panel-2:#f6f7fa; --panel-3:#eceef3;
+  --border:#dde1e8; --border-soft:#e7e9ee;
+  --text:#151922; --text-dim:#5b6270; --text-faint:#9aa1b0;
+  --accent:#2f6fed; --accent-dim:#b7ccfb;
+  --pos:#0f9d86; --pos-soft:rgba(15,157,134,0.12);
+  --neg:#d84c3a; --neg-soft:rgba(216,76,58,0.12);
+  --warn:#c47b12;
+  --neutral-rgb:255,255,255;
+  --pos-rgb:15,157,134;
+  --neg-rgb:216,76,58;
+  --shadow: 0 1px 3px rgba(30,40,60,0.12);
+}
+*{box-sizing:border-box;}
+html,body{margin:0;padding:0;height:100%;}
+body{
+  background:var(--bg); color:var(--text); font-family:var(--sans);
+  font-size:13px; line-height:1.4; -webkit-font-smoothing:antialiased;
+  display:flex; flex-direction:column; height:100vh; overflow:hidden;
+}
+::selection{background:var(--accent-dim);}
+button, select, input{ font-family:var(--sans); color:var(--text); }
+button{ cursor:pointer; }
+::-webkit-scrollbar{ width:8px; height:8px; }
+::-webkit-scrollbar-thumb{ background:var(--border); border-radius:4px; }
+::-webkit-scrollbar-track{ background:transparent; }
+
+/* ---------- Header ---------- */
+header.topbar{
+  display:flex; align-items:center; gap:14px;
+  padding:8px 16px; background:var(--panel); border-bottom:1px solid var(--border);
+  flex-wrap:wrap; z-index:20;
+}
+.brand{ display:flex; align-items:center; gap:8px; margin-right:6px; }
+.brand .mark{
+  width:22px; height:22px; border-radius:5px;
+  background:linear-gradient(135deg, var(--pos), var(--neg));
+  display:flex; align-items:center; justify-content:center; flex-shrink:0;
+}
+.brand .mark svg{ width:14px; height:14px; }
+.brand-text{ font-weight:700; letter-spacing:0.2px; font-size:14.5px; white-space:nowrap; }
+.brand-text small{ display:block; font-weight:400; font-size:9.5px; color:var(--text-faint); letter-spacing:1.2px; text-transform:uppercase; margin-top:-1px;}
+
+.ctrl-group{ display:flex; align-items:center; gap:6px; padding:0 10px; border-left:1px solid var(--border-soft); }
+.ctrl-group:first-of-type{ border-left:1px solid var(--border-soft); }
+.ctrl-group label{ font-size:10.5px; color:var(--text-dim); text-transform:uppercase; letter-spacing:0.6px; white-space:nowrap; }
+
+.iconbtn{
+  width:30px; height:30px; border-radius:6px; border:1px solid var(--border);
+  background:var(--panel-2); display:flex; align-items:center; justify-content:center;
+  transition:background .12s, border-color .12s; flex-shrink:0;
+}
+.iconbtn:hover{ background:var(--panel-3); border-color:var(--accent-dim); }
+.iconbtn svg{ width:15px; height:15px; stroke:var(--text); fill:none; }
+.iconbtn.primary{ background:var(--accent); border-color:var(--accent); }
+.iconbtn.primary svg{ stroke:#fff; fill:#fff; }
+.iconbtn.primary:hover{ filter:brightness(1.08); }
+.iconbtn.running{ background:var(--neg); border-color:var(--neg); }
+.iconbtn.running svg{ stroke:#fff; fill:#fff; }
+
+select, .num-input{
+  background:var(--panel-2); border:1px solid var(--border); color:var(--text);
+  border-radius:6px; padding:4px 6px; font-size:12px; font-family:var(--mono);
+}
+select:hover, .num-input:hover{ border-color:var(--accent-dim); }
+.num-input{ width:56px; }
+
+.epoch-badge{
+  font-family:var(--mono); font-size:12px; color:var(--text-dim);
+  background:var(--panel-2); border:1px solid var(--border); border-radius:6px;
+  padding:5px 10px; min-width:96px; text-align:center;
+}
+.epoch-badge b{ color:var(--text); font-weight:600; }
+
+.spacer{ flex:1; }
+.topbtn{
+  display:flex; align-items:center; gap:6px; padding:6px 11px; border-radius:6px;
+  border:1px solid var(--border); background:var(--panel-2); font-size:12px; font-weight:500;
+}
+.topbtn:hover{ border-color:var(--accent-dim); background:var(--panel-3); }
+.topbtn svg{ width:13px; height:13px; stroke:currentColor; fill:none; }
+
+/* ---------- Layout ---------- */
+.app{
+  flex:1; display:grid; grid-template-columns: 250px 1fr 360px; gap:1px;
+  background:var(--border); overflow:hidden;
+}
+.panel{ background:var(--bg); overflow-y:auto; overflow-x:hidden; padding:14px; }
+.panel-title{
+  font-size:10.5px; text-transform:uppercase; letter-spacing:1.2px; color:var(--text-faint);
+  font-weight:700; margin:0 0 10px 0; display:flex; align-items:center; gap:6px;
+}
+.panel-title .n{ font-family:var(--mono); background:var(--panel-2); color:var(--text-dim); border-radius:4px; padding:1px 6px; font-size:10px; }
+
+.card{ background:var(--panel); border:1px solid var(--border); border-radius:var(--radius); padding:12px; margin-bottom:12px; }
+.card h3{ margin:0 0 8px 0; font-size:11.5px; text-transform:uppercase; letter-spacing:0.8px; color:var(--text-dim); font-weight:700;}
+
+/* ---------- Data panel ---------- */
+.ds-grid{ display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-bottom:10px;}
+.ds-btn{
+  border:1px solid var(--border); background:var(--panel-2); border-radius:7px;
+  padding:8px 4px 6px; display:flex; flex-direction:column; align-items:center; gap:4px;
+  transition:all .12s;
+}
+.ds-btn canvas{ width:56px; height:56px; border-radius:4px; }
+.ds-btn span{ font-size:10px; color:var(--text-dim); }
+.ds-btn:hover{ border-color:var(--accent-dim); }
+.ds-btn.active{ border-color:var(--accent); background:var(--panel-3); box-shadow:0 0 0 1px var(--accent) inset; }
+.ds-btn.active span{ color:var(--text); font-weight:600; }
+
+.slider-row{ margin-bottom:10px; }
+.slider-row .lbl{ display:flex; justify-content:space-between; font-size:11px; color:var(--text-dim); margin-bottom:3px; }
+.slider-row .lbl b{ color:var(--text); font-family:var(--mono); font-weight:600; }
+input[type=range]{ width:100%; accent-color:var(--accent); height:16px; }
+
+.seg{ display:flex; border:1px solid var(--border); border-radius:6px; overflow:hidden; }
+.seg button{ flex:1; padding:6px 4px; background:var(--panel-2); border:none; font-size:11px; color:var(--text-dim); border-right:1px solid var(--border); }
+.seg button:last-child{ border-right:none; }
+.seg button.active{ background:var(--accent); color:#fff; font-weight:600; }
+
+.mini-btn{ font-size:11px; padding:6px 8px; border-radius:6px; border:1px solid var(--border); background:var(--panel-2); color:var(--text-dim); width:100%; margin-top:6px;}
+.mini-btn:hover{ border-color:var(--accent-dim); color:var(--text); }
+
+textarea#csvPaste{
+  width:100%; height:70px; background:var(--panel-2); border:1px solid var(--border); border-radius:6px;
+  color:var(--text); font-family:var(--mono); font-size:10.5px; padding:6px; resize:vertical;
+}
+.hint{ font-size:10px; color:var(--text-faint); margin-top:5px; line-height:1.5; }
+.file-row{ display:flex; gap:6px; margin-top:6px; }
+.file-row label{ flex:1; text-align:center; font-size:11px; padding:6px; border:1px dashed var(--border); border-radius:6px; color:var(--text-dim); }
+.file-row label:hover{ border-color:var(--accent-dim); color:var(--text); }
+.file-row input[type=file]{ display:none; }
+
+/* ---------- Network panel ---------- */
+.network-panel{ display:flex; flex-direction:column; padding:0; overflow:hidden; }
+.net-toolbar{
+  display:flex; align-items:center; gap:10px; padding:10px 16px; border-bottom:1px solid var(--border);
+  background:var(--panel); flex-wrap:wrap;
+}
+.feat-list{ display:flex; flex-wrap:wrap; gap:5px; }
+.feat-chip{
+  display:flex; align-items:center; gap:5px; padding:4px 8px; border-radius:14px; border:1px solid var(--border);
+  background:var(--panel-2); font-family:var(--mono); font-size:11px; color:var(--text-dim); user-select:none;
+}
+.feat-chip input{ accent-color:var(--accent); }
+.feat-chip.on{ border-color:var(--accent-dim); color:var(--text); background:var(--panel-3); }
+.feat-chip.locked{ opacity:.85; }
+
+.net-canvas-wrap{ flex:1; position:relative; overflow:auto; background:
+  radial-gradient(circle at 1px 1px, var(--border-soft) 1px, transparent 0) 0 0/16px 16px, var(--bg);
+}
+#netStage{ position:relative; min-height:100%; min-width:100%; display:flex; align-items:stretch; padding:24px 16px; gap:0; }
+svg#linkSvg{ position:absolute; top:0; left:0; width:100%; height:100%; pointer-events:none; overflow:visible; }
+
+.layer-col{ display:flex; flex-direction:column; align-items:center; min-width:118px; padding:0 10px; position:relative; }
+.layer-col.io{ min-width:100px; }
+.layer-head{ text-align:center; margin-bottom:10px; width:100%; }
+.layer-head .lname{ font-size:10px; text-transform:uppercase; letter-spacing:0.8px; color:var(--text-faint); font-weight:700; margin-bottom:4px;}
+.layer-controls{ display:flex; flex-direction:column; gap:4px; background:var(--panel); border:1px solid var(--border); border-radius:7px; padding:6px; margin-bottom:8px; }
+.layer-controls select{ width:100%; font-size:10.5px; padding:3px 4px; }
+.layer-controls .row2{ display:flex; gap:4px; }
+.layer-controls .row2 select, .layer-controls .row2 input{ flex:1; min-width:0; font-size:10px; padding:3px; }
+.layer-controls .reg-row{ display:flex; gap:4px; align-items:center; }
+.layer-controls .dz-row{ display:flex; align-items:center; gap:4px; }
+.layer-controls .dz-row span{ font-size:9.5px; color:var(--text-faint); font-family:var(--mono); min-width:26px; text-align:right;}
+.layer-controls input[type=range]{ height:12px; }
+.layer-mini-btns{ display:flex; gap:3px; }
+.layer-mini-btns button{ flex:1; font-size:12px; padding:2px 0; border-radius:4px; border:1px solid var(--border); background:var(--panel-2); color:var(--text-dim); }
+.layer-mini-btns button:hover{ border-color:var(--accent-dim); color:var(--text); }
+.layer-mini-btns button.danger:hover{ border-color:var(--neg); color:var(--neg); }
+
+.neuron-stack{ display:flex; flex-direction:column; gap:8px; align-items:center; }
+.neuron{
+  width:38px; height:38px; border-radius:8px; border:1.5px solid var(--border);
+  background:var(--panel-2); position:relative; display:flex; align-items:center; justify-content:center;
+  cursor:pointer; transition:border-color .1s, transform .1s;
+}
+.neuron:hover{ border-color:var(--accent); transform:scale(1.06); z-index:5; }
+.neuron canvas{ width:100%; height:100%; border-radius:6px; }
+.neuron .neuron-label{ position:absolute; inset:0; display:flex; align-items:center; justify-content:center; font-family:var(--mono); font-size:9px; color:var(--text-dim); background:var(--panel-2); border-radius:6px; }
+.neuron.io-node .neuron-label{ background:transparent; color:var(--text); font-weight:600; font-size:10px;}
+.neuron-remove{
+  position:absolute; top:-6px; right:-6px; width:15px; height:15px; border-radius:50%;
+  background:var(--panel-3); border:1px solid var(--border); color:var(--text-faint); font-size:10px;
+  display:none; align-items:center; justify-content:center; line-height:1;
+}
+.neuron:hover .neuron-remove{ display:flex; }
+.neuron-remove:hover{ color:var(--neg); border-color:var(--neg); }
+
+.add-neuron-btn{
+  width:38px; height:22px; border-radius:6px; border:1px dashed var(--border); color:var(--text-faint);
+  background:transparent; font-size:13px; display:flex; align-items:center; justify-content:center;
+}
+.add-neuron-btn:hover{ border-color:var(--accent); color:var(--accent); }
+
+.add-layer-col{ display:flex; align-items:center; justify-content:center; min-width:60px; }
+.add-layer-btn{
+  width:34px; height:34px; border-radius:50%; border:1px dashed var(--border); color:var(--text-faint);
+  background:var(--panel); font-size:16px; display:flex; align-items:center; justify-content:center; align-self:center;
+  margin-top:60px;
+}
+.add-layer-btn:hover{ border-color:var(--accent); color:var(--accent); background:var(--panel-2); }
+
+/* ---------- Output panel ---------- */
+.legend-row{ display:flex; align-items:center; justify-content:center; gap:8px; margin-top:6px; }
+.legend-bar{ width:150px; height:10px; border-radius:5px; background:linear-gradient(90deg, var(--neg), rgba(var(--neutral-rgb),1), var(--pos)); border:1px solid var(--border); }
+.legend-row span{ font-size:9.5px; color:var(--text-faint); font-family:var(--mono); }
+
+#outputCanvas, #lossCanvas{ width:100%; display:block; border-radius:7px; background:rgba(var(--neutral-rgb),1); border:1px solid var(--border); }
+
+.metrics-grid{ display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-top:10px; }
+.metric-box{ background:var(--panel-2); border:1px solid var(--border); border-radius:7px; padding:8px 10px; }
+.metric-box .mv{ font-family:var(--mono); font-size:17px; font-weight:700; color:var(--text); }
+.metric-box .ml{ font-size:9.5px; color:var(--text-faint); text-transform:uppercase; letter-spacing:0.6px; margin-top:2px;}
+.metric-box.pos .mv{ color:var(--pos); }
+
+table.confusion{ width:100%; border-collapse:collapse; margin-top:8px; font-family:var(--mono); font-size:10.5px; }
+table.confusion th, table.confusion td{ border:1px solid var(--border); text-align:center; padding:5px 3px; }
+table.confusion th{ background:var(--panel-2); color:var(--text-dim); font-weight:600; font-size:9.5px;}
+table.confusion td.hit{ background:var(--pos-soft); color:var(--pos); font-weight:700;}
+table.confusion td.miss{ background:var(--neg-soft); color:var(--neg); font-weight:700;}
+
+/* ---------- Tooltip ---------- */
+#tooltip{
+  position:fixed; pointer-events:none; background:var(--panel-3); border:1px solid var(--border);
+  border-radius:6px; padding:6px 9px; font-family:var(--mono); font-size:11px; color:var(--text);
+  box-shadow:var(--shadow); z-index:200; display:none; white-space:pre; max-width:220px;
+}
+
+/* ---------- Toast ---------- */
+#toast{
+  position:fixed; bottom:18px; left:50%; transform:translateX(-50%) translateY(12px);
+  background:var(--panel-3); border:1px solid var(--border); color:var(--text); padding:9px 16px;
+  border-radius:8px; font-size:12px; box-shadow:0 4px 20px rgba(0,0,0,0.3); z-index:300;
+  opacity:0; transition:opacity .2s, transform .2s; pointer-events:none;
+}
+#toast.show{ opacity:1; transform:translateX(-50%) translateY(0); }
+
+/* ---------- Modal ---------- */
+.modal-overlay{
+  position:fixed; inset:0; background:rgba(0,0,0,0.55); display:none; align-items:center; justify-content:center; z-index:400;
+}
+.modal-overlay.show{ display:flex; }
+.modal{ background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:20px; width:440px; max-width:92vw; max-height:85vh; overflow:auto; box-shadow:0 20px 60px rgba(0,0,0,0.4);}
+.modal h2{ margin:0 0 4px; font-size:15px; }
+.modal p.sub{ margin:0 0 14px; color:var(--text-dim); font-size:11.5px; }
+.modal pre{ background:var(--panel-2); border:1px solid var(--border); border-radius:6px; padding:10px; font-size:10px; max-height:260px; overflow:auto; }
+.modal-actions{ display:flex; justify-content:flex-end; gap:8px; margin-top:14px; }
+
+@media (max-width:1150px){
+  .app{ grid-template-columns:1fr; grid-auto-rows:min-content; overflow-y:auto; }
+  .panel{ overflow:visible; }
+  .network-panel{ min-height:520px; }
+}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <div class="mark"><svg viewBox="0 0 24 24"><circle cx="6" cy="6" r="2.4" fill="#fff"/><circle cx="6" cy="18" r="2.4" fill="#fff"/><circle cx="18" cy="12" r="2.4" fill="#fff"/><line x1="6" y1="6" x2="18" y2="12" stroke="#fff" stroke-width="1.6"/><line x1="6" y1="18" x2="18" y2="12" stroke="#fff" stroke-width="1.6"/></svg></div>
+    <div class="brand-text">Signal Lab<small>Neural Network Playground</small></div>
+  </div>
+
+  <div class="ctrl-group">
+    <button class="iconbtn primary" id="btnPlay" title="Play / Pause (Space)">
+      <svg id="playIcon" viewBox="0 0 24 24"><polygon points="6,4 20,12 6,20" fill="currentColor" stroke="none"/></svg>
+    </button>
+    <button class="iconbtn" id="btnStep" title="Single step">
+      <svg viewBox="0 0 24 24"><path d="M6 4v16l9-8z" fill="currentColor" stroke="none"/><line x1="18" y1="4" x2="18" y2="20"/></svg>
+    </button>
+    <button class="iconbtn" id="btnReset" title="Reset training">
+      <svg viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 3-6.7"/><polyline points="3 3 3 8 8 8"/></svg>
+    </button>
+    <div class="epoch-badge">Epoch <b id="epochVal">0</b></div>
+  </div>
+
+  <div class="ctrl-group">
+    <label>Speed</label>
+    <input type="range" id="speedSlider" min="1" max="20" value="6" style="width:70px">
+  </div>
+
+  <div class="ctrl-group">
+    <label>Rate</label>
+    <select id="lrSelect">
+      <option value="0.0005">0.0005</option><option value="0.001">0.001</option>
+      <option value="0.003" selected>0.003</option><option value="0.01">0.01</option>
+      <option value="0.03">0.03</option><option value="0.1">0.1</option><option value="0.3">0.3</option><option value="1">1</option>
+    </select>
+  </div>
+
+  <div class="ctrl-group">
+    <label>Optimizer</label>
+    <select id="optSelect">
+      <option value="sgd">SGD</option>
+      <option value="momentum" selected>Momentum</option>
+      <option value="adam">Adam</option>
+    </select>
+  </div>
+
+  <div class="ctrl-group">
+    <label>Batch</label>
+    <input type="number" class="num-input" id="batchInput" value="10" min="1" max="64">
+  </div>
+
+  <div class="ctrl-group">
+    <label>Problem</label>
+    <select id="problemSelect">
+      <option value="classification">Classification</option>
+      <option value="regression">Regression</option>
+    </select>
+  </div>
+
+  <div class="spacer"></div>
+
+  <button class="topbtn" id="btnExport">
+    <svg viewBox="0 0 24 24"><path d="M12 3v12"/><polyline points="7 10 12 15 17 10"/><path d="M4 21h16"/></svg>
+    Export JSON
+  </button>
+  <button class="topbtn" id="btnTheme">
+    <svg id="themeIcon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+    <span id="themeLabel">Light</span>
+  </button>
+</header>
+
+<div class="app">
+  <!-- DATA PANEL -->
+  <aside class="panel data-panel">
+    <div class="panel-title">Dataset</div>
+    <div class="ds-grid" id="dsGrid"></div>
+
+    <div class="slider-row">
+      <div class="lbl"><span>Noise</span><b id="noiseVal">10</b></div>
+      <input type="range" id="noiseSlider" min="0" max="50" value="10">
+    </div>
+    <div class="slider-row">
+      <div class="lbl"><span>Train / Test split</span><b id="ratioVal">80%</b></div>
+      <input type="range" id="ratioSlider" min="10" max="90" value="80">
+    </div>
+    <div class="slider-row">
+      <div class="lbl"><span>Samples</span><b id="samplesVal">240</b></div>
+      <input type="range" id="samplesSlider" min="40" max="500" value="240" step="10">
+    </div>
+    <button class="mini-btn" id="btnRegen">↻ Regenerate data</button>
+
+    <div class="card" style="margin-top:14px;">
+      <h3>Custom data</h3>
+      <div class="hint">Paste or upload CSV: <b>x1,x2,label</b> per row (label optional header row ok). Labels of ±1/0/1 → classification, else regression.</div>
+      <textarea id="csvPaste" placeholder="0.12,-0.45,1&#10;-0.3,0.8,-1&#10;..."></textarea>
+      <div class="file-row">
+        <label>Upload .csv<input type="file" id="csvFile" accept=".csv,text/csv"></label>
+        <button class="mini-btn" id="btnUseCsv" style="margin-top:0;">Use pasted data</button>
+      </div>
+    </div>
+
+    <div class="panel-title" style="margin-top:16px;">Data preview</div>
+    <canvas id="previewCanvas" width="220" height="220" style="width:100%;border-radius:8px;border:1px solid var(--border);background:rgba(var(--neutral-rgb),1);"></canvas>
+  </aside>
+
+  <!-- NETWORK PANEL -->
+  <main class="panel network-panel">
+    <div class="net-toolbar">
+      <div class="panel-title" style="margin:0;">Features</div>
+      <div class="feat-list" id="featList"></div>
+      <div class="spacer"></div>
+      <div class="panel-title" style="margin:0;">Default new-layer reg.</div>
+      <select id="defRegType" style="font-size:11px;">
+        <option value="none">None</option><option value="L1">L1</option><option value="L2" selected>L2</option>
+      </select>
+      <input type="number" id="defRegRate" class="num-input" value="0" step="0.001" min="0" style="width:64px;" title="Default regularization rate">
+    </div>
+    <div class="net-canvas-wrap">
+      <div id="netStage"></div>
+    </div>
+  </main>
+
+  <!-- OUTPUT PANEL -->
+  <aside class="panel output-panel">
+    <div class="panel-title">Output <span class="n" id="outputDims">1D</span></div>
+    <canvas id="outputCanvas" width="320" height="320"></canvas>
+    <div class="legend-row"><span id="legMin">−1</span><div class="legend-bar"></div><span id="legMax">+1</span></div>
+
+    <div class="panel-title" style="margin-top:16px;">Loss</div>
+    <canvas id="lossCanvas" width="320" height="120"></canvas>
+    <div class="legend-row" style="gap:16px;">
+      <span style="color:var(--accent);">■ train</span>
+      <span style="color:var(--neg);">■ test</span>
+    </div>
+
+    <div class="panel-title" style="margin-top:16px;">Metrics</div>
+    <div class="metrics-grid" id="metricsGrid"></div>
+    <div id="confusionWrap"></div>
+
+    <div class="panel-title" style="margin-top:16px;">Network summary</div>
+    <div class="card" id="summaryCard" style="font-family:var(--mono); font-size:11px; color:var(--text-dim); line-height:1.7;"></div>
+  </aside>
+</div>
+
+<div id="tooltip"></div>
+<div id="toast"></div>
+
+<div class="modal-overlay" id="exportModal">
+  <div class="modal">
+    <h2>Export model</h2>
+    <p class="sub">Architecture, hyperparameters and trained weights as JSON.</p>
+    <pre id="exportPre"></pre>
+    <div class="modal-actions">
+      <button class="mini-btn" id="btnCopyJson" style="width:auto;">Copy</button>
+      <button class="topbtn" id="btnDownloadJson">Download .json</button>
+      <button class="mini-btn" id="btnCloseModal" style="width:auto;">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+"use strict";
+
+/* ======================================================================
+   1. ACTIVATIONS / REGULARIZATIONS
+   ====================================================================== */
+const Activations = {
+  relu:      { name:'ReLU',       output:x=>Math.max(0,x),                 der:x=>x<=0?0:1 },
+  tanh:      { name:'Tanh',       output:x=>Math.tanh(x),                  der:x=>{const t=Math.tanh(x); return 1-t*t;} },
+  sigmoid:   { name:'Sigmoid',    output:x=>1/(1+Math.exp(-x)),            der:x=>{const s=1/(1+Math.exp(-x)); return s*(1-s);} },
+  linear:    { name:'Linear',     output:x=>x,                             der:x=>1 },
+  leakyrelu: { name:'Leaky ReLU', output:x=>x>0?x:0.01*x,                  der:x=>x>0?1:0.01 },
+  swish:     { name:'Swish',      output:x=>x/(1+Math.exp(-x)),            der:x=>{const s=1/(1+Math.exp(-x)); return s+x*s*(1-s);} }
+};
+const Regularizations = {
+  none:{ name:'None', der:w=>0 },
+  L1:  { name:'L1',   der:w=>(w<0?-1:(w>0?1:0)) },
+  L2:  { name:'L2',   der:w=>w }
+};
+
+/* ======================================================================
+   2. NETWORK ENGINE  (Node / Link / build / forward / back / update)
+   ====================================================================== */
+let uidCounter = 0;
+class Node{
+  constructor(id, activation){
+    this.id = id;
+    this.activation = activation;
+    this.inputLinks = [];
+    this.outputLinks = [];
+    this.bias = (Math.random()-0.5)*0.5;
+    this.totalInput = 0;
+    this.output = 0;
+    this.outputDer = 0;
+    this.inputDer = 0;
+    this.accInputDer = 0;
+    this.numAccDers = 0;
+    this.biasM = 0; this.biasV = 0;
+    this.dropped = false;
+    this.gridOut = null; // Float32Array for heatmap
+  }
+  updateOutput(){
+    this.totalInput = this.bias;
+    for(const l of this.inputLinks) this.totalInput += l.weight * l.source.output;
+    this.output = this.activation.output(this.totalInput);
+    return this.output;
+  }
+}
+class Link{
+  constructor(source, dest, regType){
+    this.id = 'L'+(uidCounter++);
+    this.source = source; this.dest = dest;
+    const fanIn = Math.max(1, dest.inputLinks ? dest.inputLinks.length+1 : 1);
+    this.weight = (Math.random()-0.5) * 2 / Math.sqrt(fanIn+1);
+    this.regType = regType || 'none';
+    this.errorDer = 0; this.accErrorDer = 0; this.numAccDers = 0;
+    this.m = 0; this.v = 0;
+  }
+}
+
+let network = [];       // array of layers, each an array of Node
+let inputFeatureKeys = []; // ordered list of active feature keys (layer 0 order)
+let adamT = 0;
+
+function buildNetwork(){
+  network = [];
+  adamT = 0;
+  inputFeatureKeys = getActiveFeatureKeys();
+
+  // input layer
+  const inputLayer = inputFeatureKeys.map(k => new Node('in_'+k, Activations.linear));
+  network.push(inputLayer);
+
+  // hidden layers
+  for(let li=0; li<state.layers.length; li++){
+    const cfg = state.layers[li];
+    const act = Activations[cfg.activation];
+    const layerNodes = [];
+    for(let ni=0; ni<cfg.size; ni++){
+      layerNodes.push(new Node('h'+li+'_'+ni, act));
+    }
+    const prevLayer = network[network.length-1];
+    for(const dest of layerNodes){
+      for(const src of prevLayer){
+        const link = new Link(src, dest, cfg.regType);
+        dest.inputLinks.push(link);
+        src.outputLinks.push(link);
+      }
+    }
+    network.push(layerNodes);
+  }
+
+  // output layer
+  const outAct = state.problemType === 'classification' ? Activations.tanh : Activations.linear;
+  const outputLayer = [ new Node('out_0', outAct) ];
+  const prevLayer = network[network.length-1];
+  for(const src of prevLayer){
+    const link = new Link(src, outputLayer[0], 'none');
+    outputLayer[0].inputLinks.push(link);
+    src.outputLinks.push(link);
+  }
+  network.push(outputLayer);
+
+  state.epoch = 0; state.iter = 0; state.lossHistory = [];
+  renderNetworkGraph();
+  scheduleHeavyUpdate(true);
+}
+
+function forwardProp(featureVec, training){
+  const inputLayer = network[0];
+  for(let i=0;i<inputLayer.length;i++) inputLayer[i].output = featureVec[i];
+  for(let li=1; li<network.length; li++){
+    const layer = network[li];
+    const isHidden = li < network.length-1;
+    const dropoutRate = isHidden ? (state.layers[li-1] ? state.layers[li-1].dropout : 0) : 0;
+    for(const node of layer){
+      node.updateOutput();
+      if(training && isHidden && dropoutRate>0){
+        if(Math.random() < dropoutRate){ node.output = 0; node.dropped = true; }
+        else { node.output = node.output/(1-dropoutRate); node.dropped=false; }
+      } else node.dropped = false;
+    }
+  }
+  return network[network.length-1][0].output;
+}
+
+function backProp(target){
+  const outNode = network[network.length-1][0];
+  outNode.outputDer = 2*(outNode.output - target);
+  for(let li=network.length-1; li>=1; li--){
+    const layer = network[li];
+    for(const node of layer){
+      if(node.dropped){ node.inputDer = 0; continue; }
+      node.inputDer = node.outputDer * node.activation.der(node.totalInput);
+      node.accInputDer += node.inputDer;
+      node.numAccDers++;
+    }
+    for(const node of layer){
+      for(const link of node.inputLinks){
+        if(node.dropped) continue;
+        link.errorDer = node.inputDer * link.source.output;
+        link.accErrorDer += link.errorDer;
+        link.numAccDers++;
+      }
+    }
+    if(li===1) continue;
+    const prevLayer = network[li-1];
+    for(const node of prevLayer){
+      let sum=0;
+      for(const link of node.outputLinks) sum += link.weight*link.dest.inputDer;
+      node.outputDer = sum;
+    }
+  }
+}
+
+function applyOptimizerStep(getGrad, getW, setW, getM,setM,getV,setV, lr){
+  const grad = getGrad();
+  if(state.optimizer==='sgd'){
+    setW(getW() - lr*grad);
+  } else if(state.optimizer==='momentum'){
+    const m = 0.9*getM() - lr*grad;
+    setM(m); setW(getW()+m);
+  } else { // adam
+    const beta1=0.9, beta2=0.999, eps=1e-8;
+    const m = beta1*getM() + (1-beta1)*grad;
+    const v = beta2*getV() + (1-beta2)*grad*grad;
+    setM(m); setV(v);
+    const mh = m/(1-Math.pow(beta1,adamT));
+    const vh = v/(1-Math.pow(beta2,adamT));
+    setW(getW() - lr*mh/(Math.sqrt(vh)+eps));
+  }
+}
+
+function updateWeights(){
+  const lr = state.learningRate;
+  adamT++;
+  for(let li=1; li<network.length; li++){
+    const layer = network[li];
+    const regRate = li<network.length-1 && state.layers[li-1] ? state.layers[li-1].regRate : 0;
+    for(const node of layer){
+      if(node.numAccDers>0){
+        const grad = node.accInputDer/node.numAccDers;
+        applyOptimizerStep(
+          ()=>grad, ()=>node.bias, v=>node.bias=v,
+          ()=>node.biasM, v=>node.biasM=v, ()=>node.biasV, v=>node.biasV=v, lr);
+        node.accInputDer=0; node.numAccDers=0;
+      }
+      for(const link of node.inputLinks){
+        if(link.numAccDers>0){
+          const regType = Regularizations[link.regType] || Regularizations.none;
+          const grad = link.accErrorDer/link.numAccDers + regRate*regType.der(link.weight);
+          applyOptimizerStep(
+            ()=>grad, ()=>link.weight, v=>link.weight=v,
+            ()=>link.m, v=>link.m=v, ()=>link.v, v=>link.v=v, lr);
+          link.accErrorDer=0; link.numAccDers=0;
+        }
+      }
+    }
+  }
+}
+
+/* ======================================================================
+   3. FEATURES
+   ====================================================================== */
+const FEATURE_DEFS = [
+  {key:'x1', label:'X₁', fn:(x1,x2)=>x1, locked:true, on:true},
+  {key:'x2', label:'X₂', fn:(x1,x2)=>x2, locked:true, on:true},
+  {key:'x1s', label:'X₁²', fn:(x1,x2)=>x1*x1, on:false},
+  {key:'x2s', label:'X₂²', fn:(x1,x2)=>x2*x2, on:false},
+  {key:'x1x2', label:'X₁X₂', fn:(x1,x2)=>x1*x2, on:false},
+  {key:'sinx1', label:'sin(X₁)', fn:(x1,x2)=>Math.sin(x1*Math.PI), on:false},
+  {key:'sinx2', label:'sin(X₂)', fn:(x1,x2)=>Math.sin(x2*Math.PI), on:false},
+];
+function getActiveFeatureKeys(){ return FEATURE_DEFS.filter(f=>f.on).map(f=>f.key); }
+function computeFeatureVector(x1,x2){
+  return getActiveFeatureKeys().map(k=>FEATURE_DEFS.find(f=>f.key===k).fn(x1,x2));
+}
+
+/* ======================================================================
+   4. DATASETS
+   ====================================================================== */
+function rnd(){ return Math.random(); }
+function randNormal(){ let u=0,v=0; while(u===0)u=Math.random(); while(v===0)v=Math.random(); return Math.sqrt(-2*Math.log(u))*Math.cos(2*Math.PI*v); }
+function shuffle(arr){ for(let i=arr.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [arr[i],arr[j]]=[arr[j],arr[i]]; } return arr; }
+
+const DATASETS = {
+  circle: { label:'Circle', type:'classification', gen: genCircle },
+  xor: { label:'XOR', type:'classification', gen: genXor },
+  gauss: { label:'Gaussians', type:'classification', gen: genGauss },
+  spiral: { label:'Spiral', type:'classification', gen: genSpiral },
+  moons: { label:'Moons', type:'classification', gen: genMoons },
+  plane: { label:'Plane', type:'regression', gen: genPlane },
+  bump: { label:'Bump', type:'regression', gen: genBump },
+  sine: { label:'Sine field', type:'regression', gen: genSine },
+  ripple: { label:'Ripple', type:'regression', gen: genRipple },
+};
+
+function genCircle(n, noise){
+  const pts=[]; const r=5;
+  function getLabel(x,y){ return (Math.sqrt(x*x+y*y) < r*0.5) ? 1 : -1; }
+  for(let i=0;i<n/2;i++){
+    const rr = rnd()*r*0.5;
+    const ang = rnd()*2*Math.PI;
+    const x = rr*Math.sin(ang), y = rr*Math.cos(ang);
+    const nx = x + (rnd()-0.5)*noise, ny = y + (rnd()-0.5)*noise;
+    pts.push({x1:x/6, x2:y/6, y:getLabel(nx,ny)});
+  }
+  for(let i=0;i<n/2;i++){
+    const rr = r*0.7 + rnd()*r*0.3;
+    const ang = rnd()*2*Math.PI;
+    const x = rr*Math.sin(ang), y = rr*Math.cos(ang);
+    const nx = x + (rnd()-0.5)*noise, ny = y + (rnd()-0.5)*noise;
+    pts.push({x1:x/6, x2:y/6, y:getLabel(nx,ny)});
+  }
+  return pts;
+}
+function genXor(n, noise){
+  const pts=[];
+  for(let i=0;i<n;i++){
+    let x1=(rnd()*2-1)*5, x2=(rnd()*2-1)*5;
+    if(Math.abs(x1)<0.3) x1 += (x1>=0?1:-1)*0.3;
+    if(Math.abs(x2)<0.3) x2 += (x2>=0?1:-1)*0.3;
+    const nx=x1+(rnd()-0.5)*noise, ny=x2+(rnd()-0.5)*noise;
+    const label = (nx*ny>=0) ? 1 : -1;
+    pts.push({x1:x1/6, x2:x2/6, y:label});
+  }
+  return pts;
+}
+function genGauss(n, noise){
+  const pts=[];
+  const varScale = 1 + noise*0.04;
+  for(let i=0;i<n/2;i++){
+    const x1=randNormal()*varScale+2.2, x2=randNormal()*varScale+2.2;
+    pts.push({x1:x1/6,x2:x2/6,y:1});
+  }
+  for(let i=0;i<n/2;i++){
+    const x1=randNormal()*varScale-2.2, x2=randNormal()*varScale-2.2;
+    pts.push({x1:x1/6,x2:x2/6,y:-1});
+  }
+  return pts;
+}
+function genSpiral(n, noise){
+  const pts=[];
+  function spiral(deltaT, label, count){
+    for(let i=0;i<count;i++){
+      const r = i/count*6;
+      const t = 1.75*i/count*2*Math.PI + deltaT;
+      let x = r*Math.sin(t), y=r*Math.cos(t);
+      x += (rnd()-0.5)*noise*0.6; y += (rnd()-0.5)*noise*0.6;
+      pts.push({x1:x/6, x2:y/6, y:label});
+    }
+  }
+  spiral(0,1,Math.floor(n/2));
+  spiral(Math.PI,-1,Math.ceil(n/2));
+  return pts;
+}
+function genMoons(n, noise){
+  const pts=[];
+  const half=Math.floor(n/2);
+  for(let i=0;i<half;i++){
+    const t = Math.PI*i/half;
+    let x = Math.cos(t)*5, y = Math.sin(t)*5-1;
+    x+=(rnd()-0.5)*noise*0.6; y+=(rnd()-0.5)*noise*0.6;
+    pts.push({x1:x/6,x2:y/6,y:1});
+  }
+  for(let i=0;i<half;i++){
+    const t = Math.PI*i/half;
+    let x = 5-Math.cos(t)*5, y = 5-Math.sin(t)*5-3;
+    x+=(rnd()-0.5)*noise*0.6; y+=(rnd()-0.5)*noise*0.6;
+    pts.push({x1:x/6,x2:y/6,y:-1});
+  }
+  return pts;
+}
+function genPlane(n, noise){
+  const pts=[];
+  for(let i=0;i<n;i++){
+    const x1=(rnd()*2-1)*5, x2=(rnd()*2-1)*5;
+    let y = (x1+x2)/10;
+    y += (rnd()-0.5)*noise*0.06;
+    pts.push({x1:x1/6,x2:x2/6,y:Math.max(-1,Math.min(1,y))});
+  }
+  return pts;
+}
+function genBump(n, noise){
+  const pts=[];
+  for(let i=0;i<n;i++){
+    const x1=(rnd()*2-1)*5, x2=(rnd()*2-1)*5;
+    let y = Math.exp(-(x1*x1+x2*x2)/8)*2-1;
+    y += (rnd()-0.5)*noise*0.06;
+    pts.push({x1:x1/6,x2:x2/6,y:Math.max(-1,Math.min(1,y))});
+  }
+  return pts;
+}
+function genSine(n, noise){
+  const pts=[];
+  for(let i=0;i<n;i++){
+    const x1=(rnd()*2-1)*5, x2=(rnd()*2-1)*5;
+    let y = Math.sin(x1*0.9)*Math.cos(x2*0.9);
+    y += (rnd()-0.5)*noise*0.06;
+    pts.push({x1:x1/6,x2:x2/6,y:Math.max(-1,Math.min(1,y))});
+  }
+  return pts;
+}
+function genRipple(n, noise){
+  const pts=[];
+  for(let i=0;i<n;i++){
+    const x1=(rnd()*2-1)*5, x2=(rnd()*2-1)*5;
+    const r = Math.sqrt(x1*x1+x2*x2);
+    let y = Math.sin(r*1.6);
+    y += (rnd()-0.5)*noise*0.06;
+    pts.push({x1:x1/6,x2:x2/6,y:Math.max(-1,Math.min(1,y))});
+  }
+  return pts;
+}
+
+/* ---- Custom CSV parsing ---- */
+function parseCsv(text){
+  const lines = text.split(/\r?\n/).map(l=>l.trim()).filter(l=>l.length>0);
+  const rows=[];
+  let skipped=0;
+  for(const line of lines){
+    const parts = line.split(/[,;\t]/).map(s=>s.trim());
+    if(parts.length<2){ skipped++; continue; }
+    const nums = parts.map(Number);
+    if(nums.some(isNaN)){ skipped++; continue; }
+    if(parts.length>=3) rows.push({x1:nums[0], x2:nums[1], y:nums[2]});
+    else rows.push({x1:nums[0], x2:nums[1], y: (rnd()>0.5?1:-1)});
+  }
+  return {rows, skipped};
+}
+function normalizeCustom(rows){
+  const xs1=rows.map(r=>r.x1), xs2=rows.map(r=>r.x2), ys=rows.map(r=>r.y);
+  const norm=(arr)=>{ const mn=Math.min(...arr), mx=Math.max(...arr); const span=(mx-mn)||1;
+    return arr.map(v=> ((v-mn)/span)*2-1 ); };
+  const uniqueY = [...new Set(ys)];
+  let isClass = uniqueY.length<=2 && uniqueY.every(v=>v===0||v===1||v===-1);
+  const nx1=norm(xs1), nx2=norm(xs2);
+  let ny;
+  if(isClass){ ny = ys.map(v=> v<=0?-1:1); }
+  else ny = norm(ys);
+  return { rows: rows.map((r,i)=>({x1:nx1[i], x2:nx2[i], y:ny[i]})), isClassification:isClass };
+}
+
+/* ======================================================================
+   5. GLOBAL STATE
+   ====================================================================== */
+const state = {
+  problemType:'classification',
+  dataset:'spiral',
+  noise:10,
+  ratio:80,
+  samples:240,
+  learningRate:0.03,
+  optimizer:'momentum',
+  batchSize:10,
+  speed:6,
+  running:false,
+  epoch:0, iter:0,
+  lossHistory:[], // {epoch,train,test}
+  layers:[
+    {size:6, activation:'tanh', regType:'none', regRate:0, dropout:0},
+    {size:4, activation:'tanh', regType:'none', regRate:0, dropout:0},
+  ],
+  trainData:[], testData:[],
+  customRows:null,
+  gridResolution:26,
+  theme:'dark',
+};
+document.getElementById('lrSelect').value = String(state.learningRate);
+
+function regenerateData(){
+  let rows;
+  if(state.dataset==='custom' && state.customRows){
+    rows = state.customRows.slice();
+  } else {
+    const ds = DATASETS[state.dataset];
+    rows = ds.gen(state.samples, state.noise/10);
+  }
+  shuffle(rows);
+  const trainCount = Math.round(rows.length*state.ratio/100);
+  state.trainData = rows.slice(0,trainCount);
+  state.testData = rows.slice(trainCount);
+  renderDataPreview();
+}
+
+/* ======================================================================
+   6. TRAINING LOOP
+   ====================================================================== */
+function pointToVec(p){ return computeFeatureVector(p.x1,p.x2); }
+
+function trainOneBatch(){
+  const data = state.trainData;
+  if(data.length===0) return;
+  const bs = Math.min(state.batchSize, data.length);
+  for(let i=0;i<bs;i++){
+    const idx = Math.floor(rnd()*data.length);
+    const p = data[idx];
+    forwardProp(pointToVec(p), true);
+    backProp(p.y);
+  }
+  updateWeights();
+  state.iter++;
+  const itersPerEpoch = Math.max(1, Math.ceil(data.length/state.batchSize));
+  if(state.iter % itersPerEpoch === 0){
+    state.epoch++;
+    recordLoss();
+  }
+}
+
+function computeLoss(data){
+  if(data.length===0) return 0;
+  let sum=0;
+  for(const p of data){
+    const out = forwardProp(pointToVec(p), false);
+    sum += (out-p.y)*(out-p.y);
+  }
+  return sum/data.length;
+}
+function recordLoss(){
+  const trainLoss = computeLoss(state.trainData);
+  const testLoss = computeLoss(state.testData);
+  state.lossHistory.push({epoch:state.epoch, train:trainLoss, test:testLoss});
+  if(state.lossHistory.length>400) state.lossHistory.shift();
+}
+
+function computeMetrics(){
+  if(state.problemType==='classification'){
+    let correct=0, tp=0,tn=0,fp=0,fn=0;
+    const data = state.testData.length? state.testData : state.trainData;
+    for(const p of data){
+      const out = forwardProp(pointToVec(p),false);
+      const pred = out>=0?1:-1;
+      if(pred===p.y) correct++;
+      if(p.y===1 && pred===1) tp++;
+      if(p.y===-1 && pred===-1) tn++;
+      if(p.y===-1 && pred===1) fp++;
+      if(p.y===1 && pred===-1) fn++;
+    }
+    const acc = data.length? correct/data.length : 0;
+    return {type:'classification', acc, tp,tn,fp,fn, n:data.length};
+  } else {
+    const data = state.testData.length? state.testData : state.trainData;
+    let sse=0, sst=0;
+    const mean = data.reduce((s,p)=>s+p.y,0)/(data.length||1);
+    for(const p of data){
+      const out = forwardProp(pointToVec(p),false);
+      sse += (out-p.y)*(out-p.y);
+      sst += (p.y-mean)*(p.y-mean);
+    }
+    const mse = data.length? sse/data.length : 0;
+    const r2 = sst>0 ? 1-(sse/sst) : 0;
+    return {type:'regression', mse, rmse:Math.sqrt(mse), r2, n:data.length};
+  }
+}
+
+/* ======================================================================
+   7. GRID (heatmaps + main boundary)
+   ====================================================================== */
+let gridCache = null; // {res, values: Node->Float32Array via node.gridOut, outVals}
+function computeGrid(){
+  const res = state.gridResolution;
+  const outVals = new Float32Array(res*res);
+  for(let li=0; li<network.length; li++){
+    for(const node of network[li]) node.gridOut = new Float32Array(res*res);
+  }
+  let idx=0;
+  for(let j=0;j<res;j++){
+    const x2 = (j/(res-1))*2-1;
+    for(let i=0;i<res;i++){
+      const x1 = (i/(res-1))*2-1;
+      const vec = computeFeatureVector(x1,x2);
+      const out = forwardProp(vec, false);
+      for(let li=0; li<network.length; li++){
+        for(const node of network[li]) node.gridOut[idx] = node.output;
+      }
+      outVals[idx]=out;
+      idx++;
+    }
+  }
+  gridCache = {res, outVals};
+}
+
+/* ======================================================================
+   8. COLOR SCALE
+   ====================================================================== */
+function neutralRgb(){
+  const cs = getComputedStyle(document.documentElement).getPropertyValue('--neutral-rgb').trim();
+  return cs.split(',').map(Number);
+}
+let NEUTRAL = [16,20,28];
+function refreshNeutral(){ NEUTRAL = neutralRgb(); }
+function colorForValue(v){
+  v = Math.max(-1, Math.min(1, v));
+  const pos=[45,212,191], neg=[255,107,91];
+  let r,g,b;
+  if(v>=0){ const t=v; r=lerp(NEUTRAL[0],pos[0],t); g=lerp(NEUTRAL[1],pos[1],t); b=lerp(NEUTRAL[2],pos[2],t); }
+  else { const t=-v; r=lerp(NEUTRAL[0],neg[0],t); g=lerp(NEUTRAL[1],neg[1],t); b=lerp(NEUTRAL[2],neg[2],t); }
+  return `rgb(${r|0},${g|0},${b|0})`;
+}
+function lerp(a,b,t){ return a+(b-a)*t; }
+
+/* ======================================================================
+   9. RENDERING — Network graph (DOM + SVG)
+   ====================================================================== */
+const netStage = document.getElementById('netStage');
+const featListEl = document.getElementById('featList');
+
+function renderFeatureChips(){
+  featListEl.innerHTML='';
+  for(const f of FEATURE_DEFS){
+    const chip = document.createElement('label');
+    chip.className = 'feat-chip'+(f.on?' on':'')+(f.locked?' locked':'');
+    chip.innerHTML = `<input type="checkbox" ${f.on?'checked':''} ${f.locked?'disabled':''}> ${f.label}`;
+    if(!f.locked){
+      chip.querySelector('input').addEventListener('change', (e)=>{
+        f.on = e.target.checked;
+        const activeCount = FEATURE_DEFS.filter(x=>x.on).length;
+        if(activeCount===0){ f.on=true; e.target.checked=true; showToast('At least one feature is required'); }
+        buildNetwork();
+      });
+    }
+    featListEl.appendChild(chip);
+  }
+}
+
+function makeNeuronEl(node, labelText, isIO){
+  const el = document.createElement('div');
+  el.className = 'neuron'+(isIO?' io-node':'');
+  el.dataset.nodeId = node.id;
+  if(isIO){
+    const lab = document.createElement('div');
+    lab.className='neuron-label';
+    lab.textContent = labelText;
+    el.appendChild(lab);
+  } else {
+    const cv = document.createElement('canvas');
+    cv.width=38; cv.height=38;
+    el.appendChild(cv);
+    node._canvas = cv;
+  }
+  el.addEventListener('mouseenter', (e)=> showNeuronTooltip(e, node));
+  el.addEventListener('mousemove', (e)=> positionTooltip(e));
+  el.addEventListener('mouseleave', hideTooltip);
+  return el;
+}
+
+function layerControlsHtml(cfg, idx){
+  return `
+  <div class="layer-controls" data-layer-idx="${idx}">
+    <select class="act-select">
+      ${Object.keys(Activations).map(k=>`<option value="${k}" ${cfg.activation===k?'selected':''}>${Activations[k].name}</option>`).join('')}
+    </select>
+    <div class="row2">
+      <select class="reg-select">
+        ${Object.keys(Regularizations).map(k=>`<option value="${k}" ${cfg.regType===k?'selected':''}>${Regularizations[k].name}</option>`).join('')}
+      </select>
+      <input type="number" class="reg-rate" value="${cfg.regRate}" min="0" step="0.001" title="Regularization rate">
+    </div>
+    <div class="dz-row">
+      <input type="range" class="dropout-range" min="0" max="80" value="${Math.round(cfg.dropout*100)}" style="flex:1;">
+      <span class="dropout-val">${Math.round(cfg.dropout*100)}%</span>
+    </div>
+    <div class="layer-mini-btns">
+      <button class="move-left" title="Move layer left">←</button>
+      <button class="move-right" title="Move layer right">→</button>
+      <button class="danger remove-layer" title="Remove layer">✕</button>
+    </div>
+  </div>`;
+}
+
+function renderNetworkGraph(){
+  netStage.innerHTML='';
+  const svg = document.createElementNS('http://www.w3.org/2000/svg','svg');
+  svg.id='linkSvg';
+  netStage.appendChild(svg);
+
+  const nodeElMap = new Map();
+
+  // input layer column
+  const inCol = document.createElement('div');
+  inCol.className='layer-col io';
+  const inHead = document.createElement('div'); inHead.className='layer-head';
+  inHead.innerHTML = `<div class="lname">Input · ${network[0].length}</div>`;
+  inCol.appendChild(inHead);
+  const inStack = document.createElement('div'); inStack.className='neuron-stack';
+  network[0].forEach((node,i)=>{
+    const label = FEATURE_DEFS.find(f=>f.key===inputFeatureKeys[i]).label;
+    const el = makeNeuronEl(node, label, true);
+    inStack.appendChild(el); nodeElMap.set(node.id, el);
+  });
+  inCol.appendChild(inStack);
+  netStage.appendChild(inCol);
+
+  // hidden layers
+  for(let li=0; li<state.layers.length; li++){
+    const cfg = state.layers[li];
+    const col = document.createElement('div'); col.className='layer-col';
+    const head = document.createElement('div'); head.className='layer-head';
+    head.innerHTML = `<div class="lname">Hidden ${li+1} · ${cfg.size}</div>`;
+    head.innerHTML += layerControlsHtml(cfg, li);
+    col.appendChild(head);
+
+    const stack = document.createElement('div'); stack.className='neuron-stack';
+    const layerNodes = network[li+1];
+    layerNodes.forEach((node,ni)=>{
+      const wrap = document.createElement('div'); wrap.style.position='relative';
+      const el = makeNeuronEl(node, '', false);
+      const rm = document.createElement('div'); rm.className='neuron-remove'; rm.textContent='✕';
+      rm.title='Remove neuron';
+      rm.addEventListener('click',(e)=>{ e.stopPropagation(); removeNeuron(li, ni); });
+      el.appendChild(rm);
+      stack.appendChild(el); nodeElMap.set(node.id, el);
+    });
+    col.appendChild(stack);
+    const addBtn = document.createElement('button'); addBtn.className='add-neuron-btn'; addBtn.textContent='+';
+    addBtn.title='Add neuron';
+    addBtn.addEventListener('click',()=> addNeuron(li));
+    col.appendChild(addBtn);
+
+    netStage.appendChild(col);
+    wireLayerControls(col, li);
+  }
+
+  // add-layer button
+  const addLayerCol = document.createElement('div'); addLayerCol.className='add-layer-col';
+  const addLayerBtn = document.createElement('button'); addLayerBtn.className='add-layer-btn'; addLayerBtn.textContent='+';
+  addLayerBtn.title='Add hidden layer';
+  addLayerBtn.addEventListener('click', addLayer);
+  addLayerCol.appendChild(addLayerBtn);
+  netStage.appendChild(addLayerCol);
+
+  // output column
+  const outCol = document.createElement('div'); outCol.className='layer-col io';
+  const outHead = document.createElement('div'); outHead.className='layer-head';
+  outHead.innerHTML = `<div class="lname">Output</div>`;
+  outCol.appendChild(outHead);
+  const outStack = document.createElement('div'); outStack.className='neuron-stack';
+  network[network.length-1].forEach(node=>{
+    const el = makeNeuronEl(node, state.problemType==='classification'?'ŷ':'ŷ', true);
+    outStack.appendChild(el); nodeElMap.set(node.id, el);
+  });
+  outCol.appendChild(outStack);
+  netStage.appendChild(outCol);
+
+  nodeElCache = nodeElMap;
+  drawLinksSvg();
+  updateSummaryCard();
+}
+
+function wireLayerControls(col, idx){
+  const box = col.querySelector('.layer-controls');
+  box.querySelector('.act-select').addEventListener('change', e=>{
+    state.layers[idx].activation = e.target.value;
+    buildNetwork();
+  });
+  box.querySelector('.reg-select').addEventListener('change', e=>{
+    state.layers[idx].regType = e.target.value;
+    buildNetwork();
+  });
+  box.querySelector('.reg-rate').addEventListener('change', e=>{
+    state.layers[idx].regRate = Math.max(0, parseFloat(e.target.value)||0);
+    buildNetwork();
+  });
+  box.querySelector('.dropout-range').addEventListener('input', e=>{
+    const pct = parseInt(e.target.value,10);
+    box.querySelector('.dropout-val').textContent = pct+'%';
+    state.layers[idx].dropout = pct/100;
+  });
+  box.querySelector('.move-left').addEventListener('click', ()=> moveLayer(idx,-1));
+  box.querySelector('.move-right').addEventListener('click', ()=> moveLayer(idx,1));
+  box.querySelector('.remove-layer').addEventListener('click', ()=> removeLayer(idx));
+}
+
+function addLayer(){
+  if(state.layers.length>=8){ showToast('Maximum 8 hidden layers'); return; }
+  const regType = document.getElementById('defRegType').value;
+  const regRate = Math.max(0, parseFloat(document.getElementById('defRegRate').value)||0);
+  state.layers.push({size:4, activation:'tanh', regType, regRate, dropout:0});
+  buildNetwork();
+}
+function removeLayer(idx){
+  if(state.layers.length<=1){ showToast('Keep at least one hidden layer'); return; }
+  state.layers.splice(idx,1);
+  buildNetwork();
+}
+function moveLayer(idx, dir){
+  const j = idx+dir;
+  if(j<0 || j>=state.layers.length) return;
+  const tmp = state.layers[idx]; state.layers[idx]=state.layers[j]; state.layers[j]=tmp;
+  buildNetwork();
+}
+function addNeuron(layerIdx){
+  if(state.layers[layerIdx].size>=16){ showToast('Maximum 16 neurons per layer'); return; }
+  state.layers[layerIdx].size++;
+  buildNetwork();
+}
+function removeNeuron(layerIdx, neuronIdx){
+  if(state.layers[layerIdx].size<=1){ showToast('Layer needs at least one neuron'); return; }
+  state.layers[layerIdx].size--;
+  buildNetwork();
+}
+
+let nodeElCache = new Map();
+function drawLinksSvg(){
+  const svg = document.getElementById('linkSvg');
+  if(!svg) return;
+  svg.innerHTML='';
+  const stageRect = netStage.getBoundingClientRect();
+  for(let li=1; li<network.length; li++){
+    for(const node of network[li]){
+      for(const link of node.inputLinks){
+        const srcEl = nodeElCache.get(link.source.id);
+        const dstEl = nodeElCache.get(link.dest.id);
+        if(!srcEl||!dstEl) continue;
+        const sr = srcEl.getBoundingClientRect(), dr = dstEl.getBoundingClientRect();
+        const x1 = sr.left+sr.width/2-stageRect.left+netStage.scrollLeft;
+        const y1 = sr.top+sr.height/2-stageRect.top+netStage.scrollTop;
+        const x2 = dr.left+dr.width/2-stageRect.left+netStage.scrollLeft;
+        const y2 = dr.top+dr.height/2-stageRect.top+netStage.scrollTop;
+        const line = document.createElementNS('http://www.w3.org/2000/svg','line');
+        line.setAttribute('x1',x1); line.setAttribute('y1',y1);
+        line.setAttribute('x2',x2); line.setAttribute('y2',y2);
+        line.dataset.linkId = link.id;
+        line.style.pointerEvents='stroke';
+        line.addEventListener('mouseenter',(e)=>showLinkTooltip(e,link));
+        line.addEventListener('mousemove', positionTooltip);
+        line.addEventListener('mouseleave', hideTooltip);
+        svg.appendChild(line);
+        link._svgEl = line;
+      }
+    }
+  }
+  updateLinkStyles();
+}
+function updateLinkStyles(){
+  for(let li=1; li<network.length; li++){
+    for(const node of network[li]){
+      for(const link of node.inputLinks){
+        if(!link._svgEl) continue;
+        const w = Math.min(6, 0.6+Math.abs(link.weight)*3.2);
+        const col = link.weight>=0 ? 'var(--pos)' : 'var(--neg)';
+        const op = Math.min(0.95, 0.28+Math.abs(link.weight)*0.55);
+        link._svgEl.setAttribute('stroke', col);
+        link._svgEl.setAttribute('stroke-width', w);
+        link._svgEl.setAttribute('stroke-opacity', op);
+        link._svgEl.setAttribute('stroke-linecap','round');
+      }
+    }
+  }
+}
+
+function updateSummaryCard(){
+  const el = document.getElementById('summaryCard');
+  const nParams = network.slice(1).reduce((s,layer)=> s + layer.reduce((s2,n)=> s2 + n.inputLinks.length + 1, 0), 0);
+  const shape = [network[0].length, ...state.layers.map(l=>l.size), 1].join(' → ');
+  el.innerHTML = `Shape&nbsp; <b style="color:var(--text)">${shape}</b><br>
+  Parameters&nbsp; <b style="color:var(--text)">${nParams}</b><br>
+  Inputs&nbsp; <b style="color:var(--text)">${inputFeatureKeys.map(k=>FEATURE_DEFS.find(f=>f.key===k).label).join(', ')}</b><br>
+  Output act.&nbsp; <b style="color:var(--text)">${state.problemType==='classification'?'Tanh (±1)':'Linear'}</b>`;
+}
+
+/* ======================================================================
+   10. TOOLTIP
+   ====================================================================== */
+const tooltipEl = document.getElementById('tooltip');
+function positionTooltip(e){
+  tooltipEl.style.left = (e.clientX+14)+'px';
+  tooltipEl.style.top = (e.clientY+14)+'px';
+}
+function showLinkTooltip(e, link){
+  tooltipEl.style.display='block';
+  tooltipEl.textContent = `weight = ${link.weight.toFixed(4)}`;
+  positionTooltip(e);
+}
+function showNeuronTooltip(e, node){
+  tooltipEl.style.display='block';
+  let txt = `output = ${node.output.toFixed(4)}\nbias = ${node.bias.toFixed(4)}\nactivation = ${node.activation.name}`;
+  tooltipEl.textContent = txt;
+  positionTooltip(e);
+}
+function hideTooltip(){ tooltipEl.style.display='none'; }
+
+/* ======================================================================
+   11. CANVAS RENDERING — neuron heatmaps, main output, loss, preview
+   ====================================================================== */
+function renderNeuronHeatmaps(){
+  if(!gridCache) return;
+  const res = gridCache.res;
+  for(let li=1; li<network.length-1; li++){
+    for(const node of network[li]){
+      if(!node._canvas || !node.gridOut) continue;
+      drawHeatSmall(node._canvas, node.gridOut, res);
+    }
+  }
+}
+function drawHeatSmall(canvas, data, res){
+  const ctx = canvas.getContext('2d');
+  const img = ctx.createImageData(res,res);
+  for(let j=0;j<res;j++){
+    for(let i=0;i<res;i++){
+      const v = data[j*res+i];
+      const c = colorForValueRaw(v);
+      const idx = ((res-1-j)*res+i)*4;
+      img.data[idx]=c[0]; img.data[idx+1]=c[1]; img.data[idx+2]=c[2]; img.data[idx+3]=255;
+    }
+  }
+  // draw scaled
+  const off = document.createElement('canvas'); off.width=res; off.height=res;
+  off.getContext('2d').putImageData(img,0,0);
+  ctx.imageSmoothingEnabled=true;
+  ctx.clearRect(0,0,canvas.width,canvas.height);
+  ctx.drawImage(off,0,0,canvas.width,canvas.height);
+}
+function colorForValueRaw(v){
+  v=Math.max(-1,Math.min(1,v));
+  const pos=[45,212,191], neg=[255,107,91];
+  let r,g,b;
+  if(v>=0){ r=lerp(NEUTRAL[0],pos[0],v); g=lerp(NEUTRAL[1],pos[1],v); b=lerp(NEUTRAL[2],pos[2],v); }
+  else { const t=-v; r=lerp(NEUTRAL[0],neg[0],t); g=lerp(NEUTRAL[1],neg[1],t); b=lerp(NEUTRAL[2],neg[2],t); }
+  return [r|0,g|0,b|0];
+}
+
+const outputCanvas = document.getElementById('outputCanvas');
+function renderOutputCanvas(){
+  if(!gridCache) return;
+  const res = gridCache.res;
+  const ctx = outputCanvas.getContext('2d');
+  const W = outputCanvas.width, H = outputCanvas.height;
+  const off = document.createElement('canvas'); off.width=res; off.height=res;
+  const octx = off.getContext('2d');
+  const img = octx.createImageData(res,res);
+  for(let j=0;j<res;j++){
+    for(let i=0;i<res;i++){
+      const v = gridCache.outVals[j*res+i];
+      const c = colorForValueRaw(v);
+      const idx = ((res-1-j)*res+i)*4;
+      img.data[idx]=c[0]; img.data[idx+1]=c[1]; img.data[idx+2]=c[2]; img.data[idx+3]=255;
+    }
+  }
+  octx.putImageData(img,0,0);
+  ctx.clearRect(0,0,W,H);
+  ctx.imageSmoothingEnabled=true;
+  ctx.drawImage(off,0,0,W,H);
+
+  // data points
+  const allPts = [...state.trainData.map(p=>({...p,test:false})), ...state.testData.map(p=>({...p,test:true}))];
+  for(const p of allPts){
+    const px = (p.x1+1)/2*W, py = H-(p.x2+1)/2*H;
+    ctx.beginPath();
+    ctx.arc(px,py, p.test?4.4:3.4, 0, Math.PI*2);
+    if(state.problemType==='classification'){
+      ctx.fillStyle = p.y>=0 ? 'rgb(45,212,191)' : 'rgb(255,107,91)';
+    } else {
+      const c = colorForValueRaw(p.y);
+      ctx.fillStyle = `rgb(${c[0]},${c[1]},${c[2]})`;
+    }
+    ctx.fill();
+    ctx.lineWidth = p.test?1.6:1;
+    ctx.strokeStyle = p.test? '#ffffff' : 'rgba(0,0,0,0.35)';
+    ctx.stroke();
+  }
+}
+
+const previewCanvas = document.getElementById('previewCanvas');
+function renderDataPreview(){
+  const ctx = previewCanvas.getContext('2d');
+  const W = previewCanvas.width, H = previewCanvas.height;
+  ctx.clearRect(0,0,W,H);
+  ctx.fillStyle = getComputedStyle(document.documentElement).getPropertyValue('--panel');
+  ctx.fillRect(0,0,W,H);
+  const all = [...state.trainData, ...state.testData];
+  for(const p of all){
+    const px=(p.x1+1)/2*W, py=H-(p.x2+1)/2*H;
+    ctx.beginPath(); ctx.arc(px,py,2.6,0,Math.PI*2);
+    if(state.problemType==='classification'){ ctx.fillStyle = p.y>=0?'rgb(45,212,191)':'rgb(255,107,91)'; }
+    else { const c=colorForValueRaw(p.y); ctx.fillStyle=`rgb(${c[0]},${c[1]},${c[2]})`; }
+    ctx.fill();
+  }
+}
+
+const lossCanvas = document.getElementById('lossCanvas');
+function renderLossChart(){
+  const ctx = lossCanvas.getContext('2d');
+  const W=lossCanvas.width, H=lossCanvas.height;
+  ctx.clearRect(0,0,W,H);
+  ctx.fillStyle = getComputedStyle(document.documentElement).getPropertyValue('--panel');
+  ctx.fillRect(0,0,W,H);
+  const hist = state.lossHistory;
+  const pad = 8;
+  if(hist.length<2){
+    ctx.fillStyle = getComputedStyle(document.documentElement).getPropertyValue('--text-faint');
+    ctx.font='11px sans-serif';
+    ctx.fillText('Training loss will appear here…', 12, H/2);
+    return;
+  }
+  let maxLoss = Math.max(...hist.map(h=>Math.max(h.train,h.test)), 0.05);
+  maxLoss *= 1.1;
+  function xFor(i){ return pad + i/(hist.length-1)*(W-2*pad); }
+  function yFor(v){ return H-pad - (v/maxLoss)*(H-2*pad); }
+  // gridlines
+  ctx.strokeStyle = getComputedStyle(document.documentElement).getPropertyValue('--border');
+  ctx.lineWidth=1;
+  for(let g=0; g<=2; g++){ const y=pad+g*(H-2*pad)/2; ctx.beginPath(); ctx.moveTo(pad,y); ctx.lineTo(W-pad,y); ctx.stroke(); }
+
+  function drawLine(key,color){
+    ctx.beginPath();
+    hist.forEach((h,i)=>{ const x=xFor(i), y=yFor(h[key]); if(i===0) ctx.moveTo(x,y); else ctx.lineTo(x,y); });
+    ctx.strokeStyle=color; ctx.lineWidth=1.8; ctx.stroke();
+  }
+  drawLine('train','#6ea8fe');
+  drawLine('test','#ff6b5b');
+}
+
+/* ======================================================================
+   12. METRICS RENDER
+   ====================================================================== */
+function renderMetrics(){
+  const m = computeMetrics();
+  const grid = document.getElementById('metricsGrid');
+  const confWrap = document.getElementById('confusionWrap');
+  const hist = state.lossHistory;
+  const last = hist.length?hist[hist.length-1]:{train:0,test:0};
+  if(m.type==='classification'){
+    grid.innerHTML = `
+      <div class="metric-box pos"><div class="mv">${(m.acc*100).toFixed(1)}%</div><div class="ml">Accuracy</div></div>
+      <div class="metric-box"><div class="mv">${last.train.toFixed(4)}</div><div class="ml">Train loss</div></div>
+      <div class="metric-box"><div class="mv">${last.test.toFixed(4)}</div><div class="ml">Test loss</div></div>
+      <div class="metric-box"><div class="mv">${m.n}</div><div class="ml">Test samples</div></div>`;
+    confWrap.innerHTML = `
+      <table class="confusion">
+        <tr><th></th><th>Pred +1</th><th>Pred −1</th></tr>
+        <tr><th>True +1</th><td class="hit">${m.tp}</td><td class="miss">${m.fn}</td></tr>
+        <tr><th>True −1</th><td class="miss">${m.fp}</td><td class="hit">${m.tn}</td></tr>
+      </table>`;
+  } else {
+    grid.innerHTML = `
+      <div class="metric-box pos"><div class="mv">${m.r2.toFixed(3)}</div><div class="ml">R² score</div></div>
+      <div class="metric-box"><div class="mv">${m.mse.toFixed(4)}</div><div class="ml">MSE</div></div>
+      <div class="metric-box"><div class="mv">${m.rmse.toFixed(4)}</div><div class="ml">RMSE</div></div>
+      <div class="metric-box"><div class="mv">${m.n}</div><div class="ml">Test samples</div></div>`;
+    confWrap.innerHTML='';
+  }
+  document.getElementById('epochVal').textContent = state.epoch;
+}
+
+/* ======================================================================
+   13. HEAVY UPDATE SCHEDULING
+   ====================================================================== */
+function scheduleHeavyUpdate(force){
+  computeGrid();
+  renderOutputCanvas();
+  renderNeuronHeatmaps();
+  updateLinkStyles();
+  renderLossChart();
+  renderMetrics();
+}
+
+/* ======================================================================
+   14. ANIMATION LOOP
+   ====================================================================== */
+let rafId=null;
+function loop(){
+  if(!state.running) return;
+  const steps = state.speed;
+  for(let i=0;i<steps;i++) trainOneBatch();
+  scheduleHeavyUpdate();
+  rafId = requestAnimationFrame(loop);
+}
+function setRunning(run){
+  state.running = run;
+  const btn = document.getElementById('btnPlay');
+  const icon = document.getElementById('playIcon');
+  if(run){
+    btn.classList.add('running');
+    icon.innerHTML = '<rect x="5" y="4" width="5" height="16" rx="1" fill="currentColor" stroke="none"/><rect x="14" y="4" width="5" height="16" rx="1" fill="currentColor" stroke="none"/>';
+    loop();
+  } else {
+    btn.classList.remove('running');
+    icon.innerHTML = '<polygon points="6,4 20,12 6,20" fill="currentColor" stroke="none"/>';
+    if(rafId) cancelAnimationFrame(rafId);
+  }
+}
+
+/* ======================================================================
+   15. UI WIRING
+   ====================================================================== */
+function showToast(msg){
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  clearTimeout(showToast._tm);
+  showToast._tm = setTimeout(()=> t.classList.remove('show'), 2200);
+}
+
+// dataset grid
+const dsGrid = document.getElementById('dsGrid');
+function iconSvgFor(key){
+  return `<canvas width="56" height="56"></canvas>`;
+}
+function buildDsGrid(){
+  dsGrid.innerHTML='';
+  const keys = Object.keys(DATASETS).filter(k=> DATASETS[k].type===state.problemType);
+  for(const key of keys){
+    const btn = document.createElement('button');
+    btn.className = 'ds-btn'+(state.dataset===key?' active':'');
+    btn.innerHTML = `<canvas width="56" height="56"></canvas><span>${DATASETS[key].label}</span>`;
+    btn.addEventListener('click', ()=>{
+      state.dataset = key;
+      regenerateData();
+      buildDsGrid();
+      buildNetwork();
+    });
+    dsGrid.appendChild(btn);
+    drawDsThumb(btn.querySelector('canvas'), key);
+  }
+  const cbtn = document.createElement('button');
+  cbtn.className='ds-btn'+(state.dataset==='custom'?' active':'');
+  cbtn.innerHTML = `<canvas width="56" height="56"></canvas><span>Custom CSV</span>`;
+  cbtn.addEventListener('click', ()=>{
+    if(!state.customRows){ showToast('Paste or upload CSV data first'); return; }
+    state.dataset='custom'; regenerateData(); buildDsGrid(); buildNetwork();
+  });
+  dsGrid.appendChild(cbtn);
+  const cctx = cbtn.querySelector('canvas').getContext('2d');
+  cctx.fillStyle = getComputedStyle(document.documentElement).getPropertyValue('--panel-2');
+  cctx.fillRect(0,0,56,56);
+  cctx.fillStyle = getComputedStyle(document.documentElement).getPropertyValue('--text-faint');
+  cctx.font='10px monospace'; cctx.textAlign='center';
+  cctx.fillText('CSV', 28, 32);
+}
+function drawDsThumb(canvas, key){
+  const ctx = canvas.getContext('2d');
+  ctx.fillStyle = getComputedStyle(document.documentElement).getPropertyValue('--panel-2');
+  ctx.fillRect(0,0,56,56);
+  const pts = DATASETS[key].gen(90, 1.0);
+  for(const p of pts){
+    const px=(p.x1+1)/2*56, py=56-(p.x2+1)/2*56;
+    ctx.beginPath(); ctx.arc(px,py,1.6,0,Math.PI*2);
+    if(DATASETS[key].type==='classification') ctx.fillStyle = p.y>=0?'rgb(45,212,191)':'rgb(255,107,91)';
+    else { const c=colorForValueRaw(p.y); ctx.fillStyle=`rgb(${c[0]},${c[1]},${c[2]})`; }
+    ctx.fill();
+  }
+}
+
+document.getElementById('noiseSlider').addEventListener('input', e=>{
+  state.noise = +e.target.value;
+  document.getElementById('noiseVal').textContent = e.target.value;
+});
+document.getElementById('noiseSlider').addEventListener('change', ()=>{ regenerateData(); scheduleHeavyUpdate(); });
+document.getElementById('ratioSlider').addEventListener('input', e=>{
+  state.ratio = +e.target.value;
+  document.getElementById('ratioVal').textContent = e.target.value+'%';
+});
+document.getElementById('ratioSlider').addEventListener('change', ()=>{ regenerateData(); scheduleHeavyUpdate(); });
+document.getElementById('samplesSlider').addEventListener('input', e=>{
+  state.samples = +e.target.value;
+  document.getElementById('samplesVal').textContent = e.target.value;
+});
+document.getElementById('samplesSlider').addEventListener('change', ()=>{ regenerateData(); scheduleHeavyUpdate(); });
+document.getElementById('btnRegen').addEventListener('click', ()=>{ regenerateData(); scheduleHeavyUpdate(); showToast('Data regenerated'); });
+
+document.getElementById('btnUseCsv').addEventListener('click', ()=>{
+  const text = document.getElementById('csvPaste').value;
+  if(!text.trim()){ showToast('Paste CSV data first'); return; }
+  const {rows, skipped} = parseCsv(text);
+  if(rows.length<4){ showToast('Need at least 4 valid rows'); return; }
+  const norm = normalizeCustom(rows);
+  state.customRows = norm.rows;
+  state.problemType = norm.isClassification ? 'classification' : 'regression';
+  document.getElementById('problemSelect').value = state.problemType;
+  state.dataset='custom';
+  regenerateData();
+  buildDsGrid();
+  buildNetwork();
+  showToast(`Loaded ${rows.length} rows${skipped?`, skipped ${skipped}`:''} · ${state.problemType}`);
+});
+document.getElementById('csvFile').addEventListener('change', (e)=>{
+  const file = e.target.files[0];
+  if(!file) return;
+  const reader = new FileReader();
+  reader.onload = ()=>{
+    document.getElementById('csvPaste').value = reader.result;
+    showToast('CSV loaded into text box — click "Use pasted data"');
+  };
+  reader.readAsText(file);
+});
+
+document.getElementById('lrSelect').addEventListener('change', e=>{ state.learningRate = parseFloat(e.target.value); });
+document.getElementById('optSelect').addEventListener('change', e=>{ state.optimizer = e.target.value; });
+document.getElementById('batchInput').addEventListener('change', e=>{
+  state.batchSize = Math.max(1, Math.min(64, parseInt(e.target.value,10)||10));
+  e.target.value = state.batchSize;
+});
+document.getElementById('speedSlider').addEventListener('input', e=>{ state.speed = +e.target.value; });
+document.getElementById('problemSelect').addEventListener('change', e=>{
+  state.problemType = e.target.value;
+  state.dataset = state.problemType==='classification' ? 'spiral' : 'plane';
+  buildDsGrid();
+  regenerateData();
+  buildNetwork();
+  document.getElementById('outputDims').textContent = state.problemType==='classification'?'binary':'scalar';
+});
+
+document.getElementById('defRegRate').addEventListener('change', e=>{
+  if(parseFloat(e.target.value)<0) e.target.value=0;
+});
+
+document.getElementById('btnPlay').addEventListener('click', ()=> setRunning(!state.running));
+document.getElementById('btnStep').addEventListener('click', ()=>{
+  if(state.running) setRunning(false);
+  trainOneBatch();
+  scheduleHeavyUpdate();
+});
+document.getElementById('btnReset').addEventListener('click', ()=>{
+  setRunning(false);
+  buildNetwork();
+  showToast('Training reset');
+});
+window.addEventListener('keydown', (e)=>{
+  if(e.code==='Space' && e.target.tagName!=='INPUT' && e.target.tagName!=='TEXTAREA' && e.target.tagName!=='SELECT'){
+    e.preventDefault();
+    setRunning(!state.running);
+  }
+});
+
+// theme
+function applyTheme(){
+  document.documentElement.setAttribute('data-theme', state.theme);
+  document.getElementById('themeLabel').textContent = state.theme==='dark'?'Light':'Dark';
+  const icon = document.getElementById('themeIcon');
+  icon.innerHTML = state.theme==='dark'
+    ? '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>'
+    : '<path d="M21 12.5A8.5 8.5 0 1 1 11.5 3a7 7 0 0 0 9.5 9.5z"/>';
+  setTimeout(()=>{
+    refreshNeutral();
+    buildDsGrid();
+    scheduleHeavyUpdate();
+    renderDataPreview();
+  }, 20);
+}
+document.getElementById('btnTheme').addEventListener('click', ()=>{
+  state.theme = state.theme==='dark'?'light':'dark';
+  applyTheme();
+});
+
+// export
+const exportModal = document.getElementById('exportModal');
+function buildExportObject(){
+  return {
+    meta:{ generatedBy:'Signal Lab Neural Playground', epoch:state.epoch, problemType:state.problemType, dataset:state.dataset },
+    hyperparameters:{ learningRate:state.learningRate, optimizer:state.optimizer, batchSize:state.batchSize, noise:state.noise, trainTestRatio:state.ratio },
+    features: inputFeatureKeys,
+    architecture: state.layers.map(l=>({size:l.size, activation:l.activation, regularization:{type:l.regType, rate:l.regRate}, dropout:l.dropout})),
+    outputActivation: state.problemType==='classification'?'tanh':'linear',
+    weights: network.slice(1).map(layer=> layer.map(node=>({
+      bias: +node.bias.toFixed(6),
+      weights: node.inputLinks.map(l=>+l.weight.toFixed(6))
+    })))
+  };
+}
+document.getElementById('btnExport').addEventListener('click', ()=>{
+  const obj = buildExportObject();
+  document.getElementById('exportPre').textContent = JSON.stringify(obj, null, 2);
+  exportModal.classList.add('show');
+});
+document.getElementById('btnCloseModal').addEventListener('click', ()=> exportModal.classList.remove('show'));
+exportModal.addEventListener('click', (e)=>{ if(e.target===exportModal) exportModal.classList.remove('show'); });
+document.getElementById('btnCopyJson').addEventListener('click', ()=>{
+  const txt = document.getElementById('exportPre').textContent;
+  navigator.clipboard?.writeText(txt).then(()=> showToast('Copied to clipboard')).catch(()=> showToast('Copy failed — select manually'));
+});
+document.getElementById('btnDownloadJson').addEventListener('click', ()=>{
+  const txt = document.getElementById('exportPre').textContent;
+  const blob = new Blob([txt], {type:'application/json'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `signal-lab-model-epoch${state.epoch}.json`;
+  document.body.appendChild(a); a.click(); document.body.removeChild(a);
+});
+
+// resize -> redraw links
+let resizeTm;
+window.addEventListener('resize', ()=>{ clearTimeout(resizeTm); resizeTm=setTimeout(drawLinksSvg, 120); });
+document.querySelector('.net-canvas-wrap').addEventListener('scroll', drawLinksSvg);
+
+/* ======================================================================
+   16. INIT
+   ====================================================================== */
+function init(){
+  refreshNeutral();
+  renderFeatureChips();
+  buildDsGrid();
+  regenerateData();
+  buildNetwork();
+  applyTheme();
+  document.getElementById('outputDims').textContent = state.problemType==='classification'?'binary':'scalar';
+  showToast('Welcome — press play to start training');
+}
+init();
+
+})();
+</script>
+</body>
+</html>
